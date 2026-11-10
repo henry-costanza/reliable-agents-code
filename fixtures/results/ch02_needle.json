@@ -1,0 +1,943 @@
+{
+  "recorded_with": {
+    "provider": "anthropic",
+    "model": "claude-opus-5-5",
+    "effort": "medium",
+    "fallbacks": true,
+    "sdk": "2.3.0"
+  },
+  "rows": [
+    {
+      "length": "4k",
+      "distractors": false,
+      "position": 0.0,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 5275
+    },
+    {
+      "length": "4k",
+      "distractors": false,
+      "position": 0.25,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 5275
+    },
+    {
+      "length": "4k",
+      "distractors": false,
+      "position": 0.5,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 5275
+    },
+    {
+      "length": "4k",
+      "distractors": false,
+      "position": 0.75,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 5275
+    },
+    {
+      "length": "4k",
+      "distractors": false,
+      "position": 1.0,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 5275
+    },
+    {
+      "length": "4k",
+      "distractors": true,
+      "position": 0.0,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 5353
+    },
+    {
+      "length": "4k",
+      "distractors": true,
+      "position": 0.25,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 5353
+    },
+    {
+      "length": "4k",
+      "distractors": true,
+      "position": 0.5,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 5353
+    },
+    {
+      "length": "4k",
+      "distractors": true,
+      "position": 0.75,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 5353
+    },
+    {
+      "length": "4k",
+      "distractors": true,
+      "position": 1.0,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 5353
+    },
+    {
+      "length": "32k",
+      "distractors": false,
+      "position": 0.0,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 41541
+    },
+    {
+      "length": "32k",
+      "distractors": false,
+      "position": 0.25,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 41541
+    },
+    {
+      "length": "32k",
+      "distractors": false,
+      "position": 0.5,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 41541
+    },
+    {
+      "length": "32k",
+      "distractors": false,
+      "position": 0.75,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 41541
+    },
+    {
+      "length": "32k",
+      "distractors": false,
+      "position": 1.0,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 41541
+    },
+    {
+      "length": "32k",
+      "distractors": true,
+      "position": 0.0,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 41620
+    },
+    {
+      "length": "32k",
+      "distractors": true,
+      "position": 0.25,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 41620
+    },
+    {
+      "length": "32k",
+      "distractors": true,
+      "position": 0.5,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 41620
+    },
+    {
+      "length": "32k",
+      "distractors": true,
+      "position": 0.75,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 41620
+    },
+    {
+      "length": "32k",
+      "distractors": true,
+      "position": 1.0,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 41620
+    },
+    {
+      "length": "128k",
+      "distractors": false,
+      "position": 0.0,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 166045
+    },
+    {
+      "length": "128k",
+      "distractors": false,
+      "position": 0.25,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 166045
+    },
+    {
+      "length": "128k",
+      "distractors": false,
+      "position": 0.5,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 166045
+    },
+    {
+      "length": "128k",
+      "distractors": false,
+      "position": 0.75,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 166045
+    },
+    {
+      "length": "128k",
+      "distractors": false,
+      "position": 1.0,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 166045
+    },
+    {
+      "length": "128k",
+      "distractors": true,
+      "position": 0.0,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 166123
+    },
+    {
+      "length": "128k",
+      "distractors": true,
+      "position": 0.25,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 166123
+    },
+    {
+      "length": "128k",
+      "distractors": true,
+      "position": 0.5,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 166123
+    },
+    {
+      "length": "128k",
+      "distractors": true,
+      "position": 0.75,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 166123
+    },
+    {
+      "length": "128k",
+      "distractors": true,
+      "position": 1.0,
+      "trials": 2,
+      "right": 2,
+      "verdicts": {
+        "right": 2
+      },
+      "input_tokens": 166123
+    }
+  ],
+  "outcomes": [
+    {
+      "length": "4k",
+      "position": 0.0,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5275,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.0,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5275,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.25,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5275,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.25,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5275,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.5,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5275,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.5,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5275,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.75,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5275,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.75,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5275,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 1.0,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5275,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 1.0,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5275,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.0,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5353,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.0,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5353,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.25,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5353,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.25,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5353,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.5,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5353,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.5,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5353,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.75,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5353,
+      "output_tokens": 4
+    },
+    {
+      "length": "4k",
+      "position": 0.75,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5353,
+      "output_tokens": 85
+    },
+    {
+      "length": "4k",
+      "position": 1.0,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5353,
+      "output_tokens": 84
+    },
+    {
+      "length": "4k",
+      "position": 1.0,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 5353,
+      "output_tokens": 83
+    },
+    {
+      "length": "32k",
+      "position": 0.0,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41541,
+      "output_tokens": 4
+    },
+    {
+      "length": "32k",
+      "position": 0.0,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41541,
+      "output_tokens": 4
+    },
+    {
+      "length": "32k",
+      "position": 0.25,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41541,
+      "output_tokens": 4
+    },
+    {
+      "length": "32k",
+      "position": 0.25,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41541,
+      "output_tokens": 4
+    },
+    {
+      "length": "32k",
+      "position": 0.5,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41541,
+      "output_tokens": 4
+    },
+    {
+      "length": "32k",
+      "position": 0.5,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41541,
+      "output_tokens": 4
+    },
+    {
+      "length": "32k",
+      "position": 0.75,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41541,
+      "output_tokens": 4
+    },
+    {
+      "length": "32k",
+      "position": 0.75,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41541,
+      "output_tokens": 4
+    },
+    {
+      "length": "32k",
+      "position": 1.0,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41541,
+      "output_tokens": 4
+    },
+    {
+      "length": "32k",
+      "position": 1.0,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41541,
+      "output_tokens": 4
+    },
+    {
+      "length": "32k",
+      "position": 0.0,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41620,
+      "output_tokens": 4
+    },
+    {
+      "length": "32k",
+      "position": 0.0,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41620,
+      "output_tokens": 4
+    },
+    {
+      "length": "32k",
+      "position": 0.25,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41620,
+      "output_tokens": 102
+    },
+    {
+      "length": "32k",
+      "position": 0.25,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41620,
+      "output_tokens": 102
+    },
+    {
+      "length": "32k",
+      "position": 0.5,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41620,
+      "output_tokens": 94
+    },
+    {
+      "length": "32k",
+      "position": 0.5,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41620,
+      "output_tokens": 94
+    },
+    {
+      "length": "32k",
+      "position": 0.75,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41620,
+      "output_tokens": 103
+    },
+    {
+      "length": "32k",
+      "position": 0.75,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41620,
+      "output_tokens": 104
+    },
+    {
+      "length": "32k",
+      "position": 1.0,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41620,
+      "output_tokens": 100
+    },
+    {
+      "length": "32k",
+      "position": 1.0,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 41620,
+      "output_tokens": 113
+    },
+    {
+      "length": "128k",
+      "position": 0.0,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166045,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 0.0,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166045,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 0.25,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166045,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 0.25,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166045,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 0.5,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166045,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 0.5,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166045,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 0.75,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166045,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 0.75,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166045,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 1.0,
+      "distractors": false,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166045,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 1.0,
+      "distractors": false,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166045,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 0.0,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166123,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 0.0,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166123,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 0.25,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166123,
+      "output_tokens": 109
+    },
+    {
+      "length": "128k",
+      "position": 0.25,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166123,
+      "output_tokens": 87
+    },
+    {
+      "length": "128k",
+      "position": 0.5,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166123,
+      "output_tokens": 107
+    },
+    {
+      "length": "128k",
+      "position": 0.5,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166123,
+      "output_tokens": 100
+    },
+    {
+      "length": "128k",
+      "position": 0.75,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166123,
+      "output_tokens": 106
+    },
+    {
+      "length": "128k",
+      "position": 0.75,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166123,
+      "output_tokens": 105
+    },
+    {
+      "length": "128k",
+      "position": 1.0,
+      "distractors": true,
+      "trial": 0,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166123,
+      "output_tokens": 4
+    },
+    {
+      "length": "128k",
+      "position": 1.0,
+      "distractors": true,
+      "trial": 1,
+      "answer": "7341",
+      "verdict": "right",
+      "input_tokens": 166123,
+      "output_tokens": 4
+    }
+  ]
+}

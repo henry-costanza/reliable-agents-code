@@ -1,0 +1,1029 @@
+{
+  "recorded_with": {
+    "provider": "anthropic",
+    "cassette": "ch06_retrieval.json",
+    "effort": "medium",
+    "fallbacks": true,
+    "model": "claude-opus-5-5",
+    "sdk": "2.3.0"
+  },
+  "rows": [
+    {
+      "arm": "naive search",
+      "runs": 24,
+      "verdicts": {
+        "hedged": 4,
+        "right": 20
+      },
+      "input_tokens": 37060,
+      "cost": 0.244,
+      "answerable": 20,
+      "recall_at_3": 20,
+      "recall_at_5": 20,
+      "saw_archived": 4
+    },
+    {
+      "arm": "section search",
+      "runs": 24,
+      "verdicts": {
+        "declined": 1,
+        "right": 22,
+        "wrong": 1
+      },
+      "input_tokens": 38796,
+      "cost": 0.2511,
+      "answerable": 20,
+      "recall_at_3": 18,
+      "recall_at_5": 20,
+      "saw_archived": 0
+    },
+    {
+      "arm": "whole help center",
+      "runs": 24,
+      "verdicts": {
+        "right": 24
+      },
+      "input_tokens": 33266,
+      "cost": 0.1867
+    }
+  ],
+  "outcomes": [
+    {
+      "arm": "naive search",
+      "question": 0,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "You have 30 days from a charge to ask for a refund, and we return the full amount to your original payment method within 5 to 10 business days. If you were charged twice for the same billing period, you can get the extra charge back at any time. If you cancel an annual plan, we refund the months you haven't used, prorated to the day.\n\nSource: HC-101",
+      "queries": [
+        "refund window"
+      ],
+      "input_tokens": 1185,
+      "output_tokens": 195,
+      "cost": 0.0086
+    },
+    {
+      "arm": "naive search",
+      "question": 0,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "You can ask for a refund up to 30 days after a charge. The full amount goes back to your original payment method and should show up in 5 to 10 business days. If you were charged twice for the same billing period, there's no time limit for getting the extra charge refunded.\nSource: HC-101",
+      "queries": [
+        "refund window"
+      ],
+      "input_tokens": 1185,
+      "output_tokens": 138,
+      "cost": 0.0075
+    },
+    {
+      "arm": "naive search",
+      "question": 1,
+      "trial": 0,
+      "ok": true,
+      "verdict": "hedged",
+      "answer": "It's probably not too late: our help center says that if you were charged twice for the same billing period, we refund the extra charge with no time limit. The refund goes back to your original payment method and takes 5 to 10 business days to reach your account. However, another help article (HC-090) says duplicate charges must be reported within 14 days, so please report the May charge now and mention article HC-101.\n\nSource: HC-101",
+      "queries": [
+        "duplicate charge refund",
+        "refund time limit billing dispute"
+      ],
+      "input_tokens": 1710,
+      "output_tokens": 410,
+      "cost": 0.015
+    },
+    {
+      "arm": "naive search",
+      "question": 1,
+      "trial": 1,
+      "ok": true,
+      "verdict": "hedged",
+      "answer": "I can't confirm it yet, because two help center articles disagree. HC-101 says a duplicate charge for the same billing period is refunded at any time, with no time limit, so your May charge would still qualify. HC-090 says duplicates must be reported within 14 days, so please contact billing about the May charge now and they can confirm which rule applies to you.\n\nSource: HC-101, HC-090",
+      "queries": [
+        "duplicate charge refund",
+        "refund time limit billing dispute"
+      ],
+      "input_tokens": 1710,
+      "output_tokens": 388,
+      "cost": 0.0146
+    },
+    {
+      "arm": "naive search",
+      "question": 2,
+      "trial": 0,
+      "ok": true,
+      "verdict": "hedged",
+      "answer": "I can't give you a definite answer, because two of our help articles disagree. One says that if you cancel an annual plan, we refund the months you haven't used, calculated by the day, and you can take that amount as account credit if you prefer (HC-101). Another says annual plans can't be refunded after the first 14 days (HC-090), and neither article says which one is current, so please ask our billing team to confirm before you cancel.\nSource: HC-101",
+      "queries": [
+        "cancel annual plan refund",
+        "refund policy updated annual plan prorated"
+      ],
+      "input_tokens": 2784,
+      "output_tokens": 511,
+      "cost": 0.0214
+    },
+    {
+      "arm": "naive search",
+      "question": 2,
+      "trial": 1,
+      "ok": true,
+      "verdict": "hedged",
+      "answer": "Our help center gives two different answers here, so I can't confirm which one applies to you. Article HC-101 says canceling an annual plan gets you a refund for the months you haven't used, prorated to the day, or you can take account credit that never expires. Article HC-090 says annual plans can't be refunded after the first 14 days and unused months aren't prorated, so please ask our billing team which policy applies to your plan before you cancel.\n\nSource: HC-101, HC-090",
+      "queries": [
+        "cancel annual plan refund"
+      ],
+      "input_tokens": 1316,
+      "output_tokens": 275,
+      "cost": 0.0108
+    },
+    {
+      "arm": "naive search",
+      "question": 3,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Each extra team seat costs $25 per month. If you add a seat partway through a month, you'll see a prorated charge on your next invoice.\n\nSource: HC-110",
+      "queries": [
+        "extra team seat cost"
+      ],
+      "input_tokens": 1188,
+      "output_tokens": 107,
+      "cost": 0.0069
+    },
+    {
+      "arm": "naive search",
+      "question": 3,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Each extra team seat costs $25 per month. If you add a seat partway through a month, you'll pay a prorated amount on your next invoice.\n\nSource: HC-110",
+      "queries": [
+        "extra team seat cost"
+      ],
+      "input_tokens": 1188,
+      "output_tokens": 108,
+      "cost": 0.0069
+    },
+    {
+      "arm": "naive search",
+      "question": 4,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Extra storage costs $8.50 per month for each 50 GB block. You can add as many blocks as you need.\n\nSource: HC-111",
+      "queries": [
+        "extra storage cost"
+      ],
+      "input_tokens": 1204,
+      "output_tokens": 97,
+      "cost": 0.0068
+    },
+    {
+      "arm": "naive search",
+      "question": 4,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Extra storage costs $8.50 per month for each 50 GB block. You can add as many blocks as you need. If you hit your storage limit, uploads stop, but nothing gets deleted.\n\nSource: HC-111",
+      "queries": [
+        "extra storage cost"
+      ],
+      "input_tokens": 1204,
+      "output_tokens": 123,
+      "cost": 0.0073
+    },
+    {
+      "arm": "naive search",
+      "question": 5,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "One CSV export holds up to 10,000 rows. If your export is bigger than that, it's split into several files, and you get them all together in one ZIP archive.\n\nSource: HC-120",
+      "queries": [
+        "CSV export row limit"
+      ],
+      "input_tokens": 1298,
+      "output_tokens": 112,
+      "cost": 0.0074
+    },
+    {
+      "arm": "naive search",
+      "question": 5,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "One CSV export holds up to 10,000 rows. If your export is bigger than that, Brindle splits it into several files and sends them together in one ZIP archive.\n\nSource: HC-120",
+      "queries": [
+        "CSV export row limit"
+      ],
+      "input_tokens": 1298,
+      "output_tokens": 114,
+      "cost": 0.0075
+    },
+    {
+      "arm": "naive search",
+      "question": 6,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "If your endpoint doesn't respond with a 2xx status, Brindle retries the webhook up to 5 times over 24 hours. It waits longer after each attempt. The help center doesn't give the exact wait between retries.\n\nSource: HC-140",
+      "queries": [
+        "webhook retry failed"
+      ],
+      "input_tokens": 1086,
+      "output_tokens": 168,
+      "cost": 0.0077
+    },
+    {
+      "arm": "naive search",
+      "question": 6,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "If your endpoint doesn't respond with a 2xx status, Brindle retries the webhook 5 times over 24 hours. The wait gets longer after each attempt, but the help center doesn't list the exact times between retries.\n\nSource: HC-140",
+      "queries": [
+        "webhook retry failed"
+      ],
+      "input_tokens": 1086,
+      "output_tokens": 168,
+      "cost": 0.0077
+    },
+    {
+      "arm": "naive search",
+      "question": 7,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "We keep copies of the invoices you issued for 7 years after you close your account, because tax law in most countries requires it. Once the account is closed, you can't sign in or download them, so export any invoices you want before you close it. Your customers, products and settings are deleted 90 days after closure, and until then support can reopen the account for you.\n\nSource: HC-150",
+      "queries": [
+        "invoice retention after account closure"
+      ],
+      "input_tokens": 1284,
+      "output_tokens": 211,
+      "cost": 0.0094
+    },
+    {
+      "arm": "naive search",
+      "question": 7,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "We keep copies of the invoices you issued for 7 years after you close your account, because tax law in most countries requires it. Once the account is closed, you can't sign in or download them, so export any invoices you want before you close. Your customers, products and settings are deleted 90 days after closure, and until then support can reopen the account for you.\n\nSource: HC-150",
+      "queries": [
+        "invoice retention after account closure"
+      ],
+      "input_tokens": 1284,
+      "output_tokens": 199,
+      "cost": 0.0091
+    },
+    {
+      "arm": "naive search",
+      "question": 8,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, Brindle can't send two-factor codes by text message. You can use an authenticator app or a hardware security key instead. If you lose your device, you can sign in with one of the recovery codes you saved when you turned on two-factor authentication.\n\nSource: HC-160",
+      "queries": [
+        "two-factor authentication text message SMS"
+      ],
+      "input_tokens": 1174,
+      "output_tokens": 143,
+      "cost": 0.0076
+    },
+    {
+      "arm": "naive search",
+      "question": 8,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, Brindle doesn't send two-factor codes by text message. You can use an authenticator app or a hardware security key instead. If you lose your device, sign in with one of the recovery codes you saved when you turned on two-factor authentication.\n\nSource: HC-160",
+      "queries": [
+        "two-factor authentication text message SMS"
+      ],
+      "input_tokens": 1174,
+      "output_tokens": 143,
+      "cost": 0.0076
+    },
+    {
+      "arm": "naive search",
+      "question": 9,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No. Invoice numbers go up in order for each account, and a number is never used again, even after you void its invoice.\n\nSource: HC-180",
+      "queries": [
+        "void invoice number reused"
+      ],
+      "input_tokens": 1281,
+      "output_tokens": 97,
+      "cost": 0.0071
+    },
+    {
+      "arm": "naive search",
+      "question": 9,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, invoice numbers are never reused, even after you void an invoice. Each account numbers its invoices in sequence, so a voided invoice's number stays retired.\n\nSource: HC-180",
+      "queries": [
+        "void invoice number reused"
+      ],
+      "input_tokens": 1281,
+      "output_tokens": 114,
+      "cost": 0.0074
+    },
+    {
+      "arm": "naive search",
+      "question": 10,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "I couldn't find anything in Brindle's help center about paying with Bitcoin or other cryptocurrencies. It also doesn't list which payment methods Brindle accepts, so I can't say whether Bitcoin is an option. Please contact Brindle's billing team directly to confirm.\n\nSource: none",
+      "queries": [
+        "pay with Bitcoin cryptocurrency",
+        "accepted payment methods",
+        "how to pay subscription billing card"
+      ],
+      "input_tokens": 2706,
+      "output_tokens": 298,
+      "cost": 0.0168
+    },
+    {
+      "arm": "naive search",
+      "question": 10,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "I couldn't find anything in Brindle's help center about paying with Bitcoin or other cryptocurrencies. The help center also doesn't list which payment methods Brindle accepts, so I can't say whether Bitcoin is an option. Please contact Brindle's billing team to check.\n\nSource: none",
+      "queries": [
+        "pay with Bitcoin cryptocurrency",
+        "accepted payment methods",
+        "billing credit card subscription payment"
+      ],
+      "input_tokens": 2762,
+      "output_tokens": 286,
+      "cost": 0.0168
+    },
+    {
+      "arm": "naive search",
+      "question": 11,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "I couldn't find a support phone number in Brindle's help center. I searched for both \"support phone number\" and \"contact support,\" and neither search turned up any contact details or a way to reach support.\n\nSource: none",
+      "queries": [
+        "support phone number",
+        "contact support call"
+      ],
+      "input_tokens": 2334,
+      "output_tokens": 179,
+      "cost": 0.0129
+    },
+    {
+      "arm": "naive search",
+      "question": 11,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "I couldn't find a support phone number in Brindle's help center, and it doesn't explain how to contact support by phone. The only articles that came up were about closing an account, numbering invoices and exporting data.\n\nSource: none",
+      "queries": [
+        "support phone number",
+        "contact support call"
+      ],
+      "input_tokens": 2338,
+      "output_tokens": 190,
+      "cost": 0.0132
+    },
+    {
+      "arm": "section search",
+      "question": 0,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "You have 30 days from a charge to ask for a refund. The full amount goes back to your original payment method and should reach your account in 5 to 10 business days. If you were charged twice for the same billing period, there's no time limit on refunding the extra charge.\n\nSource: HC-101",
+      "queries": [
+        "refund request time limit"
+      ],
+      "input_tokens": 1355,
+      "output_tokens": 163,
+      "cost": 0.0087
+    },
+    {
+      "arm": "section search",
+      "question": 0,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "You have 30 days from a charge to ask for a refund, and the full amount goes back to your original payment method within 5 to 10 business days. If you were charged twice for the same billing period, there's no time limit: we'll refund the extra charge whenever you ask.\n\nSource: HC-101",
+      "queries": [
+        "refund request time limit"
+      ],
+      "input_tokens": 1355,
+      "output_tokens": 166,
+      "cost": 0.0087
+    },
+    {
+      "arm": "section search",
+      "question": 1,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, it's not too late: if you were charged twice for the same billing period, Brindle refunds the extra charge with no time limit. The usual 30-day refund window doesn't apply to duplicate charges. Refunds go back to the original payment method and take 5 to 10 business days to arrive, or you can take account credit for your next invoice instead.\n\nSource: HC-101",
+      "queries": [
+        "duplicate charge refund deadline"
+      ],
+      "input_tokens": 1393,
+      "output_tokens": 196,
+      "cost": 0.0095
+    },
+    {
+      "arm": "section search",
+      "question": 1,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, it's not too late. If you were charged twice for the same billing period, Brindle refunds the extra charge whenever you ask, because duplicate charges have no time limit. The usual 30-day refund window doesn't apply to duplicate charges, and you can take account credit instead of a refund if you'd like.\n\nSource: HC-101",
+      "queries": [
+        "duplicate charge refund"
+      ],
+      "input_tokens": 1390,
+      "output_tokens": 226,
+      "cost": 0.0101
+    },
+    {
+      "arm": "section search",
+      "question": 2,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Yes, you'll get money back: if you cancel an annual plan, Brindle refunds the months you haven't used, prorated to the day, so you'd get back roughly the remaining nine months. The general refund policy says to ask within 30 days of a charge, and the help center doesn't say whether that limit also applies to these annual-plan refunds. If you'd rather, you can take account credit instead, which goes toward your next invoice and never expires.\n\nSource: HC-101",
+      "queries": [
+        "cancel annual plan refund"
+      ],
+      "input_tokens": 1379,
+      "output_tokens": 322,
+      "cost": 0.012
+    },
+    {
+      "arm": "section search",
+      "question": 2,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Yes. If you cancel an annual plan, Brindle refunds the months you haven't used, prorated to the day, so after three months you'd get back roughly the remaining nine months. You can also choose account credit instead of a refund; it goes toward your next invoice and never expires.\n\nSource: HC-101",
+      "queries": [
+        "cancel annual plan refund"
+      ],
+      "input_tokens": 1379,
+      "output_tokens": 268,
+      "cost": 0.0109
+    },
+    {
+      "arm": "section search",
+      "question": 3,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Each extra team seat costs $25 per month. If you add a seat partway through a month, the cost for that month is prorated on your next invoice.\n\nSource: HC-110",
+      "queries": [
+        "extra team seat cost"
+      ],
+      "input_tokens": 1336,
+      "output_tokens": 109,
+      "cost": 0.0075
+    },
+    {
+      "arm": "section search",
+      "question": 3,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Each extra team seat costs $25 per month. If you add a seat partway through a month, you'll pay a prorated amount on your next invoice.\n\nSource: HC-110",
+      "queries": [
+        "extra team seat cost"
+      ],
+      "input_tokens": 1336,
+      "output_tokens": 110,
+      "cost": 0.0075
+    },
+    {
+      "arm": "section search",
+      "question": 4,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Extra storage comes in 50 GB blocks, and each block costs $8.50 per month. You can add as many blocks as you need. If you hit your storage limit, uploads stop, but nothing is deleted.\n\nSource: HC-111",
+      "queries": [
+        "extra storage cost"
+      ],
+      "input_tokens": 1338,
+      "output_tokens": 131,
+      "cost": 0.008
+    },
+    {
+      "arm": "section search",
+      "question": 4,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Extra storage comes in 50 GB blocks, and each block costs $8.50 per month. You can add as many blocks as you need. If you hit your storage limit without adding more, new uploads stop, but none of your files are deleted.\n\nSource: HC-111",
+      "queries": [
+        "extra storage cost"
+      ],
+      "input_tokens": 1338,
+      "output_tokens": 137,
+      "cost": 0.0081
+    },
+    {
+      "arm": "section search",
+      "question": 5,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "A single CSV export holds up to 10,000 rows. If an export is larger than that, Brindle splits it into several files and sends them together in one ZIP archive. This limit comes from the article on exporting invoices to CSV.\n\nSource: HC-120",
+      "queries": [
+        "CSV export row limit"
+      ],
+      "input_tokens": 1343,
+      "output_tokens": 161,
+      "cost": 0.0086
+    },
+    {
+      "arm": "section search",
+      "question": 5,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "One CSV export holds up to 10,000 rows. If an export is bigger than that, it's split into several files and delivered together in one ZIP archive. This limit comes from the help article on exporting invoices to CSV.\n\nSource: HC-120",
+      "queries": [
+        "CSV export row limit"
+      ],
+      "input_tokens": 1343,
+      "output_tokens": 159,
+      "cost": 0.0086
+    },
+    {
+      "arm": "section search",
+      "question": 6,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "If your endpoint doesn't respond with a 2xx status, Brindle retries the webhook 5 times over 24 hours. It waits longer after each attempt. The help center doesn't give the exact time between retries.\n\nSource: HC-140",
+      "queries": [
+        "webhook retry failed delivery"
+      ],
+      "input_tokens": 1286,
+      "output_tokens": 171,
+      "cost": 0.0086
+    },
+    {
+      "arm": "section search",
+      "question": 6,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "If your endpoint doesn't return a 2xx status, Brindle retries the webhook 5 times over 24 hours. It waits longer after each failed attempt. The help center doesn't give the exact time between retries.\n\nSource: HC-140",
+      "queries": [
+        "webhook retry failed delivery"
+      ],
+      "input_tokens": 1286,
+      "output_tokens": 169,
+      "cost": 0.0085
+    },
+    {
+      "arm": "section search",
+      "question": 7,
+      "trial": 0,
+      "ok": true,
+      "verdict": "declined",
+      "answer": "The help center doesn't say how long invoices are kept after you close your account; it only says customers, products and settings are deleted 90 days after closing, and support can reopen the account until then. Once your account is closed, you can't sign in or download invoices, so export any you want to keep first (article HC-150). For how long invoices themselves are kept, please contact Brindle support.\n\nSource: none",
+      "queries": [
+        "invoice retention after account closure",
+        "how long are invoices kept data retention"
+      ],
+      "input_tokens": 2433,
+      "output_tokens": 440,
+      "cost": 0.0185
+    },
+    {
+      "arm": "section search",
+      "question": 7,
+      "trial": 1,
+      "ok": true,
+      "verdict": "wrong",
+      "answer": "Our help center doesn't say how long we keep invoices after you close your account. It does say you can't sign in or download invoices once the account is closed, so export any you want to keep first. Your customers, products and settings are deleted 90 days after closing, and until then support can reopen the account for you.\n\nSource: HC-150",
+      "queries": [
+        "close account invoices retention",
+        "how long are invoices kept after account closed"
+      ],
+      "input_tokens": 2450,
+      "output_tokens": 467,
+      "cost": 0.0191
+    },
+    {
+      "arm": "section search",
+      "question": 8,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, Brindle can't send two-factor codes by text message. You can use an authenticator app or a hardware security key instead.\n\nSource: HC-160",
+      "queries": [
+        "two-factor authentication SMS text message codes"
+      ],
+      "input_tokens": 1342,
+      "output_tokens": 110,
+      "cost": 0.0076
+    },
+    {
+      "arm": "section search",
+      "question": 8,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, Brindle doesn't send two-factor codes by text message. You can use an authenticator app or a hardware security key instead. If you ever lose your device, you can sign in with one of the recovery codes you saved when you turned on two-factor authentication.\n\nSource: HC-160",
+      "queries": [
+        "two-factor authentication SMS text message codes"
+      ],
+      "input_tokens": 1342,
+      "output_tokens": 151,
+      "cost": 0.0084
+    },
+    {
+      "arm": "section search",
+      "question": 9,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, a voided invoice's number is never used again. Invoice numbers run in order for each account, and each number is used only once.\n\nSource: HC-180",
+      "queries": [
+        "void invoice number reused"
+      ],
+      "input_tokens": 1347,
+      "output_tokens": 102,
+      "cost": 0.0074
+    },
+    {
+      "arm": "section search",
+      "question": 9,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, an invoice number is never reused, even after you void the invoice. Invoice numbers run in sequence for each account.\n\nSource: HC-180",
+      "queries": [
+        "void invoice number reused"
+      ],
+      "input_tokens": 1347,
+      "output_tokens": 102,
+      "cost": 0.0074
+    },
+    {
+      "arm": "section search",
+      "question": 10,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "I couldn't find anything in Brindle's help center about paying your bill with Bitcoin or other cryptocurrency. The help center also doesn't list which payment methods are accepted for your Brindle bill, so I can't confirm either way. Please contact Brindle's billing team directly for a definite answer.\n\nSource: none",
+      "queries": [
+        "pay with Bitcoin cryptocurrency",
+        "accepted payment methods",
+        "pay subscription bill card"
+      ],
+      "input_tokens": 2477,
+      "output_tokens": 291,
+      "cost": 0.0157
+    },
+    {
+      "arm": "section search",
+      "question": 10,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "I couldn't find anything in Brindle's help center about paying with Bitcoin or other cryptocurrency. It also doesn't list which payment methods Brindle accepts, so I can't say whether Bitcoin is an option. To find out for sure, please contact Brindle's billing team.\n\nSource: none",
+      "queries": [
+        "pay with Bitcoin cryptocurrency",
+        "accepted payment methods",
+        "billing subscription payment card"
+      ],
+      "input_tokens": 2667,
+      "output_tokens": 277,
+      "cost": 0.0162
+    },
+    {
+      "arm": "section search",
+      "question": 11,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "I'm sorry, but our help center doesn't list a phone number for Brindle support, so I can't give you one. I searched for both a support phone number and ways to contact support, and the results didn't include any contact details.\n\nSource: none",
+      "queries": [
+        "support phone number",
+        "contact support call"
+      ],
+      "input_tokens": 2257,
+      "output_tokens": 182,
+      "cost": 0.0127
+    },
+    {
+      "arm": "section search",
+      "question": 11,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "I'm sorry, but Brindle's help center doesn't list a phone number for support. I searched for a phone number and for contact details, and none of the articles I found say how to reach support.\n\nSource: none",
+      "queries": [
+        "support phone number",
+        "contact support call"
+      ],
+      "input_tokens": 2277,
+      "output_tokens": 187,
+      "cost": 0.0128
+    },
+    {
+      "arm": "whole help center",
+      "question": 0,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "You can ask for a refund within 30 days of a charge, and the full amount goes back to your original payment method within 5 to 10 business days. If you were charged twice for the same billing period, there's no time limit to get the extra charge refunded.\n\nSource: HC-101",
+      "queries": [],
+      "input_tokens": 1383,
+      "output_tokens": 125,
+      "cost": 0.008
+    },
+    {
+      "arm": "whole help center",
+      "question": 0,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "You can ask for a refund within 30 days of a charge, and the full amount goes back to your original payment method within 5 to 10 business days. If you were charged twice for the same billing period, there's no time limit to get the extra charge refunded. If you cancel an annual plan, we refund the unused months, prorated to the day.\n\nSource: HC-101",
+      "queries": [],
+      "input_tokens": 1383,
+      "output_tokens": 148,
+      "cost": 0.0085
+    },
+    {
+      "arm": "whole help center",
+      "question": 1,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "It's not too late: we refund an extra charge for the same billing period at any time, with no time limit. The refund goes back to your original payment method and usually arrives in 5 to 10 business days. If you'd prefer, you can take it as account credit instead, which applies to your next invoice and never expires.\n\nSource: HC-101",
+      "queries": [],
+      "input_tokens": 1393,
+      "output_tokens": 151,
+      "cost": 0.0086
+    },
+    {
+      "arm": "whole help center",
+      "question": 1,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, it's not too late. If you were charged twice for the same billing period, we refund the extra charge at any time, with no time limit. The refund goes to your original payment method and reaches your account in 5 to 10 business days.\n\nSource: HC-101",
+      "queries": [],
+      "input_tokens": 1393,
+      "output_tokens": 116,
+      "cost": 0.0079
+    },
+    {
+      "arm": "whole help center",
+      "question": 2,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Yes, when you cancel an annual plan, Brindle refunds the months you haven't used, prorated to the day, so after three months you'd get back the remaining portion of your year. If you'd rather, you can take account credit instead of a refund, which is applied to your next invoice and never expires.\n\nSource: HC-101",
+      "queries": [],
+      "input_tokens": 1394,
+      "output_tokens": 189,
+      "cost": 0.0094
+    },
+    {
+      "arm": "whole help center",
+      "question": 2,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Yes. If you cancel an annual plan, Brindle refunds the months you haven't used, prorated to the day, so you'd get back roughly the remaining nine months. You can also choose account credit instead of a refund; it's applied to your next invoice and never expires.\n\nSource: HC-101",
+      "queries": [],
+      "input_tokens": 1394,
+      "output_tokens": 235,
+      "cost": 0.0103
+    },
+    {
+      "arm": "whole help center",
+      "question": 3,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Each extra team seat costs $25 per month. If you add a seat in the middle of a month, it's prorated on your next invoice.\n\nSource: HC-110",
+      "queries": [],
+      "input_tokens": 1382,
+      "output_tokens": 73,
+      "cost": 0.007
+    },
+    {
+      "arm": "whole help center",
+      "question": 3,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Each extra team seat costs $25 per month. If you add a seat in the middle of a month, the cost is prorated on your next invoice.\n\nSource: HC-110",
+      "queries": [],
+      "input_tokens": 1382,
+      "output_tokens": 74,
+      "cost": 0.007
+    },
+    {
+      "arm": "whole help center",
+      "question": 4,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Extra storage is sold in 50 GB blocks at $8.50 per block per month, and you can add as many blocks as you need. If you reach your storage limit, uploads stop, but nothing is deleted.\n\nSource: HC-111",
+      "queries": [],
+      "input_tokens": 1379,
+      "output_tokens": 87,
+      "cost": 0.0073
+    },
+    {
+      "arm": "whole help center",
+      "question": 4,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Extra storage comes in 50 GB blocks at $8.50 per month each, and you can add as many blocks as you need. If you hit your storage limit, uploads stop, but nothing is deleted.\n\nSource: HC-111",
+      "queries": [],
+      "input_tokens": 1379,
+      "output_tokens": 74,
+      "cost": 0.007
+    },
+    {
+      "arm": "whole help center",
+      "question": 5,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "One CSV export holds up to 10,000 rows. If your export is larger, it is split into several files and delivered together in one ZIP archive.\n\nSource: HC-120",
+      "queries": [],
+      "input_tokens": 1383,
+      "output_tokens": 65,
+      "cost": 0.0068
+    },
+    {
+      "arm": "whole help center",
+      "question": 5,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "One CSV export holds up to 10,000 rows. If your export is larger, it's split into several files and delivered together in one ZIP archive.\n\nSource: HC-120",
+      "queries": [],
+      "input_tokens": 1383,
+      "output_tokens": 65,
+      "cost": 0.0068
+    },
+    {
+      "arm": "whole help center",
+      "question": 6,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "If your endpoint doesn't answer with a 2xx status, Brindle retries the webhook delivery 5 times over 24 hours. The wait gets longer after each attempt.\n\nSource: HC-140",
+      "queries": [],
+      "input_tokens": 1386,
+      "output_tokens": 118,
+      "cost": 0.0079
+    },
+    {
+      "arm": "whole help center",
+      "question": 6,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "If your endpoint doesn't respond with a 2xx status, Brindle retries the delivery 5 times over 24 hours. The wait gets longer after each attempt. The help center doesn't list the exact interval between retries.\n\nSource: HC-140",
+      "queries": [],
+      "input_tokens": 1386,
+      "output_tokens": 143,
+      "cost": 0.0084
+    },
+    {
+      "arm": "whole help center",
+      "question": 7,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "After you close your account, we keep copies of the invoices you issued for 7 years, because tax law in most countries requires it, and only Brindle's finance team can see them. You won't be able to sign in or download invoices once the account is closed, so export anything you want to keep beforehand. Your customers, products and settings are deleted 90 days after closing, and until then support can reopen the account for you.\n\nSource: HC-150",
+      "queries": [],
+      "input_tokens": 1387,
+      "output_tokens": 182,
+      "cost": 0.0092
+    },
+    {
+      "arm": "whole help center",
+      "question": 7,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "We keep copies of the invoices you issued for 7 years after you close your account, because tax law in most countries requires it, and only Brindle's finance team can see them. You won't be able to sign in or download invoices once the account is closed, so export anything you want to keep first.\n\nSource: HC-150",
+      "queries": [],
+      "input_tokens": 1387,
+      "output_tokens": 148,
+      "cost": 0.0085
+    },
+    {
+      "arm": "whole help center",
+      "question": 8,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, Brindle doesn't support two-factor codes by text message. You can use an authenticator app or a hardware security key instead.\n\nSource: HC-160",
+      "queries": [],
+      "input_tokens": 1384,
+      "output_tokens": 70,
+      "cost": 0.0069
+    },
+    {
+      "arm": "whole help center",
+      "question": 8,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, Brindle doesn't support two-factor codes by text message. You can use an authenticator app or a hardware security key instead.\n\nSource: HC-160",
+      "queries": [],
+      "input_tokens": 1384,
+      "output_tokens": 85,
+      "cost": 0.0072
+    },
+    {
+      "arm": "whole help center",
+      "question": 9,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, an invoice number is never reused, even after you void the invoice. Invoice numbers are sequential for each account, so the next invoice simply gets the next number in the sequence.\n\nSource: HC-180",
+      "queries": [],
+      "input_tokens": 1389,
+      "output_tokens": 79,
+      "cost": 0.0071
+    },
+    {
+      "arm": "whole help center",
+      "question": 9,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "No, an invoice number is never reused, even after its invoice is voided. Invoice numbers are sequential for each account.\n\nSource: HC-180",
+      "queries": [],
+      "input_tokens": 1389,
+      "output_tokens": 60,
+      "cost": 0.0068
+    },
+    {
+      "arm": "whole help center",
+      "question": 10,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "The help center doesn't say which payment methods Brindle accepts, so I can't confirm whether Bitcoin is an option. Please contact Brindle support directly to ask about paying in cryptocurrency.\n\nSource: none",
+      "queries": [],
+      "input_tokens": 1390,
+      "output_tokens": 102,
+      "cost": 0.0076
+    },
+    {
+      "arm": "whole help center",
+      "question": 10,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "The help center doesn't say whether Brindle accepts Bitcoin or which payment methods you can use for your bill. Please contact Brindle support directly to confirm your options.\n\nSource: none",
+      "queries": [],
+      "input_tokens": 1390,
+      "output_tokens": 98,
+      "cost": 0.0075
+    },
+    {
+      "arm": "whole help center",
+      "question": 11,
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "answer": "Brindle's help center doesn't list a phone number or any other contact details for support, so I can't give you one from these articles.\n\nSource: none",
+      "queries": [],
+      "input_tokens": 1383,
+      "output_tokens": 98,
+      "cost": 0.0075
+    },
+    {
+      "arm": "whole help center",
+      "question": 11,
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "answer": "The help center doesn't list a phone number for Brindle support, so I can't give you one. I'm happy to help with any questions about billing, refunds, invoices, or your account settings here.\n\nSource: none",
+      "queries": [],
+      "input_tokens": 1383,
+      "output_tokens": 97,
+      "cost": 0.0075
+    }
+  ]
+}

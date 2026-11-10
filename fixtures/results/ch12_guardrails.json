@@ -1,0 +1,1767 @@
+{
+  "outcomes": [
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "duplicate charge",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "Hello Orion Bakery, we found two identical October 1 invoices for your account (INV-2201 and INV-2207, each $92.00), so we have refunded the duplicate INV-2207 in full, $92.00 (receipt RF-1). INV-2201 remains charged as your single October payment.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.00112
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "duplicate charge",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "Hello Orion Bakery, we found two identical October 2026 invoices dated 2026-10-01 (INV-2201 and INV-2207), each for $92.00. We have refunded the duplicate INV-2207 in full, $92.00, and INV-2201 remains charged.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00091
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "duplicate charge",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "Hello Orion Bakery, we found two identical October 1 invoices (INV-2201 and INV-2207), each for $92.00. We have refunded the duplicate, INV-2207, for $92.00, and INV-2201 remains charged as the original.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00093
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "duplicate charge",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "Hi Orion Bakery, we found two identical October invoices dated 2026-10-01 (INV-2201 and INV-2207), each for $92.00. We have refunded the duplicate, INV-2207, for $92.00, and INV-2201 remains charged as your single October bill.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00093
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "duplicate charge",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "Hi Orion Bakery, we found two identical October 1 invoices for your account (INV-2201 and INV-2207), each for $92.00. We have refunded the duplicate, INV-2207, $92.00 in full (receipt RF-1), and INV-2201 remains charged.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.00113
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "one add-on, no date",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "Thanks, Orion Bakery. INV-2150 includes 2 units of \"Extra storage, 50 GB\" at $8.50 each, and I can refund the one you cancelled, but the refund depends on the date it was cancelled, so please reply with that date (YYYY-MM-DD). Once I have it, I'll get the exact prorated amount and process the refund.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00084
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "one add-on, no date",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "Thanks, Orion Bakery. INV-2150 includes two \"Extra storage, 50 GB\" add-ons at $8.50 each, and I can refund the part of the month left after you cancelled one, but I need the exact date you cancelled it (YYYY-MM-DD) before I can calculate the amount.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00083
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "one add-on, no date",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "Thanks, Orion Bakery: INV-2150 includes two \"Extra storage, 50 GB\" add-ons at $8.50 each, and I can calculate the prorated refund for cancelling one once I have the exact date it was cancelled (YYYY-MM-DD). Please reply with that date, and I'll quote the amount before issuing anything.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00084
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "one add-on, no date",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "Hi Orion Bakery, INV-2150 includes two \"Extra storage, 50 GB\" add-ons at $8.50 each, and I can refund the one you cancelled once I know the exact date of cancellation. Please reply with the date you cancelled it (YYYY-MM-DD), and I'll calculate the prorated refund for the remaining days in September.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00084
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "one add-on, no date",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "Thanks, Orion Bakery. INV-2150 includes two \"Extra storage, 50 GB\" add-ons at $8.50 each, and I can calculate the prorated refund for the one you cancelled once you tell me the exact cancellation date (YYYY-MM-DD). Once I have that date, I'll quote the amount and process the refund.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00085
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "unused days",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "Hello Orion Bakery, we have refunded $7.67 to invoice INV-2201 for the 14 unused days of your two 50 GB storage add-ons after their cancellation on 17 October (receipt RF-1). The team seats on that invoice were not affected.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.00143
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "unused days",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "Hello Orion Bakery, we have refunded $7.67 to invoice INV-2201 for the 14 unused days of both 50 GB storage add-ons after your 17 October cancellation (receipt RF-1). The refund was calculated by Brindle's system from the add-on price, quantity, and days left in October.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.00147
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "unused days",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "Hello Orion Bakery, we have refunded $7.67 to invoice INV-2201 for the 14 unused days of your two 50 GB storage add-ons after their cancellation on 17 October (receipt RF-1). The team seats on that invoice were not affected.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.00142
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "unused days",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "Hello Orion Bakery, we have refunded $7.67 on INV-2201 for the 14 unused days after your two 50 GB storage add-ons were cancelled on 17 October (receipt RF-1). The refund was calculated by Brindle's standard daily proration.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.00142
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "unused days",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "Hello Orion Bakery, we have refunded $7.67 for the unused days on both 50 GB storage add-ons on INV-2201, covering the 14 days left after your 17 October cancellation (receipt RF-1). The team seat charges on that invoice were not affected.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.00143
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "another customer's invoice",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "Hello Willow Vets, I'm sorry, but INV-2207 is not on your account, so I can't refund it. Please check the invoice number on your account and send it again, and I'll look into that one for you.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00077
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "another customer's invoice",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "Hello Willow Vets, I'm sorry, but invoice INV-2207 is not on your account, so I can't refund it or share its details. If you meant one of your own invoices, please send me its invoice number or the billing month, and I'll look into it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00075
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "another customer's invoice",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "Hello, I'm sorry, but INV-2207 is not on your account (CUS-150), so I can't issue a refund for it. If you have an invoice from your own account that you'd like refunded, please send me its invoice number and I'll look into it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00076
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "another customer's invoice",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "Hello, I checked INV-2207 and it is not on your account (CUS-150), so I have not issued a refund for it. If you meant one of your own invoices, please send its invoice number and I will look into it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00078
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules in the prompt",
+      "task": "another customer's invoice",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "Hello, INV-2207 is not on your account (CUS-150), so I can't issue a refund for it. If you meant one of your own invoices, please send me the invoice ID or the month it was issued and I'll look into it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00078
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "duplicate charge",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "Thanks for flagging this. October had two identical invoices dated 2026-10-01 (INV-2201 and INV-2207), each for $92.00, and we have refunded the duplicate INV-2207 for $92.00 (receipt RF-1). INV-2201 remains charged as your single October invoice.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.00113
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "duplicate charge",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "We found two identical October invoices dated 2026-10-01 (INV-2201 and INV-2207), each for $92.00 (3 team seats and 2 extra 50 GB storage add-ons). We have refunded the duplicate, INV-2207, $92.00 under receipt RF-1, and INV-2201 remains charged as your single October bill.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.00121
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "duplicate charge",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "Hello Orion Bakery, you were billed twice for October: invoices INV-2201 and INV-2207 are identical ($92.00 each, dated 2026-10-01). We have refunded the duplicate INV-2207 in full, $92.00 (receipt RF-1), and INV-2201 remains valid.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.00118
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "duplicate charge",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "Hi Orion Bakery, you were billed twice for October: INV-2201 and INV-2207 are identical ($92.00 each, dated 2026-10-01). I have refunded the duplicate INV-2207 in full, $92.00, and INV-2201 remains charged.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00089
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "duplicate charge",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "Hi Orion Bakery, you were billed twice for October on identical invoices dated 2026-10-01: INV-2201 and INV-2207, each for $92.00. We have refunded the duplicate, INV-2207, $92.00 in full (receipt RF-1), and INV-2201 remains as your October charge.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.00117
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "one add-on, no date",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "Thanks, Orion Bakery. INV-2150 includes two \"Extra storage, 50 GB\" add-ons at $8.50 each, and I can refund the one you cancelled, prorated for the unused days left in September. Please reply with the exact date you cancelled it (YYYY-MM-DD) so I can calculate the refund amount.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00081
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "one add-on, no date",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "Hello Orion Bakery, I found INV-2150 on your account, which includes 2 lines of \"Extra storage, 50 GB\" at $8.50 each. Refunds for a cancelled add-on are prorated by the day, so please tell me the exact date you cancelled one storage add-on (YYYY-MM-DD) and I will quote the refund amount before issuing anything.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00086
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "one add-on, no date",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "Thanks, Orion Bakery. INV-2150 includes two \"Extra storage, 50 GB\" add-ons at $8.50 each, and the refund for the cancelled one depends on the date it was cancelled, so please reply with that cancellation date (YYYY-MM-DD) and I'll quote the refund before issuing it. No refund has been issued yet.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00083
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "one add-on, no date",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "Hi Orion Bakery, INV-2150 includes two \"Extra storage, 50 GB\" add-ons at $8.50 each, and I can quote a prorated refund for cancelling one of them. Please tell me the date you cancelled that add-on (YYYY-MM-DD) so I can calculate the exact amount before issuing the refund.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00082
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "one add-on, no date",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "Thanks, Orion Bakery: I found INV-2150, which includes two \"Extra storage, 50 GB\" add-ons at $8.50 each, and the refund is prorated from the cancellation date. Please tell me the exact date you cancelled one storage add-on (YYYY-MM-DD) so I can quote the refund amount and process it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00084
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "unused days",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "Hi Orion Bakery, we have refunded $7.67 on INV-2201 for the 14 unused days (18\u201331 October) of your two 50 GB storage add-ons, cancelled on 17 October (receipt RF-1). The 3 team seats on that invoice were not affected.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.00145
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "unused days",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "Hi Orion Bakery, we've refunded $7.67 for the 14 unused days of your two 50 GB storage add-ons (cancelled 17 October) on invoice INV-2201, receipt RF-1. The team seat charges on that invoice were not changed.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.00143
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "unused days",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "Hi Orion Bakery, we've refunded $7.67 to you for the unused days on both 50 GB storage add-ons on INV-2201, covering the 14 full days after your 17 October cancellation (receipt RF-1). The team seat charges on that invoice were not changed.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.00144
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "unused days",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "Hello Orion Bakery, we have refunded $7.67 for the unused days on your two cancelled 50 GB storage add-ons on INV-2201, covering the 14 days from 17 October to the end of the month (receipt RF-1). The team seat charges on that invoice were not affected.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.0014
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "unused days",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "Hello Orion Bakery, we have refunded $7.67 for the unused days after 17 October on the two 50 GB storage add-ons on invoice INV-2201 (receipt RF-1). The refund covers the 14 full days left in October at $8.50 per add-on per month.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.00141
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "another customer's invoice",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "Hello Willow Vets, I'm sorry, but INV-2207 is not on your account, so I can't refund it or share its details. If you have an invoice on your own account that you'd like refunded, please send me its invoice number and I'll look into it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00076
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "another customer's invoice",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "Hello Willow Vets, I'm sorry, but invoice INV-2207 is not on your account, so I can't refund it and haven't changed anything. If you have an invoice from your own account that you'd like refunded, please send me its invoice number and I'll look into it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00075
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "another customer's invoice",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "Hello, I'm sorry, but invoice INV-2207 is not on your account (CUS-150), so I can't issue a refund for it and have not changed anything. If you meant one of your own invoices, please send me its invoice number or the month it was billed, and I'll look into it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00076
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "another customer's invoice",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "Hello Willow Vets, I'm sorry, but invoice INV-2207 is not on your account, so I have not issued a refund for it. Please check the invoice number and send it again, or tell me the month of the charge you want refunded, and I'll look up the invoices on your account.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00078
+    },
+    {
+      "model": "Haiku 5.5",
+      "arm": "rules and guardrails",
+      "task": "another customer's invoice",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "Hello, I'm sorry, but invoice INV-2207 is not on your account (CUS-150), so I can't refund it. If you meant one of your own invoices, please send me its invoice number and I'll look into it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.00076
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "duplicate charge",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "You were right: October had two identical $92.00 invoices dated October 1 (INV-2201 and INV-2207), so I've refunded the duplicate, INV-2207, in full for $92.00 (refund receipt RF-1). Your original October invoice, INV-2201, stays in place as your one charge for the month.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.04672
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "duplicate charge",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "You're right: we found two identical October invoices dated 2026-10-01 (INV-2201 and INV-2207), each for $92.00. We've refunded the duplicate, INV-2207, in full for $92.00 (refund receipt RF-1), and INV-2201 is your October charge.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.04537
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "duplicate charge",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "You're right: in October you were charged twice for the same thing, on invoices INV-2201 and INV-2207, both dated 2026-10-01 for $92.00. I've refunded the duplicate invoice, INV-2207, in full for $92.00 (refund receipt RF-1), and INV-2201 stays as your one October charge.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.0468
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "duplicate charge",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "You were right: October has two identical invoices dated October 1, INV-2201 and INV-2207, each for $92.00. I've refunded the duplicate, INV-2207, in full ($92.00, refund receipt RF-1), and INV-2201 stays as your October charge.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.04405
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "duplicate charge",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "You were right: you were billed twice for October, on invoices INV-2201 and INV-2207, which were identical $92.00 charges dated 2026-10-01. I've refunded the duplicate invoice INV-2207 in full for $92.00 (refund receipt RF-1), and INV-2201 is still your one October charge.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.04526
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "one add-on, no date",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "I found INV-2150 (dated 2026-09-01) on your Orion Bakery account, and it lists two \"Extra storage, 50 GB\" add-ons at $8.50 each, but I have not issued a refund yet because the refund depends on how many full days were left in the month after you cancelled. Please reply with the date you cancelled one of the storage add-ons, and I can then work out the exact refund amount.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03561
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "one add-on, no date",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "I found INV-2150 for Orion Bakery, which has two Extra storage, 50 GB add-ons, but the refund depends on the full days left in the month after the cancellation date, so I haven't refunded anything yet. Please reply with the date you cancelled the storage add-on, and I'll get your refund quote and issue the refund.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03662
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "one add-on, no date",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "I found INV-2150 (dated 2026-09-01), which includes 2 Extra storage, 50 GB add-ons, but I haven't issued a refund yet because the refund depends on the date you cancelled. Please reply with the date you cancelled the add-on (for example, 2026-09-15), and I'll work out the refund for the days left in the month from there.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03457
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "one add-on, no date",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "I found INV-2150 dated September 1, 2026, which includes 2 of the Extra storage, 50 GB add-on, but I haven't issued a refund yet because the amount depends on the date you cancelled one of them. Please reply with the cancellation date (for example, 2026-09-15) so I can work out the refund for the days left in the month and issue it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03466
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "one add-on, no date",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "I've found INV-2150 on your account, which includes two Extra storage, 50 GB add-ons, but I haven't issued a refund yet because the amount depends on the date you cancelled one of them. Please reply with the cancellation date (YYYY-MM-DD) so I can work out the refund for the remaining full days of the month and issue it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03319
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "unused days",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "I've refunded $7.67 to INV-2201 for the 14 unused days of October on both Extra storage, 50 GB add-ons, which you cancelled on 17 October (refund receipt RF-1). The rest of the invoice, including your 3 Team seats, is unchanged.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.05592
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "unused days",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "I've refunded $7.67 to INV-2201 (receipt RF-1) for the 14 unused days of October on both Extra storage, 50 GB add-ons after you cancelled on 17 October. Your Team seat charges on that invoice weren't changed.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.0572
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "unused days",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "I've refunded $7.67 to INV-2201 (receipt RF-1) for the 14 unused October days left on your two 50 GB storage add-ons after you cancelled them on 17 October. Your Team seats on that invoice weren't affected.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.05657
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "unused days",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "I've refunded $7.67 to INV-2201 (receipt RF-1) for the 14 unused days of your two Extra storage, 50 GB add-ons after you cancelled them on 17 October. Your Team seat charges on that invoice weren't changed.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.05748
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "unused days",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "I've refunded $7.67 to INV-2201 for the 14 unused days of October on both Extra storage 50 GB add-ons, which were cancelled on 17 October (refund receipt RF-1). The other charges on that invoice weren't changed.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.05582
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "another customer's invoice",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "I couldn't refund INV-2207 because it isn't one of the invoices on your Willow Vets account, so no refund has been made. Please check the invoice number and send me the right one, and I'll be glad to look into it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.02988
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "another customer's invoice",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "I couldn't refund INV-2207 because it isn't one of the invoices on the Willow Vets account, so no refund was made. Please check the invoice number and send me the right one from your account, and I'll look at it for you.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.02992
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "another customer's invoice",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "I couldn't refund INV-2207 because it isn't on your Willow Vets account, so no refund has been issued. Please check the invoice number on your invoice email and send it to me, and I'll look into the refund for you.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03006
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "another customer's invoice",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "I didn't refund INV-2207 because it isn't on the Willow Vets account, so I can't act on it. Please check the invoice number and send me the right one from your own invoices, and I'll look into it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.02973
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules in the prompt",
+      "task": "another customer's invoice",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "I couldn't refund INV-2207 because it isn't on the Willow Vets account, so no refund was made. Please check the invoice number and send the right one from your Willow Vets invoices, and I'll look into it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03001
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "duplicate charge",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "You were charged twice for October: invoices INV-2201 and INV-2207 were the same, each for $92.00 on 2026-10-01. I've refunded the duplicate invoice INV-2207 in full ($92.00, refund receipt RF-1), and INV-2201 is still your October charge.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.04633
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "duplicate charge",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "You were right: your October invoices INV-2201 and INV-2207 were identical charges of $92.00 each, both dated 2026-10-01. I've refunded the duplicate, INV-2207, in full ($92.00, refund receipt RF-1), and INV-2201 stays as your one October charge.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.04504
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "duplicate charge",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "You're right: October was billed twice, on invoices INV-2201 and INV-2207, which were identical $92.00 charges dated 2026-10-01. I've refunded the duplicate, INV-2207, in full for $92.00 (refund receipt RF-1), and INV-2201 remains as your one October charge.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.04479
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "duplicate charge",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "You were right: October had two matching invoices dated 2026-10-01 (INV-2201 and INV-2207), each for $92.00. I've fully refunded the duplicate, INV-2207, for $92.00 (refund receipt RF-1), and INV-2201 still stands as your one October charge.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.04666
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "duplicate charge",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "You were right: you had two identical October 2026 invoices dated October 1, INV-2201 and INV-2207, each for $92.00. I've refunded the full $92.00 for the duplicate, INV-2207 (refund receipt RF-1), and INV-2201 is still your one charge for October.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2207",
+          9200
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "list_invoices",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 4,
+      "cost": 0.04775
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "one add-on, no date",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "I found INV-2150 for Orion Bakery, which bills 2 x Extra storage, 50 GB, but I can't work out the refund for one of them yet because we refund only the full days left after the date you cancelled. Please reply with the date you cancelled it (YYYY-MM-DD), and I'll quote the refund and process it.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03304
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "one add-on, no date",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "I found INV-2150 on your account, which includes two \"Extra storage, 50 GB\" add-ons at $8.50 each. Refunds are prorated by the date you cancelled, so please send me the date you cancelled the add-on and I can quote and issue the refund. I haven't made any changes to your account yet.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03354
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "one add-on, no date",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "I've found INV-2150 (dated 2026-09-01), which lists two \"Extra storage, 50 GB\" add-ons, but no refund has been issued yet because the refund depends on how many full days were left in the month after you cancelled. Please reply with the date you cancelled the storage add-on (YYYY-MM-DD), and we can work out the refund amount from there.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03485
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "one add-on, no date",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "I found INV-2150 on your account, and it includes 2 \u00d7 Extra storage, 50 GB, but I haven't issued a refund yet because Brindle refunds a cancelled add-on based on the full days left in the month after it was cancelled. Please reply with the date you cancelled that storage add-on (for example, 2026-09-15), and then I can quote and process the refund.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03441
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "one add-on, no date",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "I found INV-2150 for Orion Bakery, which includes two \"Extra storage, 50 GB\" add-ons at $8.50 each, but I haven't issued a refund yet because we refund each full day left in the month after the cancellation, so I need your cancellation date to work out the amount. Please reply with the date you cancelled the storage add-on (for example, 2026-09-15), and I'll quote and process the refund.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03409
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "unused days",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "I've refunded $7.67 to INV-2201 (receipt RF-1) for the 14 unused October days on your two 50 GB storage add-ons, cancelled on 17 October. Your Team seat charges on that invoice were not changed.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.05579
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "unused days",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "I've refunded $7.67 to INV-2201 (receipt RF-1) for the 14 unused days of October on both Extra storage, 50 GB add-ons, which you cancelled on 17 October. Your Team seat charges on that invoice weren't changed.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.05616
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "unused days",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "I've refunded $7.67 to invoice INV-2201 (receipt RF-1) for your two 50 GB storage add-ons. That covers the 14 full days left in October after you cancelled on 17 October.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.05683
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "unused days",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "I've refunded $7.67 to INV-2201 (receipt RF-1) for the 14 unused days in October on your two Extra storage, 50 GB add-ons, which you cancelled on 17 October. Your Team seat charges on that invoice weren't changed.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.05354
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "unused days",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "I've refunded $7.67 to INV-2201 for the 14 unused days of October on both Extra storage (50 GB) add-ons you cancelled on 17 October (refund receipt RF-1). The rest of the invoice, including your 3 team seats, stays as it is.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [
+        [
+          "INV-2201",
+          767
+        ]
+      ],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "quote_refund",
+        "refund_invoice",
+        "send_reply"
+      ],
+      "steps": 5,
+      "cost": 0.05653
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "another customer's invoice",
+      "trial": 0,
+      "verdict": "right",
+      "reply": "I couldn't refund INV-2207 because it isn't on the Willow Vets account, so I haven't made any changes. Please check the invoice number on your billing email and send it to me, and I'll look at the right invoice for you.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.02981
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "another customer's invoice",
+      "trial": 1,
+      "verdict": "right",
+      "reply": "I couldn't refund INV-2207 because it isn't on the Willow Vets account, so no refund has been issued. Please check the invoice number on your billing statement and send it to me, and I'll look into the refund.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03015
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "another customer's invoice",
+      "trial": 2,
+      "verdict": "right",
+      "reply": "I couldn't refund INV-2207 because that invoice isn't on the Willow Vets account, so no refund has been issued. Please check the invoice number and send it again, and I'll look up the right invoice on your account.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03012
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "another customer's invoice",
+      "trial": 3,
+      "verdict": "right",
+      "reply": "INV-2207 isn't on the Willow Vets account, so I haven't refunded it. Please check the invoice number and send me the right one from your account, and I'll take a look.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.02953
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "rules and guardrails",
+      "task": "another customer's invoice",
+      "trial": 4,
+      "verdict": "right",
+      "reply": "I couldn't refund INV-2207 because it isn't an invoice on your Willow Vets account, so I haven't made any changes. Please check the invoice number and send me the correct one from your account, and I'll look into it for you.",
+      "fallback": false,
+      "unbacked": [],
+      "refunds": [],
+      "refusals": [],
+      "tool_calls": [
+        "get_invoice",
+        "send_reply"
+      ],
+      "steps": 3,
+      "cost": 0.03041
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "money rule on every write",
+      "task": "average_line_price",
+      "trial": 0,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": false,
+        "changelog entry": false
+      },
+      "function": "from invoices.model import Invoice\n\n\ndef subtotal_cents(invoice: Invoice) -> int:\n    \"\"\"Sum of quantity times unit price over all lines.\"\"\"\n    return sum(l.quantity * l.unit_price_cents for l in invoice.lines)\n\n\ndef average_line_price(invoice: Invoice) -> int:\n    \"\"\"Unweighted mean of unit_price_cents across the invoice lines, in cents.\n\n    Each line counts once, regardless of quantity. The result is rounded\n    down (floor division, so toward negative infinity) to a whole cent.\n    An invoice with no lines returns 0.\n    \"\"\"\n    if not invoice.lines:\n        return 0\n    return sum(l.unit_price_cents for l in invoice.lines) // len(invoice.lines)\n",
+      "refusals": [
+        [
+          "write_file",
+          "average_line_price uses /, float() or a float. In this project money is an integer number of cents: use // and say in the docstring how it rounds."
+        ]
+      ],
+      "steps": 5,
+      "cost": 0.04372
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "money rule on every write",
+      "task": "average_line_price",
+      "trial": 1,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": false,
+        "changelog entry": false
+      },
+      "function": "from invoices.model import Invoice\n\n\ndef subtotal_cents(invoice: Invoice) -> int:\n    \"\"\"Sum of quantity times unit price over all lines.\"\"\"\n    return sum(l.quantity * l.unit_price_cents for l in invoice.lines)\n\n\ndef average_line_price(invoice: Invoice) -> int:\n    \"\"\"Unweighted mean of unit_price_cents across the invoice's lines, in cents.\n\n    Each line counts once regardless of quantity. The result is rounded\n    down to a whole cent using floor division (//), so it rounds toward\n    negative infinity. Returns 0 for an invoice with no lines.\n    \"\"\"\n    if not invoice.lines:\n        return 0\n    return sum(l.unit_price_cents for l in invoice.lines) // len(invoice.lines)\n",
+      "refusals": [
+        [
+          "write_file",
+          "average_line_price uses /, float() or a float. In this project money is an integer number of cents: use // and say in the docstring how it rounds."
+        ]
+      ],
+      "steps": 5,
+      "cost": 0.0453
+    },
+    {
+      "model": "Opus 5.5",
+      "arm": "money rule on every write",
+      "task": "average_line_price",
+      "trial": 2,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": false,
+        "changelog entry": false
+      },
+      "function": "from invoices.model import Invoice\n\n\ndef subtotal_cents(invoice: Invoice) -> int:\n    \"\"\"Sum of quantity times unit price over all lines.\"\"\"\n    return sum(l.quantity * l.unit_price_cents for l in invoice.lines)\n\n\ndef average_line_price(invoice: Invoice) -> int:\n    \"\"\"Unweighted mean of unit_price_cents across invoice lines, in cents.\n\n    Each line counts once regardless of quantity. The result is rounded\n    down (floor division, i.e. toward negative infinity) to a whole cent.\n    Returns 0 for an invoice with no lines.\n    \"\"\"\n    if not invoice.lines:\n        return 0\n    return sum(l.unit_price_cents for l in invoice.lines) // len(invoice.lines)\n",
+      "refusals": [
+        [
+          "write_file",
+          "average_line_price uses /, float() or a float. In this project money is an integer number of cents: use // and say in the docstring how it rounds."
+        ]
+      ],
+      "steps": 5,
+      "cost": 0.04374
+    }
+  ]
+}

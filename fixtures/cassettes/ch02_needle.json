@@ -1,0 +1,1845 @@
+{
+  "format": 1,
+  "interactions": [
+    {
+      "request_fingerprint": "6c3721a9dd4f83f21f3733fe7eab3e2fba2d93a4015ec2a5a0ceab4cfa9956a5",
+      "request_summary": {
+        "chars": 16230,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5275,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "6c3721a9dd4f83f21f3733fe7eab3e2fba2d93a4015ec2a5a0ceab4cfa9956a5",
+      "request_summary": {
+        "chars": 16230,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5275,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "f5583c6950fcf6d48048b2e707c386e586d7fdd30e393069ae2ac948ac038cfb",
+      "request_summary": {
+        "chars": 16230,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5275,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "f5583c6950fcf6d48048b2e707c386e586d7fdd30e393069ae2ac948ac038cfb",
+      "request_summary": {
+        "chars": 16230,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5275,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "28f959616bd9c6ad4850cfde7a9a744182c73053b06cb5feb2a8f0094e0240e4",
+      "request_summary": {
+        "chars": 16230,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5275,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "28f959616bd9c6ad4850cfde7a9a744182c73053b06cb5feb2a8f0094e0240e4",
+      "request_summary": {
+        "chars": 16230,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5275,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "6938c99861a05a9c9db4a12614f1d074187b65f13dcbb6ab8f101105f248106d",
+      "request_summary": {
+        "chars": 16230,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5275,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "6938c99861a05a9c9db4a12614f1d074187b65f13dcbb6ab8f101105f248106d",
+      "request_summary": {
+        "chars": 16230,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5275,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "348062f9c44de9059e4a062e26730522f6df5a2ab1bd5823b6f7709b880034ff",
+      "request_summary": {
+        "chars": 16230,
+        "last_message_end": "de for Orion Bakery is 7341.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5275,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "348062f9c44de9059e4a062e26730522f6df5a2ab1bd5823b6f7709b880034ff",
+      "request_summary": {
+        "chars": 16230,
+        "last_message_end": "de for Orion Bakery is 7341.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5275,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e768146b0c232564ffe3ae7276fc0898d53174dbc6064fddb0d0c2f5868d749d",
+      "request_summary": {
+        "chars": 16436,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5353,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e768146b0c232564ffe3ae7276fc0898d53174dbc6064fddb0d0c2f5868d749d",
+      "request_summary": {
+        "chars": 16436,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5353,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "22b7fe66afeec5e2c1986cad52e94bc57efb4009ace9deb5241290218b4135af",
+      "request_summary": {
+        "chars": 16436,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5353,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "22b7fe66afeec5e2c1986cad52e94bc57efb4009ace9deb5241290218b4135af",
+      "request_summary": {
+        "chars": 16436,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5353,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b5c14a208d9495db97313950300163b09abcebc801962c638963ad69a87a498c",
+      "request_summary": {
+        "chars": 16436,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5353,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b5c14a208d9495db97313950300163b09abcebc801962c638963ad69a87a498c",
+      "request_summary": {
+        "chars": 16436,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5353,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "169c50fb21397a3ed84bd3bae899b318c22156ffac0d45b008908aad271d6350",
+      "request_summary": {
+        "chars": 16436,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5353,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "169c50fb21397a3ed84bd3bae899b318c22156ffac0d45b008908aad271d6350",
+      "request_summary": {
+        "chars": 16436,
+        "last_message_end": "line while waiting on legal.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSiAYKEAgTGAI4AUIIdGhpbmtpbmcSDE3G7FfNLqdRPer8XRoM75+zLjwn6vkFKOxSIjAk2zwvw/UTEOj6e6h9oYwNd38yTBCxQsWWiidURgCsFFgKxtPL6qApFy28/RxT8pMqpQX1pkbkJQLHaxGqCn22NJYoqYEjsGnOZSqJDlr6HvbsZGFbj8eJU0q0+US9kzGSId09Qn5uLflYrPSpuek32QXy2ByhIxZwBemyLUFWfRD0DnS3ockHonqyPDV5hAvGscbEjeD9sHc1urXWw9JTe8wFc+OFItQ+NMaBOldv2Gto/2LPb+NMQpUm3ikkLmg9GKBNoT+GTptzFgzb/9sNjhTqerbtZDz6Jxx6Grbfle2kTmthZrxuFp0qONymZGYGcXVkhL7Xn8puLLh5c5439XFMNPfU4Fsi7EXYLH695cYC+ukbuuz52fINUxUz/vb0r8CZagxHNvYedarWkINCBwbOzmGZeCNc2IAjDw7moO7LaWUigykBk4HW3FyMaDk935i2+zstKs057b87qi7LDVPLx5wuTUQ9NT/al/BH7AIm8/+yT10mi//CBzGB22poZFYGeEnOKaz0AX1q6pzV772VjEZV4ygESxt12INXm+8XpgTn2brIsbx+ZtdlQHP+VLniqHBR6ic37OilsnurbQh66BkkVh/NG/Lm7/qpY2V50X8YWNLPmEZzINYIbzHgMPEmm2euVPssqLyVyHci1NbOtXhYr1p/67r1vMImtdJKAqJ8/AkOp3Ojx8gfCkqWkeAZ39ro+hki15E0nRnmHniZwsrmwdGnLfNC5/rUE7gFCasbQWJQYZRRJsagP6EpQwXPOnRlCYQPO4yxGBgy3nkAn9XcWbE5pnvu0y6BujwPgwMv5sd1d7sIMEywJzVNVuPpRupSYPh6/V2OgPLrsKfBRgVR+l0rySffp7L3BQk2Zj33od6igXX5dGeEoaj1DfZ0wB+D0LNvs0qKlLE6TDS7gef8nfeWs9JYiBQScD1Xj0sOxu+WKMp3vKDdkastfsiEV8dUyxgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5353,
+          "output_tokens": 85
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e3a5080d56ae3936fa96504acdcdb45a1a2d3caa8eb97eb0da35e1909c3444bb",
+      "request_summary": {
+        "chars": 16436,
+        "last_message_end": "de for Orion Bakery is 7341.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS7gUKEAgTGAI4AUIIdGhpbmtpbmcSDDIWiY0XGWIn9O79CBoMuO44451C82mmPUILIjBZFjUQ8Xazc009dVAvQtXXZMWbj9rqdENU3lEJ8f4UgGMLo23nE1Xgh1F4cAz8aR8qiwXAU+XZYhlcCgUzh1KRv+XNTp5Rl1bz0kdXBrn9Punzw4JUJdGdVhf4uS9TipFYIW3qOZPQQyRfcAFjCNXGIWkQxCQJi2LiVRAOhTfxFJEQiaSsORvOFTAXYPSNIkDz0rtdQIpz3iU15UPD9nPvRF0KG6KKcaYNjFWbHC1HQimcXh+CNH3d3mHjD7t48p2crWrh6i6kSGT8+8dGHZ6V9IUPDw6gSMK7x4aQ0m0/DtE4MtfcH1H+6WSsMBKX6fu6xyBOgiNUsJCIr6HtmRUMVg+Kmt8rEBiW3R4JiGiO5hosXHWRKvr8HsXABoG8EgwWZRpFxSZ7T1P0Zt5CmIzTLccwTfSQIC0+GN1x165GM/NvNQ4yXSSXttvwdeyD1Sr7ADD1+KJTToKJkDVY48KJlkCMlHIV4/JKgQF2Rbapp+jW+lNmeThIR7m6GsSqlUAkIQLPIOvd6rh63mJBBlQTyNisN+HG25om544kLddGXgIkrOXNRz6q4sJgCBSbpXdOAx7f0wGzuawF2HBdukZDzpk1QrbHWMtH3DJWEN0X/Sx9XXCxs10cxavF0z35dsfidDI2xEuJEuJw5F7sqGT5fvCzg03xsFlFZ/lDh3/oCFaITzbl1woQmViQP71o9V09s/DSBhjVtwAArZhbWwXznTDmgvWIcw9YvbfEfY6DLbm0sPqxLxZaues4GGni4DAtggPkmxi+xut0L8/kzoWN00FrKGhFVwbMBlYU+Q1azFQC6sIk39z0awh1Lp3Ay7SY645WdgYLcoIUztBWEBFSo9H4mF1thBh8fzPfhZTX2mwioXiLHWjeVJKtvlTua/iKqsSABSXF60Wo46dXix0e5esG21f9R+efC2Bmgy0YAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5353,
+          "output_tokens": 84
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e3a5080d56ae3936fa96504acdcdb45a1a2d3caa8eb97eb0da35e1909c3444bb",
+      "request_summary": {
+        "chars": 16436,
+        "last_message_end": "de for Orion Bakery is 7341.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS6QUKEAgTGAI4AUIIdGhpbmtpbmcSDASYqnhUCFaYT4LOphoMb/yjrdVZFVKNkZqgIjBIQU7VysKXSVD5jdGfSHcxPYUfYOyqQBFPS8QFT4zSSWyirj1uHL6gdixwOHNH9b8qhgWg+VNkM57WpKetYfFj4ijaAknJyQtp7A4TRgq+93CHYybBbnGwkfUaERxQQH5v6RbXwfdCB1W0GBDMDGQRhi+MxDvuweMXs4fYE0WH6b5ZD/kaE7O55r5zUARJ7QQzxVdQAiwZkDPdXf2svch9GyDO7k453Gw9M1e5jzD+5jvMGZWsZm5OO4/G71aTMxssXgedS7Z33qNjMqaFXTf18BVYFRbN4d93AvGnZjWdmPYaWUo1QnVhEVCeX7lMisXrnsAX9jFd5JBzEK4Mvh9LMEqaB+/X8qw32Sr512Wyu8mNy/ZkiSdL3UdsQL9oDUQSgvvB0OFWa2k+D/PRjpRg2fxEU4HYm2Zb5WuPgshN7RZRVqOHGJGaKMDvVyOnDRaks40TtRIvi3yxnTHbnqU8Oqo+fSsEYLHxLOK3Ft2s1qAvFAYBtLX1jf337VdGJ9VgJBQHqinKz+iBgvcFlRUTa7nUH72CwZ512KHhXZbvPQvXDawVVRv3LD0Wk/b+vHYJbCXq9NUbAb9VO6GTLVy642k02oSaUHRJCI61/0qNkSBSIgXP8jbI0pEeSg0RvOuWizRJVi9Gwtmoxk7jqgZYgp1T7tJEzx3zaZaSi1MaeqlcO7t3qg5d9NYMSY1vJQTi80TXXDEYT3fAwMuLqOjSfelaBUlB3VsaOZWYAIvNqvEauli3573sYGxWGPb5ZBozrISXazY9PQvrYp5ggABizEJxj2uoVf6PEFiGm672leOv87d/vtMKYj3OX5ioABKixH93wOiwufL2JifmMu9KjcrYpzdX4sUEG2gd5ro7PYj3wNBZcC7/2Lf3isLqX+BpBrRViEFk07KJXlqH52Q5k7saNXwtD2qzGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5353,
+          "output_tokens": 83
+        }
+      }
+    },
+    {
+      "request_fingerprint": "19fee933f8e21380b76db35fe2e3a1eeaec243ee5ab44820fd6bf36810bb3167",
+      "request_summary": {
+        "chars": 128440,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41541,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "19fee933f8e21380b76db35fe2e3a1eeaec243ee5ab44820fd6bf36810bb3167",
+      "request_summary": {
+        "chars": 128440,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41541,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "12ea87dce71a4218eb2385454b26fc2cf403de281091c537805663222dba2743",
+      "request_summary": {
+        "chars": 128440,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41541,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "12ea87dce71a4218eb2385454b26fc2cf403de281091c537805663222dba2743",
+      "request_summary": {
+        "chars": 128440,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41541,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "bd728680f6e18258846ff80d32a000b98e0ce536b4804fdf3e1f0d23ff52277e",
+      "request_summary": {
+        "chars": 128440,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41541,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "bd728680f6e18258846ff80d32a000b98e0ce536b4804fdf3e1f0d23ff52277e",
+      "request_summary": {
+        "chars": 128440,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41541,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "319b798ecedf065a9c0c8ea9c611511a5337231926de568317b01286dcbc5ac4",
+      "request_summary": {
+        "chars": 128440,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41541,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "319b798ecedf065a9c0c8ea9c611511a5337231926de568317b01286dcbc5ac4",
+      "request_summary": {
+        "chars": 128440,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41541,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "86d94dea3a78e9c51fe366d25dc2b1eefbc13e573fcff8871ffbeae3ceeddd08",
+      "request_summary": {
+        "chars": 128440,
+        "last_message_end": "de for Orion Bakery is 7341.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41541,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "86d94dea3a78e9c51fe366d25dc2b1eefbc13e573fcff8871ffbeae3ceeddd08",
+      "request_summary": {
+        "chars": 128440,
+        "last_message_end": "de for Orion Bakery is 7341.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41541,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e00cb18135ff7ba25dea8f657e62d4385cef6c7e91ff7b9fe950c050ba15120e",
+      "request_summary": {
+        "chars": 128647,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41620,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e00cb18135ff7ba25dea8f657e62d4385cef6c7e91ff7b9fe950c050ba15120e",
+      "request_summary": {
+        "chars": 128647,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41620,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "0450eadd2dc7ddf418ddbc0bfceaed5b8e39626722390c34990823ccfc036529",
+      "request_summary": {
+        "chars": 128647,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSswYKEAgTGAI4AUIIdGhpbmtpbmcSDKP/IcE1UMtof6M6PBoMU6VQQpp5nKqAcxzNIjCfCh104VvYsDFiTgBPs9kvf3y1EUUa27CstkYn8JHJhPcWX0AJ2wLDkn38MDv4PVsq0AUJsysNtywrnCN1JaFnXsA3O37WBkudoVnr7rVXDCdifU4je3vFz9sLnxhwb6SKPsgvzEQTbs5mcz0voY2DkiB6x43rsLN6prbnrdTRijG0TMWKoqO48S4I3kw/luYdRCAJt5AMNmeBcWvQ7xGsBSq7i9xSfcn+inAwXKTatDN5eDaRarP41R8PrV7hu+sSpF58SZ12NnuRjOpjF8UYKt2Z6FjLoC+9KOywWpNPpy6qkdVu3cLNYk3aeJceoXNSaI5O6JBb7Rax9PE7ABnETyovCU1uBpN8as8BBvBQeLtoD8T+HrZCfNqOocvT7cFpGVtuN9eJ/nLkmB4QAv2VSr0P+Yrf7RDFEBIQ2gecQ7r7NOCrbNl4TNtJqS/9yiecVYrtMQ9B6jy5uVeW9RX2yDM98GpvhFCYN6X4Um+D4uu4aDb5V4H+RKHHIMfE17JZifMvbnD5Aa4buNK6d0i9XxSnna7VrgXzISrKLqNxr13jlBWXtBv4xbRg+CJ7QaYqCFyKtZrCnUDJR+aHxZTSpZ+GsyLCx5hfBAiB/9iLv6G6QK7x2S2hxaxn0t+dGNm/x5/7XVKpYd/Mm2GKzKRks8iuNsQox32Fb/yVK+KJTvAncusCBB+hIAl/fOFWj52FHrrOBpfefb3HN2rMi24MJZOiM8vqGbUAtaxJilwVGs0em0DaTHU1MSywgSGWlaK3kul1SDlbhg7nRT4DPy0FcNpiq103Xw7VBhlwi4n9blNAol9B08i9Y75h4jO6eAVmNypX0RH7qUcxYyMz2WeMP5o2rkUZRleVWipWXFl3bCObZX4hrvET8Wq6zotnEkcNaSBJXleeCwWNGuJ4kVPKO3t4hLNudd7c17NVPKnzzvKIyxqIJOuXDSrPCM4GkwrOF+kPvqn8ICyjcGqWBsJxfYwdu2etYz8riARP8MZEatwCqztbSzJrWyyBly+iadupDMMYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41620,
+          "output_tokens": 102
+        }
+      }
+    },
+    {
+      "request_fingerprint": "0450eadd2dc7ddf418ddbc0bfceaed5b8e39626722390c34990823ccfc036529",
+      "request_summary": {
+        "chars": 128647,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSswYKEAgTGAI4AUIIdGhpbmtpbmcSDN57JNRlIUittKjR9RoMnRZT0Q0KEtONY2lwIjD8SoibWE9nex7SbahuyFGoS1uofks3YrSq1COG05tpv3NJ7eIwdeGhbfF0/eV9T0Yq0AVGhL6BTEkeC0MEfbO5I2sLxFHifCcm/xfiK6TKOcJUdMkPp4OlhmiAqtHxUvelfoVAg66P0ruAUYoKGXQ8r4l+rr14howBoRXXwW9m3kn5dnOcxyH2eMHr1SLU1YaHkoknPP9Q+qZ2mVBlRI0EJng9wHo1mDeIPKSdKdyxkVhkg3MOMNYpLrj0D8s+xauuOBvAs2jjqGcAsbOZWy4PGpClRd7LPOafopM/CHTRW6gPyqdMU1dysD1vMrl8Ze99JZLRIV2AEeoEfRj4UD2QL7piBtzC+znZxBilMfmMGVbpCUCC3LcqtyFtmPgfGPq7BQ/Gj6MVv6Y1VMeaLD87XExgPbgUor2xNzMQh+luv3uKYgsamcWk8g9H8TRSu4HoIVhnGBFFulBKOLibpzAAk6yDMJEFJ7CQxBbKrj+1qVBXZRMywntUEnSkzns7Hoju9ee4FRBI205BoqCS/RJmB6ckyn7i8BlEl/kWop78iMTtjJUthtmDh2umxel1D5avSNfOnEW9qJl+cd8dLonNx7XSdUtY6DbIq8h5nEpHUYAQ24+HKickpzJgT0ADXPswIskN9rwmlGO1D6pU1H5GyZeFyD/4Q5F8kH6h5I1ls1W68dfhiyHQb2B4kdLAJ8kQ4e9gDR2bKRPLzVQ6dtABJh6YXfsuwafFTNwDn+AMhGhxXAFA9GZNPQ7TMwdfvOy8iWGlsofJWuvDA5zli8cUMlulrX6UlQMa39l0v2H2zulO2BRk/Yj5yIOzJ1f0RJoi1J/umTsCS2OdUjBSNclWp9J0W+/iftNouQ3BuUra5QchOydY7GRHuYemKxoAl7D6ojKH2b+//X3VGG79Nq41iNiUO40bRgCwdCICf3UQU3o2uWiPaPoEOE0JcMHyzNMXozBqyIxS2z5XdupDZbansMIVVsOs7ot1UIUZmC+Hy+VRNKMtlnssd0w11OPCGusafzIYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41620,
+          "output_tokens": 102
+        }
+      }
+    },
+    {
+      "request_fingerprint": "8ae2d0415171a409a0bd1ac19eb0205b507698946c8b91c0955bd40c13f21433",
+      "request_summary": {
+        "chars": 128647,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSmQYKEAgTGAI4AUIIdGhpbmtpbmcSDCZSRpRr4iQ1pl4qkBoMVYUMM4qmmP3uW0BxIjDOmgU7KpC3ls+Dq/CeydUV5zxoYG8InvRupmoo19k/zTPX2LEBjGRZdrjxis5Hu3AqtgW7kffh6nFBRWpbsC+uqkKKU06KlEhfqaMAbgGAWn/2fMiePxVUMTGiWxim1HXEgp6YFtuVWYDzh6jtlrPnVK6j7/lQHCweTco+SOTVgxeSJTFr48qsrzjP6Fm7FTCIZ/UUyLBS2UfIaA2ppGc7Qn+6AL2nRCoZ95ylWSuP1ET0tnm0Y3FVzrppQFRspZyKD1o8OM65RrFwPMOeijTSt853AELzn2w1JCmn0eVymCATblDIE09G87gIpnCf9nWGlqGRaLQtGous3iilfSgZQLyqunw9KIi1PdqsPqBPEXver8lAXcjUusFSWjb37AfPAFfMlioOdh6B/XLr/9wEqShCrHdaI5kfjsapRL8dtcBXd/kapV3aAGrjfIZG9brHLZ8rBtFyaInS+UOZAR0YVbewphK59bnlzN9dm4udVnwjtcdX1I/okVIhLIq0nK3rvQ02+2ipeVXx2ftt9tTZ88CnU4nH1A8lbPMJ2f8Y5IIagbtQ7y0tqJsUjwHIfMEpC//t6kiJTNqEUVHsAU+0/8hMhqOnjxjuI4wIcGBqng/7pag1qfZH1P72JRZI6n3h26YWPxzhBcKAIaviXe5a8TFX+GubNkcwF+f57UtUisc2vsGVCKcbgp6zUbKGF20HhrsczkmlRtirEdgzWYcoZms4gHqH3yDDt9qyWYNBSPnhsGJgB9Ax9NizAhP2+RTsnnLz9sImL00KmI4Ia2lKLoNflhh+nse4M/rl+JvW5E1Oq6xYdrRjJNNjWsNBSGSserM3+Vyo1gHCgVWGxAYRaoN5rFD68+eUC/+Htt0h5fhGgM5gvWVblXE5ArMneCqq73FeAjwMFIaX3404ceveDuqHE3NvRUeGP2mND/ixigw5nDDJr0jWur4AYsJt0iC2/jkOIujkIGCwFD7pIMsD3JsNKWDggL3uGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41620,
+          "output_tokens": 94
+        }
+      }
+    },
+    {
+      "request_fingerprint": "8ae2d0415171a409a0bd1ac19eb0205b507698946c8b91c0955bd40c13f21433",
+      "request_summary": {
+        "chars": 128647,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSmAYKEAgTGAI4AUIIdGhpbmtpbmcSDGyupOg/R1AnPWcMlhoMtoH7LmI2LGmY4JWlIjAWfIyFmNCkTSMHePCZW33Q0I6E9xPEq75I4hcvFyQjEqk5rk5aSOLOLZK0J2QraAgqtQUSt9Q5zqJtE4a/TDWZJy/od5/vhbFDp+S9+bc+9MCjVPwDnNpV4LqjJPQ6Lw+R0PujATH+2cVf7JzcCL21S66pp5fMLTQOv3jv7Ya3QZlJMLmA/SZOD+3GeqVdTGD8UsPdt116riu2yqKrc1GxNujLGGVTRT3IfkhsrJ80jGytrAPRcBmNZ7ydLdXJp8+i+Ll36CdvyMM5u6xr0ljgh53LaX3WcIZlisJ22ETUB4f2I7eCwujNrIUW0+mHZGkkXW/cgXfoVbOKDTbjZAW1+i43OCeh3oXhn+jEM+PLMb4uyT2sal99y4+vGqENn4tyrdx3WyQblh05mFARQjMNQSVs1tU/RewGt6M3UM/Z8K3lIrQiwVMd7gFsk2iEUOVf98DNDq6u5YdIHTHwno/hSjT51r7P+8IpPFB3VK/kysd2owtzBinKJu3+7TgiCwdwYdiXTrf2iMj39v5BBlD6rhyqqNKEH0w5JZBjfMPElBTl5JK1uYF3CrhgqY5LLI5i3OCMAYoMZEwTlR87Tg63zNm0eyseJgdct4noiVaO6PsQZj4FU6mWG3AbSG6gZSZFR4YmLXVmnidbLZhD1RcgdljYnZCFEpjrRIkEZOIKmknzAvpJkMsWdB+A/JNLxLeRw8usM1R7ApHq5KGYBd9WQaAHxdaqLDE15kJVcilOYRsDEPFxOOaTWknIh9N79+09y23k8SNheHDkRPSPQcOdxQRRqb2ntFFTvS1sN+QdhGuaOHMliNgU3aBTMgJz5XPZX+iCELPZ4Eg1tc8G6bcnopTAX4LRZNxidNRNA+CmOEaKNqR0UbmcHiTFl9cFzM39OtAhtsmzcBIWib588ou5irTmyya5cEbz9vbZh+o0B0nkzCteb2h9ooidjf3QErUZ7BXyHDazH9jXD0NWN5WtnuY6+aTsf80YAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41620,
+          "output_tokens": 94
+        }
+      }
+    },
+    {
+      "request_fingerprint": "30305f4599213ea1a8d3dc967820b1f9b6785bbb9c5bfb5a004cb166b420b91f",
+      "request_summary": {
+        "chars": 128647,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSswYKEAgTGAI4AUIIdGhpbmtpbmcSDD/3SMHG8+JrgI0XHRoMyrv8hAm0IwoXUBxWIjD0Ckna6kYTEeJGfzb7NsAW8sLbtn9S4EKdVgBgtJKCgew18RPgUuLphmE21JXSyaEq0AUsriB6o0O+fsVDR0Ib9NPCPlsi4ckDeP7mayzo+cygtqZoV1FQSfIa0wNflSYersv9AjMcfMsB6PDbdqUa76s53jHWA5OlO6exniDX6OQ9+ULrBhc3N0zp023WDQTEVv5YYrYyX3+3oOS4OZcEqJvrxsskeAeOLfuLWf6OFDilHXLmlaari9IYlfbYoneXNKXNycF/kbIseCJ8wSvlzeTiD8JDznyL+E4YmwB6R0heLTBwg76XbS5W5I8aO/CQ6tJIHgs/pNDhSeIGUXN4p0R3Z6SE5rcsJxx0jOof326vijDu2Kpx6kpVPB0qWN/kt/d3+5NroFEac8O15nqXIhOn/JMBpivVkJJaibtxVGpLbp0/63hgcnwPCKS/WpqQCxKmLmOeT7AuMuPqIqMIKfPSsBWJnw95CiPg/usAUY6HBA+iKr7JpYcHvDKEaq8yNKZ1qjSib+VH5zhc6N/FWGFdpHwX5EudPNQiw77BiZz7MqZBFZZSeECoM29OlvmvmGuklvwcjlpGdssBTFEb7+iBPiI1dZ4c6AVjpvwWZ73Q6DwdgOtQwWvNHFE3swz++Vfn9jvO/2NFrKK+ANgLo0dU7hiAwncq/boKjH6yClNswBXrd9VAhwm46tM66V8qSyfJ0//Sn/9oeaTU0alxhX1FcfMUxTZhPtAUrvxjYDkJYyDFAr8uOIJ1NETm3gYVWYWmysYHrjMAkcK1ROEjxr0ogTRp5/Yb7I+dQ0Amk+p31jTci4vxC+tuMwEC9vIXNAa5S6ZvX/e8kiAdzAARQA/QPxo6oIUj5A2rwe0Nt0QSU8khow8cLf+RcvYaYxsrOcVBM4Ltydju4a6KhaBzzGWg0mk81Lle9GT483Anwl81SBbRWSShzsPvSb7RfIVNIiJMmY5dG0x3pznEHkQQ2Yq1x7/7G3hD8bL9849y8lgh3Y0I8u6hc5sQYKAYP/iGaIMYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41620,
+          "output_tokens": 103
+        }
+      }
+    },
+    {
+      "request_fingerprint": "30305f4599213ea1a8d3dc967820b1f9b6785bbb9c5bfb5a004cb166b420b91f",
+      "request_summary": {
+        "chars": 128647,
+        "last_message_end": "ts last sprint to cut noise.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQStAYKEAgTGAI4AUIIdGhpbmtpbmcSDM8kAGjm2N/KaQhWfBoMML66OWq8jw2RlvNUIjBLD1ZnHigO62gmIoNbhSql1O0SAJlKdBoE8cKdMMWKGYyKnS3IzUMoD8BES9VIZQgq0QWEDeLttQpvx90ur40YyPkvE1pve3/c9rYHyJmqmNf15AsdmRThnGSldj/1vYntd7BSiZp3N0VcKv4jLmV5VnASkI7QUd49HfhrXwV10+rHkKomECogCkLhqBR3+fEe/4H/D7q293ACNWRCNQb2wpiKCEThYfuZAySaaiRuBgVu6mQzOV7fNj5l+trLXvca3pKSnbmSg0TcwurlbuYCeHdkLKPVWVC+pSK5Jqj6dalTXzpfZhTq/e2dGhebN37+ceO1+CU2j6L9G3OHPynBNfmU8y1UIw6W6/eomVu+6CWAgnVSEIwkIxw2WQtICM+1SswcRP97Axha1CEljWmuPYDPI+yhEKIcWV1roF6I/QMOhedGoLrVCv5lqQB8X4/FH6TIIskzSxYTEY1DR85cBUbuKTdZp/k26lPmvBmcjoPKZYMtI+lpQb9mJHGMFbUormzG+WZpjcdQAQmW/EsF3bDZ0wYSf0h2jVriSJsiScmnF0lguUKH/wq9Ujn6E+W+b6E0uR+MB3xQIX3eoNG8R372s0jQXzvixyotDSEnT5UPvuguFgKi9y89rS8/IfNIi95mvVp36YlVAMmq7ALvrGiJnSi8n+TChyvwRkFhpluenSb2TOVpUcm52lAl/yXXnfQiwhY8DYYgIwo6ASaClq5fs0o+CPhMlbX+LgseHYVOi/QdbAb0R+Eq+lj+OBguDsnmUJHyucfIst2ktNvf4zWNiED+eXBkhqcPhJinpcaFoP966aKZuqCXMyaCfVY8YfNaEYGePssu2JdC/UDoThZQK1cd6BOMTCOZnYd5nwxapYXmI/kWrzNEWg2DepQaJ1OTkHptceZweGly9nIHAUvDOTcGBVTXN8S96mYbZSgH9A0z3soyCp7z0aSZqvC/02h7+w6vbAqtaf+Rf351rm064UF2dJyVDPQ/c9WwWVK6DznLvrnCkIMR7cIq0bS7YwnzGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41620,
+          "output_tokens": 104
+        }
+      }
+    },
+    {
+      "request_fingerprint": "43397509c6257b2167c556e3eb4a964ab33d0ab975bcf551fb7d7df0a722a907",
+      "request_summary": {
+        "chars": 128647,
+        "last_message_end": "de for Orion Bakery is 7341.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSpgYKEAgTGAI4AUIIdGhpbmtpbmcSDH2q0bVncldOJ+hiChoMStcEAFrMU0nyxFjEIjAdo7/CNiwISddiJ2GfvNLtXkROgs49BVhittstCdVK+VbDy6HsSBpXBwnMIj/ZMzIqwwVHijBpqskSf+R2jhmqedWu9rT86CIWFNx5iJ0oVVuL6MVCbSELIzQOoKf3FXuY4oajSGYNgi5qvLqog46vbI/7m1/DMzhOxZaRAnxfjE1aTpym4eDna5YfE3WySkC4vuXHIyeaxAcKzZjP/OF8NPP7Ixb1yI8FRXS54OkoVaQq5DELej5ARuivI6nZENO4Yj8Shhj66ACreBhhxJk43ygpUuZzj0xRouQzkW1LKKTv+MKA9oVfhVxxAY4B+7Z7dzA+rI/Eg7puUL7fde4tRdKbQ7j4HUjGwJsy6k9o5EUjNaXhzWEPrJEOLc3Vk2dAHuyjXHtFn2XZMEYqVXBo+t7GNRK+YTEsIs1WLQGprhrzi5lWpXn114nN0bcUYJ2xIYiFTHHrSNJwVO0H3DpqStLMMQvkwQ7j+EGq3DogKwco/woVV2ghJzFkMDW9gt5mXY5Nt/n2o/te3S19OfNgKGBUsSpYDbqOf5aJDEKeGeVBUnWOgmp2QGJ5dYXATZUa24QnCKGwe4A2mLOnPxgK1DfbDqhRiPp58d4qXPlL9tAGPojtXEEBmedj4CcIy+82Eh5jVGN1MeLObvC+CtS88tvtrgX4KvXzqXgL9jzB2qkW6rFxEA0+NiAX2LPLRHawZR/1GdchYSfnvuP8unhDyb43Uo09JhBQi8dTd95r3uBClPHbHbsYYB7M6/50qYvOPNEP7HCYdeZiJqXAQ4G2T8qQGjHei6rM8467crRKM2YHNVNkNSPpgVQ3ffmGvUPZgchKHUPBqoqmY6xOVpNfV8MJ8KQzBuTqhujbK9ZYCiWdYZy2CZYbEZeuS4DikyT6Ml8flb0Jt7HCdg8hbxD9KSzxQiBQj1vHOCwuH3vGAJGQe5kmevTyGs/N4HGeeaeULeekjU6ixTfhDx+b1gKW/E92YImKr5rQyU7rpEGgwlIV7gtTDBgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41620,
+          "output_tokens": 100
+        }
+      }
+    },
+    {
+      "request_fingerprint": "43397509c6257b2167c556e3eb4a964ab33d0ab975bcf551fb7d7df0a722a907",
+      "request_summary": {
+        "chars": 128647,
+        "last_message_end": "de for Orion Bakery is 7341.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS2AYKEAgTGAI4AUIIdGhpbmtpbmcSDMCuzxZDk9y4ujC10hoM3u6QabMEXhQqwKhXIjC7LSw8vkwZ/N8CWV94f3N7GmVik0i9h0j42ck9FzY+2TVRO20R/AQQTRiQ85P1fLAq9QV5e5Chpx+Y3E2CgoZnjuKNSVRnfQgVKanPUuB2LWuU/0l9cvJyw50jtSKSbW4Bm8CJ7ekJuwEjNdS6gZZdJRhA1y4e9zmjWlcd3LHlBzn/nb3WJK2f0cgcqUCE/jSAJlXlSizO8aHMv8da5o9hNqhAoTP0BTP+/vArjy0alteeJd/DEfyEnt3yGh0UL22vDKVvIp1fInqUQanYDWAgDoiqEWPWhYp1LrA2oEDAIlTi0KIhVBrX9miPu2RtNXEJ00A55hWxbIvQLOzaEDIdQNkZ1vJu0LVaW9sR/JpWMZglE6D3Qwt3pr6nvcefBCDlS18wKSlatf1FBtJEhccfd8af/Q/Ebdr3c69fYYgfdRMmMacD/rQpzXHbxWIZzD1ZEPms3JEDUSvV+iPrMVGFZZqyb7kZLaghGtqdBvnuAZn3nMLMLPXPXa94W/ZXA+FxgTg0WAil6xA3Cu0kI7S5GW6jy8k+ni9Mg6VLa08FESs0tRFrBoIdSOmAS1pVRYpjPVhHxHqt0uV5/f7QKR5hPag3uGV7lCUQvXcQdt7+UnglMedGvth75TudpS1Ri6C2c53gpbIeiWOg24gbQAfCuZUUwRCuAgc1p9Y1ATl5En/r7f0VTxwQOngFNS9OtfMaIfk/xm0ePfLi0+/Hps0QiEfYJu4+pxfMuOKFSm9AFimObODcY8yNduEoXAIjTu8OqGvBREQAoBWK4br+U+Y/aPBapYVfnm0b0CUE2mCtbaQ6zVGfJWqPRyN5U/E63iPe6Yd3PLNwF5IaukWSpOF+YMQDLOOkCfnxO0fecvdsuTBzhi2dINpkSXTRAkfL9cN8e+fbz90eI2Q98TP3etUOs0bj8sPpuX7aSsIqtIWyUgm7NlzpTACVroCw001KhGvQs3sXrNDp1be9nXw65KnUV0y1RHPDiNa/F5QAr/hbRO71K/H0EU3+VYrbNkNbQc06IeyGwxDREwHDkbEfJiM+iuPa6tP9Op0t6RoIGvYkMztU8oBN7tiZGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41620,
+          "output_tokens": 113
+        }
+      }
+    },
+    {
+      "request_fingerprint": "4bd57f489047836b73c2e3758af5b7bb9cbcb3c8f2d9f61c941d3daa7f48cee2",
+      "request_summary": {
+        "chars": 513096,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166045,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "4bd57f489047836b73c2e3758af5b7bb9cbcb3c8f2d9f61c941d3daa7f48cee2",
+      "request_summary": {
+        "chars": 513096,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166045,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5832b668499eb26200d53beec6c3b79d997e0065e3589dc3e3436dafde88b9ac",
+      "request_summary": {
+        "chars": 513096,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166045,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5832b668499eb26200d53beec6c3b79d997e0065e3589dc3e3436dafde88b9ac",
+      "request_summary": {
+        "chars": 513096,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166045,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "615461709d56d713e360f734be2350027a2478bacf0fb0baeef25015becb292b",
+      "request_summary": {
+        "chars": 513096,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166045,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "615461709d56d713e360f734be2350027a2478bacf0fb0baeef25015becb292b",
+      "request_summary": {
+        "chars": 513096,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166045,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7f985191ef3960de9d22fd11e5ed8d467597d3e4f0bb9fa6bb2cdeaeece8d7ab",
+      "request_summary": {
+        "chars": 513096,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166045,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7f985191ef3960de9d22fd11e5ed8d467597d3e4f0bb9fa6bb2cdeaeece8d7ab",
+      "request_summary": {
+        "chars": 513096,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166045,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "25da487a3b8d9bc50f6fac8ed09e2ba786e7c2bc5633606f2aad655bfa6d1b7f",
+      "request_summary": {
+        "chars": 513096,
+        "last_message_end": "de for Orion Bakery is 7341.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166045,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "25da487a3b8d9bc50f6fac8ed09e2ba786e7c2bc5633606f2aad655bfa6d1b7f",
+      "request_summary": {
+        "chars": 513096,
+        "last_message_end": "de for Orion Bakery is 7341.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166045,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ddd034efeb546a82535bb0cacbc92ff0041bd6045664dfba44e6064243f57ed2",
+      "request_summary": {
+        "chars": 513302,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166123,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ddd034efeb546a82535bb0cacbc92ff0041bd6045664dfba44e6064243f57ed2",
+      "request_summary": {
+        "chars": 513302,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166123,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "be2467e6ce8d7a17a1930e8019a609dddeceb3c4b43c4e9e2c1a20741658d00f",
+      "request_summary": {
+        "chars": 513302,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSswYKEAgTGAI4AUIIdGhpbmtpbmcSDK/whHapRasM/L/4EBoM9MQJ6Kz7ODyg354mIjB5ijx0FNXQNZQsOrn8C9yQRZ3bgT7ZSY6Hza37W4jGltRU+fK2Hzo6S3DoIjQNgnwq0AWacRdMlG9KdOK/Xqjc3mpBDiRRJaiHTY3J+vSgaS53dwbzQ8wG7nVfXDDWwwmiM+QYw6NWDA/gbWBUbdy3lJ6xdu3Pzd7uevwn7gyjaR8dC8dlk/tdGAL6BhVpgWqTBhwAMQruY0U5CWM+sgOALQ4qVED2oLOlbb7dJdCuf77DsWCkGZyt9ItozNtY57B/NcIOWHalnCOnuJdjmDYKAfPcJMLccmQDUV3HiV2Gj5usg3T1U0GP3s3dVFLASEAezKH2ch9M88u54H31xM2eusBqLd6fOn257QfAiEq788D/qRncUo6G1AOD2A3FOf7dYBmyVsf6PA2mZnHM6BWjO5MJRP6FadsHpDz6h5+aP4pbMQoZHJAKu7Of+k64CLgviDRV+BQGZNqIDS/442Mor5zcLPkZAzxrRDXRphrj2hW4uesuwwlckyVa+q9uYxK2mKwP3RJKvERvIpOKFetI7VSOZSolL15SlF4T8WwJpajX4sz1QoDJ8SU2uXtviWLLFFAuopf0IP2BNr5WO0r9gDbEHEMWNS07LrGIxvIonROoGhRb8m1Z1GwoxG4Ppv1CfjA0ElWHrJiYfXSDXWO9/L+9NKz1/RfQ1+LXf1pUT54ftoseqyubm0vIcAzGvpIQLEA4yvW60uYrqi0dWQxX0gxNxBn5jAW2yhn0XPLE1QG2itxUECA8add4BWX94ZBdr28fUo0oQMkBhChN0IheyOyjt+4F4B7/8voMdFlh3jdy4eEiWRSX0yHfTTCApfTJ6+ugk/FkYLwdoTrg+A6s5yJHwz32p13WWCDP5tHkXv1kg41qb5+r84jXRkDZHc/HTP5IO3jsbxSGTgnrE+JHAN3dg+arp0Af+dO8RvLiRcZJWVFhHvB9wiBlMdfl95xuOIrYgGP0Q2e22Ko+WCnNijCvu3mH9kwDKeqsTSyqOSdOEYMpCf1Kr+/xyKlO1L6NfuoYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166123,
+          "output_tokens": 109
+        }
+      }
+    },
+    {
+      "request_fingerprint": "be2467e6ce8d7a17a1930e8019a609dddeceb3c4b43c4e9e2c1a20741658d00f",
+      "request_summary": {
+        "chars": 513302,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+wUKEAgTGAI4AUIIdGhpbmtpbmcSDKpvZydVC5bWA6BGuxoM84KjMJdDDxuZZ+zqIjDa7ogbxfLXxvG3OFEIWL9vKa1h1TkE0Ga/ks8i+0d8n5rm+3acvQAgEx2k3R5mycwqmAXQOZzIbwH6NPvLDMy7mh3FeRKrjlXIUv2BkldUMgyxECmI7vi0kWJa7smV+8XFrLOhR9qhqLk3SNBw1vsPSgvPrfZ9ZGY0oXCkUsscAxaWrxml/Lo7QRekKH6zlSrAXSBDHDPRB09E2Rn57xyGexF5pKZPDnHy0qvBjrICe8jInE8kn72gWFy9GnfBq+MwiVG/Wdw+NJwhal282/YjkhJqbD2F6tCXrIQwD6C3enPgDVjCd+G0Vh6agA0Sw78e7L+lMsod/+Ld0uPf6VZa2F5B9kdzEb743tXDFqBFbSnVS2kZoT4YsfJs20duMUZvn3CBHgM8AAu2LyiWeVMsAgoET7qDiq5CmzDkiBSLgjQwmKxXasCzVz1jx911eysomWZEWOiHQU3YH+BV6qlXiGXDOqyF5wYs1fGMpkYVf0YqlDX7SWrSy2U5PHtIExWgHtUMeuKsYgE8OQQ9HW0zZxN5TKwnkibGZtHL0/CmASibWP8xWCGUmOXNuBuc5pCN5d9Efv98RufXlnCxaKHmZ0zGAKLzwPf+sDXcY/lfp491U62JMtjE6HuK3ivjYQFWSl/Np/HC+eKcbPtfLVoTXRGc2uJARBYQvM95x7O1GQIZHd0D6vurpJ/BQ4pmF1Yln9J0H2qTzPfjVTbwHRJ2xmXPVCp7voSomAxsEb5t6LF6vSMpbkPzdRZS5aP6ccDpLiQky7P1TcoMH2zOsRItVKFZ1kg/MZZkZswivk6yo8cB6g3mk/4iLz8vjdat2GHrrr1aK/yilsT8kaRUr8xQmdg9MA4fNyPPPnVck156lv0la/ce+AljnPBJe+V80ypYbJKhcktq6o5D4av+b75cc3IeWaJN4puv/U8Ij8PpkEeqPeIzZGdqS5EAGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166123,
+          "output_tokens": 87
+        }
+      }
+    },
+    {
+      "request_fingerprint": "91b237cc63c6ecfc354849f395bed3eedfd60802abb467a8dab52fe5528ed10e",
+      "request_summary": {
+        "chars": 513302,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQStQYKEAgTGAI4AUIIdGhpbmtpbmcSDD9SiPF/KtyJnVjWixoMstsfi10iFjDoJ4dUIjAHcWAcI6VzrCJYBHsBHEGcPrd5JrStc7YDVrBD0YvZMjW+0dXCm2m9Pcs3tn0VtRIq0gVr/JXAWtA0TTj2FnUYU0HWwhTVkJTDoFNzDp8ppYIAtfewzztuZlvl0TArCEIIBACa4xk8t7Imi9FU/D688lV8+M2/6SvoHMDAhqssZY/sZY+OuyLcGoOs5xceHCfa0gsBfWiAnUHjGzwhaXZmo1PUQwo3+FysY21j+SU7OuflfcvblXjdORQJtTnI0YL+eRxZRIL26gm7beadbbW0UVdYmDFt2kft6CZA1nnjVxN7c8oxeQ/SgltzX/d29ymcOav/ZNr6vpaCTdtgOR2z9oeO+4cQY4PQ7EqxiPBlsnJFwehY9P8WSaDKT+WvTR8s9v4Pkl5iXC1w4zwLC3rMS7SSNJXBKuOb6qHgX2T58s4nDVj3YXWlmCPkzz6GzbzfiO1c7VYTebx9GLeIB0R6fgKDRZvGk0JrfggeizeJA+p7bl/RS1AaEq+LvfyQY/gag45Trnosvk7HOLv0Xti5n7okJPRnRoQB5RUQKqhkEPwaN66EnPQNNIlTOcVglVoZnJvotp+B2sg5QqrVvyVoiib8ypshjS+oZYQgz+u19IVOlSFEcQxw9OqIxWedPDcKPxg8bPw0DgO66MXuvQ3rNFEagvwiNbYASi3jTvE5+Epk8woLGHQMHrlzeKmgslDUF964bo81n9COlM3ahwAbsHZD/QXIozsz6YuSgTP/igvR5iulZeSqQoNafC1DylJcgXh8v3187V1lRf8MB44X4EGlS121kA2GiW/+8cWtr3zdrJgeQPHqm+L6tcSEjMPI6UN+Z4FRxMMvPuoov0z56rcvq1VgheyXRezZU472ZzszAOqIxXJxQwENYKJEGjKWcJ15NYEu1/gNcP/4ToqdO904oBjjuln7AfQ2QEAkY6oN8dCvftoHkreZj/mY17QdNrsJf9IEqmyPI0wqCt1upJkrbMl7j2RxeDKKjJFukUV0pO5l8cmhY7ENwzM+iV8XoZjeLxgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166123,
+          "output_tokens": 107
+        }
+      }
+    },
+    {
+      "request_fingerprint": "91b237cc63c6ecfc354849f395bed3eedfd60802abb467a8dab52fe5528ed10e",
+      "request_summary": {
+        "chars": 513302,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSmgYKEAgTGAI4AUIIdGhpbmtpbmcSDMpWLORh/+FVJ3MHvxoMomMei9tMnFFZq16CIjBCuHECcDt8HxUeo8SauJ72qiXqgFL5fSMAm8MKq7IMVAInQuhreM+pqHyvrWkN28IqtwXss18FJ6a3IwteQfefKCKwoMYwNoSx9xrfkXOo0FQLJX4L+DKGK8q7fbFoMTdHSdrdPwRQZ4Y/8TbiVdPraafIYfu7hD6br5RbGFRUI5OzLHAzfK6ySwUMUP+V15WYGs0OEDxPo5znrZDRcLSqoKuPtODEK6VPoNsSfZuT130uvGKTY95nfJAgHTj9TkmLWbXNthBbvdUkCwNiqpl3ubx52gQh0t7D5qhGM1iivltX65oiGbn6Ebpw30htNw0zwtwW8Sb5UhWNgIPWsRrAxwIQAfAsmQ84cTjqeJZSYf6dvPGEIrs9Ku4EMXdNc/GFDZuvHTHJsmgR9i372bRnplQAZAcrSyK4vhf0qzuYkZ8/zdixggmut5qoy7/N3JupQ0iqLE59ELRWNLbb4b/Hy/TCMAaRKWNjKH002UDcsxQnq7Yv7TrwJgN0K4zNoboAuSL1btFg/tmtAwQO7tOFsIKhX8ehtVzC9jNhJwtKKRs5fn8pR3PRM40m80vssijD16d+WBxFM/DH8Ec3tEwA56CzaHanR+pTrZK+j2M8MevcIz4oMDMkUxmp0OY4z0AAeJu/pAmja8vjg40kyXXEkWqdW4fAdme9jQmTtnm+sjuNkQhBATAPLakS/8IDa3OGCzzfF4S72Ab9XKnddvMSOz/pwQmwjH27s4STT5cfV0C+c0ETZ47Jlw3Acq3dIUUXp4dC7VQcl5XZPpJsmCm55iLUS7jRryWWRavWLbBL/Ll4ohvry8AzvSg5fhhsUNNQK0onZcT5i/fIKO5x3v74aHxmwgolgJRJ16BhtKpKoPsI5XqeC37i42Df+Vyu3kw0Lyh9Kc6AyeC8GKHcBtyPfOgAO6lGkTkRamE/2iGIhFa8Mw3AUQPjHK7J8UOQDwHxbt3Ud+2u707mS/4vbKlUfF3lJbjkXFkd4xgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166123,
+          "output_tokens": 100
+        }
+      }
+    },
+    {
+      "request_fingerprint": "812f773c7732556bd5f960b1ffe2dcbb8b42a581638002f053c51e2785ee8bdf",
+      "request_summary": {
+        "chars": 513302,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSwwYKEAgTGAI4AUIIdGhpbmtpbmcSDLjQpDzBSUZA15KLchoM0kzDGl0VlmbrspD6IjBaltncbixS84Mi1fEQS5iCKV1Ctp0qnrN31eqgO8IRRwKmg/LhCWDS6dDIIZTY/Agq4AW1LVlz/+dKRpTyQ5pf7KS0keBpm+AzQ78zC+qxihjWYqr0Arooj4sde3EOs5gSaBXLc+JxQeiwI9kwTUEwu+CoEN2+ZtTNtYvyxIxwArjoviXeLJjZeaSThY5+klM+1NDBr2pWPZJLV3xWcg5rPQBdsV+e0JHyLgwmlV5agbT1RINxEkuwXOCLQ/6eKmtdUSqTMt6bke9+t6v1HCFvpeZhCw6LJgO7QXvp3IMNR4R6Yi8LQsAK90fxUaCVGsZxhaaPbTIcKedmpaa0n+OeJYJuQvRzVbU0zHWIqSwSUg4hlxTq4ru7Aw8Z46JGdCi5myowFmMjg2FJPMmzv+fCP1AN6SAvMIIDq1Nrqr0g/ADzXK+0lkeGayihc1y8Zo414/HGu1QhOvYbApvujvWmdcjAY0HHx96mvAjecy1LTPUU4PmOaORqeTcg0ChP0o0G02YNXvqc7D01vaBY/8hmhDl7Srq+wjLYSmo/H1nSXoRju6pJRiIS3dLU/dx85SoTmPbCLkyV1kw+oNVKAIwpe59xqMEr1mCdMgScev+NXYLn1jzlSK8dWwUMZeVKYXT23rpqr24fDMCtLCLTLiulJ3QVSNnv/rmKBJ4adEaWAjxfsmG8nb3paybcau2Q1ydeWOneQ5951Flc0C9eOEnxs9ThYFON5NNqudvST67uwka9Az7SXjZjlH47cfF9XYJthoTxZ9UwoKkPUj6c+Q7TiZtggNH/RSkOx5d1efM1s8qOzE+p315BfumlaK3Va7/X6VAkmjCFoY6M9wWzEvttcn8LYb7Db0VuJExJ7WzEu9lo87Oa6OfBvWikfg15ku9/X20f6VbsgeZcnIVbDNB44o9fT9/YX4gX7ht8p6JkzesE8Nf8ztofkyEnNTjWJwpgaBrv1604ILKBDwqGozeLaupvbG8g0YSLeELdAXUE3t4pHFmIa9ryx4OCfWhpCS6KECQmdYc3H+98u25TPQVdMs5ZGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166123,
+          "output_tokens": 106
+        }
+      }
+    },
+    {
+      "request_fingerprint": "812f773c7732556bd5f960b1ffe2dcbb8b42a581638002f053c51e2785ee8bdf",
+      "request_summary": {
+        "chars": 513302,
+        "last_message_end": "because the old one drifted.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQStQYKEAgTGAI4AUIIdGhpbmtpbmcSDPkeyQIlKOzKB83zbRoMe2KVjgAR1pDlAM8gIjDDw1eRTPhlLj4q7N04UXJvUPHpF9jLPiMOkMPVEP+tqGPC0puiJVj5SB8J0FHIYGoq0gWLJSsiLSAtZ+I5MrPyeN6MkNHZyN8NqU8zT6dacFi7iG+j7MT33V4R/3lzq0Aa3GYXg2NT4HqZkEqdHpEVkZc8/4ujQU/AKd+mamKpBfEtraBZSBML8F7nq0pX7bbJEa9OhBIvE74JrC760fLwgANuksPIsAsLq+Ue7xuNOQHV52kPRlznoTNu/pDbssmOkQ/GqYDU8fdokiWz0ZOpuLckbK/9JyZQT45L5ZtI5daiPJc/q5z2VIvTKyy5CvPMRqxjjsHJbwaVCMdJT/dIm21IRTU8Xps/kNzDW2PJ03DUuNsmsl/VIaeP6u8KgnDB72qrT9prs75xphPtzRkm2B5Qu+epNp6RvNTM7qHrTDmarW3OHamdOq68tFRBKpO0+J/FOk7rjCHRI8JVEaMb3p10GIVKTUs/zFA61pvO83pPyY2KuDzomvRosmjx3mdDa3B2tIF/DpFWEyU2aEMsSg5nmqDj9WeA24UcozK7jqYZdeGkLEHauv2Hdph10Fz16dwkc0X8mCcr0TdDW+xAYC2cwPLmwgBjR/Cep8JjoWz9LhuxisARKpQQ06AarFdbz/R6A84wwKpl9inbYlcah+KLRqn7QzDtYwTP7vNLB8cBmXrpHUTfKLHfsP73FW76Lxmaf6bhrQ6gFNFPL6Kc8ru3I+zfwYizz4+GU7KFRb5pKyAJoo/0EUeNA0nSmp/2fgRpZgcpgK5ADnKhsWL48VqS4z6Wj5zgMEnFQYnjYew7FGc2wck9QYc9vjkj1rv/EFm/V0euV6IRz/LcaPNMeMO4Ceq71dDwP0W2YIArqxU2F1qQE/nZ3AWMQqzrWcg03dYDRwMCDWlVkPOGXKgkID6GZ/LfLdsoWINkrxei+LNU4JbdwdCTNECiuKaA+BoZFjIWpUnDcd1ZdVXOnoo1CjtRVjoH3fC4UHlV9uV720gcY+F/ibG3Vs069qYk8gD7/pdD6BgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166123,
+          "output_tokens": 105
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5917d2f18816e396b47a3be52cc77d8d6160b1611a3c7fdf633117b7f709a93b",
+      "request_summary": {
+        "chars": 513302,
+        "last_message_end": "de for Orion Bakery is 7341.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166123,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5917d2f18816e396b47a3be52cc77d8d6160b1611a3c7fdf633117b7f709a93b",
+      "request_summary": {
+        "chars": 513302,
+        "last_message_end": "de for Orion Bakery is 7341.\n</document>\n\nWhat is the refund approval code for Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166123,
+          "output_tokens": 4
+        }
+      }
+    }
+  ],
+  "recorded_with": {
+    "effort": "medium",
+    "fallbacks": true,
+    "model": "claude-opus-5-5",
+    "provider": "anthropic",
+    "sdk": "2.3.0"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "rows": [
+    {
+      "variant": "none",
+      "runs": 6,
+      "all": 0,
+      "cost": 0.1777,
+      "function added": 6,
+      "integer money": 3,
+      "test in place": 0,
+      "changelog entry": 0
+    },
+    {
+      "variant": "vague",
+      "runs": 6,
+      "all": 3,
+      "cost": 0.3678,
+      "function added": 6,
+      "integer money": 3,
+      "test in place": 3,
+      "changelog entry": 6
+    },
+    {
+      "variant": "specific",
+      "runs": 6,
+      "all": 6,
+      "cost": 0.3102,
+      "function added": 6,
+      "integer money": 6,
+      "test in place": 6,
+      "changelog entry": 6
+    }
+  ],
+  "outcomes": [
+    {
+      "task": "total_due",
+      "variant": "none",
+      "trial": 0,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": false,
+        "changelog entry": false
+      },
+      "all": false,
+      "input_tokens": 3841,
+      "output_tokens": 680,
+      "cost": 0.029
+    },
+    {
+      "task": "total_due",
+      "variant": "none",
+      "trial": 1,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": false,
+        "changelog entry": false
+      },
+      "all": false,
+      "input_tokens": 3850,
+      "output_tokens": 659,
+      "cost": 0.0286
+    },
+    {
+      "task": "total_due",
+      "variant": "none",
+      "trial": 2,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": false,
+        "changelog entry": false
+      },
+      "all": false,
+      "input_tokens": 3828,
+      "output_tokens": 646,
+      "cost": 0.0282
+    },
+    {
+      "task": "total_due",
+      "variant": "vague",
+      "trial": 0,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": true,
+        "changelog entry": true
+      },
+      "all": true,
+      "input_tokens": 5471,
+      "output_tokens": 1583,
+      "cost": 0.0535
+    },
+    {
+      "task": "total_due",
+      "variant": "vague",
+      "trial": 1,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": true,
+        "changelog entry": true
+      },
+      "all": true,
+      "input_tokens": 5742,
+      "output_tokens": 1766,
+      "cost": 0.0583
+    },
+    {
+      "task": "total_due",
+      "variant": "vague",
+      "trial": 2,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": true,
+        "changelog entry": true
+      },
+      "all": true,
+      "input_tokens": 5570,
+      "output_tokens": 1566,
+      "cost": 0.0536
+    },
+    {
+      "task": "total_due",
+      "variant": "specific",
+      "trial": 0,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": true,
+        "changelog entry": true
+      },
+      "all": true,
+      "input_tokens": 5707,
+      "output_tokens": 1402,
+      "cost": 0.0509
+    },
+    {
+      "task": "total_due",
+      "variant": "specific",
+      "trial": 1,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": true,
+        "changelog entry": true
+      },
+      "all": true,
+      "input_tokens": 5776,
+      "output_tokens": 1488,
+      "cost": 0.0529
+    },
+    {
+      "task": "total_due",
+      "variant": "specific",
+      "trial": 2,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": true,
+        "changelog entry": true
+      },
+      "all": true,
+      "input_tokens": 5705,
+      "output_tokens": 1371,
+      "cost": 0.0502
+    },
+    {
+      "task": "average_line_price",
+      "variant": "none",
+      "trial": 0,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": false,
+        "test in place": false,
+        "changelog entry": false
+      },
+      "all": false,
+      "input_tokens": 3839,
+      "output_tokens": 807,
+      "cost": 0.0315
+    },
+    {
+      "task": "average_line_price",
+      "variant": "none",
+      "trial": 1,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": false,
+        "test in place": false,
+        "changelog entry": false
+      },
+      "all": false,
+      "input_tokens": 3824,
+      "output_tokens": 780,
+      "cost": 0.0309
+    },
+    {
+      "task": "average_line_price",
+      "variant": "none",
+      "trial": 2,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": false,
+        "test in place": false,
+        "changelog entry": false
+      },
+      "all": false,
+      "input_tokens": 3768,
+      "output_tokens": 722,
+      "cost": 0.0295
+    },
+    {
+      "task": "average_line_price",
+      "variant": "vague",
+      "trial": 0,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": false,
+        "test in place": false,
+        "changelog entry": true
+      },
+      "all": false,
+      "input_tokens": 5983,
+      "output_tokens": 2188,
+      "cost": 0.0677
+    },
+    {
+      "task": "average_line_price",
+      "variant": "vague",
+      "trial": 1,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": false,
+        "test in place": false,
+        "changelog entry": true
+      },
+      "all": false,
+      "input_tokens": 5915,
+      "output_tokens": 2040,
+      "cost": 0.0645
+    },
+    {
+      "task": "average_line_price",
+      "variant": "vague",
+      "trial": 2,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": false,
+        "test in place": false,
+        "changelog entry": true
+      },
+      "all": false,
+      "input_tokens": 6150,
+      "output_tokens": 2281,
+      "cost": 0.0702
+    },
+    {
+      "task": "average_line_price",
+      "variant": "specific",
+      "trial": 0,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": true,
+        "changelog entry": true
+      },
+      "all": true,
+      "input_tokens": 5974,
+      "output_tokens": 1376,
+      "cost": 0.0514
+    },
+    {
+      "task": "average_line_price",
+      "variant": "specific",
+      "trial": 1,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": true,
+        "changelog entry": true
+      },
+      "all": true,
+      "input_tokens": 5973,
+      "output_tokens": 1412,
+      "cost": 0.0521
+    },
+    {
+      "task": "average_line_price",
+      "variant": "specific",
+      "trial": 2,
+      "ok": true,
+      "steps": 4,
+      "rules": {
+        "function added": true,
+        "integer money": true,
+        "test in place": true,
+        "changelog entry": true
+      },
+      "all": true,
+      "input_tokens": 6001,
+      "output_tokens": 1435,
+      "cost": 0.0527
+    }
+  ]
+}

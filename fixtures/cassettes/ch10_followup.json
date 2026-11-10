@@ -1,0 +1,1173 @@
+{
+  "format": 1,
+  "interactions": [
+    {
+      "request_fingerprint": "172a3d0e37ae6a5c9b04cc074ac2cc80f805e37dd6bb8c1e35005e9c185513c4",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. We were charged twice for October. Please refund the extra charge.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01YYSyJj471twqrScqNDSWnN",
+              "input": {
+                "name": "Orion Bakery"
+              },
+              "name": "find_customers",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1366,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1c82291fd380689e71bbe6489c24d6db6906cef006db6d706e58e507970378a3",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01DYbUBWk1ZUGWCwYoYFD8wc",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1454,
+          "output_tokens": 80
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3c1c2863bf2977593afdfb0a823e40d7bda0d515bb694fb829f972890dd091e5",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Two identical invoices on the same date; refund the second one.",
+              "type": "text"
+            },
+            {
+              "id": "toolu_01CHDpnh5gcu9iBy7KkA5CN7",
+              "input": {
+                "amount_cents": 9200,
+                "invoice_id": "INV-2207"
+              },
+              "name": "refund_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1830,
+          "output_tokens": 103
+        }
+      }
+    },
+    {
+      "request_fingerprint": "377942ec9f0a62c481917ea52264be2f991b8d1a26bbd4cbe746c2206d60da3e",
+      "request_summary": {
+        "chars": 173,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS5wUKEAgTGAI4AUIIdGhpbmtpbmcSDBn80iDApPuYQi2ewhoMeHcp4NwXxvOga3CDIjCWIBOA2ydSv5IaKpPirnLUvB2U1LWD34iT3a0sVFAbPD2aQ6xxVEkvKD2NQUk2oIAqhAW3wJoMgqwIgzL3nouzhax7G3knat1Lo1qvm2lLom/xWV9wrEpVXwCRKXpiyFRJcHM/+hcPiX9pHTEQI5LCCNW+6/3qv6rvYl7iGwocX/vGRvEfvV2BDyTvZXZIvLeNNfrSb4PmhZ6PKgYOOeuQb8HvrZAoDxSI3PBJ3QrlwUUuuWEySbbJ+FdZ/vKw45RMVMqZc4SzzvmjTulHyltSDgHgWhxhv0c7s/TYks+DywTjSbK4i3HVJJOyBmvlkHAjLRlYR84UhwhRZR0l/vsKG28d7NDdzlBFxOmoHqbsGob1ci+oBB+kP64UamgZWYdiwMkdoJBO0tuj0UAKk7bqN3a7bl0LFx8/9ZC4aXIMdc/GXIDCnIMHnJi0ZMDQTy6/vj0QM1oJ00E2zZxrg56HTlJlnvVgCRIgX6OXEOHoD/KSsBAMsZFBKTQ/4JHMsYRoJvYEr8Lv3FUR8vPsh+2sk6sJWDbOHoLfo6mjhQRfiTH82hay3PGzcuOZrLR7bQSru/V+W0Vv0Njfvp1pg6bi8mcKXrGxZckQG3IDVuJG5XpNZuYDzRqHH+Wou+AeYZKDZIBQEHX9lnFWCz+tcyXTgmO9zzwodCQFZnOjNfEG2UCmCwKqWQNPF8bBSsibTUEyN3+amyFWSm1WdKjpxgiigqR0uL9vd9ST/vvgpcOuwIJR+TQ3KhHKqfxuOfKFaWzReC/OVdGZAM/NHn0ldvgyd+sPqqMfXu8I1zHtP3fqJbKBxlbXk3YOqfG/aU5XEmHWzjJPGwoOTxHZyVQtYeURbc8B1LkgxVQ1s0N9ck4YZ18tI4zlDGTdC717W555qNSn7p5e1mAxePE6k5xdpdkVLRxoi7WR2xgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01DZ2thKSNCpbxebqR5V27gn",
+              "input": {
+                "message": "We found the duplicate October charge (invoice INV-2207, $92.00, identical to INV-2201), but we couldn't refund it because there's an open bank dispute on your October charges, which locks refunds. The bank dispute should settle the duplicate charge, or once it's closed, you can contact us again and we'll refund the extra charge.",
+                "receipts": [],
+                "status": "not_done"
+              },
+              "name": "report_done",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1984,
+          "output_tokens": 241
+        }
+      }
+    },
+    {
+      "request_fingerprint": "eba51339871c1ac5eac8cb17cb0dbf701e3020fc02845b771134c22c7e932cac",
+      "request_summary": {
+        "chars": 173,
+        "last_message_end": "",
+        "messages": 9
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01Nm3ZEesPfHbeRhvTUR513s",
+              "input": {
+                "message": "We found the duplicate October charge: invoice INV-2207 for $92.00 is identical to INV-2201. We couldn't refund it because there's an open bank dispute on your October charges, and that blocks any refund on them.",
+                "receipts": [],
+                "status": "not_done"
+              },
+              "name": "report_done",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2274,
+          "output_tokens": 164
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5645a3ba9c43df9268068b99fcd24f7312fe35f86dcfa060b9716a3e3beea0ea",
+      "request_summary": {
+        "chars": 173,
+        "last_message_end": "",
+        "messages": 11
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't refund the extra October charge, so the case is closed as not done and no refund was issued.\n\nOrion Bakery does have a duplicate charge for October. Invoices INV-2201 and INV-2207 are both dated October 1, both for $92.00, and list the same items: 3 team seats and 2 extra storage add-ons. When I tried to refund INV-2207, the system blocked it. There's an open bank dispute on the customer's October charges, and that stops any refund on them.\n\nMy first reply said they could come back after the dispute closes and we'd refund then. The system rejected it because nothing guarantees a later refund. The reply they received only says what we found and that the bank dispute is blocking the refund.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2454,
+          "output_tokens": 228
+        }
+      }
+    },
+    {
+      "request_fingerprint": "172a3d0e37ae6a5c9b04cc074ac2cc80f805e37dd6bb8c1e35005e9c185513c4",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. We were charged twice for October. Please refund the extra charge.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01VojkTcXNZF45DD2BsM8U2D",
+              "input": {
+                "name": "Orion Bakery"
+              },
+              "name": "find_customers",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1366,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "dd2cd87e6ec77154e9a6ed5071a27999fb0d0b77f8315007f6c7dd16b478c0c5",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSgQYKEAgTGAI4AUIIdGhpbmtpbmcSDG/brvjK2/qGvdczsBoMX0zoW6FIt4XfdpEHIjBL37xkhb8q00WLjgn1q3vPtY5r1cKuib6/CdAKBuxmYZmR9RAIwReDNcrx+ILjTAAqngVXV5BAOaCR5LKqX0pl6+sk1eumwlsImxwj1JJ61Xa82c+yE85YzlLZ25zSMblZNVPN+HioYUnoi2pzEyjzj5T5F1IETe1BuJNdzswwnJ40l/olrumZ2YsYANocMlVv7x7gUgsEcPqdqMT1YEMdmZHOwjuPccLrnau+5Zu0GLGMM9iGwxA1DCfRytbo5bTqmth48Afyrj2FhSkrLNagy0R6BD6HoZclT+XE7RjUvjkaOfMTUBpQAS+yEVG/74Z55MdlNnSEjlAwVFgQhDn5obIaIh7D8RQ4kG5VQl0otb1ITp2HvQaf+/St664y+ohzdHRkVGve3SzELkV4QuwLmRvW65YRnfPpmSr6fWHl26ACsZ6HBNOMdTB2DKqEDmEPEjCni5mFqAcd4muiI28JII5x4fVTKafWsKsq88ok1EIsWQqL7rJqjvjBPW2ln72RCCSnPHg05Z61D9hBE8XJRb0fzyMQvRTiOXAjll3yd1NKhIYrKKK52ah8aIZaZxCcwQ0ytq5z/sDscpFYDORQnWHkNm2HvKk4dcAfRl7mDGo2W/elO1tV1UzMZtaaqBDvzLkz/E1crBupNb33XzvVnokMFLZwpwXoAjg88XvwQf/2W3Psjov1aRFuYBeigZRSyXn7yQWVFMXm/+EBv5JUx41uJSRHH5gLKqngvLt//J3Au9EQMoDj4I1HodXJ86ddmaM2ueGcAiNz85NfuUB1LrCGQyxAYcWihN0nVqhJEdfEF8lpuqrAUD54ywSU55wf5lN4XLjeaYdUkgO35HblbAqC7zW2tiOEx40fKbf4PneIwcCmSe8nm+WQ4Pg9QTxnO2x1BZLn9nAu4Vkp8W71vPofC3HIkd/KcumyL4gWoNwj4oTPBlykTlge1FxhzC35GAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_011xMjGmr2cE6GgoMbtuPAvX",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1454,
+          "output_tokens": 138
+        }
+      }
+    },
+    {
+      "request_fingerprint": "023a2082cb5d0a838eb56d32409765c5900dd2c287a0b6fd3a79f88c017cddc7",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Two identical invoices on the same date; INV-2207 is the duplicate. Refunding it in full.",
+              "type": "text"
+            },
+            {
+              "id": "toolu_01CmqGXXs2o8Fqp1YoRpPMgK",
+              "input": {
+                "amount_cents": 9200,
+                "invoice_id": "INV-2207"
+              },
+              "name": "refund_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1888,
+          "output_tokens": 118
+        }
+      }
+    },
+    {
+      "request_fingerprint": "fd84f442e91a9f80b65c5f1b9890a6dc7726f6783353a5f32ca3f1b5a2a540e6",
+      "request_summary": {
+        "chars": 199,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSxgYKEAgTGAI4AUIIdGhpbmtpbmcSDDvZmRbkDJ7w3ceLaxoMwOLtW67YpjRcwiwbIjDSeZNwkBrb/jFsv1isHfKEfCZqg7l7IwLO3IKRSM/7blkr7OeN3YjPNICDd1sOJKMq4wWLhxQZj8zedBBVnSxQGJVD2tiIHwQITesEPPTCXhcuYBQg2VJlp/98MsXcqXb6lq6pEJh7zc4Tc+A9MfKZpNKcmcQVYmM7Y9TthnHEA2/yR0gwl62vKFr0Gref/a1DtOjbSbP3IvXtNw0xBdMevJQEkXtutTIhaT35k0/ZKxcBqCB0I7WHQ2XZKJCgBtoPN4p+IYv+6+tvX2RXPUoQLLZdwc+EfqtNiCmMEJXiBmBIx5lqsGM2fpCsbPcsv1Or5eCIQjD/sPuZ2t96sQngQ6mckSFqL6I/WrHp3dGvyV9GSL7/vW95xFGr9hMClTtFLSAtgtboti4D5zxzoDxe+Prn2TSrOmysnE7HRvV9rCsdN+ZfxBYPzZ2AYPeEK/z0IYgmPh1jOYM08TdqVEy1pcd+7n1WB3FfmMEElSkmEVLkoTPwHujcWuhrMlRXcpGtK9g6Zo99V1cwpP4dm7rRp2UZ21Iq47GkxavzwnuRCjixPOS+8WXTAwtyVyEvPEmAoAesp/djfnPNCohAQqSdjl+lqCCZukfYhtdZUIJUoRQwmGU+rDSOrvfEt0YleMsIRF3zm3U4gV8NXNVses7I6TVC5InRgnPtT8ZBlvsYcShAO+O7Q/kw0KyfN/R3Lqc4Ez6jKQqqbOGqfbCbLjaPd0mjEQydRoN7PjKzTqu6AnAB5CBLfRcC4WJMZ0Z9uAsgrsjT+znacHXSRQkvp04Jb1HT0I+P5tx6/LeYts4L37t0YFG2dsNBFlx44d7hl8splj4eUyb73UT+ug/EHiHqMk16UM/i3blBAp0S4ZW05vf7TKXDvE6rEYsNcBv0OWvdDkVqR7ZztfOooXBoQk3vLN3h/ijkbk2EliBuFRM4MvdJ9mRYjnZw9mK4pchFu2CN2NxRooLAeRWORSe+d4coun+ooT9Cv4He4esqHhF9JlMsHLBUHGcnN5b/m8qlP00Q5kvdJ2+2jfHa6uzvYvWGtzzdVVZHGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01Q7Cb826t3dCvZ2b8HdMLtC",
+              "input": {
+                "message": "We confirmed that you were charged twice for October: invoices INV-2201 and INV-2207 are identical charges of $92.00 each, but we couldn't refund the duplicate because there's an open bank dispute on your October charges. When that dispute is resolved, or if you withdraw it with your bank, please contact us and we'll refund the extra $92.00.",
+                "receipts": [],
+                "status": "not_done"
+              },
+              "name": "report_done",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2057,
+          "output_tokens": 257
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1ab87d9f0818cb48ace2e5df3e97fc64ec57ab890664e1973d96981c3015fc41",
+      "request_summary": {
+        "chars": 199,
+        "last_message_end": "",
+        "messages": 9
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01Lux8ceVg9QF2tbaRxuFrnA",
+              "input": {
+                "message": "We confirmed that you were charged twice for October: invoices INV-2201 and INV-2207 are identical charges of $92.00 each. We couldn't refund the duplicate because there's an open bank dispute on your October charges, which locks those invoices against refunds.",
+                "receipts": [],
+                "status": "not_done"
+              },
+              "name": "report_done",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2363,
+          "output_tokens": 177
+        }
+      }
+    },
+    {
+      "request_fingerprint": "324d88d3feec1a5e8621d7f52b0ffaae1b09e5e4b504cf5bbe99336970dfd3ea",
+      "request_summary": {
+        "chars": 199,
+        "last_message_end": "",
+        "messages": 11
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't refund the extra October charge, so the case is closed as not done. You were charged twice: invoices INV-2201 and INV-2207 are identical $92.00 charges dated October 1, 2026. When I tried to refund INV-2207, the system blocked it because there's an open bank dispute on your October charges. That dispute locks those invoices, so no refund was issued.\n\nHere's the reply that went to you:\n\n> \"We confirmed that you were charged twice for October: invoices INV-2201 and INV-2207 are identical charges of $92.00 each. We couldn't refund the duplicate because there's an open bank dispute on your October charges, which locks those invoices against refunds.\"\n\nMy first draft of that reply said we would refund the $92.00 once the dispute was settled. The system rejected it because nothing guarantees a later refund, so the final reply only says what's blocked.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2556,
+          "output_tokens": 283
+        }
+      }
+    },
+    {
+      "request_fingerprint": "172a3d0e37ae6a5c9b04cc074ac2cc80f805e37dd6bb8c1e35005e9c185513c4",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. We were charged twice for October. Please refund the extra charge.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_013D2d2BeN43aBe5SwJ4v5Xa",
+              "input": {
+                "name": "Orion Bakery"
+              },
+              "name": "find_customers",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1366,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b374271e6440d55738282d3875ef0efc0eceae2c379ab7559a8bd24672566fc5",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS4QYKEAgTGAI4AUIIdGhpbmtpbmcSDGf2k4l60gg/RK/02xoMfmm0jOa6wot2YcFlIjCvfBhcFBH5ShIG7E9uOyTqmEVw4JMveEaKtfL9iArOIw3ZA1wpsjwCBIjZSou+V/cq/gUTP8EBGQbpDPwWAiaetRg1eUgMCZYz+2WvWVLeNPu3yWgl4NLx51fD6k0qjW+G+KrXMpSZVPI554z7dHASvmYBr4rECp9GpCFjYzpf8lx583Odd/M8NudCFBdTg9s/C+MvuMeO6SZzXzIzVSjPkYfGApxNNCaV5QVMU+6ZU3i/dysYbKocBLg3MWb8P+RTHEis3Ec1rAenJsXY/i9B9MCLk9PYG3p3bWlJxuHdr6ZBdZe/2XavNxmHjwpqmaUPRa0Vl9dmcP7lIIcTHMi1HJklpxLfN0x6lwZA587397KLKJntOMq/IQVADAdnU8MMaA7McTgELV99o+Nte1CqjiBt+aNvYlmxbMkDSe4ydiXE3rf5kKpUUNHKwQSvo6WE6cB2vWa3k3y0OL1mWQEF8zqR9WThWAhzN5Q9wQax4+slFbguGOYOML1cu8FPAlMt2l5hVrRcDpfR96NlO8qlIBkcA2yfoGqVnV5pntgJlSgKp6PiiGpccEvy6ZW43qXhZETPArfEDONwNxpnAarHHxGmlicd1UCr6bwi5eShloNquy+E34j7KTo0WVeetnNa16fBHnvRsy6k+riX5YI2bxrUiBrN6TkOpyRX4MGUCUJHVFQ/tFI2IRDo0YtbQro3Bi8H9DBAZC317PDsimMJjbYNNfynSu4IXe5dtXyE/ZChKXD1TmZgqQikf6JQ9rf7diSb1jdEw7K6ArsyiGYN7Ds+43YHFKYwBLW5aZ1y+ms/sy/chW9SbkDmqiH+7OSmPnmOHeh2QgP0962mzyk53fMqCXS+P9oeGsO7vTSQ1WBcITa4IO8HWQ6n9AeOmYl5vuGken70KLGVdOTvPbCStHSl4SDHDElZ4mNBfmuVrDb2cdMY0Q1ZmGT4gGYmX4qK4OLJItd3OP6EJtCE91lIogEweCmVLU2qVW1gjtXA1Segiy1w+58xNAc7zI1OZE8jaoc3acvOd+M3ZUF6/PVG1GWmtAbBCyoCpaqSe54CmzBjosq9NNsV7tOit/GcNEJMGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01FXUo84yVAC2HFmJRQPMyyZ",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01XmWRYkgxt55RiPAy8upyMa",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1454,
+          "output_tokens": 258
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3cb7e4bfb362764495f65632a9ab0bff779912f11d1066775fe40430ed8a0385",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Two identical invoices for October 2026; refunding the duplicate (INV-2207).",
+              "type": "text"
+            },
+            {
+              "id": "toolu_01JpLBoEPiLEo56GRv3wEU3R",
+              "input": {
+                "amount_cents": 9200,
+                "invoice_id": "INV-2207"
+              },
+              "name": "refund_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2065,
+          "output_tokens": 113
+        }
+      }
+    },
+    {
+      "request_fingerprint": "063432a92900acfbc2e90a355d527945745aaf6c21d1e84a8f2ce9bfa549846e",
+      "request_summary": {
+        "chars": 186,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSmgYKEAgTGAI4AUIIdGhpbmtpbmcSDEa7sbLWF1o19ENBchoMgCSvaBMvheY+ISP4IjBtPsvZ211dvxcPmQ5WQkx++1MkSiHcYj5yKheqqg6nVNe2TVrO49VXiEnubChEjpoqtwU8XoDi9Hpn0lBZoHv8XlmhTqhdqNMm9Cy2wwaNnL3nDfXZ/HXe8LVZ6Bn7yBuSneZFPnngEPDVtwrplA6SSti79jjQm9xy9rCRvhDfTedJqWQ8aOZgosCZdkwOk5MBKY/v7uMUAYw1wg0jerxGo7MaoqM9Dezg1We4GW8YT+wmcp4K36W4GLc6CQt6+/2bm+o/huXOQOrTX3jeJJG9r7iUPL/N6lldC9wtJrCRaQpaV7ews7zg2iK82RaxJS1F0j56QVS181EwDfpDOwo3fuo55Ugwo8dBFt87fZbOeDmgcMZmZVsOXiMj9uFO+EZlEvPTeDDi5PTGPAM3588HEvXb87DwEsFXCzq9FxUZ9VAXTLrcR8Krt1WIgFn0Vx/hIs97KCMHcnBsiSvJFuwJHSHuF01Q3rwQdjUtP+GeCzOtqqSv3CPkTmfSvJd/FNKzvDWkE5XwV8r7LT8yYCtdzeoEPaHkWCunIkN3srCr6Da/P2iKzWldYFxS/+0entUiAldSUwZPDQPZpGnWXO2aTzibJ6KW2Bzem+Pg703FyQJRGQKt1zCizjS8jDFBwj3S4peTUtHMInKvec9w8KL9bi6pfnA6fvshM03g6/hzq5nuPtj953BjmEhVN44futNDg1/qYvkmbkI4TDdY3jsFBFzmKyqcKC4UUp2MvY5IhWhXDCqo/pFT6gYR0+gEwm8jFPndsL9dbLC3oEidqfI3NzmhyBIJO4iqc7VdzUGMqViqDmuXRUUvOTtU8PM1UzX1AYB2I4ohJsASKw7GfmuYOrv8lEGGPgBolahXHD2PjyM2MmxzDqatO90WjNs9cGz/Ir8q0Eelo+v/wNQI0BcWRYMuJkAp0ThGeuGDM9mzD2nKGGEWGEkeBMPQ27rSahtVS8tcKv+j0QbOeD2m2cEd/eGhpa9PI2ARehgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01WvYPFrdfRQKZC1JENq7VFc",
+              "input": {
+                "message": "We confirmed you were charged twice for October 2026: invoices INV-2201 and INV-2207 are both for $92.00, but our system blocked the refund on INV-2207 because there's an open bank dispute on your October charges. We can't send a refund while that dispute is open, so please let us know once your bank closes it and we'll refund the extra $92.00 then (or the dispute itself may get the money back to you).",
+                "receipts": [],
+                "status": "not_done"
+              },
+              "name": "report_done",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2229,
+          "output_tokens": 255
+        }
+      }
+    },
+    {
+      "request_fingerprint": "6b66c9192bc49a9e918765fdc863efe6562213a4b04c7f31904da959d762f79e",
+      "request_summary": {
+        "chars": 186,
+        "last_message_end": "",
+        "messages": 9
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_019WWbWAR5nfZBUqvao15vsY",
+              "input": {
+                "message": "We confirmed you were charged twice for October 2026: invoices INV-2201 and INV-2207 are both for $92.00. We couldn't refund the extra charge because there's an open bank dispute on your October charges, and our system blocks refunds while a dispute is open.",
+                "receipts": [],
+                "status": "not_done"
+              },
+              "name": "report_done",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2533,
+          "output_tokens": 179
+        }
+      }
+    },
+    {
+      "request_fingerprint": "6afc01187071dbeee6da731d05820a69ab397489ff3d0a3eca2ad5fcc5395e89",
+      "request_summary": {
+        "chars": 186,
+        "last_message_end": "",
+        "messages": 11
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't refund the extra October charge, so the case is closed as not done and no money has been returned.\n\n- **The double charge is real:** your account (Orion Bakery) has two matching invoices dated October 1, 2026. INV-2201 and INV-2207 are each $92.00, for 3 team seats and 2 × 50 GB extra storage.\n- **Why the refund failed:** when I tried to refund INV-2207, the system blocked it. There's an open bank dispute on your October charges, and refunds can't be issued while it's open. I didn't try the other invoice because the dispute covers both.\n\nMy first reply said we'd refund the $92.00 once the bank closed the dispute. That was rejected because no policy promises a later refund, so I removed it.\n\nThe reply you received says we confirmed the two $92.00 charges (INV-2201 and INV-2207). It also says we couldn't refund the extra one because an open bank dispute on your October charges blocks refunds.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2728,
+          "output_tokens": 313
+        }
+      }
+    },
+    {
+      "request_fingerprint": "172a3d0e37ae6a5c9b04cc074ac2cc80f805e37dd6bb8c1e35005e9c185513c4",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. We were charged twice for October. Please refund the extra charge.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_016LucEHJSuq6QseRWdA2u2m",
+              "input": {
+                "name": "Orion Bakery"
+              },
+              "name": "find_customers",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1366,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "d48c03ff0027c671aa8da4790ce3c774ac24b8cf7cce66563fa27da7aaa4c87d",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSoQYKEAgTGAI4AUIIdGhpbmtpbmcSDDJpMy+M+9GhMp05GBoMVzIei4jtUBhRCJL2IjDyFFt1AvslIDNEOg36/HEZcWBX0kr74dZzparW84M/XCocg0V7bAcpqOfdb4uKf38qvgVghpCrkXytdGlLFi3IENfTOZSCgrqXbry8gaTpjcRZ9DuJ4SPn70caZYAIR/aa67hJXMi44ISdgpD/PNVaTWFv3du8zDOZ3vCaLbZoqAvqxwljSCNlC6df6QY7MqoGgNF5uWiIIqyRERxjV94jctdSQkGnY/qrq7dLyxUcjYze2Yc2oosvR3fN1dg2oNevvDRbq99d0SwXhQ01+6JQSWI87B8n8pG2O5jQtpbA0d25dHGK+epvN5ne7iDjXBO1g//KUkfrGZ+JamaHPVPlDAitBulVwurh8OHDzMGPR0uwJbmoZGSmod5+t3U3Jd6hu3dgdQhbborV13fnPlXWHmkN1vbEVskku1W39863qEu3wdGNUocIsfThjGia6SfaQTnSFBXNT4e9o9Jy9k6NZIOwyJNTbFdl7zwU7JAZLeDmphUqsmAND6AKm61l7FM9FJUXHFAekRDe6ljbJNx/T3S4XXyKJ+uSBWb6ybyyWbIniNhTPePLChrPZ7Z9sQ+3VKGwAnXt4L/CcMHqrNURVwY3V5cADEBl+WarlZ1lDAjYnxyPH0d4oSxut8SLT4Ql9Vp+9bZwJzAWd0+MWkac9wWDAyKbJ+tVGhnzVKXvwiAkcjQeuNXBjrlLgvqtabRk/rJv5knqfCCgu1ezyY/9cAiYQE0D9rdoFVeYZcpByxfSvHw0pUyXuEdSMmXb22c/wiiZ8PPWiFoLitmCG1/+rPf8TealCX94KCr9FXjkNTJIHP2oVqBcPW47A5uIJPleE0LiDfL/o0Ynay265SVUrldFZ+SMjLVnNkYTzoTxnRXDqmlqZfSqMRLnu1zu8tQ8ae6p8sspeAINFAYxc6iZ5u64ASkTn4HvI+SqCLtJ3b+Vt0J+1l2UAFfbFf1oXolbG3bjr94o8d+SxXknK3wLDX+8JnCAQFnhB6qgjipe2AAYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01EwDoeNfmJ3aSE9SYfMStwi",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1454,
+          "output_tokens": 148
+        }
+      }
+    },
+    {
+      "request_fingerprint": "29e0486e6d7294991041f8e2cc381bef68256a2341d1af6d2e7ae2e1e707840a",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Two identical invoices dated 2026-10-01 ($92.00 each). I'll refund the duplicate, INV-2207.",
+              "type": "text"
+            },
+            {
+              "id": "toolu_01Hgz6ntQGjdbKfsyD9nrDTV",
+              "input": {
+                "amount_cents": 9200,
+                "invoice_id": "INV-2207"
+              },
+              "name": "refund_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1898,
+          "output_tokens": 127
+        }
+      }
+    },
+    {
+      "request_fingerprint": "67c818df1a27a3cfb3a79d09b26b9cd3854ca3e1b733b30dfb5cb332a594a61e",
+      "request_summary": {
+        "chars": 201,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSqQYKEAgTGAI4AUIIdGhpbmtpbmcSDElkB2nWgx72A7fBxxoMmBfRinrojRune+AGIjA5H4DPEla8fjh/q0ub1kE187d0KT1tQ5v8dv1zy+kg5/xQ4TaIQ/e19sI7N76whhEqxgWkBUNB0wPq0Et2iSzyNo2sau2kAkE8iFIcdNRuHqO+bMgf5CSVTTCiNDsZnIdD/jxkkoyL8SPhSRcrzcG99MHhK7HPw/5Aib+gClx4nYKu+4YkidiXR6VYfBzWyL/xmOSTovlbscFJEgQjY6AnnDMe4n93QSSgqZgDc2WuHwH06ku6agpNfFmdYgfiDCUu/W+ZekS7c2vI+JU9uNDvcEoqHZyyDuEgb3dLd7LZhMzOswmOTwnS6EsZkIjlFJaP4rkZAUHWBaA8uHsKBcKGxcz1G6YBdXjMszTwJxS3zLRCTUM0LXIdM9DGgjR56JE3IIXVj29TKdK2v9YSobL5Jf0/uouCPbF0ZuOlo+8xr2TsbO72/Tgv0+hCpnvoAvZ7yQhIIMFg9VnmFe5xp9CthrK4DIt1yKs/2ZbvTCcnTqL/0Tnl2dPRIbCDA5EBFdyRJpkAmQzxIghv/BQBLsgufTmqkSonRdSoygVgsEwhoUx6g+lMYKTZckEs0LUBeej+dlCG1BcEtNGVWKVdVx5LLlVZCi5jOjhy3/QQ6qjkivmsfdH2hnr+6OisMWnIxI+p4apeuG3BaT9G/4LcLxNH8icp4edc1NUzyCM6+vYjUR7sDnDMhS2LFGBv4dhxh/i1YNv5CqRWbMcnr1gGJxuZWU5UXANjnndSP6tIrTI0Hwwd+GSaqC7MqUxRR7AE7qPNHqDOhkcCOLytaIbsDQ+t3kwK5Lt7KwWBCHt3NfcyBGvKWVybXcFpGWbS0kzsWcy5SfeRVG2V0uowr136xj3E7cGOebFVBoi/+lG7MtYiWHiOBEo+ATdgff0GFGph0Vkigh/UjeIfi1v5DRXwXHCfmaSPIvj54y/1dW0xL/j3/dTYFoq6C9djs1obsTILXD3baxDyiy+MuVg9fymqny5CZjlA+0seoX5WcXLRU6ZpGUCk8l/EGxIQ5BgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01G8Gd9vJ9aU5k41oHwnckRZ",
+              "input": {
+                "message": "We confirmed you were charged twice for October 2026: invoices INV-2201 and INV-2207 are identical charges of $92.00 each. We couldn't refund the duplicate because there's an open bank dispute on your October charges, which blocks refunds until it's resolved, so the extra charge will be settled through that dispute or refunded by us if you close it with your bank.",
+                "receipts": [],
+                "status": "not_done"
+              },
+              "name": "report_done",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2076,
+          "output_tokens": 254
+        }
+      }
+    },
+    {
+      "request_fingerprint": "77f5bce77e3fcd7b89d5e372d34c1fe01412e2b62287c00b149d60b27f6d616b",
+      "request_summary": {
+        "chars": 201,
+        "last_message_end": "",
+        "messages": 9
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't refund the extra October charge. Your account was charged twice, but our system won't issue a refund while a bank dispute is open on your October charges.\n\n- **Duplicate charge:** Two identical invoices are dated October 1, 2026, for $92.00 each: INV-2201 and INV-2207. Each covers 3 team seats and 2 extra storage add-ons (50 GB each).\n- **Refund attempt:** I tried to refund $92.00 on INV-2207, but the system rejected it because of the open bank dispute. I didn't refund INV-2201 instead, since the same lock covers all your October charges.\n- **What happens next:** The bank dispute may return the extra $92.00 to you. If you'd rather we refund it, close the dispute with your bank and contact us again.\n\nI've marked the case as not done, and no refund was issued.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2346,
+          "output_tokens": 277
+        }
+      }
+    },
+    {
+      "request_fingerprint": "172a3d0e37ae6a5c9b04cc074ac2cc80f805e37dd6bb8c1e35005e9c185513c4",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. We were charged twice for October. Please refund the extra charge.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01X6N876NhUjkD9t7gpXeYMh",
+              "input": {
+                "name": "Orion Bakery"
+              },
+              "name": "find_customers",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1366,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "4ed8763424e528ebd2831a647587769948214acf3af0be840ea2aa74f3ac583c",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Only one exact match. Need year for October; try 2025 and 2026? Let me check 2025-10 first... The example mentions 2026-10. I'll check both.",
+              "type": "text"
+            },
+            {
+              "id": "toolu_01W6Ux3DKWi2kzCxz7MV1qmH",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01P3qB4xZ7f2xSpSpjxFpHQC",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1454,
+          "output_tokens": 210
+        }
+      }
+    },
+    {
+      "request_fingerprint": "2754c68dcf9c8b59ce0a0497702556f2858370b97ae8fa18473d1ebecdd1a63f",
+      "request_summary": {
+        "chars": 250,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Two identical invoices; refund the duplicate INV-2207.",
+              "type": "text"
+            },
+            {
+              "id": "toolu_015SdeeKPuyDnfhM62xwc3x6",
+              "input": {
+                "amount_cents": 9200,
+                "invoice_id": "INV-2207"
+              },
+              "name": "refund_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2017,
+          "output_tokens": 106
+        }
+      }
+    },
+    {
+      "request_fingerprint": "483403af7cd330144b39c6985867dedd7d98e7fccef5222377a6baba3cfb17c8",
+      "request_summary": {
+        "chars": 304,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS4wUKEAgTGAI4AUIIdGhpbmtpbmcSDIy7soiWhbuDuHZRLRoMV19X5veIsqlxPn13IjDRL1FyeadjpRGoDhHRGMcHvO2HjyztS2SJukBCWKv9geABZ9gh1h50MbGXXXtO/iEqgAXI3aDfuyn82wnzGI1nCwudFlSXs88Hn75m9XoZruL0/hwsWAikGpzfu1hI5Fnc6x894jEswzRb+C50eGgnRDwnbwebwVXKlz55G7e39gwHVEw7/Gqb9kw9D2MCzdfJYpM5+TBAI+Bu1Ykxm6V+oXHPWRwgVrZnb+0RAFqp6IEcvo9zgsLOc4N/Ab/HnpXXA3y6qsjuR78tsISkD+ErfMGMYBvo+qJf8Ta1PJ2afwdX7LVbdMo27Uh1em41OrOjHOh85HFH/PT4vfSw/up5oYzhXVm5Uuc0T+Mdj0h3W83PRt6DMPwOyRTE6h8TgzPczEWkGbuYXjEa9uYuBSCLimU6cBW56lv15tPIx5VvfptWBNPh/KyG4e7jFZFRAUlDsOJhiuXd+7RlupPXm9GPsvB4e8+b6TSgEzRTY0tQ+m2JF7radVjhfqWgyX1eP6YKRnwSJ4KYnWl9+IlgUo7O2CHgZZfF0iebTGIlknstGJzY/2H4PRv6VqLQ2xnkt2U6FRuaD2kqVSVWWEhRuY5DzYrZYOnh/+ACezPxj2QYItoLNpNZ+INtHwovQABnDY6JdkeHBoDW8UB9hh0P8C8GuBSBAr/CCaTLN8ptNkbJGsLMzGhc8QfoYUDKZLZ33y51+69f+Joco8B52F0Bq03hgIRIORLTVl0oJexv9OomlF7A0lMMSJRVdTYGJNorogqq9SUKTb+oEeofRVvoiEFSNCuwzCzfGMpegUgy8zcTZdJiRd7yTbegiU++c7tL4iH7c2CK3ArFx/45hmMdU5Husj32ZdVAghbVGSxTxxQoVHv5d9tAV9GDJiFe+KrqTscrsH/sRSabEoYm/FzHT61jpFTDGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01Dt6Nm8JmxzWY6e2aznXDah",
+              "input": {
+                "message": "We found the duplicate October charge, invoice INV-2207 for $92.00, which matches invoice INV-2201, but we couldn't refund it because your bank has an open dispute on your October charges and that blocks refunds. When the dispute is closed, or if you withdraw it with your bank, the duplicate can be refunded, or the dispute may return the money to you directly.",
+                "receipts": [],
+                "status": "not_done"
+              },
+              "name": "report_done",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2174,
+          "output_tokens": 251
+        }
+      }
+    },
+    {
+      "request_fingerprint": "278d547d9af668a4990005f47c1418c4b2f18754a8f3ad9a4665530d825e09f9",
+      "request_summary": {
+        "chars": 304,
+        "last_message_end": "",
+        "messages": 9
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_016kKr4z8awHJgC1VK7M1Cpg",
+              "input": {
+                "message": "We found the duplicate October charge: invoice INV-2207 for $92.00 matches invoice INV-2201. We couldn't refund it because your bank has an open dispute on your October charges, and that dispute blocks refunds on this account.",
+                "receipts": [],
+                "status": "not_done"
+              },
+              "name": "report_done",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2474,
+          "output_tokens": 169
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1c87946246c975c1e7229faa8881c0fde3e0a89a11de967a7ced03dbfb969f28",
+      "request_summary": {
+        "chars": 304,
+        "last_message_end": "",
+        "messages": 11
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't refund the duplicate October charge for Orion Bakery. The system blocked it because a bank dispute is open on the customer's October charges.\n\n- **The duplicate:** October 2026 has two identical $92.00 invoices dated 2026-10-01, INV-2201 and INV-2207. Each is for 3 team seats and 2 × 50 GB extra storage, and neither has been refunded. October 2025 had no invoices.\n- **What happened:** I tried to refund the $92.00 on INV-2207, and the system rejected it because of the dispute. I didn't try INV-2201, since the dispute covers all of the October charges.\n- **Reply to the customer:** The case is closed as not done, with no receipts. The message tells the customer we found the duplicate (INV-2207 matching INV-2201) and that their open bank dispute blocks refunds on the account. My first draft also said the refund could happen once the dispute closes, but it was refused because nothing promises a later refund, so I removed that.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2659,
+          "output_tokens": 328
+        }
+      }
+    },
+    {
+      "request_fingerprint": "57f17753c84c2b4c3349bad3c2202e259097b50123bd45a27ee57308c8f091b8",
+      "request_summary": {
+        "chars": 547676,
+        "last_message_end": "ause the old one drifted.\n</document>\n\nHow many times did the security team audit something? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "58",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 190495,
+          "output_tokens": 1143
+        }
+      }
+    },
+    {
+      "request_fingerprint": "57f17753c84c2b4c3349bad3c2202e259097b50123bd45a27ee57308c8f091b8",
+      "request_summary": {
+        "chars": 547676,
+        "last_message_end": "ause the old one drifted.\n</document>\n\nHow many times did the security team audit something? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "59",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 190495,
+          "output_tokens": 1250
+        }
+      }
+    },
+    {
+      "request_fingerprint": "57f17753c84c2b4c3349bad3c2202e259097b50123bd45a27ee57308c8f091b8",
+      "request_summary": {
+        "chars": 547676,
+        "last_message_end": "ause the old one drifted.\n</document>\n\nHow many times did the security team audit something? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "59",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 190495,
+          "output_tokens": 1190
+        }
+      }
+    }
+  ],
+  "recorded_with": {
+    "effort": "medium",
+    "fallbacks": true,
+    "model": "claude-opus-5-5",
+    "provider": "anthropic",
+    "sdk": "2.3.0"
+  }
+}

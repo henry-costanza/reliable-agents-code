@@ -1,0 +1,403 @@
+{
+  "format": 1,
+  "interactions": [
+    {
+      "request": {
+        "max_tokens": 16000,
+        "messages": [
+          {
+            "content": [
+              {
+                "text": "What is the total of invoice INV-1042? Reply with just the amount.",
+                "type": "text"
+              }
+            ],
+            "role": "user"
+          }
+        ],
+        "system": "You are Brindle's billing support agent. Look up invoices with get_invoice. Compute every amount with invoice_total; never do arithmetic yourself.",
+        "tools": [
+          {
+            "description": "Return the line items of one invoice, by its id.",
+            "input_schema": {
+              "properties": {
+                "invoice_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "invoice_id"
+              ],
+              "type": "object"
+            },
+            "name": "get_invoice"
+          },
+          {
+            "description": "Return the total of a list of line items, in dollars.",
+            "input_schema": {
+              "properties": {
+                "lines": {
+                  "items": {
+                    "properties": {
+                      "item": {
+                        "type": "string"
+                      },
+                      "quantity": {
+                        "minimum": 1,
+                        "type": "integer"
+                      },
+                      "unit_cents": {
+                        "minimum": 0,
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "item",
+                      "quantity",
+                      "unit_cents"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "lines"
+              ],
+              "type": "object"
+            },
+            "name": "invoice_total"
+          }
+        ]
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01CejdGJ77tgS3t1JXxz73TD",
+              "input": {
+                "invoice_id": "INV-1042"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 633,
+          "output_tokens": 57
+        }
+      }
+    },
+    {
+      "request": {
+        "max_tokens": 16000,
+        "messages": [
+          {
+            "content": [
+              {
+                "text": "What is the total of invoice INV-1042? Reply with just the amount.",
+                "type": "text"
+              }
+            ],
+            "role": "user"
+          },
+          {
+            "content": [
+              {
+                "id": "toolu_01CejdGJ77tgS3t1JXxz73TD",
+                "input": {
+                  "invoice_id": "INV-1042"
+                },
+                "name": "get_invoice",
+                "type": "tool_use"
+              }
+            ],
+            "role": "assistant"
+          },
+          {
+            "content": [
+              {
+                "content": "[{\"item\": \"Team seat\", \"quantity\": 3, \"unit_cents\": 2500}, {\"item\": \"Extra storage, 50 GB\", \"quantity\": 2, \"unit_cents\": 850}, {\"item\": \"Onboarding call\", \"quantity\": 1, \"unit_cents\": 4900}]",
+                "is_error": false,
+                "tool_use_id": "toolu_01CejdGJ77tgS3t1JXxz73TD",
+                "type": "tool_result"
+              }
+            ],
+            "role": "user"
+          }
+        ],
+        "system": "You are Brindle's billing support agent. Look up invoices with get_invoice. Compute every amount with invoice_total; never do arithmetic yourself.",
+        "tools": [
+          {
+            "description": "Return the line items of one invoice, by its id.",
+            "input_schema": {
+              "properties": {
+                "invoice_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "invoice_id"
+              ],
+              "type": "object"
+            },
+            "name": "get_invoice"
+          },
+          {
+            "description": "Return the total of a list of line items, in dollars.",
+            "input_schema": {
+              "properties": {
+                "lines": {
+                  "items": {
+                    "properties": {
+                      "item": {
+                        "type": "string"
+                      },
+                      "quantity": {
+                        "minimum": 1,
+                        "type": "integer"
+                      },
+                      "unit_cents": {
+                        "minimum": 0,
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "item",
+                      "quantity",
+                      "unit_cents"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "lines"
+              ],
+              "type": "object"
+            },
+            "name": "invoice_total"
+          }
+        ]
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01D5Dpi3mcJ13J51TLq1aRqh",
+              "input": {
+                "lines": [
+                  {
+                    "item": "Team seat",
+                    "quantity": 3,
+                    "unit_cents": 2500
+                  },
+                  {
+                    "item": "Extra storage, 50 GB",
+                    "quantity": 2,
+                    "unit_cents": 850
+                  },
+                  {
+                    "item": "Onboarding call",
+                    "quantity": 1,
+                    "unit_cents": 4900
+                  }
+                ]
+              },
+              "name": "invoice_total",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 794,
+          "output_tokens": 148
+        }
+      }
+    },
+    {
+      "request": {
+        "max_tokens": 16000,
+        "messages": [
+          {
+            "content": [
+              {
+                "text": "What is the total of invoice INV-1042? Reply with just the amount.",
+                "type": "text"
+              }
+            ],
+            "role": "user"
+          },
+          {
+            "content": [
+              {
+                "id": "toolu_01CejdGJ77tgS3t1JXxz73TD",
+                "input": {
+                  "invoice_id": "INV-1042"
+                },
+                "name": "get_invoice",
+                "type": "tool_use"
+              }
+            ],
+            "role": "assistant"
+          },
+          {
+            "content": [
+              {
+                "content": "[{\"item\": \"Team seat\", \"quantity\": 3, \"unit_cents\": 2500}, {\"item\": \"Extra storage, 50 GB\", \"quantity\": 2, \"unit_cents\": 850}, {\"item\": \"Onboarding call\", \"quantity\": 1, \"unit_cents\": 4900}]",
+                "is_error": false,
+                "tool_use_id": "toolu_01CejdGJ77tgS3t1JXxz73TD",
+                "type": "tool_result"
+              }
+            ],
+            "role": "user"
+          },
+          {
+            "content": [
+              {
+                "id": "toolu_01D5Dpi3mcJ13J51TLq1aRqh",
+                "input": {
+                  "lines": [
+                    {
+                      "item": "Team seat",
+                      "quantity": 3,
+                      "unit_cents": 2500
+                    },
+                    {
+                      "item": "Extra storage, 50 GB",
+                      "quantity": 2,
+                      "unit_cents": 850
+                    },
+                    {
+                      "item": "Onboarding call",
+                      "quantity": 1,
+                      "unit_cents": 4900
+                    }
+                  ]
+                },
+                "name": "invoice_total",
+                "type": "tool_use"
+              }
+            ],
+            "role": "assistant"
+          },
+          {
+            "content": [
+              {
+                "content": "$141.00",
+                "is_error": false,
+                "tool_use_id": "toolu_01D5Dpi3mcJ13J51TLq1aRqh",
+                "type": "tool_result"
+              }
+            ],
+            "role": "user"
+          }
+        ],
+        "system": "You are Brindle's billing support agent. Look up invoices with get_invoice. Compute every amount with invoice_total; never do arithmetic yourself.",
+        "tools": [
+          {
+            "description": "Return the line items of one invoice, by its id.",
+            "input_schema": {
+              "properties": {
+                "invoice_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "invoice_id"
+              ],
+              "type": "object"
+            },
+            "name": "get_invoice"
+          },
+          {
+            "description": "Return the total of a list of line items, in dollars.",
+            "input_schema": {
+              "properties": {
+                "lines": {
+                  "items": {
+                    "properties": {
+                      "item": {
+                        "type": "string"
+                      },
+                      "quantity": {
+                        "minimum": 1,
+                        "type": "integer"
+                      },
+                      "unit_cents": {
+                        "minimum": 0,
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "item",
+                      "quantity",
+                      "unit_cents"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "lines"
+              ],
+              "type": "object"
+            },
+            "name": "invoice_total"
+          }
+        ]
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSjgUKEAgTGAI4AUIIdGhpbmtpbmcSDLiTPZ1XU3f7Qms8bRoMLQILqRDLT3bB4uiTIjBv6VHvahhekb5vjJNZV6LfSARCzjaTgE1tlX/Xu+yvJfcT6hxz8mLJNc9ESqFzDFUqqwTbjYT4tEFPfzskISmhRcnaR4xISvZZD+l+fPWUPG2e8caN+e8rnWF0uoItr6wxUrO+9vmrwqIfk9mcQdBEbo2UnhSAXf1+MMe4bKbsbpV0JmjQZo2hMvGNXZbGMNx/IKxwPVWu4AXSWy+Ww+PNnO8Uqra2zlX0S9XXBtihRVoZP4IPEPnOJ04Iie5nkZWs61yJF82i0d7spMEfHXWCl7B7O3fwguw+fugZm8exTOfBptPLsnf5RKf3NclF8GKO7k/FPJvABpVhQ40Qn165d1841/OrN/h3wN+bzoWlrTgwkFkK6Lgto/GP5ym8nMGq8w/ddv7gPZF19un9raK74dHzWh0Kg4hxOfCFsInH+0xdGKfb9rQbDB6PguA0E7Dld30RGlRPQSaqK8jZPuF1+N9jZF0DxKG1uPtU0lic4TrD8SgYWPiy6iO0qqeHyh2X+z0ooS+TJUrgLgvpYOlLOncPShkeoTr2mtLjQ9qUJoWmUKbdonumSPHclhlkBNXt0kSStK5m3FWSqWEAZkQwKM6ScGKpZZqyoOPUJmRTAr9z+oLcPKXY506/+RtfS2VkqHD9lyfgq+VVcPBd55j/NHtw5CccUoaEjF2jrahLPuLyiaqWsEMJFodp5PI4EU3v3yUjJWXa0UEEUp0y+i0nKMGRtmkDH26DxjxFWnZxcpe7gkjoJI666hRaPJiuTZ/ld5Dar2RdOu49DtOhvuvzuy99NqcXMzioMfbnBWUYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "$141.00",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 951,
+          "output_tokens": 28
+        }
+      }
+    }
+  ],
+  "recorded_with": {
+    "effort": "medium",
+    "fallbacks": true,
+    "model": "claude-opus-5-5",
+    "provider": "anthropic",
+    "sdk": "2.3.0"
+  }
+}

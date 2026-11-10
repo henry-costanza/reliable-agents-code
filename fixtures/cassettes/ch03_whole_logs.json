@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "interactions": [
+    {
+      "request_fingerprint": "5d4cd95cf1e2129cada3382852a97ef4f28119f5a0a91eb870f42da7b1201747",
+      "request_summary": {
+        "chars": 108,
+        "last_message_end": "Which of the logs billing, support and sales mentions Atlas Dental most often? Reply with the log name only.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01LPDvvpLiqa8AQh6kVVHq5Q",
+              "input": {
+                "name": "billing"
+              },
+              "name": "read_log",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01F2P15PZPLjrw7facogmT1w",
+              "input": {
+                "name": "support"
+              },
+              "name": "read_log",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01CC7vEVbQcjynzaVnJbyKfh",
+              "input": {
+                "name": "sales"
+              },
+              "name": "read_log",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 449,
+          "output_tokens": 137
+        }
+      }
+    },
+    {
+      "request_fingerprint": "6f8c6dda3c036efa251915c2c03f472bbd8596f8bd6107869666c84220a31cca",
+      "request_summary": {
+        "chars": 108,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "billing\n\nI estimated this rather than counting exactly. The billing log is clearly the longest of the three, and Atlas Dental comes up in it more often than in the other two.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 134624,
+          "output_tokens": 441
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5d4cd95cf1e2129cada3382852a97ef4f28119f5a0a91eb870f42da7b1201747",
+      "request_summary": {
+        "chars": 108,
+        "last_message_end": "Which of the logs billing, support and sales mentions Atlas Dental most often? Reply with the log name only.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01EfrhfmQwz5zA45ivxasjg9",
+              "input": {
+                "name": "billing"
+              },
+              "name": "read_log",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01PHeVguz8ymj6pZYw5yR57U",
+              "input": {
+                "name": "support"
+              },
+              "name": "read_log",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01HJftuSMxNePP6tPkmvSD5x",
+              "input": {
+                "name": "sales"
+              },
+              "name": "read_log",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 449,
+          "output_tokens": 137
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a99fa908bcfabebb0ed2e74730dae03cf691079c204a30b46cc4e34609a4cd05",
+      "request_summary": {
+        "chars": 108,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS1xIKEAgTGAI4AUIIdGhpbmtpbmcSDK6vK0wgKzsyvvrgfBoMeWveLTrXQRbiqzO8IjAt7sge51f3sZ6tG3ig7fL6aNXZdAeYGv/qY8fPmsbC9+d2ZcweVk9HyC0dw92PN6Aq9BFqVbp5te72r4/EK3P9QqNMQ/rHrBcRFnPepwt2ZHp8+Gtnfy+bn/PhvhQnXm6K7ZGPoNsO6OalXL9OQIt+1n+IMQHzR1cI2ZEvTJ7bB5nP0/DiHrN8t/RZ7J8fSHdGoxO7xInYFVc77Xxd3bWAjmtnotqN0QYaoAmeHjqESScoaKtj4UaKe6daszcmpk3rAp8xN0GrhMd8d/4kSyV/kV1EhEO5xlPpDoxzcXZXh5kTBBvGqF9BO9QxpIDfqzNFJTum6paxOPI9z7nfUOJAOLZfPBeevukM0A7WrJiLK44yU0sZblSB+jx2KLD+LXlwYyQo0rBGHP7sTQqKWucVg9AclNKBpzcEDZkzitfozMNXMQhPt8NB2eaaTEeHXyPQyMa+gpLWzG/pNDaYxsgtPPnBIWGOIFcBFCBw9K1QSYWFylify4ukH8JrKsHPBhEY2f112H1S+vsAzqpt54T/d5iNi6bZyR20XQ0HzzjTbQvjYUKqp0PneY1uO08zWJSQ6HkXlOl0IbNa4J0PSjjMOvjoZNdJeArCgB2sxJ2IIWFVc2yx6/srCDgXewrT//xsKxtelUWXjwcwMb1qv9B4bbiG79N8vw5cABeWY+Hly6cB7gF/wBMMWLoGeFvihUyLeGP5DSVBdb27OBvjDtfgYaMh2aRLBFD/oRTAcalvZS+XyvyRQyXSlCkm7dxbS9y1pTCfn18E7ppSih1YVTWHIP1Eqc6EuXtNcbW+28Jo3RdFRuB9mI0p60tTUuQ2qLHhvFgjxB8defShhv5GaxrkkHuDLzzI25DvGWOpVdHc1onI/sJ9XVmC9qQezHfJlVFx3chb/TfpaaLH9IOeZy0Ug5AcDs0OXRUGyHyRYvN2R194ll7Yk3aP3Vtzx6jt6Ehe6zFpEdozSk2zSqqnk/pHONPHEG5/RTLybG0M4mGr86/hYt1CdvjAJKyMamuOe47QthIN0sfk1vIorJmzqfaIU71UigxkLF10hAFQHqrKtnmmxy+WkPZUU06ZyHptTiFlwrqpgQA0/WeW+h15HvhL66rmiSPO45AktCvfPmjWjRT2uyGbpfLpqMjZhVFQVSBhmJLsqOAHYVXloIDvUfnxadQrPc0I2stxOxHePQFnUqT+H2r04LjKG5+uEuPxo9ZDSJ0YYmnNCRsBcSyyO/p150AhPtm0npxNb90L257h6KegObncI7orksu6wBXfzV74eEA2OWyel1rmYPklzCY3ee7P1Nx7iGvHCn2H0zMSTm8D9C4GQ6sNmBm8Bs/mHU6CxZQEXjwyDPFXNeUEyUGaXJNJhGzFEEG+lBI/KHDLt4na0DuA1UjTdQMWPe3f4YY1xSCJB49i6YnG/rwFy0InUvmIK5Jc4NNijwavmISG0WZ3DKfGs2OiPoyfKqarr+JDInWsgXKTaZHSXYBgNWvAePxaXy+963KRmjM2AcufJDhfaxS2z6C6Kk/tBNjS5/YPxvak8n8qpdfjiAhKmcf/T6OMWR38wOZ8/unjb5R5H89jHp+Q11vgvr/pbjxNQKUpmYdZ0yj65zjqBXtRKZihDmpoYA/Do8X5z6DHh70A97j71Sv0t7bnsjfZon6EYBgcrGFTQiWR0hzRuaFwVh8tuK0EwthcYmv7BLctevGfuu+8DVFOnn1c6o0o2cOvu9sBLx/l4RlJhOJQ1XC9Fx5eNchhdzJATMGmpq33td5d+hrqe7fvkq1LnQWdwn4ldkzGwIiWlzdFvsN+JWTrNm4xv9oiUmaHwQlyBo9sFlVJ/RadCJ6k9JSXl7844AfQT1wC2HsijfTOeWnV14QqpUgZysKOiuuBFDASaTHGA5/us/sxkfEFWnMPXzJN3UMe/s4jsP6pl/Wcy0qCJSa1LqvKqNDj2kDmZ7ahA7BViPsKplDboF1vryV3L/xkuf9AuohfQvLydAZcVUbkoT3RVroAcjoODWUWtL3zM25uUyVSG7+6kGEVYXvvhPdnfcMslM7ZnEz6J4bfuQV83aBuTQ161e0lOLDNY2FB5AlNmi9X2wIBZioMlc5k+ucitF6hGSQCmmExdHGVYSz7JdYFEGbl+3LlkB5YxycXBMGfPKIzTGhyXHS+0f45iYOzMTG/AC1DgkBFJyzFc0QhQDMMK6GsX1W1Q03JFBQk7revJhx8fqWW0cgP1PfhpC6vDhN1GSKy09SVyva/sHZLz9fyOTXUHY3kyeeMpAxeaU7aRPYNmjWrvVwO7qxmbSOqcrUhu56nYIQ+P+iBbP+zzcbypHno+VHkdarcTHIwdhsbPE+mlaiBVjYhLjEVP46BUaGYUu6qgF0qvwUKo+MgPw07m8Xm+xf951qtdzaTY6naX7J1uAjquRSHhEfOeBSg7wstdU9hxWNLpYs6kwNnTLpvVI85tUB3Z4iK0zgNTDzw/VK/yMIUgKfxNK74AoUYD+qZr1ISRAhmQ1/dhIiCd1ZikERnYedO9aS+MaP15a17tKatPwe3W6ALYWX8XfLCRe3TKOl63dCv5o2DijpXhnedBxr7cmCG2TauDQ2DExramUBb1CRiENneiCwXaPlOCl5RiJu5TtF/Wn1ihGDu3pW3Zy/mYM2v56xDjZ2fYsULTlp7Etjew9Ygie1dNIgdHiuRbUVa4NpTvhytzy+r3M7rmwA4rWhE97NXr2jQ1IriyE9TdUmZFgslzfcMKzYO7yYJOLcThnXXXwbzuUdq9Dpe1EAI4EnRUqTdcLP1TBXNb6Vd2fcPbKhPOws7UAsr7+yYvCQyVOpTO7YFeIFhKSYI6COH/PjZc5PewIDVbhSdCaPbzl2ax9xzv4uYJHdCfpbrXecZgtcgi2kE6AdUSfIGszKObB6flnPZUhjdyIODyL5jdC8mI2Yzg5k1KJy5Yjih5X6VFk8dI8B+2debjvzh5HWYg2U28COKjXP+/WOZxQS9vYbT2nuapjIWpLnq0Ki7fP0LQ0tmvI9KOa+yPRttv1ewWbN9X7FKhARnnXqxXFhXT3Atsarisw+5LsfCxcHBYtvJo6eL25ZvHb+SnrvxEXjblFRb/IhIKLc15eFwIKgNzjPtakTVQdEYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "billing",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 134624,
+          "output_tokens": 734
+        }
+      }
+    }
+  ],
+  "recorded_with": {
+    "effort": "medium",
+    "fallbacks": true,
+    "model": "claude-opus-5-5",
+    "provider": "anthropic",
+    "sdk": "2.3.0"
+  }
+}

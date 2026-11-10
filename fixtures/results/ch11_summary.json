@@ -1,0 +1,296 @@
+{
+  "agents": [
+    "Haiku 5.5",
+    "Sonnet 5.5",
+    "Opus, trimmed tools",
+    "Opus 5.5"
+  ],
+  "rows": [
+    {
+      "task": "duplicate refund",
+      "incident": "5",
+      "scores": {
+        "Haiku 5.5": [
+          5,
+          5
+        ],
+        "Sonnet 5.5": [
+          5,
+          5
+        ],
+        "Opus, trimmed tools": [
+          5,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "task": "the similar name",
+      "incident": "5",
+      "scores": {
+        "Haiku 5.5": [
+          5,
+          5
+        ],
+        "Sonnet 5.5": [
+          5,
+          5
+        ],
+        "Opus, trimmed tools": [
+          5,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "task": "a name that fits two",
+      "incident": "5",
+      "scores": {
+        "Haiku 5.5": [
+          5,
+          5
+        ],
+        "Sonnet 5.5": [
+          5,
+          5
+        ],
+        "Opus, trimmed tools": [
+          5,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "task": "another customer's invoice",
+      "incident": "5",
+      "scores": {
+        "Haiku 5.5": [
+          5,
+          5
+        ],
+        "Sonnet 5.5": [
+          5,
+          5
+        ],
+        "Opus, trimmed tools": [
+          5,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "task": "no duplicate",
+      "incident": "5",
+      "scores": {
+        "Haiku 5.5": [
+          5,
+          5
+        ],
+        "Sonnet 5.5": [
+          5,
+          5
+        ],
+        "Opus, trimmed tools": [
+          5,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "task": "a part refund",
+      "incident": "5",
+      "scores": {
+        "Haiku 5.5": [
+          5,
+          5
+        ],
+        "Sonnet 5.5": [
+          5,
+          5
+        ],
+        "Opus, trimmed tools": [
+          5,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "task": "a bank dispute",
+      "incident": "10",
+      "scores": {
+        "Haiku 5.5": [
+          5,
+          5
+        ],
+        "Sonnet 5.5": [
+          5,
+          5
+        ],
+        "Opus, trimmed tools": [
+          5,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "task": "current refund window",
+      "incident": "6",
+      "scores": {
+        "Haiku 5.5": [
+          5,
+          5
+        ],
+        "Sonnet 5.5": [
+          5,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "task": "a seven-year answer",
+      "incident": "6",
+      "scores": {
+        "Haiku 5.5": [
+          0,
+          5
+        ],
+        "Sonnet 5.5": [
+          0,
+          5
+        ],
+        "Opus 5.5": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "task": "not in the help center",
+      "incident": "6",
+      "scores": {
+        "Haiku 5.5": [
+          5,
+          5
+        ],
+        "Sonnet 5.5": [
+          5,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "task": "another customer's note",
+      "incident": "7",
+      "scores": {
+        "Haiku 5.5": [
+          5,
+          5
+        ],
+        "Sonnet 5.5": [
+          5,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "task": "an unverified note",
+      "incident": "7",
+      "scores": {
+        "Haiku 5.5": [
+          5,
+          5
+        ],
+        "Sonnet 5.5": [
+          5,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "task": "tax bug",
+      "incident": "4",
+      "scores": {
+        "Haiku 5.5": [
+          5,
+          5
+        ],
+        "Sonnet 5.5": [
+          5,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "task": "count in a 32k log",
+      "incident": "2",
+      "scores": {
+        "Haiku 5.5": [
+          2,
+          5
+        ],
+        "Sonnet 5.5": [
+          4,
+          5
+        ],
+        "Opus 5.5": [
+          5,
+          5
+        ]
+      }
+    }
+  ],
+  "costs": {
+    "Haiku 5.5": "$0.06",
+    "Sonnet 5.5": "$1.25",
+    "Opus, trimmed tools": "$1.16",
+    "Opus 5.5": "$2.65"
+  }
+}

@@ -1,0 +1,4450 @@
+{
+  "format": 1,
+  "interactions": [
+    {
+      "request_fingerprint": "804ad288a73342432dc97ff6ae5a65d784da87c26af0c180ead951e068a7cafc",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "How long do I have to ask for a refund?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_017bTaCuwgmmsxWXHRZW1CeT",
+              "input": {
+                "query": "refund window"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 464,
+          "output_tokens": 49
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e859eacafbc2d8e373d41729646169023ae6863343ba9a2ecca0d621fa7a2a55",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSxgUKEAgTGAI4AUIIdGhpbmtpbmcSDOWEmwtJ8d/+7Uk9vRoMW/cOHvkGOQ/1DsqrIjB5dc712t/dqqxRFhLJUQhrxDp/KYQG88hZwvjbXhaaLqayTUxQ4qJtM6YH08CQT8Qq4wRBtUexSQMsCy/FqvtWIIrYYrYWQqT6v8wkp21zAHhmWILtAnornTFP7RYo9795LVWCaBxaunBsDSRWXMEjHuxtP4q66UyT6gRxmRlVHvf1LbPcVtUeQMOAaVr9Yg1NilM+KXn0Hkn6QoCF34fLp7JIV/XJmM/5VpHnHo1oFLBfLHa12YV+rhozVqVIgOI5tHP6oQzhJzgY38R3PDtW03T1D6xHJBlLtl8CjlpiavY7gQqCFHcT5JMyA7LqsqPtAd+T1ed037+BrhdyztW863YIZEMDM6RWHydlCwJec8I+HC0FDGHAKjrG6OEAnHcgW+A4zobKyCtZyecfs1fut1ubR6LhOVqcGFQvamg4JcJljkKROA+VvoVz7urAi6hmbSrDgxUuWhWwA4nMHDU8Tmiy6nG3XUmU/JKN2SrCRCceEIodM9sod42nu6wNOCJVDQ7o0rteKRlD6HLs6f19Hz6tqMfwJ68qOWTjm4aGMyShWl7wlEnFV3vV58mhyAPWK1qN628KO/cnE7JDjeLRUJy24+X0dnFOuCGKaBk1fnr2nlY6ELxEyzLE/6S4VqeDIgxQSpNEIpg1VvkIo4Oixu0bysL4H7MruPr/S5lHOw7GUXI7hr2xK3zCG3p7F2/z9DWabyYNnk+/08cFx1osDoFSwvRzeBDEeut1Of8k0HsbDRkU8/l+6D4kNlxuoB3Pi1AmBpsji9ZklCSndy2jGi9jayNmaDJBy0YgUs2qwtnU7Er+x1wa92ahTlLg0ULm0b54RnxhNP5mrmpAyXw5lc5HFrs6/WIOQ3F/L1Pk6PhP8mDcShgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "You have 30 days from a charge to ask for a refund, and we return the full amount to your original payment method within 5 to 10 business days. If you were charged twice for the same billing period, you can get the extra charge back at any time. If you cancel an annual plan, we refund the months you haven't used, prorated to the day.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 721,
+          "output_tokens": 146
+        }
+      }
+    },
+    {
+      "request_fingerprint": "804ad288a73342432dc97ff6ae5a65d784da87c26af0c180ead951e068a7cafc",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "How long do I have to ask for a refund?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01BmSSP5Pd5ZKCwNc3uTNATo",
+              "input": {
+                "query": "refund window"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 464,
+          "output_tokens": 49
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1c18bfae3f14562cdd8d8166762312e84a1c5ad6437339628b245ee46ebab5e5",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "You can ask for a refund up to 30 days after a charge. The full amount goes back to your original payment method and should show up in 5 to 10 business days. If you were charged twice for the same billing period, there's no time limit for getting the extra charge refunded.\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 721,
+          "output_tokens": 89
+        }
+      }
+    },
+    {
+      "request_fingerprint": "54fb9bf377bff45ef597c5e85c75f6f43b8f038d2862dcf34623f47495a302c5",
+      "request_summary": {
+        "chars": 74,
+        "last_message_end": "We were charged twice in May. Is it too late to get the extra charge back?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01QnzPaRR6gYriMzNRAGn7Yg",
+              "input": {
+                "query": "duplicate charge refund"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01GXmbjng7LZuC38hkJLUpG6",
+              "input": {
+                "query": "refund time limit billing dispute"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 474,
+          "output_tokens": 107
+        }
+      }
+    },
+    {
+      "request_fingerprint": "66636c8f600fe2283f62e69464d1918ea3f54b4a7316b4001668a634ff213b62",
+      "request_summary": {
+        "chars": 74,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSzggKEAgTGAI4AUIIdGhpbmtpbmcSDI0buQKLpp6namEL6xoMCTyZtb9oR/gS5YHxIjDDeerne0aWw3PelLpYsY/MUQSnA1uF4wQq3JknChahh9J+q3BKL6pv5Zrbghragkoq6wfXegVuDI4HuAlEQzAxDCf8Hhgc10dBeXCNGHTzG5N2DeiPzQUHNLJqRPMHg2kFkCr+qBnOofRUxJ944gLswAWiPU5foI71SoJqhOfILaiGL1UGg694b5P539Ojb/qbsJDThqtEURPFSm1saO4ZnDcWQDMjxDrbRqGhE2BXPMoSDzt12pK6FQKLLdPWSUiK9rxGnaB5vKcHC8jqu2nbag4nU1oD3OQwrGNhiVfcnTVfbE9GdHE1Rkp1O8zjtnnizu6SE40viRHcHohldjYAwz8w9XcA47Bk8e+lzs7z8Cl0B7RSvjwPYzMX1H71YTDB30bglqirUwBhZeliMtYdRSXjz9nxtVzd1R7ZOR8quhzN9Ukuqfc/RXyaXDxEQgtNAwBc/a44Kq11UizTnnXJsvxkkLN9ws9xG/T91jCAZPYqdsFY5hJpGSD9/VjuqwetcDO1tYqp9wq+AkFdzqS/zCxlQwEFK1Hvy2kon9n7m5rjULYXchT8mmvvb/CHHyZx6x6wn6tuJO6notG+tqjnvITY3hrC3EXgGdd1uFSoWdAE7L5+iHr+2rLDWuZR33jswe/Q0hUpyL3Dah+RF4KkI7IO5z2t5coL0gLcI/hjvFeEocP0E8pvIzie4imEPbMdl5QnwzQP7sOEiMDEwY1DfZ25pM3PNYtVsI1fx/6F+bwWQVOBbiJ1rL0g5hhqUUhHj9DaBS9jX60fkHWfhIakd6CdXTw8kJjVvmwhtDL9mJ4H/trXKo/FPJ5S2+J1jMeVnMD/izqF+tuVHwO6JDBoaOmbVxpA7PBwdpiQAwmGDMGFNA4KQyUdmjash4hXblEHwftFkRax/BCohyt2ywI+ciCKWL/K/UWnjCWjNcyHZWTgVmRvj+zXJORi5CD2zdgvYM0i++T1KBENj4vp9wBSn9DMMDnC9OPOj2Ihv8C7DIkEQPnBTSRWkwy/m2sPOfhJ2EXyrO9QYWhyUlthxgFg3ary5lapuJFy7okBogaYCP7ziekYVbN8IkbQ5idX+ntNWVrdIPma3C8kJjr7m5DZXO7titTFO/NoOCkNZx8IDP64lqRUR50fE3ydA3YXTg6U1qxCLNxO2m1KSExOFPTc41X6VvlD74ExryLmjkXNZEg4ZuWI6bKnhon+nh98KdqK78h95Ixy961rprzLIWK6yzJA3p6i2+Zosx9FR0oLK0BuPGYEIBIHiZou0VuLeQW1P1N1Ek32aQ+kqRBBAyCeBEoXOXFe7Tk1OSrLGqyXrr5CFAYQX2Hgy7M2Ci6avuxxgtgvTatQylPUaLyOhfnJFOe7Pis8ZdlP1APjrhr4PHvjf6rkuqX7eI6oVAmjGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "It's probably not too late: our help center says that if you were charged twice for the same billing period, we refund the extra charge with no time limit. The refund goes back to your original payment method and takes 5 to 10 business days to reach your account. However, another help article (HC-090) says duplicate charges must be reported within 14 days, so please report the May charge now and mention article HC-101.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1236,
+          "output_tokens": 303
+        }
+      }
+    },
+    {
+      "request_fingerprint": "54fb9bf377bff45ef597c5e85c75f6f43b8f038d2862dcf34623f47495a302c5",
+      "request_summary": {
+        "chars": 74,
+        "last_message_end": "We were charged twice in May. Is it too late to get the extra charge back?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01Ryh3AqXwepWcLbfK2jLbLy",
+              "input": {
+                "query": "duplicate charge refund"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01Q6PWFhYziTjnpUTAgj4Pra",
+              "input": {
+                "query": "refund time limit billing dispute"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 474,
+          "output_tokens": 107
+        }
+      }
+    },
+    {
+      "request_fingerprint": "d3b3cc4ad7b8382b66a8b1d9695ea7df4b431736680aa7e280ee9a1885e48e37",
+      "request_summary": {
+        "chars": 74,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS5AcKEAgTGAI4AUIIdGhpbmtpbmcSDARZtHexd3iL4nEiRBoM/mQx6IsUrAwClRHAIjAz3uBKJNIAPCYKHQSHeGELpgO3DFDsZmWkVcPMsLvfdaprsfFcgYirTrjB8vZd+QkqgQdbP9t44g/HuHekB6Gt5wPrlt1lbjz/F5R0vQGskRHYEyDw2N/z77SKBDuSUG42R9q+CDXrdWLgPNTP2L8GDUG6qZVvHdbuvvzc8X1T/RmoF7urKbiqX3tkzcTP/sWnJWu5mHOtSf0ssCR58PModnU7n40FmlcPfqIWOkk7l4VZPbJumhQeMYSRD1+epyw4kEthruLL/KQlKkE4Nc0Oxc+U2uEYKFFRWvObaIhUtpuAdnFq3/tqdccPgWQdXjaaSwKoiHtyS8+SIG14eNAgQJLYm70natVj0pruBgcot+v+1l1HT3J8+yZZxwRBDuaWXP1AktqEXWoeJ0c6kUqf5ykxQoz/pSo3W5l5lJqj3Ry9EoTluuPp2qd3Out8689d66BtGOFUYdtV49i0OGDnBqkGNAE9ejeH6VCmUYJgV6zvkm5/DQ7uqrJCHOXBGu3dPzikHWyxgLRwFDyHAINfGq9bYhZu4KCHBvIObWBgG5lYOHDWyexe9mIXXi4/RiS8AmbgtaFGp+2v3B7hHdLj9L4fYnIlrghtBbJAIcww57BRNJTV8BRF/Cv/ir4qbyIVSKlIh9Pdew2/Gy7OGivWk3rf6UHK84dAwkufIJf8SAY+LlmDP3V2gacKIP6zASaSBi2JLG242AGJEfdqNWLUHIWkhZ+aHn5bbNspb8467/XMulwBlgHY4yhOB5PK/AKCDSgMyFG+m6+OwE2SpuJ1+gtl45//FK/u7ETOQtOMMflZgZY0RluKLkRsOBUuaudgin2C4rxSl0ZMWukZ0ckxoFih749EWH+aE/8QGEANhm/YeNT8IpAMRC7cf5nGZnzr+Aga4Py/YedROqhLvYgW5IOYof9E8LU+3/HVRq5uHN8Kx+IwVsXIYfxyINJPy8EZdJT58BA0LJhCK2S5blWTiyvmaXg0nwbGbrBGfIZI+aVD9R0WmV8C213VYOdHdkEYWnRG7lex4U7/bp64SBaByP9zVrRaSdjwYcJivVlV4F/FkYB2uX/diVOWvt1/JO8tHZ0dONQ13qyoBbqGtJQWOq0wsFSwpUM3CEELnIe8QHXRVOFITTC11sG4PWpZVPPVuQFq0uWupds8eXOGkNlwHPazKa5UEjhjh+qGXeOxAmkQkgjCx8ye92zZGg5qYsZUCmLht8XjLPJfer3TfXj+TzBM/LRNGak5d4DG+X/veouoVIsYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I can't confirm it yet, because two help center articles disagree. HC-101 says a duplicate charge for the same billing period is refunded at any time, with no time limit, so your May charge would still qualify. HC-090 says duplicates must be reported within 14 days, so please contact billing about the May charge now and they can confirm which rule applies to you.\n\nSource: HC-101, HC-090",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1236,
+          "output_tokens": 281
+        }
+      }
+    },
+    {
+      "request_fingerprint": "070531bd965e6a0c4d230fdfa2da920ba31d5288c7ff6d61f64a2439ba0408b8",
+      "request_summary": {
+        "chars": 80,
+        "last_message_end": "I paid for a year and want to cancel after three months. Do I get anything back?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01TVXZBJa4EDqQLB7UfReA4K",
+              "input": {
+                "query": "cancel annual plan refund"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 475,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ceb19634544fac8f82feb104ea197fb0a7471b8eb4462cc5d72e7d3eab9142dc",
+      "request_summary": {
+        "chars": 80,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSogoKEAgTGAI4AUIIdGhpbmtpbmcSDFJCmTA7XgYZAcyKKRoMSNLneApxgI03QDC5IjDky0Zkp6RKfpo2JHaJdkE54uu7G1Ml4wkZ02FPi5jRc+UW49B1/5e5jz6akeauPPQqvwkA9GUwAbHV3zsxms93+hoDP4oCbw20wfCLQgLlg4R4YyDtihQnC73vpGV2M8diRPB0uh3ERYsWQIIfgIQ+BWTbZfnSfK2cxSA8ZO7XzoBOv4GmYZf4MBKHgL7I+XAjJp2ITztS92tRqwo4weHSgpbYvcrmzYMFvHzcQWFtYjwvSY0+BRXObnauffyyYs5JhifoVL8uOeQJAw9xQLC7pwh0pS/1qhJHJFU9vG2vKUYdKXvbZ5Ie/9t3qyTSRdWMTZLvVTJRfZslS05nxMyaghjO6INw5lsq8NvTsSIYmMYbr9MVQfgAPb5HdGGxta7ShmwUIaF/2Ixv8lAGumDo3ZYz9GI7qcbLyFxcaMA7K/Olloyl2XvWKN0sq0lTwN8n6JKIzZZ6xgqvoGI2JbgY5QzQNgElpQvcwB2vM/b1eN5yzWlX4AtiweKy+IlTZ2DLZZl7dnqA1K3cXea0dzyOjK4L9LNvoEqLyBMRPmBb1JtJOD973FcR4yVWNLS/t2G8rVwhaOt8nWzrX53/bSjbidIkNHatrkIbLWKx7bUV+sP5Ywq9pikk+k/dpSdXLnSdVKLHdQ9Sf0mJ1JkR/VnPYO6fDMRKLY6pTxCABNMyjp0/Ac11LpkiYj5nzaiuOJYcpqjsp40AJNbpW0H0ErH/ccgy2yYS9ubsl4JlTRn1titPknJPVDTBM5vsPVaIQwshVb7luh40j7HLYiiopcfyBdduwF6vYh1l00/UF2biOYIxvPHKj6bruWtMKka9D0eazWQZr9Nlwjdh2WHtFT8bYQFBuCVgYtc3vwX4qwvEZ0EcCE2jzYwR1rVb894q+W0oum8h3U4jVqzDET4VZ8GjdOwy16sf/8K9XOeU5tshn2i0kOfrIgoLMyCjBVm+j/Aa/eNG9stBCWtSoXw9zsR83TQWxNUA9P5jKxkNefVoCtPbjsp3k/8FsVHXbppR/8gT1LQGyeghgyjzPBuNL28gA4pwCy6PDFRm5nR4wTCWTpbbj2TkfIxPvaH/7zduegwUaeORegq2h/IjEHvQBXrmJj4McSjKb6yiKcP5ll97qF0/Emnja6eCf4mDawvVnBPY0Hl3Zb6CFn7AENWd6VR7EgL6XRs54sv8kBjmMKGUvIkVsb/cRO+hldyo0BLzvq+UFVUBw4yop0o7kVDToniSt0Tjc97eRf9bEJTDxRSfVFb8ZLnPsqEk6131AIpVGZmzi9qZJW/9xJAsA87k6yUr1oKSsPtLwIjEV0GefIq9J/32YeLQf1FqdDe9F4M4N3gwhY7JLPIwP91r9wf/+YBJZCDRAlPmKJ3J/IlMM+GwHZxiT5OQ/t5Rf6yjbMJKg48waIixNgW4ud/RR7G01SAkpMR2AEMRCuNFMXijBi/WgV4m/yR9s7DKLqO2IzpViWjJP8fptvezsZ+vJKPWzlA8oydeeDIJDiijA2f0K/qNQmHuxk25mY3VYYFrcHqJGCkZx5KiD/L1d26CbyXKFqvn+gn7aM+JBuCsIVwa2gfpHhg+WGwTLHKrLKCowlA2ZFSsisBglrIVkdUwrOlOkmINVwjHqKC2n8/jzlSmON9mPaKj1wuwy3Wo2iNpPgCVHR5yueO+JcpxNtBYLAt71yrqL9MYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_017CrLvT6hbPMd7cLJ9bgRHB",
+              "input": {
+                "query": "refund policy updated annual plan prorated"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 841,
+          "output_tokens": 316
+        }
+      }
+    },
+    {
+      "request_fingerprint": "54c3872c5da8d6d83432ee7b7e88cfe6b5adb495573e230b17935242aadb0e55",
+      "request_summary": {
+        "chars": 80,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I can't give you a definite answer, because two of our help articles disagree. One says that if you cancel an annual plan, we refund the months you haven't used, calculated by the day, and you can take that amount as account credit if you prefer (HC-101). Another says annual plans can't be refunded after the first 14 days (HC-090), and neither article says which one is current, so please ask our billing team to confirm before you cancel.\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1468,
+          "output_tokens": 140
+        }
+      }
+    },
+    {
+      "request_fingerprint": "070531bd965e6a0c4d230fdfa2da920ba31d5288c7ff6d61f64a2439ba0408b8",
+      "request_summary": {
+        "chars": 80,
+        "last_message_end": "I paid for a year and want to cancel after three months. Do I get anything back?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_013qFdvBqcdGi66hfckSGqci",
+              "input": {
+                "query": "cancel annual plan refund"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 475,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "c20f67092560089aedae86633cd2867e5cd348e5ba76812d9223ce406a5d4c0a",
+      "request_summary": {
+        "chars": 80,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS/wUKEAgTGAI4AUIIdGhpbmtpbmcSDDPh5Y5zI13b2xjDkRoMzLUyiA/2q+xA1ttdIjBM5hnE9mhn9EM/mQFht3Eox07+SqnENvqiwK0Jzs4oK1uQuO4V9cmuZob1nNFkvxIqnAX+kCaVVjtw45VNaTJw1ctDoqvWw5PXSee+WVO0XXBllFGUS7iPMw09xEbGmn6EVqxqxhx5yjGWskOi2ZO4oJXgqs7SJSu3bnAnDZoPkpO+xrXpHqgOZEcEMx+WnA5sCfEDug4y41z6Nzg9aKZDORqZ2itzcHXrUq0GfZqK4MM4w6mztRLzjts+uPfyo1Srxq36XXgWBddkyp47Hwh219QApD4eE31tfZO9H9E9msY5W3+02pScPaDSGxztrn7PSs4gnzpH8yNl25QGYy/2cg/3p6U/ijK6Za3RMeu4w3ST6Q5BF5MgZo+H6gNFM7FDIxCR8WiTd0T67mAdroUKHuHYclTraLBDIULuerDqkD6Aonepzu46uDQBcp9MhK0Z2bx503ks/Tcd93LdfPIJuAxoT95OpA1StWCTpwo3f5Vggi2GX5Jcy7l3wXJq2AnMR2f29QkwM/Fjgd6k4zdv/5CqWBR+p5B52sE6LFH9mRblDlo9ry5PQcLgk3/AY3ZljUcj3MCXRmv/oyHkuCDFZOG1yZp4qbiJ3hIStfAQqEcO7uqPMawKH4YZnQtTOrOYsddpBWEFnzi+/T2q5gjpgweKorxCqMfgmf/ez/E5Ln4EEI2/8ctsiLsTRon3zqbqzfjkSRgHtb5FDzj5fZsKTZsQAxkF2lgV7VLfNDihaAuPRRlxc/M+x1bxPGwImpczDlZzW9EIcAuQYhhMOIR0+9hOoYleYYRiTV3LQhZNkvvrunlbCRGUlvNWJCozOrNr1838P73pq1xNeO23w4XSyDH+RUhTRAk/pfUaDp+ugRL/WN4SQ6lbLm3qWoHgrSyhmYqyfN2ft47Fhoqeilrt34DyDTMdAYK9VR2ePkALNd5LB06SOatIgWcEOYPLXBgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Our help center gives two different answers here, so I can't confirm which one applies to you. Article HC-101 says canceling an annual plan gets you a refund for the months you haven't used, prorated to the day, or you can take account credit that never expires. Article HC-090 says annual plans can't be refunded after the first 14 days and unused months aren't prorated, so please ask our billing team which policy applies to your plan before you cancel.\n\nSource: HC-101, HC-090",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 841,
+          "output_tokens": 220
+        }
+      }
+    },
+    {
+      "request_fingerprint": "28d1902e1900017434d3dc087b2b1344c6162283002473bc610847615f8c2938",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "How much does one extra team seat cost?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01TdsMf3PbjWHxZ3uP5FscSb",
+              "input": {
+                "query": "extra team seat cost"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 463,
+          "output_tokens": 53
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e501abb8fed736c85984b632282816a244eb65addddabee7e57de848f0c70b46",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Each extra team seat costs $25 per month. If you add a seat partway through a month, you'll see a prorated charge on your next invoice.\n\nSource: HC-110",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 725,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "28d1902e1900017434d3dc087b2b1344c6162283002473bc610847615f8c2938",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "How much does one extra team seat cost?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01CgCBbR8JMByTt8wQzytyUG",
+              "input": {
+                "query": "extra team seat cost"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 463,
+          "output_tokens": 53
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1f63b52c641c779203fd38656a2436f8b11a272890eed7edf4c28cb2cf56cdef",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Each extra team seat costs $25 per month. If you add a seat partway through a month, you'll pay a prorated amount on your next invoice.\n\nSource: HC-110",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 725,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "13f89ee43ff5ea733380904200286acb5053155f577e44bcd8cc5e803416b325",
+      "request_summary": {
+        "chars": 29,
+        "last_message_end": "What does extra storage cost?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_019HFbFvD8hzX1SuufL8AtmR",
+              "input": {
+                "query": "extra storage cost"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 460,
+          "output_tokens": 52
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3bed531862229c179be9c5933f0b64cf3983e7b835a5a2e4656a7dc27d84cb8d",
+      "request_summary": {
+        "chars": 29,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Extra storage costs $8.50 per month for each 50 GB block. You can add as many blocks as you need.\n\nSource: HC-111",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 744,
+          "output_tokens": 45
+        }
+      }
+    },
+    {
+      "request_fingerprint": "13f89ee43ff5ea733380904200286acb5053155f577e44bcd8cc5e803416b325",
+      "request_summary": {
+        "chars": 29,
+        "last_message_end": "What does extra storage cost?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01SQwRzu32Y3TgE49vdHS6qN",
+              "input": {
+                "query": "extra storage cost"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 460,
+          "output_tokens": 52
+        }
+      }
+    },
+    {
+      "request_fingerprint": "16b0523307c03d4d9cd61de877b708ed0e868352773b8b94c2193bf794c9d9f3",
+      "request_summary": {
+        "chars": 29,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Extra storage costs $8.50 per month for each 50 GB block. You can add as many blocks as you need. If you hit your storage limit, uploads stop, but nothing gets deleted.\n\nSource: HC-111",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 744,
+          "output_tokens": 71
+        }
+      }
+    },
+    {
+      "request_fingerprint": "c025714b98989492fed6c6f81ac300cacd99e211fc13f28dadaefdedfa348a99",
+      "request_summary": {
+        "chars": 36,
+        "last_message_end": "How many rows fit in one CSV export?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01NphcDEEWVpHSxEuJMswwRQ",
+              "input": {
+                "query": "CSV export row limit"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 464,
+          "output_tokens": 53
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7fb27df23b5068bc7e2a814536e8090e36a2571ad3253f177730423b9bb1bca9",
+      "request_summary": {
+        "chars": 36,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "One CSV export holds up to 10,000 rows. If your export is bigger than that, it's split into several files, and you get them all together in one ZIP archive.\n\nSource: HC-120",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 834,
+          "output_tokens": 59
+        }
+      }
+    },
+    {
+      "request_fingerprint": "c025714b98989492fed6c6f81ac300cacd99e211fc13f28dadaefdedfa348a99",
+      "request_summary": {
+        "chars": 36,
+        "last_message_end": "How many rows fit in one CSV export?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_011BtZHHoJvobpKTbqN2hagu",
+              "input": {
+                "query": "CSV export row limit"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 464,
+          "output_tokens": 53
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ddd381d5387a3513b54bf3ba0c0fc0055b790d020ae02d1736be208f98d37056",
+      "request_summary": {
+        "chars": 36,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "One CSV export holds up to 10,000 rows. If your export is bigger than that, Brindle splits it into several files and sends them together in one ZIP archive.\n\nSource: HC-120",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 834,
+          "output_tokens": 61
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7582c8a4e631dbc67a008a4889934f2c539dc1ba220eeae00687ed4c9fed45a3",
+      "request_summary": {
+        "chars": 46,
+        "last_message_end": "How often does Brindle retry a failed webhook?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01YSAf6HL1CfhpCAdFTcp7td",
+              "input": {
+                "query": "webhook retry failed"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 467,
+          "output_tokens": 53
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5c2a6310095614697f6f0e627875dd63162c32689ff371c2caf7ca469e542c9e",
+      "request_summary": {
+        "chars": 46,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSsgUKEAgTGAI4AUIIdGhpbmtpbmcSDMY8R+46gqo+hRehlxoMJP9YSW/Qf47qjOawIjBTAB5AhMOY9wmlMdQzkGxr70jhsqPGk6vmMYPnS6I5Aq28FCdq2WqJXOwNQpnbzOwqzwTFNmht9AkpLdH9gOw2m4XsK0qEumkFUrFFCeK4JhjRsWAOAy7hs5/eNdeWl8O1EZcfvXwfHgFqPoul134OgrW0aol3K6EMVGa/IpafqS9agDdOe47mrGlmGyymsfKZMxoOFxmYXvZOFO5YEdS4udWh0DbIWu8IOWZg6d5nyMCuHO71tmFW7NPz7Ws0tfNrGhYl97b3DtYArjsP+OFej22XexzxXMhTmqRz1Eqoq1N/3FfEDCD2gfVTt0Xa4WT5jlmQNbyKZ9bFuOTGGpE+zBUf67zoaa9Z1OzkVaP4aidH/yZ/Z6ZwwCdx2bb8fBMldfMm4NbE6LWbHPdcifopITUtsa1KaFf6JGPAClXPj3RZ6PMZbSD2y3jaVpOE7mVFcaoIG2ejbfxJ48KUxPyTIfE/ec0kXhVFyNJy/0JuuaimXLHuRQh0sIIOcEnfpPisc3ViBdpSs27vc9/gnu49eexfUbr/Oh+D4ckxIoP50DihSB3Mj7pcaeC7o+maHH1H1voRrNs7nfcB8Er1E1wpX13OzsdSf3OjNEf7SglfdmtW2mUJ2dzdhkLhM8cXmnXR22O1nWxDDW8FtU/QEairXu69LEKc3N9LnZoO48f/3EiCy1ekW3VVypYE90wKoc+j5/ssEBZk40illcpcVazEc8LcTLJQhtbFZFajkOfvUC5qVue/tm9ykTHwnJYc0YL9ecvYEabwMyb/qPjzUmWjlCZLH1VmANdcf6babZbXM878J8/KWe8W6LqZoLVCbjJtosXzPhoNwMLUugYuSFkiioYYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "If your endpoint doesn't respond with a 2xx status, Brindle retries the webhook up to 5 times over 24 hours. It waits longer after each attempt. The help center doesn't give the exact wait between retries.\n\nSource: HC-140",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 619,
+          "output_tokens": 115
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7582c8a4e631dbc67a008a4889934f2c539dc1ba220eeae00687ed4c9fed45a3",
+      "request_summary": {
+        "chars": 46,
+        "last_message_end": "How often does Brindle retry a failed webhook?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01Br5gr9CHCbvQWNJoPPFu6E",
+              "input": {
+                "query": "webhook retry failed"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 467,
+          "output_tokens": 53
+        }
+      }
+    },
+    {
+      "request_fingerprint": "f42c30b756912f6c0166cee58e3d1c2be206110b58d61dfd6650a437811be42d",
+      "request_summary": {
+        "chars": 46,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSsAUKEAgTGAI4AUIIdGhpbmtpbmcSDGIx5Sksest33XCQbhoMRMwf/dnwQ5lubNkkIjCHwqE7qGb3SyVNygtMtohRbKP4imV4x4dSNHzfCcWgrLVHt2w7BcMzb6l3b32iu3kqzQQSr3OkDcpF0/sCHoz0UJZBNar59wIGb2FgJUBu1Jx1xaIqYFHfa/cmzwuibxm3cijKijKotS4NU8jzyClfG+zKm73S0hU1xrp9kx2Nbn5C3FOWDruXkVHj0X/ATwGde0mv+qq9DEomZN0ajW0Ha0ZCC6Rsi5j0ZeffZHiRmb232H7NKvzF0WITm2rcKgKD6uqXe/uMR+IlqICUeDGyweQ6zoBghbOds9TZBou28dAX6XyFJMROcVI4BDDVpTiiaoPoIdvpgmTveLlihsOnRmDmpEb1011sGkGuYkLmL6YmscXhfzU8Kr60sNJSeBMgtsMRtKKG2517i3I78FN+1iie4OnmoTh27avUr5tXqWvc8i5KRsIdIWFDdOZk450JKj0rnlyXG4x42piVYUteGxL/zXbZNme+T3h71EGx360awGeVx0yfvXTJPGo/GpI+ZHz+eIuM3gvuy/0/DtQwUrKT8IHr+5XvfWOw6e/2Vuci+NLLfg4ANSJO/UjM6fEzat5jPRTnvrSY9670V9HoGDor94e1CQRQiv1JpGJSfM2fM490pnaVFGfaUKDflmLygqxht32Zo7Vl6ov7ugIv7IwfzpbX2kDLOUm7NYhLAD5MDTsAbDptbdiPLfDe1rGthfPbJHa6oemqwSwiP3wsKzzqx+7PbQP3fLdDETuVzvOqVFrOVG5Cssx2q7Bcfkn+GdORYCA4aQ+ogya/DMzDOaIyWnVdDPIuBvvxkhUx6OihYvBomUeRXUiGcetFAQL/S+mg/QTXqp5LXJlj3lN/GAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "If your endpoint doesn't respond with a 2xx status, Brindle retries the webhook 5 times over 24 hours. The wait gets longer after each attempt, but the help center doesn't list the exact times between retries.\n\nSource: HC-140",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 619,
+          "output_tokens": 115
+        }
+      }
+    },
+    {
+      "request_fingerprint": "d7b3356ea5a1d4e3aaad06a9b668a7326911dfc4da3f72817ecd98682a362842",
+      "request_summary": {
+        "chars": 56,
+        "last_message_end": "If I close my account, how long do you keep my invoices?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01YDqjDwa6Kbx3VinYUC5o3g",
+              "input": {
+                "query": "invoice retention after account closure"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 468,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "42d63246c016075d8fd0cb3fbf54a71c3492f94090d49fdf794ef3a07e8c6ddc",
+      "request_summary": {
+        "chars": 56,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS4QUKEAgTGAI4AUIIdGhpbmtpbmcSDKw05N0m3BPrDQWyuhoMa2bKi/ZeQkC44SYaIjDnjFB5Tp1jmsVG/6BuU4Ibq4ptC/j7WfuArcNYPiBWuaNEGMXXLBUG/usjPGqB8y8q/gTQOoxpNmiUiLL48O/P2Ka6Uisr0H0VfaBbemSAOUcFCl85EbylylT6RnWeI7I1JZoqw1tQhPlRlYM5peTDxzRlMAkweqagq8/rue/HRYGP6adfSZV5tvMq4AH2Ll+R2gR+j+CK/dm+/tQrvvSNMbucAHfCHkzh1zXMHZCOTVUdPYLxzWgEyIVApyaARabvm/hInCwLci38o96FPztjJLh6xiceTdjuy1oBYW1UrZVx9Vr4IlFgGLyaisk1sH1q4E5BWDM0EiVBtYOhhhQqt5R9Hjjlz1A7jpVt3AmAAxU+TUYmjvTp8c8M1HWgkRX+T2at1QVdjRk3wwk96I4jezjICaELAV2h4RbJnglNUGzLwAv4tkdygse5uKrZ1Jetu/wnKkx1hDYPY5FLlri3So9ZIImXXs+zY+vcfE0+uG2sp7ntnermyxodisCggZ3+IDxD/XMjw3CYDRuXSX+SYLc/hqvlTHccuor4uvhzkSTNlKaV5QiUTUhyNIOnk9mNRVF0nd6rva7aA3eL313ftZwriduesCEKVmwmmNJ/yyJ/lW0M0XoR0rGfbR7JoSySV4Dbf8/9B+U61uo3+B/1O1FonEGYPDK2W6lj+QJJncs7UzzQF+a0W1FI70PX0/1pOsXdWX91boSOoeVRNa2Y0sRk91ql9jhJArEnio0HMHz0igeV8TFLfmnXXo4LHEGH/8FgNwtMplUQstvW5fYaELe1X8w2iTJSRkhWxTZEeISek3+SahssnYFvuIP99H66i9Zv2MLNmMPoH9kFFpXGjGSTYUQuByxTB4xAHecGL6UsfemRNuCOQ7V5c3RQ4895Jrb4JDTPsJquG+8XBoJjFhgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "We keep copies of the invoices you issued for 7 years after you close your account, because tax law in most countries requires it. Once the account is closed, you can't sign in or download them, so export any invoices you want before you close it. Your customers, products and settings are deleted 90 days after closure, and until then support can reopen the account for you.\n\nSource: HC-150",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 816,
+          "output_tokens": 156
+        }
+      }
+    },
+    {
+      "request_fingerprint": "d7b3356ea5a1d4e3aaad06a9b668a7326911dfc4da3f72817ecd98682a362842",
+      "request_summary": {
+        "chars": 56,
+        "last_message_end": "If I close my account, how long do you keep my invoices?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01UN9TTKdQqQrxqeRBvgyEXK",
+              "input": {
+                "query": "invoice retention after account closure"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 468,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "bee30b8d8ff1d41fe6ac01bcc781bea85f0148d8a4c4be423f6cb5ba925b0589",
+      "request_summary": {
+        "chars": 56,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSwwUKEAgTGAI4AUIIdGhpbmtpbmcSDBiYxATAjfMHdy+z3RoMl6rggCKD3JmcrUB0IjBrXPZyRqOh1s+x6Zhs5lWKCuf81dlCmm4/bEhNiVbBJDCCuDjk4vn7/CCkV3ZbZ2gq4AT0f+8FTZWvvJ6+7IOxdEOKjm48qrwY0+K/WHbdaW7tr9bQslTW8xhd9TYFJQJ8Em/fC83CoJhlaGgcBt8SbS9X6RSGlA3PdeXQBjo7a1hJHh31AMx1oQiTqm757Y7lm6h8nsCbChwsLkhMqmqb8odjikGeIJGlXS9cysbovU+yz19WRnMZoWH9Qx+30xoQo0oZx3ewbbnlYS1ranqkkB4+4HxRq/FuX3t0ROfQKDHRjKPzKvmmVVoX6VwBA01CL5pG7d7iQt1Z9ABw/Vl1xkO8nki78GsEvjsc9LUXQhmmrREy3OON0Vb9OuOafxKUGP5wMuA4UwkyOr1IAOX3+M+7+aY0TJVglWSqtGU0mgz/XFAm9d3bWzu16/mCmNbmuTz0P2PX5f2R0TK9bL1nQUI7FnJDxAvaSaL7HTVsZliqj8GdiwnSkUwJcCxVpxnFEXSqtF0G7nKjXvZErJEmi2oHxPTscSsuSVW7uvkau36G5/M+lYJ9nm229RVfiRCNaxo0cYiBtRT6CKSo9LnH6TwCWwVd5LbdS4H52vtjjQNueKGdvG5sHF1MxebnauryRz3FOI7vfR5cs6DLHb8OnzBtAiMzPsRTnX5LkYZOK/BwVZFldVdp+h1cgDRRbYLQhSsHp7uZUOl8XQC2DuOfh4ONjmJX6tEWV4mWU154moSiwWByiG5a8A1PoVUgsFg7FcuHQROP0naK9WruyAUkw6MNieZmQymXQede3uGXuO9UDQsfvW1GAcERLnlbHvyvTVfzX3Sgfx+elwmu6+I3zWNxVKUngbvXChDSW6lWMPINqRgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "We keep copies of the invoices you issued for 7 years after you close your account, because tax law in most countries requires it. Once the account is closed, you can't sign in or download them, so export any invoices you want before you close. Your customers, products and settings are deleted 90 days after closure, and until then support can reopen the account for you.\n\nSource: HC-150",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 816,
+          "output_tokens": 144
+        }
+      }
+    },
+    {
+      "request_fingerprint": "04548748cfec43601e81724deff31c819530ca963ffb13a65a99c8ba26a88e70",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "Can I get two-factor codes by text message?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01G6de26DduZDbxpBUzsMdXF",
+              "input": {
+                "query": "two-factor authentication text message SMS"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 465,
+          "output_tokens": 58
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9a1787a642687f309a2a03b193121ba8ff09bf57e604aab2386493dc164a0014",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "No, Brindle can't send two-factor codes by text message. You can use an authenticator app or a hardware security key instead. If you lose your device, you can sign in with one of the recovery codes you saved when you turned on two-factor authentication.\n\nSource: HC-160",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 709,
+          "output_tokens": 85
+        }
+      }
+    },
+    {
+      "request_fingerprint": "04548748cfec43601e81724deff31c819530ca963ffb13a65a99c8ba26a88e70",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "Can I get two-factor codes by text message?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_018XBAXy9z6RvqkRznMRdKV7",
+              "input": {
+                "query": "two-factor authentication text message SMS"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 465,
+          "output_tokens": 58
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b098ef8c26fced794bbd02159b277d3731c7717a0571492f15ea8c7e5f244fb0",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "No, Brindle doesn't send two-factor codes by text message. You can use an authenticator app or a hardware security key instead. If you lose your device, sign in with one of the recovery codes you saved when you turned on two-factor authentication.\n\nSource: HC-160",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 709,
+          "output_tokens": 85
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e96b7c907eef9ab493f2f19c19a0471f6f50c5edcc0da50ee9ae06d342282b21",
+      "request_summary": {
+        "chars": 58,
+        "last_message_end": "Is an invoice number ever reused after I void the invoice?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01PfvHvrF6SNPNUbNAye9QM6",
+              "input": {
+                "query": "void invoice number reused"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 470,
+          "output_tokens": 53
+        }
+      }
+    },
+    {
+      "request_fingerprint": "c082fea609d5b1782d069bc86f2f7c5cde12e5a7e1de7b4c440727467a86c161",
+      "request_summary": {
+        "chars": 58,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "No. Invoice numbers go up in order for each account, and a number is never used again, even after you void its invoice.\n\nSource: HC-180",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 811,
+          "output_tokens": 44
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e96b7c907eef9ab493f2f19c19a0471f6f50c5edcc0da50ee9ae06d342282b21",
+      "request_summary": {
+        "chars": 58,
+        "last_message_end": "Is an invoice number ever reused after I void the invoice?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_019BRVCYPbsv4KaZgQvkQpcn",
+              "input": {
+                "query": "void invoice number reused"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 470,
+          "output_tokens": 53
+        }
+      }
+    },
+    {
+      "request_fingerprint": "81f61488368a2c36d8aa20a0ab809e1700388b021070aa0356ab36fd5e262830",
+      "request_summary": {
+        "chars": 58,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "No, invoice numbers are never reused, even after you void an invoice. Each account numbers its invoices in sequence, so a voided invoice's number stays retired.\n\nSource: HC-180",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 811,
+          "output_tokens": 61
+        }
+      }
+    },
+    {
+      "request_fingerprint": "34159449278858e7eaf97d36146dafd15826d0de3f3ef6dc90167642c19589c6",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "Can I pay my Brindle bill in Bitcoin?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01Yavda6QXYYZmYnfUB2K2iQ",
+              "input": {
+                "query": "pay with Bitcoin cryptocurrency"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_015nMgr6EPWoNTzxLhawKVKH",
+              "input": {
+                "query": "accepted payment methods"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 471,
+          "output_tokens": 112
+        }
+      }
+    },
+    {
+      "request_fingerprint": "269fea790cb4b0b2d0d1d369cb6d53778907eff253dc7cbaf93e9721231a8714",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSqwUKEAgTGAI4AUIIdGhpbmtpbmcSDFfEqSaqmg8Y/PSlgxoMKm5x1ewk7FmZYYZPIjBD76ia5EDSWPUmdxPZTVwzFF4AvjI5sV/Kyol2WfCIz2ERmRZQ+sA6fEMn1MIeK1MqyAQu88584E/WW/LSjtwGbUCi8Uu1pLZ2Q223q5VxfaZAH8eqgkaLhmz84aN5xlg3qUqfsRH01E/PcmxJPbw9C2hmqsCnLv6yKLTmiu4snbxkxGQu9bxvRRPZHcEU6yNF+LNeWYUp44zqS15UfO8KS0DbVLh77l0WDl/CDdi5xLE96ho6ZoLuh6VvX7qaRrtMFlmzpOe73OpsnB0zi+ruyoNrrW/PFBcTXoWc4CgSMOJxOBJxBe4CSBwcOt8dDca6ox/tH+UZmB9yqyH4t7lM67/NBRLOw0dd0oPX/Avq5h+ocfkGKn0f82kvVJNPWdIbVLsjZhspvWNBHDGwC+9XwHwD8nHpmJ8Vrfn2Eh/1hvFyPpjmw2e9o0NOzstgS591TfXndVDTKASro9G+shyi7bfzkcgyGgbKpaqTapCwqTj5EeuOnFLSnu1kenaE9fLAM/wLA5k/NskFZC++B5Ui+klLwEJ2m6bZAwvnvJRkJKNvgQKPbveY3ex9cus+n5rFyg7UwEyqwh7p2ALpzP814TOlkfOQCJBhfoFwmO/N7zgzB84zyFvSZikhMqPVTeXVUlB/cLWGpH/a1xCeVLhWQkoILiiYLf0sv6TFeqmg4IRvvBsbb0qoKpJfjHNm5JGZI1U1ysBW+eZdBl4UulwMpyaJ5MI7t/9cxBodI5O2hCz7+7Z1fQRVcezfbOdgHtOmCGJp8Ji4A597usyrwboA+fDwqitsaJMWQdEv9fhdBhnt3kpFxlX1LapCt/oLMkTgd4TYBrbvR1QYXBgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01PPzN33c8uHgszV3tVK6SSG",
+              "input": {
+                "query": "how to pay subscription billing card"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 961,
+          "output_tokens": 86
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1f4088383f4398627eefb3de7e966eeb8abb7093494ef6fa22ac2cbf15ec1987",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't find anything in Brindle's help center about paying with Bitcoin or other cryptocurrencies. It also doesn't list which payment methods Brindle accepts, so I can't say whether Bitcoin is an option. Please contact Brindle's billing team directly to confirm.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1274,
+          "output_tokens": 100
+        }
+      }
+    },
+    {
+      "request_fingerprint": "34159449278858e7eaf97d36146dafd15826d0de3f3ef6dc90167642c19589c6",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "Can I pay my Brindle bill in Bitcoin?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_015NcA4PChomabJTjEZjM6yq",
+              "input": {
+                "query": "pay with Bitcoin cryptocurrency"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01PBmKgWzFTwDFQKK98M8fqY",
+              "input": {
+                "query": "accepted payment methods"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 471,
+          "output_tokens": 112
+        }
+      }
+    },
+    {
+      "request_fingerprint": "2f73fa3f29533459953a7fc9cf42f3e0664b535bfb58fdfd89d48651d24a4932",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSmwUKEAgTGAI4AUIIdGhpbmtpbmcSDDIznsj4Wd7Cb1/XrRoMuV8+c9+A/qOtQiXVIjAQxJY18jcQfj1IqjNM99HCvDdakA4yEUUtCftGbPqd0Ku+f7/+KSJ6hws5MxFpWqYquARxuv48Bn0ztaPDg/bYt10hcIalHGkHVZSesnrmve+m2lanWnuCnaplAILDGnJ9ndkCviMu5k8dfGPU2p2IbqUThhfPlOqDAiPboLkHZHuJnFTUfoKl7o+MlJdRr1O8OvMRasQB0hhVYt3ukTY4T9BqI9FLR9SdbKH2BYtLz8E5HuwZE8UJkp66fzOR8VTZd6mLQLrnLcyHlKJnVDm/MRJsfY1cnKaEBPPwb7QE0ofIdWT6FY5GNrwHl9w81voOcROE0sC54gnJT4YG+enWUzBHENUUU4LX3zLVfMlkJYwXeqRmu0xgKZ4Yc8e9nWAJ347ijqqqluP/qtuiOCIGVBQy16TUU8JV7CWrCExWZk1JqyAUAI2hIcSlTbw5Tf+Aa6nmV0YGJR43MAWqqW3gN8zhAnEFMFN7AFoUhkxE9tHZu2HALph6r1x7IYAzv8agh6wxbhzCyeT3WxLwKa931nToG7vizvcIZg73iA6Aj0jn6HbvpgZUVl4NZNk/pgXwCFG2EREXpkJro9KYzYv5sGyeRc+Z2PhZv/lx9ionSADbNvAIn99zVVcu9dRcPGQC/PhZxp4GOxyN4hwSmmAz+5Rrk3SbPzpVcnrRHJ57APxnh+s+7+S7Qw6pNg2f/DHAnxph2p+F2r/DYnCI38+015SNhyKoyt5EwvwdkdjW779//RnqcVs9MOjoCH4n2BVtDrd1oHXILl+IAXetHmyWJ7s06WWIFr8B9JJJJi7hd8MkWuOGzBRYOnvRGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_011d3cmqBJCyUgKC2RGeJ8ev",
+              "input": {
+                "query": "billing credit card subscription payment"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 961,
+          "output_tokens": 76
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9dc3733d485b23eaa94933a25ce4447025b261b26de247df958df20be4817d70",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't find anything in Brindle's help center about paying with Bitcoin or other cryptocurrencies. The help center also doesn't list which payment methods Brindle accepts, so I can't say whether Bitcoin is an option. Please contact Brindle's billing team to check.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1330,
+          "output_tokens": 98
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3a4aa4a1c00465b7e48628cf6bbe2a27364b09d9ec4d1f718cae074b4ee77cb8",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "What is Brindle's phone number for support?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_015JU42zR9KmqngVNiAkQpza",
+              "input": {
+                "query": "support phone number"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 464,
+          "output_tokens": 50
+        }
+      }
+    },
+    {
+      "request_fingerprint": "daf3a07a22e8f5bbd12d4f9d8e582f6e2dbb608ebcaacf69f37dd2bb51c175a2",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShwUKEAgTGAI4AUIIdGhpbmtpbmcSDBVeo9PylOljDcl1JhoM6fumHYg38K/tD5JWIjDPKWj0sS9L1lPXFSrVS7lz1w+t50LPlIO9bov+Ou2ubOVCP1yhJnRvZnwtwv52LW0qpAR9dLjRj/Q51g1Da+ex5SnqAZSvg0i6OYsWgyckeVgaMIRdLt3ewCSjiVy1VYfs40T3u/JaFEv7RDXpUyZShfAgM9a9CxlZxdbvzGHjCqm9vEPchYsA43sEHI8US5qxMooQs0hINr0+ceJAO+BhKEJs0b+aahDigmOaAX5VQ/cv58BAaW+hA1cXKS+tsERgxcogcxcnJ8LUoytTP787Jc/6yG/NodGFz2gORVRH+vZSKQOW3HM/DPyAqzo+roStKHJhqZAGpHPvaZg25HQJXFwViMPkPaHZ9Bb2aBBLMMVzlgzLTMKqPs7i7X43gAl6hxLj+NzTZz+WToHQhJKMq50dSNWPSCPHjDigcl1QOe3V3kFvcDy35saSh2YqrmZyIIifMCIkqv2XNDpx+G0xC7R7NsLMGsaDpI/m3z2y47MyQTuhxf+3FQlNuP9UzfrZ5Z4HP5EJ+Zq1ubBOcUKjdtYngDlnKHCsPz7Twpe/l8VxtxLOSZlA7qmo/a8stg5lsAZk4LzACc0OgmAMoPsdEVoQB2G3uY+dn7BfB9v+u8x4hmHn5WANhhnnjtwTi/97mV0UfsTePlXFvIiaL5YRum0Mp1TQNDX+UmnPa8Y9wxwHUnpWl/HgVg4ms6gFPpC+N+UdCJUOTHIcvFkEegLZgGERdDTSHG84o/CQVg0q9vpC1HTu7i+sEMTGlIwZBaqI2d2LjGVcKSOLCu7pa3867wYPCQ9o4hgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01GCBAGU7oRgEWLU1LoQxDue",
+              "input": {
+                "query": "contact support call"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 836,
+          "output_tokens": 66
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9cfc698e01ce475b757a9b0629c34232ed194bd34d1eff3f34d3ff3b1d985837",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't find a support phone number in Brindle's help center. I searched for both \"support phone number\" and \"contact support,\" and neither search turned up any contact details or a way to reach support.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1034,
+          "output_tokens": 63
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3a4aa4a1c00465b7e48628cf6bbe2a27364b09d9ec4d1f718cae074b4ee77cb8",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "What is Brindle's phone number for support?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_016SJfi1kxZPQYrZuhqQbUD2",
+              "input": {
+                "query": "support phone number"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 464,
+          "output_tokens": 50
+        }
+      }
+    },
+    {
+      "request_fingerprint": "f2c0242512599b487ced764a51e14c591ddc75f8ad622d221407de59eb7fbad3",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSmQUKEAgTGAI4AUIIdGhpbmtpbmcSDOp23+Sw4XGyAoMoVBoMQw9WwA8kEkD2LO+BIjBOF/cRwF8iaDqrk12ZRqcJ8qB2nqeucKOYmQM7XOczVrOtnzSanxem2yYW6+y2vgwqtgRX+V67i8sntiBMlex/6V2kvhyjqyQ70TJwgSOKUCYF2vCKxNnIZirEwCk4NnZ3dbQ4g2yp+dq7kOgEv/LeLC3jPrFmmMgQPNujeqAPCrJ42moib4DTmweQNhSir9mRyblHW+YOnChMMHTrMO7rXq3pZpm7U7fbGx8m7z8mgRQvMc7XXvQTpN5yblQDJ7tVhPTI7rrESS+zMzrpX8NHX2JSPc4pqW0SBGunpwoPFUpTm36uavRTr0iT5PO/LYuWhZ4aUOvLt1xusANbuefnJ7QNMG0VJ1wtbcwnnEWbPOBhe2HCSaJ+jXTDvltvEeF8rL6qs1WFbtwPomoBsrDO5FY57KrSRR39yOaEkpHTlK7B32YwBkzmHaisf9B6zrYkt/GrXwvdqtW3PYI6+tl4Ej8GFMyj+KaPVUuIeNyk0hfifYRn22ydzk30zDM9KfSg8Fy7dWukRSD2f8sirPZ23+kC5HMAoy5V22bxbfxCEHQ41yHxGmv8Up0GpJCbhBixNSAbrKq62i1EPKXfYdkjPXeFUHqe5FYgonl+jSnM1ry3dPn60ZiDjmdrBpWbD6/r6Jd2muqnRxdfESEeaHFFQUJuAzj2ujSglEmwAsZ49Wi3S1bjAysr3uKy3eSaiMzlhTrZAzXA9yO91XPjjo9klWZZ1SYVkkkeGxUft21uiLYE+4ki5Q+s6PXvsbk/9k/ZHasTKAjcJeKQDg0Jayh/1uPLOWDyOdFJOHP4NrH6Xo5GrohfhddsWBgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01U86mZBx7RgtTZyj72ovDJQ",
+              "input": {
+                "query": "contact support call"
+              },
+              "name": "search_help",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 836,
+          "output_tokens": 70
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b6f51e82d34f97ce4f214978811d63ef325070d160084bb2df9341554274b22f",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't find a support phone number in Brindle's help center, and it doesn't explain how to contact support by phone. The only articles that came up were about closing an account, numbering invoices and exporting data.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1038,
+          "output_tokens": 70
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9cd73fed2a0c9258653aa24207ae5d05e8c4df40fa233cd86c97c47a63a9f37e",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "How long do I have to ask for a refund?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01WCJjsRpdfVieR1UyRzuZBD",
+              "input": {
+                "query": "refund request time limit"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 543,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "2ca8443aff6a101c48604273eb5a744170dff62e1cb127508e4cedaa0548cd74",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSiQUKEAgTGAI4AUIIdGhpbmtpbmcSDDZc3X+5dCOtNzGqBhoMI1ekDnbhkVs/8x0zIjDIucoKz2vVHToOI8rkHZOsARS15BZifmPB+yrIwE864zqpFzxgTPa2FEiVximqoPwqpgTCYiWAmMebxPwK4qf/GeU9+KHN5KsIBjDX3POGje+uhTWhcAR41wTsQxV7lsauLwFHRPn6RYVQdAgnjP9lhUYYc4Mxl9nIJhqqPxBik7rLm0IZV0aQ7bK4EsVPLHx8Cg/5bEXwLKbUzWM5RXvIC2/yH1N0GMgm/DDCwUsfzqGF+f7dU4uBZRWcsstWb+lz/ZQAVUW79NaUXzUQEa+dK7Adq3I9pTFrDeRtYos0GP37DtFlXtEOwcV4T8LH63m1rjHXypKqIsR66ypH6Y0QyZ+L+FIXE3Q2rYZinuAN+/WBB8Gd0FSL2rxL9/fxgTFqV6Wt9YtmaJMSr+3Ek5ZHCpcu3T6ksTtHA4q9nnZYHU8vMr9kZg6mB7lvLXsV+QN7UFzzQrlWvH165sj6htnGvIh09smript9JWO56Ln70doclTEEcGsfK4yMIxfLfWiuoldzQzPf2oCxctuRnAKBWj58j694BCuAPv1qupYB0g1IaC0mVpLx7mIjl7vnXZzVJ4q8vNW47xgMDE20DCsCYIGED7nrEgP8EE0D0LdyYUlNohw26kev/DS5/8hLFBtuiAfpX+8+3i2XLku0o2rfhEUrNxClB79SK3VJBOf7Y8m12GEsHUGcRxCGZwVIQmxGG6uqoGyGeT4TA51ZQ1wIp4gMEYGZ2I/NKvulxw4l6nDVRYfkB1IPer1ySjYu7cfMxYtjShZeyoxQCsuyw/iQO2deJ8AVENHLGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "You have 30 days from a charge to ask for a refund. The full amount goes back to your original payment method and should reach your account in 5 to 10 business days. If you were charged twice for the same billing period, there's no time limit on refunding the extra charge.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 812,
+          "output_tokens": 109
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9cd73fed2a0c9258653aa24207ae5d05e8c4df40fa233cd86c97c47a63a9f37e",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "How long do I have to ask for a refund?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01NRnGG5giAjrk5TT2YcznSW",
+              "input": {
+                "query": "refund request time limit"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 543,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3a740d2779faceb2d84b68796578129e32121d672206b9b0f5c194fc778e8348",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSiQUKEAgTGAI4AUIIdGhpbmtpbmcSDEbxERgFqoNbF6PRZRoM2fghUlY2Sop7G7J+IjCwZ3FAkE6eLrUfTTfjequRreTpIG5cn8ZqV5Mi/97j7hCCOzh9VX/TWWB7RAdjCZ8qpgSVm2snZaVNbORej/oC3TjIW/AmTH2hNt0Qt9e74w+aSRk+rFJUheI+Wmbf0s1OY813FpGTqVlBMszKo2FvihV1gcvWWIuMI3s7UpP8WXH9zhupHdsWmtj9bNhyGp0Zw4XGbG4uvHU9OyTOo6B8E5WoZDKC5ruNRumvBZCAdv0lTgwzogAkQ9WHmau5Xh4QgHAxvQ4bU4RvUCzyemK4zloXejB31a6LT6eMDi23m0EFgIfUvzjFET48cV+ydGhwATGR1oLps9pwBUVijKd448jWSDmgxobk/wihdnVI1BNrnJpfsZwVIKfqGLTigBhH3Sgud2Sdf4KLWmiGlxSyEsjPlpkp+70vr3nNj0/YBzzA6P+IDHBrFqaDzzXSSS+j7dIFi9AejePurmw01V+DoUbVbDLtT3GmQgaabBktPKZO/aer/nJMVAdvLmOXQ4cDl2MA1eO/Dadt56w2bc/jawvDaHovbADKVevq0XZQHJIRuUw4T5iMpKLKKuA8awxNos3qRqG7V5ouNbvGS1pCSG/zWS7gseNPaSLXHjusHk7tt5b/32r2Nu+xYa+ll2wP/FnmqDzBS2u1M/pHw2KAOkcmZupxcvkkdTcolnaNQuRUJ9yhPiY2E1ghv/gHZW1/OZHNTXjMolG/q2OKuzoHRnxyoEY/MluTccmKFOgaW3XardEjbSnNbCHxWjMruUksrVnBrOAVOc9HdMdFIGT8npVTYcWM1M8SGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "You have 30 days from a charge to ask for a refund, and the full amount goes back to your original payment method within 5 to 10 business days. If you were charged twice for the same billing period, there's no time limit: we'll refund the extra charge whenever you ask.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 812,
+          "output_tokens": 112
+        }
+      }
+    },
+    {
+      "request_fingerprint": "32bac35636fef73df8d2a299a124521ecdd505c5ece28f336a7649dc7689ec49",
+      "request_summary": {
+        "chars": 74,
+        "last_message_end": "We were charged twice in May. Is it too late to get the extra charge back?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01TFtQnZrT7GWtrs7bxcqniU",
+              "input": {
+                "query": "duplicate charge refund deadline"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 553,
+          "output_tokens": 59
+        }
+      }
+    },
+    {
+      "request_fingerprint": "c70c48f3ef7ef9b621ff24f6ff34234c790af7ddd0a0fff95bc242a391011f15",
+      "request_summary": {
+        "chars": 74,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShgUKEAgTGAI4AUIIdGhpbmtpbmcSDFdv0F92T9b5BrkoaxoMYA/abiVFvjJcfxT4IjDTBYDWWYfPoKShjTS4zf1DuP6ApFhTnr2JdT9tess3/TbSgcn94BS5N1BxcPeWRZYqowRWb/aw9FgdCzc3UjWYNvPHIFWkjR0J8Ef4Uu47y1zDFd9sM45mUQS5anXsP5VrLQCVeEPYTuqbmhMkDN7Fbwl4mAi8e9XlEGzpNl/FY33DIak0v0LsGMrxomclnUk6bE0iF0HthUc63SIVZz4Shqhuil78GZSjgabqrbXq94nSDs1qSULY6D4AjxYp5HXaSJh2Gj47cZCOE/EbpU4iyJwat7AkkKc53wmqKz/9sOXvwJViWS9mK7ro18yYYCDBPcch7jCz3qXSLg+na5to/nHtabIo3r5PHGqpaB4AKfBsxvFaotixkG89/2llUyUiYRipSOwFpQao1dJgMuROqpQR3ydPOoL+ZkffjYhGY2iZFr3lyr2/YL6gdhsc3Fe8ILHf4qb8v9kzj++8PNcSOgbKkLuAjqoSwvcvTwdaTFGUoEQoEKzSDdnqrxvckVBySlzObZtq/JhawHoiY7Uxq3GWskpPcC/VQWPOMZC4zEGa/D6CbRj9W53XXZXmRVMDIiz5Tqy1yoDYpZ8/e2mMLF5cscjFrpfi+bXO1WTI0jjP9vdm5QdQOx5mRNqaBqmXWEdAiwZRQuWoujps+t/3i5eWVNfJ4wHlahA9fpVVVSEp+URWg70uhvPv7LEKKkNHVtZ/gA7v8rVLkeweucXaT4Y1ox0U3UDXkzhcT0YQ8lor6XBQTpqP+7q9yrtgWZJD8K7Q1apFj5jztJcXheiuIcU6CGaBGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "No, it's not too late: if you were charged twice for the same billing period, Brindle refunds the extra charge with no time limit. The usual 30-day refund window doesn't apply to duplicate charges. Refunds go back to the original payment method and take 5 to 10 business days to arrive, or you can take account credit for your next invoice instead.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 840,
+          "output_tokens": 137
+        }
+      }
+    },
+    {
+      "request_fingerprint": "32bac35636fef73df8d2a299a124521ecdd505c5ece28f336a7649dc7689ec49",
+      "request_summary": {
+        "chars": 74,
+        "last_message_end": "We were charged twice in May. Is it too late to get the extra charge back?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01EyUe5qEhrwAZ1E78xCeMXN",
+              "input": {
+                "query": "duplicate charge refund"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 553,
+          "output_tokens": 56
+        }
+      }
+    },
+    {
+      "request_fingerprint": "90d8cbbe1c96054424521eea7df8fdc12a70f2198c464e9c4e2820dfe45abccf",
+      "request_summary": {
+        "chars": 74,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSqwYKEAgTGAI4AUIIdGhpbmtpbmcSDIAI2bk9fDeAlZoM9xoMbBQ645P1ztoG/lLLIjBbrru1mawfPxeXopCcZdhYAcm4Cb74b7RRGNqUM6o5ML+T9D7XzkXEws1rH2mTvFkqyAXTlFxy9boTTg5fxBx1dKR7KukN3PADaPVN/FGFg65Q0Y3BRnhMT5DnGyz7BAFnAbGFyTqFJ4tnxCZG6yYspXvW5tmYO6TfJGk94oWV4hIgcGKuFjGjZAinQJnoCwlCIceUOC7ER38w7utjBVsJwU5bxlk4wiUz/gIf3+m7i97ZOTW8aLUMcBum2gqEpLsak+hqOHXIbzoNWTnewrdBJV+StpRgyFI9M3YLMAHLXIRAYUtsrwkOzPWln8wlnbUYuWXsX7A41smnhsF8pK/6Bc5Gqtb5hdxU9WL9FSH0D39H3rqJFpWGtixsLKAFdJGnwKA4B4idWYoiyNcwleK1EUP3tsiF+QiTHnqsM/LT+GOze5Bi2Y4guUdb+4a981SJGuamZsJcPAHDzJWywZGlF7/SbXqzigcLGip7cdAyvwzvcVhAciKtrWCHSsloAX3Ey8NDhJlU6K4MJILad4t3vyZmIzua6yOc4LJdEPj5Fv1+YMCdSwIfbClhMkRsaem5etmRZHw2ivS6wJUeBNEsnDT8VHJognU2UtGdnGPRCZc+/Zk4gbFGSaihAn0kPd2y7L1A/tA/Cq6ZGufMX7okNaB047jZGO8hl3VueR15RFuLGdkcMTaDbbCA2D6i3YZ22aAjYv3PFsKMlHUhmgZvh/QON/blSs99hrV+tk78keL1x8zZEDeCLWcmDEAXHj7qgtkhNSSWTs1A6IE+wRgzCEh20Tn7CK2tzMn7L19skeQI46GDx87dlXcApYHfzEJMDZDgVeIW0Z1wO7bPdyUyCTYu0sRtUGhXP+ZMcUWTXKGGddKMX5fgrG4oNP8X8lCJQ0vd3gyJnWTqoz7wUVkCozATuuqO9t7bvyhGwMi4nlc7ivsLMDlrf6HbARNZ8ZEligQAWLW8JelIRFtHITaechGrwfYq/wbUnFPuAKfOg3So0PIkvBmfZYJFGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "No, it's not too late. If you were charged twice for the same billing period, Brindle refunds the extra charge whenever you ask, because duplicate charges have no time limit. The usual 30-day refund window doesn't apply to duplicate charges, and you can take account credit instead of a refund if you'd like.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 837,
+          "output_tokens": 170
+        }
+      }
+    },
+    {
+      "request_fingerprint": "69865a2cbc1c9d4e743b406cfb518d07c506b233b8c0d466b2a1e75181db7958",
+      "request_summary": {
+        "chars": 80,
+        "last_message_end": "I paid for a year and want to cancel after three months. Do I get anything back?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01D14GbJbYmNDzdsXp9wXEGG",
+              "input": {
+                "query": "cancel annual plan refund"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 554,
+          "output_tokens": 57
+        }
+      }
+    },
+    {
+      "request_fingerprint": "bd6c318161ceed713ec87452f0bcdf1cfed3110eda49921add6ef29cff94894c",
+      "request_summary": {
+        "chars": 80,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQStAcKEAgTGAI4AUIIdGhpbmtpbmcSDCZplwwLw0mebLemThoMHsnj8DsEVfoefFxFIjAu+HTqrvOMYDeQDpe/dZggxH01ya2mmt7uaV64mAkufcCJdY1AlXWqIUaMt7EgLc0q0QbrtLCb6ENCMfd4Ekej66lh0pT5f5yEUKhGcJW1T1BW4lL5S6XvkpUlSDO/8co5NsZQxNCNXx80WzAZFttXuIhTAwJ7A86AkltZ8NdiZ9Uy2XQ+dfAUWHdYZJ/69fKnITOjnlqiluxtzGhlfxV3zZK3bvldgnYENGps4zZrw1aUKQrqC1YWnMy98LKBh6kBI7nKM7ycwoZvLz19Ie46Kjeu+yorTjsGJX79ZhJfikfBtHwInXT7+7y9tsX7MBPJ+rEhacjp6MISBhfpInVI7vKr43GZVE/lgSNUvdcq6RUIq7F3182MUPEV/aeiOZnt3H5DeBBIHJW7iMNsbsaNbdkmQuKViLQQOQojEkSGTPz4SQqmbRWSEx/e/XDActHH6hn/zh9C7njEDSTBnfcbd3TsT0FMKt2ZDnfvePvfR3vwbt7Fv7yxWMEjADSmJaJzM19xrA/YZ2HaBLuAWjH7RNQQRpG0/0ZMhc3bPd18Z1v1hVfHvge2iHJv5KfWhii8DXWBam8/QINhcWN7Rhbg6jlbgc8lFog9e+Qw2nN9Ic/5br5FLmwKFWqSpUpM+OutvD/bMQ6d1wNo7RM4FraFXNHKr87MLHhuvIZIyKUpyJcVeTRnpuCY0hhQ3HdJsIi0oMnLGcFt4pPCPYwrDfEM6x1Em5CKvAorm9bI7bVnQe3MJH1ERyMEdk7aRkrd51MwRXee2uT13VunjhT3VbaAnCGOdbm5DFaJYYb52Ja1C3d9I3Gs4nfBGDsZEkif6gGMWl9FZbgQjjC0PwypYMd1yUvIpODaefKraX2cI1CmbmLk+ZwCAXUdJiKJnEZLma530OWJTxtPJtU6Y79T4glI1QO1SANGN2zIBF30WNxEAe0jj8J0A2tMDnO4+8j1IyMVSCuwjne3/HK97Yf/qTr55HI7t61Ek3Jn4hkukC+dUZTyf//V8hJEYWrn9c0ALbv/6SoQ7Ben3c81W5zfY5lByvJ1F5Y3z+UrTJrHLMqbmFuEjDIfpxL4irgO3uWzl9RjVRdWkCqWJN/LCEdnYBPB2mKu/vE9XhHIzB+Mac9EKs1036zERbhm1EjEghgEa3ssBwqYBfB/gbYTgIN3txBZdAG9sTP2boUxTBqtRCEEkOCrKRQYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Yes, you'll get money back: if you cancel an annual plan, Brindle refunds the months you haven't used, prorated to the day, so you'd get back roughly the remaining nine months. The general refund policy says to ask within 30 days of a charge, and the help center doesn't say whether that limit also applies to these annual-plan refunds. If you'd rather, you can take account credit instead, which goes toward your next invoice and never expires.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 825,
+          "output_tokens": 265
+        }
+      }
+    },
+    {
+      "request_fingerprint": "69865a2cbc1c9d4e743b406cfb518d07c506b233b8c0d466b2a1e75181db7958",
+      "request_summary": {
+        "chars": 80,
+        "last_message_end": "I paid for a year and want to cancel after three months. Do I get anything back?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01XnwwkuoCwrDpPrST4LhWiV",
+              "input": {
+                "query": "cancel annual plan refund"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 554,
+          "output_tokens": 57
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ff49d113ab7ffd05486ce1a1a9d68f78594473d48d2aacfe2446a71df3bf48fb",
+      "request_summary": {
+        "chars": 80,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSxgcKEAgTGAI4AUIIdGhpbmtpbmcSDL3RWcRY7YoOI0gGqxoMX+Zm5I49Nr8w4KdgIjCdZHdAx5fNTDoz+AKSYgsmHBQMtTjYrvZAv05xpOEvEhuIQTJYOoF/sbn22IFRU+0q4wbFLwLSAkeuiDT2IxSjVSCrTMtx71AXtMJXZkve2CDJoX1RFBWFyI+X+uCMb2Kn6nudlpsT7ygnvXUi6edU4pYxJ6V2kJ84xPUPMOhG9bhvVQh93VARISz029QfBXhHnWvbDg+0zw3SF2Ut8581Z0ln4tE+fEjrPZPir73itOmcFJsqx4T/O28V8nu53hmaYacM+HXvXXZUJ8x9HVkNjSnPMZBF1ulu5I/DLYgqOGE/0Ay8+xSAFW4yPVOpBRnwMPADtc8k9jEK91k+tAO+k3h8twhQtjXo0Jwf1cdv4aN6KhQliBcYQwyS7NZRyCSgEG4y/w3xcojFl92YwBz/HKnQj+wN38u1Kwm2IBsl9Ge31DG8lv37CsaUqaXh5dA3RpcC91yq7/D55/jfwQ3kQvmKdogCmm1J+ugvheocD3zBBW6qSsS5d5xFQLOzj7v8Z6wa75fziN7Fk0LaFPeEoXq9xsmDJ0QLVvBUwlOXhg2gNB2Hi9/FrT5pWKV8hj57EniwRfzTs0Ac28KvBL5MNLm8lMGDf8SbB6w+xCX/ijwAFmtdPMRWrz4W63OtPYy90RT1HQto3LVLcR7evrwfc64g8M/TPAmt7iJAluN2qaTesLjWSMG70XXDG1UGlojMYNLfkVZHE6USiP6ImymuEASxPNfapolgJn/PAp0tqgkCuPRLjD5DrhY6VwzQ30tPWHVI3NFykdtszIOh/Mil2aQhoi00bEf/UxxxXPcGhe/mZ5Kz4Y/xmN/CugRJ6s8tW2dfMTMR5589M54Ccr33ghdwYDrqcKEA9HuwlrRKk7cExXXKadQJWl7MqXohzR86KjSqtqv2b/ARX/38OoavA5Iq5OKnGhVeQ1Dzco9DcgMKfi1dEaZSEcV0bBZlMofZt5LnRx8mjVfzaDNzhEd/oU8cHr8X3hhb60L3XcT4mOQiFVQqafd8ywo2e09ZxLgb4hteVPsNa6Auiv0qP+h76mahoNww86ZI9/dhsWXlmoVTyjKqDioi0+iZsqeVz3IMXKn68FGL6kZME6Elphg2HaGX0zjJLBBcnWEli0+MxhyRaL83G8bOFitEJ5qWJy6wOLJ0z2Oi77WXpHA+qzbVpj5bMDSWaw8Qu59fdjm/lsA7Jtv+uv49k7NJdFHAyPjwmogjjwQYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Yes. If you cancel an annual plan, Brindle refunds the months you haven't used, prorated to the day, so after three months you'd get back roughly the remaining nine months. You can also choose account credit instead of a refund; it goes toward your next invoice and never expires.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 825,
+          "output_tokens": 211
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5808815db06f2f19da925f381ec862872c0337413e1a6f8cf35d0118ddeddfee",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "How much does one extra team seat cost?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01ApZ6NUfAEbk56k7MtcYmSM",
+              "input": {
+                "query": "extra team seat cost"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 542,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "34ce116d5e233dc82251180c2b00e90c979e3a2ff1ec893b7d4bfb24fcf59a59",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Each extra team seat costs $25 per month. If you add a seat partway through a month, the cost for that month is prorated on your next invoice.\n\nSource: HC-110",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 794,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5808815db06f2f19da925f381ec862872c0337413e1a6f8cf35d0118ddeddfee",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "How much does one extra team seat cost?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01Y5EuqYgt8gKowenGbBMwxZ",
+              "input": {
+                "query": "extra team seat cost"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 542,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e4e4d66c9e08abb09aef2dae1b9aab9ebd4eaf9fe2b7603e8c166905d2d0da75",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Each extra team seat costs $25 per month. If you add a seat partway through a month, you'll pay a prorated amount on your next invoice.\n\nSource: HC-110",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 794,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "746322ff2a02e164600cc8614818ff8b66b2aeade9b66f7b9a3c66ff0e6670d5",
+      "request_summary": {
+        "chars": 29,
+        "last_message_end": "What does extra storage cost?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01JyCoKLWjR4JC7LZSZFTTKY",
+              "input": {
+                "query": "extra storage cost"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 539,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "17061b874448c06728da823600c5a7ab4b122eb4bbc0eebfa8a4fc56623aaccf",
+      "request_summary": {
+        "chars": 29,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Extra storage comes in 50 GB blocks, and each block costs $8.50 per month. You can add as many blocks as you need. If you hit your storage limit, uploads stop, but nothing is deleted.\n\nSource: HC-111",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 799,
+          "output_tokens": 77
+        }
+      }
+    },
+    {
+      "request_fingerprint": "746322ff2a02e164600cc8614818ff8b66b2aeade9b66f7b9a3c66ff0e6670d5",
+      "request_summary": {
+        "chars": 29,
+        "last_message_end": "What does extra storage cost?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01NArovMyda5ngo4Qx4YmMhp",
+              "input": {
+                "query": "extra storage cost"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 539,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "cd201c631f1fece35ed1d52d57dc490cb281788f02e7f37fd3fa67c48a515922",
+      "request_summary": {
+        "chars": 29,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Extra storage comes in 50 GB blocks, and each block costs $8.50 per month. You can add as many blocks as you need. If you hit your storage limit without adding more, new uploads stop, but none of your files are deleted.\n\nSource: HC-111",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 799,
+          "output_tokens": 83
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a338a143c86000419871bf58f1cd464a50d1ed2569e34f216f456d519361ab84",
+      "request_summary": {
+        "chars": 36,
+        "last_message_end": "How many rows fit in one CSV export?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01RW6Djpa2DiwXCbCF3sgx65",
+              "input": {
+                "query": "CSV export row limit"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 543,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1cb993a1d3c9e24d828f503f351d4a995e4221725d8419f5a0d60f4226d9c17c",
+      "request_summary": {
+        "chars": 36,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSrAUKEAgTGAI4AUIIdGhpbmtpbmcSDJ/VPpDLFoqnqiB5JRoMIDc7sHFEnL+DUZQFIjCX6VABjw76EVfvLrB/dqm6YT4aL9nGuTK7wafbkvkGDBbz9qKaYY9Z7eEXGocj0i8qyQTptyVJ2cAXp2JRuA8EcaKCTFvQ3IA8pXVoHcyJ4C+Ylszg5iGyEYUt410+qZrMX0sQOC5EHQHKLJyUJBYOAW/uC7rbLqQfF5AzTJs1UwCg5g4zf0xYU4StWO6u1obky4nvyFT4vdIlUhZOE/g1kcPCfGgoTlW1AkaJDWnjQZ4LxKmR5UCVUsx4FDwMrGCmc3GU4Rq+z/KuuxXAfFYCXsLRVSX47j6Q5iVGvDVn+JCHUKyR0spn6rYaV8lL1QN38CNRjL3KYBfpDDn2yWLBNrF7A6hvj20wv85YZatiNkjn053Q7FlLkYlkXV/mvnE/fseucpKH0WgBKM92BchmBoSlD5WGiscoz+cS7oyfM8V8RO7JIJGL6Bx/zsPKGs2Iy2whmOwjpvFtstpIis9Y6w8wV9euYK6U0tbdFbIdTd2R4N2yLE8i+nvrg6QKiFnhCupKGLLMZmHaStMQ+zZ29Wj+Mwn1Az6e0uZzXnBgu7e48N05CW78GJfBDsBAdKDxC0IwVlq6YEbBJm05VvbCehgnCIk3q9ZgH7iRMC1xYlWKUwr3k9zcyFAA7mtf5Zk7QF1KmHqE/2KNqZiVKsFQKvhgryU7QOzHe3srwGB2H3+LCvwNTaKQU4OoNwKI49TUWRE/CQIzIX/LGH8XJjVkJk2ka+BSDknX84YHmN56L+VEj+1D+mfS54h0rvYaVXCLHIKeyg2zGTyWtblUXc4gnxV/WuNRP+TjU48EEjDk1hJoS2GZ9ztCK/OeRQ3b6pmRuoLJg4RkQQqwwhcYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "A single CSV export holds up to 10,000 rows. If an export is larger than that, Brindle splits it into several files and sends them together in one ZIP archive. This limit comes from the article on exporting invoices to CSV.\n\nSource: HC-120",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 800,
+          "output_tokens": 106
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a338a143c86000419871bf58f1cd464a50d1ed2569e34f216f456d519361ab84",
+      "request_summary": {
+        "chars": 36,
+        "last_message_end": "How many rows fit in one CSV export?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01RCnCVJrTX9Ke3eU7AffKKk",
+              "input": {
+                "query": "CSV export row limit"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 543,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5e5956ba26e02440f8f2076c9530833fb354bc3ab9046b42a119370a6f701105",
+      "request_summary": {
+        "chars": 36,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSswUKEAgTGAI4AUIIdGhpbmtpbmcSDEIt1sDPVfEnUW6xuxoMpcxd/88ltP1LknnhIjC5xTX1SliuPFOmnrZyKlFVsz/UzKbp9sDtXZpmUCRED2Tk706B7LD/9t2NzpE4CIUq0ASt27QgQKCCFRxOj0HpCMa5sugKHmHVzItv9+ALbgNRjr4bk+yPRJuUaOVMKXuBzxuOBcSigOfNZ6L1PIUfrAH+wlD+EN/fPAvliD4gOaSelpDyFBR90+RZYP6lxaUWAaPakXtJtO4xKSSvIDBAlhuffBAgb82AWsxF79KrH/NCz3gtciE5MptKpaS37c2cMBcLOkfIps1fd4HkL9/rxNmiPa+gYd8uwt0iyfPQSyA2I93iNOkgBnb6VSNfrVAAVHGtBG/2toX+TleoPMj/BWLMj3LYKJTa5VgVM2lZEH/D4Lvi+IXMA0naToUrTVuDlKMajCBwpwITshwv0NbECZjSk4n+aT9puu4/sTia0eafSh2J+6aH7OJ90tpUv7RdLRpZfzrg4a5YQ/NqIznlPCBAdI/LBl0COoUMWUOVaZIxPA2C+nREUx10QaSplkiYU9/ghG1kepiJb5wJZy/DkEm+vjjjWubDzgmx2q/UvmujpfwXx/Q9sObxuinaX+qvnkZnNNmkSRrTAOyCfNOSZ4AJJV7bmPE26Stylano5xV2AdrZqV0abhDify3w35jYyaC0cGKL5CKyZbYApwya/slJoDzgGJcYNRqctAQDKlyeJN70thLWBIXWLxyl3RaE3CePOWGNApwXDfXihbFvGsoNfpDLgC+ro5JYYS/+MfSNMjQoAgCfr4tVM88nm8em1YjVmB61OBMxveWbRs3/xRCqbYeR1KLG3r5MEvvX/zVkunCdtERf2R6hz3ia320y/75anZLUyyNpvOWRk1DIm+MNGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "One CSV export holds up to 10,000 rows. If an export is bigger than that, it's split into several files and delivered together in one ZIP archive. This limit comes from the help article on exporting invoices to CSV.\n\nSource: HC-120",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 800,
+          "output_tokens": 104
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7ac61a3777d1060cc4781656bf9066d6eacd55d1ceb1e085cc9ff235f1302077",
+      "request_summary": {
+        "chars": 46,
+        "last_message_end": "How often does Brindle retry a failed webhook?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01Q4wZdPP51Csi9Xv4DpvUVP",
+              "input": {
+                "query": "webhook retry failed delivery"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 546,
+          "output_tokens": 58
+        }
+      }
+    },
+    {
+      "request_fingerprint": "607d9312aa1d29a94b983274c2009d816f56a021758a87e78108fe38abe31f8c",
+      "request_summary": {
+        "chars": 46,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSswUKEAgTGAI4AUIIdGhpbmtpbmcSDPjcybRxBli8LVURnBoMZt871RvLu6UOGhQAIjAxXtaHJ62Eqlr82XAI8k5HR7ln+p4SGv1i9h63kZ1MByQ4qKyF4BjpeHeimLR44YUq0AQNqYf54v3Ro8V7L6OYFx8ZROZcCcMCi9xUUlYeqpxtEa/4nSLZwnS/q7S3gqBzl9FDPW9GG4+dIPGWiz0gOVp8qa0XsCRy/uvbF7lKeiQUPXZcXif6Ey+NZNcf9wkSUS9PYS4epVEaHi4BsOAEPcXGJqc2zAbqGch/bWdw8F1IA3zWjxU3MdO8OAdSg8zvhXDyrL3docbsrRsN4wOgoXhCuuqYF0R6/4Hi/uJSfYfCM5RttUKbjyIrsqeWn9h2TqE9o16OWVieeuOxcN2t8Yxg7vnQs2OTgR6eblviPX0d/p8pdocaAQ/NQAX0waDeWGFaA2n4Yo/AtaXzN1g3aa93YAtiAnnSSMriKopu6LFsQ89mkKWf/yJijgtpOJo6dBhFySV6gd5eEK8aSvV6/VwK8GKTE373BzbIibzraNsGkYNXtn+QyJSJUQWJ6v8PmTRKMa/g7Ut30paN+8IlsD7e5HMnpNFnzCo2Jze6twxQW+W6oF5NThL7X6odgm9jDVNzCo/Hk8FgtIMaVrnb6ynqXyRqsmHsvguJXTlnnMv8fBcm2kgn5Q80ymQxqg3nF/tEIjaduYpPZZ58wXbcCzdxkhgigiCNoitIxjOWt12oLa25o5dF/FOcC0nxmdO9ZSXG6hZytcMwUZwLG1raa9q0ohIyEVXCCjTC7xmrhfWi0zSKMMDmf83q6MPPZ87zL6x6A8fMYUUTUCD1sKgNnNtMjrM0jFvDssYc7a6PweOq9ctZ1kPnFfv6GeKHibN9XGQc8STrgTKs3bxeC2AxKwPGGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "If your endpoint doesn't respond with a 2xx status, Brindle retries the webhook 5 times over 24 hours. It waits longer after each attempt. The help center doesn't give the exact time between retries.\n\nSource: HC-140",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 740,
+          "output_tokens": 113
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7ac61a3777d1060cc4781656bf9066d6eacd55d1ceb1e085cc9ff235f1302077",
+      "request_summary": {
+        "chars": 46,
+        "last_message_end": "How often does Brindle retry a failed webhook?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01FYypgKyk5YhMiYWnV5qRrb",
+              "input": {
+                "query": "webhook retry failed delivery"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 546,
+          "output_tokens": 58
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7c2a18261d02276386344c3afe766c7e4929ae1f5a6bdf6f8f0c0d4be2b41965",
+      "request_summary": {
+        "chars": 46,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSrwUKEAgTGAI4AUIIdGhpbmtpbmcSDKp4bzPpjcTYK0TJnRoMju0TdxcdREOCN0hRIjC9DGw4h4vKYxy5z3hkmFNtJ7Sumka7ymdiq3ltiuo3jbA8j2mmWtXYrSxNXwTUurMqzARHrf/2cn8KdJNQ2g6dUcHE+D/7YWaYAlRwG0p6FTgbqVCR08+49416WxUmpEfhHH5ysprzncvmeA2gW1lyleWog6DLchi7oJzs6Eszy8bikjK1+bD9+hdKGhdjKafq/Dyomw+nyc3AF0PrU/F0FKvCf7XObNJN1xQ2L/Pn75xTMfZt0Edb7pXkB9J+vJyhC5/eyMkFto6sTC2mIEctmxoh1iCtx1LnYkS38CXX8eRtbxUUI0I0dfTf3dM9ai3mogLSb2yrpCcXjJNtxbPGOJ3nQOShvXnVwQ7CpMSezNwB/8sBNWxEMsB3OLdLwO/MAsuw7lsv+V/pIl1qt9dQmaf3WmNvv1ZjieRLA5JHmeKWE4vnzxHNA9mdXil3FS9gcE720dm//i3K00ppWlnhnzQ3UeEkAQ9Y4Tzjt2s5OsuJ/ykTuWEcJidouFyKX6wPhrAuXCDkXH5+zN+qFIF6vX+u3fJvfq7oAzuCzTZi4SJmLXV3EQF8rI1adeHcqZSs5A+YACaSPTyM1GciWf4yMgstnMDjpYmdgfes1gyKsD9jAcjZGv19RyJ95nxY3IBAiDQLGnoERGcJIW1L2MsBIw4aUEPsuaru3LfVQCMffkXErKeiF4TwSigpZkuNw/C23s/he3fbmPhZ1Ph6gHG3BrkYEmOi05WY37TNOC27qRH3/wL9u9luxOSw5xPAzr9aSi7mz1QvPP+zGEl1VOR1Nl2UbAXlL4qo96TQkxosaFRSvRNdIs9VuwPUNknm/sjmlQMOn+b6M4JsNbWbxCsYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "If your endpoint doesn't return a 2xx status, Brindle retries the webhook 5 times over 24 hours. It waits longer after each failed attempt. The help center doesn't give the exact time between retries.\n\nSource: HC-140",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 740,
+          "output_tokens": 111
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1dff3123bb0ea28a1d1ae603bba077afc8513c69e727555faf4f6c23b336fe13",
+      "request_summary": {
+        "chars": 56,
+        "last_message_end": "If I close my account, how long do you keep my invoices?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_017oBPiRQJwHAuUHFFGsCWsx",
+              "input": {
+                "query": "invoice retention after account closure"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 547,
+          "output_tokens": 57
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5263015b286bf5a335e06ebfadac3b226e943dc84433c433921fcc2d0888d60f",
+      "request_summary": {
+        "chars": 56,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSmwUKEAgTGAI4AUIIdGhpbmtpbmcSDKQYwpdWmRaNrLlIOhoMl95NEfx8/WzMRRCfIjAooFzyty5IVoBe7GgS5ns2D+wWEbkP/1NbI8OYO/ENd/mhBjqZtKha9aJqfkzpduwquARdOeN3xfJO6SMzbk/sj8WjyVmfyetZposvd1iTqRNT0wcJKYD7idRah2rhr07cU2UnPsMHe90H52mymaI6P+TUUAR9YUVIngqi9k2ak2gFqz1VtJ/8Otv8X+Jx0XtwUKD4NGnGOvpC45Rg4JDGJVojjJl/Q5oeezOLfMQeRBGhWqWbjoYhFlT/9vREdsJyC+w4a145HE3HGb/tX9bHn6QOm+d4pPLif3xUO1fyPPB7enfU+HSiBX+WZ5lTQCzWgCizFArm7HH/EG5wztBkLioebjymmh1sbx+BhUkhp9rr+rqeIqWIj/GHvnqP4CYZQvLZwTxYXMU7PkgTdrShgys8aJnZww3f6XhMBLt42301ZcfFWsLH/WC6IogmeZ92S/4S4jRVsGRTl02O/060QEF2M4i+mhPE9yZTCB0vvAUR9q/ThBuip0pwBmDzj1mF+aKSlk7b1XwEFjwIyCTRLxiILhUfXu1MT3ZYSbldU9f/iLcqbS0Jh31uymr8FbVWOzTOTFBmrVmfjQV+94bpWRSHEXwyrOorsPsguvAaO7wONRcjIVPs1ZEs+KxRibRZ51x8giC/RaiAjYSaePQM8hGkvh+re8hQt3ABuPN7zMl01GVtbAKM1JfUvwWegJqSYEOFqloButoS5bc0TBqp91vgR7Nn9ji6w48ZotWw2CEenqyNijhHlKV0qo0lU3/t0P8Tw7MpnCDelA3iKCkkFZi1PY5E7PVLu+RVjQkmfHEhh7H6ZQMG9+4+GAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01Lbn5vMcvtqUXUgW2GYXvzT",
+              "input": {
+                "query": "how long are invoices kept data retention"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 797,
+          "output_tokens": 85
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3b8ba82245d0a84953d30da996343601adfe44721882466a821067d3d715a65b",
+      "request_summary": {
+        "chars": 56,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+wkKEAgTGAI4AUIIdGhpbmtpbmcSDIHDsRTU2eIGawt+rxoMwmSIIlXvxKr+akwWIjAaen0TuceBVekItUZKUq4SQmgf22tMSH6Mlxdiktt+cwZof8Ucmy3gxyqYFsYNG/UqmAmj9C/6OKNkxdHUThdvq6FBt8QbA4D0O+JNrrKwBfd9v8URHRXcnRsJaMxN9xEAgbiCgmsSSvzaMMsLAxhkHzOPELRcbPilcJgLTiXswWUr8Taez9Rq3uIPdlhCx0HHB6q+oqqwZxGADznBQxZvnzONjB/yIcGlL3eeYn0IYBH9MggzsFSQB1IVsc0Ct7y421ZBFN/dbAku2bYs+2P7qlxJ718qUIJGffEoKCFco23ucC3ffpYi+Qp8Sk+AyfDsOwNmBylJ9vwxOOR3KgRZ7vyVVZQxQd/j1ZMkL/JQ201eXpOyaGyDor1nNJsm4MJldwTqvHx90q4cw2iXTIGt9di/4GyduYEMMka3HMPPNcmpe3SDF3eRlRchcZTYu1g8wSVWNNEaj6Z/CuXazl852gPziXfLAAJvj+Vw7qbWpQadE0i9LUo/mo+Xz4clXSrlGiM41R/ln21S7V1/KdmNk1yDnRxdhTpcjF6SOjnX1II3l1coFNVjGf6yErFHCIcQ+7tGiDp5SG1luQPUjpULG2TpAtWTZpTKKMqQiMRKYlgnprGDBBSY3nQqahXhF0cutlomE3sBNZKk11lzsgvZtc6f+WGVQvzfkRzSN0dLRStvDfjXJyusJMvIJPbPJY6OakC5vS6Rc14GPWKmK+MJspmFLe5XehnHS1CnPjodbQnsWxjspwSuLDOsDGlDlu9Dc5jqCUlqarDdvxIMpLk545Ow8gB5MElr+wzOiQVGekkqsCGSNP85mKQCCu9RVDocXGmo3P6od6IYyeeH0vZVs3R4S4bueuFE4iN2tqtZj4LMeMDlvVogj1cxdBguxrX2zqrqONjDQp3xN2tzWH0PxM1L190SNa6jnWTW2aoy0644jd91HaFvjkAU8Hm4FidS2mIYUeRcaWjuFoPr/A5j9+A2ruhuky9Lw7yJsGWRZtfIy+VOMPHMx8plNTVBdHnhpfe3I9xik7paCQV49n+FmR3YP0HLNaZ2KokTUJCE+2Fx0UvR0TB9v1JCcTHyZ0IdDCEGrnsIHBb4Wrsgrr1clnAcBKh1CyfJdidpGmdvtAzXVBwtMOsxLtzrV10WdEGHSdVepfgnvUkW/OwL7HDSAjXhKDfQ8+YW2k4uLJzAGo7SB4UfaDICygmvV+o3quv5059mE7FwEWVvk0eA5LF9htQkPw6fALa+5GZePYxeuwrPxfbyIGgPm1s0yeC1ycs/g1vZjW2n1i0P+HvxQUUrgmWMZVcon2yu6OOQfpWopGWu2X76jud9oCm7ZebaXnXaXnxFT1vRuk/GCNMEnb2gVRKQzhC0rINORzJqkAdfFrwrquufFdAjDHjKzPVkzlunSeRkSIg2IMKTmaKEzekqY6zzgbK4r99wb39RFqKhhlAf2K6wbm6jENAQz2fnXGKDrwS0jk20t0bJShmPUo4ls/559qT3NZ9qDCaoTUF6r+8AsQT3hv/Yl4hFtSzAXku3vUtMItqamMDJsPIPPU3Micx2HeWdhMBjVBrEXZDBsGkxm7q4csXhavV/36qXhkMNpSzcrqogchQlcbVgxCgxgOCru7yIp1nIoPkYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "The help center doesn't say how long invoices are kept after you close your account; it only says customers, products and settings are deleted 90 days after closing, and support can reopen the account until then. Once your account is closed, you can't sign in or download invoices, so export any you want to keep first (article HC-150). For how long invoices themselves are kept, please contact Brindle support.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1089,
+          "output_tokens": 298
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1dff3123bb0ea28a1d1ae603bba077afc8513c69e727555faf4f6c23b336fe13",
+      "request_summary": {
+        "chars": 56,
+        "last_message_end": "If I close my account, how long do you keep my invoices?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01N2VToADRpoQUPrNRmLSyae",
+              "input": {
+                "query": "close account invoices retention"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 547,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3dc1c748484c8c27eb6109d9eec06d8c49536df571aa0fd2aa7228ef840638ab",
+      "request_summary": {
+        "chars": 56,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS6AUKEAgTGAI4AUIIdGhpbmtpbmcSDFjTcoyvlUQ1MP8awBoMgZMmYc5QbU8sB+/yIjBlQsrFiqUp6SosE6jTBgqdEMrC45mzu8qWqXw5+BK2X3edqXkAdZbfQf8FsTOzb+UqhQXXyZE09C7R847A5NkMyhhx0kdKIWzXTBYoYLhLKK8+w7OFmblS4GD5Ncw2DVpvKVZW/lfkaLIytcROja3N0pGe1tHGMr5XVLHp6+Bugz+RFvOqPg1JmsdBpw9UO/f0JSaD4It4TOqEerS5UG2MoF4SqOYAuPeVPvAcbvVlbnZRw9cOM2yMwt2ja45W4It0q2o1iotPs3akQN/XLHbgwm1urVUH12vym5qp7hhC+gw096yf3QakE6lU9uCV/26keV32IYW+QYIuzKoa3Ky1wE3MLMm2u8h6kW4EH7vQo/nfUXgMFtvuPjYrSLU4nYC7ryCVGb8v4vOg6NRDJzNeoZSD7t9SKMrZPRtgcHBKOCDJP3EzpCKIRtZeaQ3bZ+Nci2b1YKF7aGGovn/eHP+KuMKZKNfOGALRGxYQUEEiGdriY+Xu44qTCtdwY9YClNTfGmRntWsx9DiMf+0X/lX17PHec8+59AU5+K3TYJHQcHf8mbRsU2juXcvfv8iaNFABZuWsfl2Terso3rNQkHv+8IL15cmgJcK7/4TvrVpm05OwlvYZQOP02LDa6DFgSpfQxa6w7+dzd7IHccycOYFMQwqGszKSpoMFEkYvecM7DTfd4JSzUfqUtNfBT54afE6c3KBvB05T3PjmrvnIuIxwSYVI4qIHH3PTVvdE/dAmpu9yyDO4oksgLJmRBTqllL2O6e5hLh8MUVRdlmqDned2yqsnAU4B4bYuxLrU6Rdm0tMA0d8AbGiHSbXTDIVa0MWkAlKJZ3H/65gW5a+Ecq44z83g8mFL2pj7P+T7CAdkOQDJ5xICeEUKgKJ13TbbfWlWmNHRGsClsCnl3OO0agtpKL9MTiE3uCUYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01SK5FWDgBDRhNkPWriTkwTw",
+              "input": {
+                "query": "how long are invoices kept after account closed"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 801,
+          "output_tokens": 108
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9be711e87b5ae6adae545df6339dbcc861cbfb960dea515aa4be6dd47435d38f",
+      "request_summary": {
+        "chars": 56,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSgQoKEAgTGAI4AUIIdGhpbmtpbmcSDFWHytzLn8Y74pLyQxoMK/0jlfhbdUrk9pCUIjC6TJIsYw5O9kCB72X2/GNn3HPHYGOvjy1lvNOIOW23yd1pZRX+JF2g39zoMYM3rUgqngkV+ihgkZ16BcC10CrlDrDtILwYbkm7YwBOlfJQ987YU/dYg+I4G10fb73KdsWlsXD91qcPYYT1vAP4NXt/12usdJHx0J+bfp9hC6Etc8qGt4ltZoaiU3guGhCM1M/4xzVmZAqgVrV6P71DQxMGmYyocIijmmJ9vOrinnUW7Q7KhcqPWexfGPPkfrloKvfAAA1mK96EMctPmIAw7FU9UbI93Z32uhE8Bz9KXqSPROTljkr9EJFg4Dtt1qt5OXGUytO+u1FCgzMyGcEu5eufOi7WujE77A0+iu1mIL8dEdbaH6t1dVrdJsJ8oCWYM78rnC7FvI6riwh4JQIuXrfjA1IINrUBRMp2i4Pb0EWDKAPtSPtp2EvydeY6m4zk1nkp7N1iEDXPQj165QsCrL5CHKRvtZ4I1F4lOyAAUt6+FhiDrNRy8s3yIlAtcug0un4lOVMvTCjOoZY5TlO5wHEeHHi9WvHkXFYEjoro89wyDUMWq51UTvDNmTPgeS4jWGZstEW2Qm5I8uDFmNEmRnPh2M14hHSmbnohNFyp7g0hsThRarCTIoGu3ewD41MdbcjerHptnzTTvq2ZXSiNMprkQkKeYxs2lXJZNWt7XoBffHznBk0ymYcInrg8uUi+QVmRp8CTA+DRfUbzWlpqgnxkgWzjSmt8JHARyuzBnOIAJXsJJrtJkHcuLmM5LyvEEhyTw0zyzTfH5ZITmHlsO4Ow+CMTwwy9eoE7/j/mzIRhjvf9zme7uGrec2Z30S462zdCGcwSl6G0701n3Xu3wXKzj5Xf823tQdM2JNgHS7SUhNeaSiu3k25kq1r8cHCLUytVqRH3hMo/Fx9JJ+EW0ljRns+Rd4r3LbjptQczk3NnOKW2W1+F6soi6JD/O7EtX2Ff/50mgNZCRF3e2gpDxt9Gz1KLhFQA2ui7e/CZfRzlfSBUB2QbodF5DlERJCZ4SCrcWTuiZHMYQthu0bTotgPERYC9h0jdg+nQQAMjlBV24Zz4SwO7+o9hsitmo+DMlagiH6DaVvjF2+AinX26I2CA6jKdedKa0ZugKEVNePj+vI2xsungw7oSkC07VN0HLvKxGSndBt2XJ8SsgyViPugFN1hKY40/rSrEqEq/wG/aDRT6N8zFG44JZqjJ0pD3WPWog+w60655dhmdLuuuDpjIOmxBk37kzPN+tIEZ0WRsahhVNRFU0Bh+hIw4dTMestDfqak9V98L1wXX+XftWS81Xoq6+hqziuOG6gqqivpZsPlRNUWoLjGLRCf8uNAcMamktmSuj62ATnZ4jm59amm6L6LBucKYLo8W9lmMaPsFIJ3Im+TDaCrubBOaSRKuRi9orGyrCllbpN6bSjP4GcJ79Xd+KLKn2S8xz99E0xd7fwHZbcEtabhTAreVe7tVa6SSQFGxHgjNjqjMjArUlsbpEN7+BALp3WUTYxBWI5dk9FXV5y4pkrOjkEuobDDMJotqDdipH8KLFJ255i/GeHTaD35qAIWBelx2+6/qsXWrAs8+cyl7uib0jdmLIMwYUhaPq829dwgRDwuyyNo5PPu4sKZWiLdENwmGG7SqkuiR62EYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Our help center doesn't say how long we keep invoices after you close your account. It does say you can't sign in or download invoices once the account is closed, so export any you want to keep first. Your customers, products and settings are deleted 90 days after closing, and until then support can reopen the account for you.\n\nSource: HC-150",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1102,
+          "output_tokens": 304
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ef9c0fb47cb9e429cbfccc747ff42f97e25ce12b22052dcfe21f14b8f14138ee",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "Can I get two-factor codes by text message?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01HPegrjSTfhj4EgRnYxzN9v",
+              "input": {
+                "query": "two-factor authentication SMS text message codes"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 544,
+          "output_tokens": 62
+        }
+      }
+    },
+    {
+      "request_fingerprint": "4d3306560a730ce90ca1e96d68531d62b7eae21fb02ddbf04e07c2b96ee1610e",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "No, Brindle can't send two-factor codes by text message. You can use an authenticator app or a hardware security key instead.\n\nSource: HC-160",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 798,
+          "output_tokens": 48
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ef9c0fb47cb9e429cbfccc747ff42f97e25ce12b22052dcfe21f14b8f14138ee",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "Can I get two-factor codes by text message?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01CYiSrFHeCQhEj8FxzpbihU",
+              "input": {
+                "query": "two-factor authentication SMS text message codes"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 544,
+          "output_tokens": 62
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ccdb2eeedc065e7d7223e938bbbf68358af6842989345671d8e4a1a7ea311e4f",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "No, Brindle doesn't send two-factor codes by text message. You can use an authenticator app or a hardware security key instead. If you ever lose your device, you can sign in with one of the recovery codes you saved when you turned on two-factor authentication.\n\nSource: HC-160",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 798,
+          "output_tokens": 89
+        }
+      }
+    },
+    {
+      "request_fingerprint": "21e042db288333379e8774cd080021bc4f6b0a13b036dcb56af77d177d905a7c",
+      "request_summary": {
+        "chars": 58,
+        "last_message_end": "Is an invoice number ever reused after I void the invoice?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01ABLW4obdajhFiJDG2vAW4z",
+              "input": {
+                "query": "void invoice number reused"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 549,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "31cec7716b67fa920d07d437567208d99b0eba3539e4a1dd0b2d2b83d62b43b8",
+      "request_summary": {
+        "chars": 58,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "No, a voided invoice's number is never used again. Invoice numbers run in order for each account, and each number is used only once.\n\nSource: HC-180",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 798,
+          "output_tokens": 47
+        }
+      }
+    },
+    {
+      "request_fingerprint": "21e042db288333379e8774cd080021bc4f6b0a13b036dcb56af77d177d905a7c",
+      "request_summary": {
+        "chars": 58,
+        "last_message_end": "Is an invoice number ever reused after I void the invoice?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01VJNDARxLLFXVSm2hpFuBZ3",
+              "input": {
+                "query": "void invoice number reused"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 549,
+          "output_tokens": 55
+        }
+      }
+    },
+    {
+      "request_fingerprint": "c974a3cac8a5d612142c0aef6336318d3ac58a80bbb4bdccde6851c142d9f5ce",
+      "request_summary": {
+        "chars": 58,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "No, an invoice number is never reused, even after you void the invoice. Invoice numbers run in sequence for each account.\n\nSource: HC-180",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 798,
+          "output_tokens": 47
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7a60bd257fcd694cdc13035c845a59e1f1f627207096bcc8edd4cb19a11c223d",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "Can I pay my Brindle bill in Bitcoin?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01BAaGKGajvCecnxud9bUGTR",
+              "input": {
+                "query": "pay with Bitcoin cryptocurrency"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01NmXFfwDEi1DGLrXhxCYQC2",
+              "input": {
+                "query": "accepted payment methods"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 550,
+          "output_tokens": 116
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1ffc9cf46a141a56152a7d7c4bf592049103343638b8c5108db20c64af24ab85",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSiAUKEAgTGAI4AUIIdGhpbmtpbmcSDDa1vFtYKCBEUKLQpxoMVzy9rCDMvLuJdOyBIjDVYTpniesSxaOxrOHozgt7aFORTB1LhD9YULDHbxQ0q/M1GToJEbt7lJbe3HExmYwqpQRhebkSfKHjyWy6pZZLSwaoKJHJszlW2vYRQS2iqTWhmHlcV4VliOko5N3JCrT826bI6h/DnuUwQuISicA9337H0qVMzcltlTA25JFXxnFucsyLDXfa0hFK8LHl1KqVd2UKneSeiRh4OUru+dUY21WfE1zU3C/m0bH2ae02vbwF31bXEfYGnjEW4v7TnEbzJkojjGX4SVhBy1htyvhVIwSJ0ev5C5nallw+R5/G18hGZwo0nOtzEoTgGgLWqXMM06glS95BghDOSueX7cr3YVbMc+S0858FwzohlGGSRONEPKL4W9cm4gCSNlenyVkiCrk8TIMdDZK+7qAb5beIu/Y3FU+hLv/MYa6ZNeGhcmYMLD3243ow5A3CHzvpKIJ/BmPXA6wzQTkSs3NalRsZtZIQ7oRolwLpW0okfJilTGA1q1C12RwS/6xwRPdkgLxtN12UTmyyJyg5ahE6Vg1TaJWzAz5k12z9JgZa0DHg90U3mAhRtxJENeAdQWheBFcmscDy3653w3PTTp0Ts26yfY7YeyxS/xRgtI4D7QsW9p60qLJrtWt24mRxRSFVHgHCq90/pm/dOI+LpZp7wnvXAHrvntj/KSEI6TXbBFbiV8j9nXRvp9sTDG3szeCqIimsARi/hpzbUzDHj38D8Z73/8SGkvV46DW8YOxybwuSAzJrCW5r/PkhtSfdbWunlyFe8M41w08+ofGvLqQjfR/tU+ux55clxvwYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01SGSi11LdwkcCAQXZ7UjqtJ",
+              "input": {
+                "query": "pay subscription bill card"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 924,
+          "output_tokens": 71
+        }
+      }
+    },
+    {
+      "request_fingerprint": "532030283ea92a62eecf0a6c7041d6ee98ed4c311aa49c0240f9804143e9f4e6",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't find anything in Brindle's help center about paying your bill with Bitcoin or other cryptocurrency. The help center also doesn't list which payment methods are accepted for your Brindle bill, so I can't confirm either way. Please contact Brindle's billing team directly for a definite answer.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1003,
+          "output_tokens": 104
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7a60bd257fcd694cdc13035c845a59e1f1f627207096bcc8edd4cb19a11c223d",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "Can I pay my Brindle bill in Bitcoin?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_016ogLatXkqZ2zyMRdLu9niu",
+              "input": {
+                "query": "pay with Bitcoin cryptocurrency"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01TvEz1BLnqQfnrVPcBhEtno",
+              "input": {
+                "query": "accepted payment methods"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 550,
+          "output_tokens": 116
+        }
+      }
+    },
+    {
+      "request_fingerprint": "94427f60bea1318e842412ffd1411cbdb2f474044649218b516ab37c3a520164",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_012kotnZVaZZ3iD5umib4rDh",
+              "input": {
+                "query": "billing subscription payment card"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 924,
+          "output_tokens": 56
+        }
+      }
+    },
+    {
+      "request_fingerprint": "c64350f16ad08bc13aedc7793c17c8d16fbf7f93cba54ce1887547e9e6a10801",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+QQKEAgTGAI4AUIIdGhpbmtpbmcSDPLIGUTbUzxoIzjPhxoMK/QYg+nV5gHYdVKdIjCrZJG/hgXZJpRu0McmHe46/Nxo7hNXvhnn/m8JrIWpfsxEY0cMjUNVB+qQKDfjjK0qlgRPd05Y4DzBip2gzlFsN7eTKPeE7MA5q7TGXPNpyxRu9WFuem2Io1jO9JJeyPBPr1eAN84f/u2GOt2Z83EzrFIXAY6pxzCuc6fNOPK3MEBeKo4mnwCaHELXxJOpgauW6XMgwRGdG60Gc532FoW44P+Kvl8YUnCqigwCglsE6Q8PikVXGb43VlwLGV6DrhNFWDmbDCLmHtTtuRNSz1Btl0Z7c2hKCqJjLdxjiKb6Gu47o86XqAHWKZJy/AOw0HgCx1Yz+KqYXZ9njjQjcJS4efXqeLtbJXJFrm9e6+kQGWj5a1s3QoYN9fYdifzcyMQ8CHmn0pIbbC+Cf/drizZo+amdI/mrK9SVRM2emlk0REJ9jmiiz8sd5ZcJYD7fVWlHQpoPWyyhI2f0g12rXIEwpZ26Olmjgidr5ZyxuHAN+PiqlkPHuydqQVivUsm9L7pV9MJBYaKUqavRTRNvinakPtunx0r1j0bbwTnWV3NJ+sOMwlpYBA7gRoSRh3sW+9bvv2u/TEL9hPSXb5/NIaMhj2UCRmDTdM1gA6V2dvDnZfrqgFZZpMualSQGJcw1Z2DM3qBjufOAYtRVP7yZ3+7QU+ZUYXzlFDEm3YRAWT8mLtWCUCZNvuCpPWKNv3gdd6Ygfpus30bwi20JWLOiSrHsXw1gT0B6PgO4bY9y4dC6RULSW6j9ZNiJHuMlAHaRGyutjtFi8b97VI0YAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I couldn't find anything in Brindle's help center about paying with Bitcoin or other cryptocurrency. It also doesn't list which payment methods Brindle accepts, so I can't say whether Bitcoin is an option. To find out for sure, please contact Brindle's billing team.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1193,
+          "output_tokens": 105
+        }
+      }
+    },
+    {
+      "request_fingerprint": "17dfb9d1bb3a15d7d33beb287346acbb6c7c922ac07b3dcefb109038cd997331",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "What is Brindle's phone number for support?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01UtR4ZZJuWXSymdm1ZroDto",
+              "input": {
+                "query": "support phone number"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 543,
+          "output_tokens": 52
+        }
+      }
+    },
+    {
+      "request_fingerprint": "62fafa87effee8cfeff2670e9d1571f5a9242c1068e44d93118e5d4297c8c2a8",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01KNa25MW6bCDYTrpPxRCgsP",
+              "input": {
+                "query": "contact support call"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 797,
+          "output_tokens": 52
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a35ff1fe1763207e6c7846e5a8da18d49d8d12eefe8d65045972e1075e5173ec",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS8wQKEAgTGAI4AUIIdGhpbmtpbmcSDIU69cCys2ZFY9Yk2hoM8l0kMBkFiRsQmDa0IjCRmDhWyU5l7pHm8MBLBLiwoXwy5FGiSK1MZ2Bqdcn23+2DJQgKCZcKeoNKTYR1TIcqkAQO3NeqiHWUo5xKzNpRXpvkPHZnOeWPbeE+AxGFu7ylJxNteN7u5SSX62GlYLZF9hY3LwY6GS0vu0DMuazjE4iGtXhWQrX0BSugFZfk4CATfrw92Naa66/x/UVudfiVIR2ByaU9WUjpA5MDnCM93VAH7+AdB4EOfsw+nuqqWGSV5uHyuFEH+KtNqOcOvD9+k36h+wrkWwY+EQWNE4mLrxt17faJP5BYg0UTVtPG39H5fcuhDfxaWkpKF8m4Cxsg6+v0dN6eu31TfB44RB2d8K4On0BjcMZ5BUGGpnEOHXYFLjZ55wnm6xeI9itFHDgwOwzu/9ArWNu2j43ShZ3FYBxFM49bZJf/dVPLOhPv/IJAfWQUOk33oHDnCke+8HjEbdbOgAmRQmaLbBvyOPEhXxZPhOJbJp2/uvWkRapffSBDy0auylrZ0xn1CmrDqLQhM8uwt5C3pv563LV4YFusTWPsrMzyq1PvVrOuSHqH+jt5GG6vmItwiKXZd711XhTiyuYu3pGw+20oyUDofkMxUJGUNP7kdAQFHdNO773tgkwJUMnyjNkOCL2v74fqVKZyU8lfOJHm/5mLnzT6ErPYb+7KvU68WzhUN0YvxWYjcMj36RFCu6ycWLTUy1wowlD9nTuXixhKqv8rwO8pL65qMxSMTN+6Vl63osL53TOtd67+omMeb+x3XSmy03rVSzoEdOwYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I'm sorry, but our help center doesn't list a phone number for Brindle support, so I can't give you one. I searched for both a support phone number and ways to contact support, and the results didn't include any contact details.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 917,
+          "output_tokens": 78
+        }
+      }
+    },
+    {
+      "request_fingerprint": "17dfb9d1bb3a15d7d33beb287346acbb6c7c922ac07b3dcefb109038cd997331",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "What is Brindle's phone number for support?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01NjACuWPLSryn2asMC9EJFh",
+              "input": {
+                "query": "support phone number"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 543,
+          "output_tokens": 52
+        }
+      }
+    },
+    {
+      "request_fingerprint": "785d4d600465a899aca6098aa1804ed59d72086b6f2343a163dc2a919635b095",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSmQUKEAgTGAI4AUIIdGhpbmtpbmcSDLjZmftwsZuWwclcVBoM4KvkI8jJf6CXqyVgIjA6uAoxdFAKP7aSoCshmBHJXlkFlbRqG/+WCSrDdwslEl8L2XO/V5WdLY8DJfMLTQUqtgQmPUiPXbBf5Mmsh2Z8xeaVZdbXxcPi7mul069hMjP63ppT66/LvgrUrMyViNr7im3rhRePk3x5kP4CziCEoT7ifnDsFEcot6yUWgW0O0rA7G5+2KwYIQTLa/5+iY/EO81sj3maoUUpfwH8O+YubarHPE7qUSUiagkOeuprSnXuNjLEUqqEKwSLsH5WvBSc7WAIb35v75LrEP8XyispYjJx84W12t12nZPAt5m+kyHXoiNrXR2JN67kX9RfyuKBuF4a73jIpNkfk6YwtGfsAooK55R7+3qdadLP3cQ/+C7o+zs+jXJKcsNT+xHUm/uUED74NJBpyFeEoEEqMwGvbHuWXSNV8wZNH2jzzUBBiGHL0a1q2xoXz9GvhUXZUOFhlrpF9lXczO+VI0uMHO7gQ9EkqKxdwLRt13jj66h1ur2wSN6YahizxNfosAANBUSIZOBD/wChA7K/8Gv+RIwlpVDP06vG1scX294bunYuKNVPlCcaIhscXBDniqD6Kkj22S4kapYwwVNUIiRJxFowlbODNm81B5cIs8W9lzNhsyMj5l4KNmIqujsh7//07NlmOOx3lcZb+cZYgWtMGidKMps4LIlIQYD7Xzuw261HnQfo+K/p5eEVHtjIaq7xgJLyYqkMFnMRP++VYrGBp3yoo5xgk7stNfmQygPHatyRLHhg7z8oPsKSqOxIxjzIt7KeD15RdMKCagIdRdllzodKH8t9nN4CQSKSkqv6SBy41++tCW+J0KIP3BgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01KsWmb4JdweHtHDX6xa18BK",
+              "input": {
+                "query": "contact support call"
+              },
+              "name": "search_help_center",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 797,
+          "output_tokens": 72
+        }
+      }
+    },
+    {
+      "request_fingerprint": "d4ba84c997db1b3a8fd8ebc3ce01b297e05fd23c690be9c76c958794dc8f2c8c",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I'm sorry, but Brindle's help center doesn't list a phone number for support. I searched for a phone number and for contact details, and none of the articles I found say how to reach support.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 937,
+          "output_tokens": 63
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5007be0947410c4ea9950a9db740022789789faeeb3d30f9f64a1fe0d422d715",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "How long do I have to ask for a refund?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSrAUKEAgTGAI4AUIIdGhpbmtpbmcSDKow3SccxcZc/3aXKBoMO9bfVWg1GQFq0Ct8IjBLnr27tR9tmY3fE3iy7C31tKNpIHPbYbTdqD8bmSzBQmj/q5FVrzWw/L6REDiT92cqyQTNxMgDkTKeqfmsHjURq0NE/Qw/R6ADGCx3ULq75kAXOMjaxVvveMv21y586g59uuJKluzimZfidATiXwChTB2JYB7VeWZlvXl3crcwlot49LP6yD3P03ZWw2GGdFYqxpesyOKuPH12VJAYmb8Ligyl8K9g7I0z5riNnCRuK8D1CO/edvTmPWhDJvOdIaol4foLICG6dUxnoX048I6FMAgFk6+Iy8lVLzE94mLoOSoACltS7aNnBU/Mt3J7R7QEERdm4wpkgtZ3Ia7tYtXLNtA1YMIjh90u1T2RUezEoBinj5GEbFJLSlcteR23kvcIo50exCRvM8ozyeMiVjE3uCZ1BaFwgnQV/Zmvgb32J3ZTXsJ+SYxF94uVcHVglq5CaEX+ObvMWr/jkhYmdN2PBPNXbk6i9XXT3kW6IMapSeqdaxkLinorc6ZlEui58x/wtcHhs4qqvHJqWUgd+pSbXY69TUanhvjL71/qgqecPBsC/pYc0WnY/j1DCY4YqEdJ/9n0LEW9R0FFgC0yM4yf5lq1dh/dkeSft/eubQjc6T5w6tDTAwp8ADJt2RxeySV7bgCWK1pVvYkmQYGc1nRdmtjM1Dwgygzz7BbUhkdAL0QW1dAjS5sozUGmTZ0FqLAaxxfAj7sCIwY+OZEuqEvX2uxLhCQQoL227/C+iVmVpF0+bVrwUXDjLNHZFeWf4c29PkD/qN/pNStBlVmUMS7o+kt3n1tVaRwFYKSfO1DIATuMkkMYJL/7RGiH9alkdrUU5A/Qn4N+gFy79QEYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "You can ask for a refund within 30 days of a charge, and the full amount goes back to your original payment method within 5 to 10 business days. If you were charged twice for the same billing period, there's no time limit to get the extra charge refunded.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1383,
+          "output_tokens": 125
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5007be0947410c4ea9950a9db740022789789faeeb3d30f9f64a1fe0d422d715",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "How long do I have to ask for a refund?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSrAUKEAgTGAI4AUIIdGhpbmtpbmcSDPLMOTFTIV4Cw/ngkhoMfRtwaEJ3LXaeqTpyIjBKzu5OUys8qmowalqRbC/51ThgQyygJspsC9hhJyL4xfoZfSNsCZpZ8t/tPftrG1kqyQT3qWEeOiDYbFdJ+SIZGeUiCN2pLNKOj1h+BAkcdyuvTAmX+6Qo80Ye+nLkYBT3qsu2sUuILHLk4ZLo6ON61CWIJe5EnGiPzbLjyb3pSXXlI1FsPWYz8RWaQeehG/txhmZS24oEnPLO0oSL+gfOK35vm7aRKVe5MHHPRkA/bkxQ7oigCfHcqNnJNPAz+cf7A8P3/lCgLBR+MfJvCG/BtddchAB7C7nEeUjLObn2YHnxxzlKa+9oDoUbyoZUt3rM17+J6LDD/lrhLse7IHDJAK3OZ43/tQqEHy2bKbbn8FsmATDvGiE7olf4wJoGHOUJWOkucljGiGbkEWSQPg1CvsJtgPr1eaLa6LPnb3X6w0cgc7CzElkKITOdcMj8TGeqtRvED2UAARacpB28zQ3KoCRXlNqoOo0Ryx94PAVdjQ0t6EwqfWG81VWCzxFv2jpScMS54iDg0qflFfoqldSCNgSUL6ocfbT4i8jwTWXvYrkgaANrkG8dStUUtb4WWoCXPGzvYxaxtd98MsCrX9pWe4O3GXFpf3/x//XjABHj5s2/RaqSmWN8QIXw/aOIg7bIvmg+cuav37SVPRGHHL0VLkOPqiJ4cF89CymS4tIHCCofflgzMJmJ3MBKIUVQTcyNX+0TNruYaRPgRSR4d6kbNC0WkHt3YUyUG7qih6mBvQNkp/XAbVJ9tGy6wjU+6UwfapXGgBAeLoBsqkJP5uHZovY9eVitpsKO+Kj84ep5gxZx2r9pWkuSLsL/eXuLuvQw8K+pfFJd6KdC2+gYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "You can ask for a refund within 30 days of a charge, and the full amount goes back to your original payment method within 5 to 10 business days. If you were charged twice for the same billing period, there's no time limit to get the extra charge refunded. If you cancel an annual plan, we refund the unused months, prorated to the day.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1383,
+          "output_tokens": 148
+        }
+      }
+    },
+    {
+      "request_fingerprint": "01f7f60ff5e3cde199b1ab7b2e27b37e7dd7412559dfddd3a6647b71a5b5b32b",
+      "request_summary": {
+        "chars": 74,
+        "last_message_end": "We were charged twice in May. Is it too late to get the extra charge back?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSygUKEAgTGAI4AUIIdGhpbmtpbmcSDKJtykl9OKU4PO1PTRoMJKAaHV2JIvWeXZuGIjDZxmNhtncSsJf/auuVX5P7X1ar/SgnItKPqC4ji6qceL/AszlwXRSlEPWU9tldbEcq5wQqR9jg3BlTvrvzuyasbTfDkDIAVfWv8bkjGtsAqYXjz1D3ex4/TIc2IYa76Vh04aS31MYyVGCt5UxlyH7AqlKWpwh9yz1bs4a81oeWPvSpXXDA9LeUKRQ7L1SAQpFu10z+654ggssTZ56EpvzuL+ZQ3qzbWnHVT5pKAGDZAQ3ZHqz2lDfBoNZHJi+ZrQrrc6bViQ05SA/5kzklooRdrmuW3+bcfvbxgB+d71ZqrvunBDDe0c6BBULilo8a4bkGze4BDWpWVoVxS3TPgwTS9awOrxdBwRF9NeTnbOytBM0P9dfVfWvZBfZMlzJO82jVnstwzXyYTXndb4d8/v3TeUNKRoJ56byBIRgd98HWJlIkv8EnjOI203keDTyGERG02s0suXTncqal+SbwAeVrWq2rulgqeM2/I7U1/BRqpkYYcES700QQuVnE/qpPqH+BFBcOa1yqRd+7/XOT9KnM7H+CSAP+e+7aC6mDaTWcwuCm/YyGUEOk/48iNsjpDVdoWblg5WAEZPo8CbMTRhBbVGek3/Gg1LECFc3uSkHfRBM0OChyEt06G2jfe7afDKGfulgcJ4rjSda1fSJt+WID9gGmRgPOCTzmcfCE1GJdFTT40JbmC+JF1/MHjo/6AJ4URlNlKkjRYAbe4iJG+NZXNe6gB2H8+vH6QmBYJG+QJgXSR3l5TYeOXmo+AcFcyRP/BG4Q0yHsvFVZaC8QdOCdVfiGKmLXgf+8jKAGod+h8CrJx7Eaz4L5Ds+8j2Io+GGE+vzgJNzVs7wGlK+yB9HDFd8e3+silyN3tok16ptA5S7HI/L0kFM9dNsYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "It's not too late: we refund an extra charge for the same billing period at any time, with no time limit. The refund goes back to your original payment method and usually arrives in 5 to 10 business days. If you'd prefer, you can take it as account credit instead, which applies to your next invoice and never expires.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1393,
+          "output_tokens": 151
+        }
+      }
+    },
+    {
+      "request_fingerprint": "01f7f60ff5e3cde199b1ab7b2e27b37e7dd7412559dfddd3a6647b71a5b5b32b",
+      "request_summary": {
+        "chars": 74,
+        "last_message_end": "We were charged twice in May. Is it too late to get the extra charge back?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSrAUKEAgTGAI4AUIIdGhpbmtpbmcSDD1OQv/qozkyvDiwOxoMx/OK6xh7sxLqFOC9IjCQcmvTnP4KXUSIileWCgQY6fuEMpg77u56f0JcAxOt5XvaltRY5Y+Pk/mToQXSCQIqyQQqgw8ZUHGBOh/HAp+OBWWINbZjXTJphJGBxO+JclrbokKNxe+n3SI93EkbVropkk9iQxD8gBmrHuIOfvaEBlwHzspu6puu0LcXhNgMwWTizsaWb6QyCDD023btgGtv618J4nmnCs847mdYMnwiU4RPcIX+0z9pGrj3QF7ZFlTMMDGAshO6n514vZCt0ZnT44Ax7ozrPSg0z4yP3uDGB+OP6Zg/eVQlyZ3pEHFtYVmnZXEMNfDANJ0vXBTlUpfDGusKQBerxeEzx2cCu81PC3Y50EwkOpap9wSYcfa3nNWmVVCYiB8Y0WWuAha1tsRrm3H0PjTujO7tgMb+3iyYdFe/xvZtZMhqJ4/2uInpozxK6Hpf2Yf52WCMiCYs9NSzblFcBg95BQY89HZL9V5jDfYk8MZPO32QJDCeoP2ieXLCjaSQTew2cfQJ6V//ONWVEaf87bgQExBDg4JoHfJ/YHsweJITGnExqf3ttvHoioNIAjMHR9OuoyMJxLegM7TvTNtjpLoGprlt6UCFaUEvar6DerZxBTqlqq4oEAi9yqHxq40109iEOhMDOFamGiAztC7mWFilJMe9AghmPMoqyAII3wHRISuKXnt/Jm93rYjK8eVkKIlA+dDpYK7XqE2mhNFvpjgXkHlZj7kHznxXehis3bwuJ2msfZOiTUZO/ztQYm+l+gBuTqxgKTR1QP1eD7Upb5/Ieo0WpQhHCpPMJTDPOmRqqfy7mjldvcpU/EQi3SbN1N0TMaNk9d74llVRJ8MKbEFQuW0Vi4EYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "No, it's not too late. If you were charged twice for the same billing period, we refund the extra charge at any time, with no time limit. The refund goes to your original payment method and reaches your account in 5 to 10 business days.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1393,
+          "output_tokens": 116
+        }
+      }
+    },
+    {
+      "request_fingerprint": "11e1d4e46b1e5c5b170550b477e4280e539c9591b7d88c721a2c60af1b4c868a",
+      "request_summary": {
+        "chars": 80,
+        "last_message_end": "I paid for a year and want to cancel after three months. Do I get anything back?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS6QYKEAgTGAI4AUIIdGhpbmtpbmcSDJEKzacp14GVLnq99xoM+uHivdT01JgM9OFZIjBQg6+JcFB2XvtZv8Y8uv7ZfxAg6URJdI8TipA4d+nnXxC3ZBweK+Bq/VY1pBKTE0AqhgaLPNqraH/SYWIjKNh74lc5CYdGbaSKNB3mOgxnob5uddY/s83uNZTINPTPw1tCEUy8zX57Rou1yytfyzsHbYqK7WPkrkyoaqIYMGnh+Nhx3NRIw/YL0zQ2sbn6/ZnxTgkYvkgg3crprIjCGQTH5BTNpmVe057A4zwKxaXJE5Pd8t1t6SSM3UydjFJSDoAN6ET/wKR4NBei/qwah6kJwFqgRK+VJyIgZ1CvLA9ApVIt5PDwq1jPDW57/8SIg5bUwD9yYzLeCc7S6IUJxuhiDri3ftW///nApJn7mSDpwgIo1PZjxWb/DUF7d/wq9qCgcFQ9ZAvmAWex5fS/POmxSF6OcLBn84CFBUlVDU7TczH+ZkDGdbjQeD3nopbmFFa3c8TO+xjUoCMwB4xkNucdZesIjE9md/akbAcYJv31LgokKUh2kZ/gGQAz1T+XrrBXkMYmYVQL4KyZ7/kb7pBncNjYgL8CEXwaa68/Qh+LyylyV5iZJg8wtJmfygCXYZYP1kl4B1IJdYOW7Y08JyzaZ6+8nNo25U67WPUZduZyHfoXgMczeaUnCJq+LCMYiQfFVz2DWJ0QvRE46Ck5abep55Jed8Z5OQRjZNFc1VXPayzgFfqM+8kQc+7A4prWDhFA8v+msbX5+HgMDoJECC7KTjj0IxoewkRp06jO5u7/sbale1Iebz7+Yf8wRWs/fSix5yZ8ZA9wl4a6Bx6xP/7teYAzLoFDuBWNTSLqPVeNYZsDoG8eGohDR3nHhYI4na9SAzf8yQ8hYW7kxII/Z3053boQpDgS7i63pwa3h4/G9ztIwZ9aCVR5d9LG3bnFhLMFJ2/bKHJZdA0CvBqqJiEWTznw9hvlKjic+Mo6Bd34fZh5esG9hNqmJAV+kwo4uSUruieVw9EI3a/NjafvNotnpfOWKjKeOSwvwZxwKmv6sZr6w8MPRlfM/CLbt342oObYEi0j+zzlRx2DPouXMqfclJH+8XZ3Kp2Wx+5+PyBv1lxfmTdFRpc1NulrxryXvtWWu3RxXy1rWBQYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Yes, when you cancel an annual plan, Brindle refunds the months you haven't used, prorated to the day, so after three months you'd get back the remaining portion of your year. If you'd rather, you can take account credit instead of a refund, which is applied to your next invoice and never expires.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1394,
+          "output_tokens": 189
+        }
+      }
+    },
+    {
+      "request_fingerprint": "11e1d4e46b1e5c5b170550b477e4280e539c9591b7d88c721a2c60af1b4c868a",
+      "request_summary": {
+        "chars": 80,
+        "last_message_end": "I paid for a year and want to cancel after three months. Do I get anything back?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShQgKEAgTGAI4AUIIdGhpbmtpbmcSDGzp0WcgOJSHD/3I1RoMu/TroarD6uoB7FAlIjCdRm6kDF2li1Td9mwpb84xs4OrvXli3G/Bypa09ihJxbctZMKaf7O9Wu1HivqPKBwqogdQhz3ucDMhi4dmlh0zxgVTSCLQnnR14g9PMlA6mWU6/qOp2yOAMnEc5mI5YKUD2qRiwHm8OuRIFaDartF0AOkusXi4QMmOX7LtrBNcXArmhPKPFQ0zx22s0yCQfP7jt3H0OdxOP6oDOnWefYHfHIW8PwsOgdm1NtzbWtQjdPU1X5tlLdD2BJnpU0B8qCmxZEkNBFbhEqSu27FjboF0F9HCe13uQm2o4B9PpoIMdxrk+JSaTljq552D3HzMvqFyjeN0xxdWFj0w/+DB8KAtq1zJevSl90w9ixnfL1AtBdZTy/0Ms7vaGhGmZOpByXsE9InOAu2XDaMQYaPv7b43GoBaoL/6MG1U5lxwHSyIGRbXuN5QsminRnPOy02lEwr+Gu4gVOblJ4li9GpzJtvfbD3r2mEolu4OCVZe5d6xVyDlyBcz00SGtZWOQGSmmE0lwLTsKj9bYdOByh50lHzOrY/Ay0u4TY9fIES3r4MK2LlkIrwgPHzZexaca5Ndz0rMwtB0GLO+BHbra1qVGdlkYATJCeqVTgedpP3lqnqYC2KezAOWDXz5XmjarqYTadqsefUELISl6ya1nKTGin7tGdBkg97OPIorccuULOyjnM0uAGnBnFbH3VBGiXVHZp3UmMkmUJWS4RTU2sUUwujzPwCQuwQ3L5xJQUy/q/+lkpFXbDJ9u/c2PJ+nSImvLE0UWUoxgRnS84Wyy/hL8e8otRwTf5/8IhuxS7AeUDNZwpHMN2B8HOO66hq4M5b3wzxRDpHg4pbX/OVbU9akt6ZqshGOgJARZYCKgujaahoY5GkkCYft3LAEmHxsMvzIvGxtowlJk96CgJNWt6N3A33sYwJk0QJjOLDcxm+9nheyCYZs71FnqMsdVDWdvX+xCsQrZ7fOxAlHb3Ir8U+wv7fopKGUjaemkbfDLyLtN/cevABwM0Q2ptz3HCL4qr7EwmoZVEPRKlp8FI6yh5rzU6B+TdpHLduYBhjLEFubGpjx0fA8UlSFpKFsQkK1ZgDYRFKZSrbm+y7dmUeLIQBIDfPR5aU4NYtvbI7atXg6BTwkuoCywqmIU56csOdKc9LSyxbGhyYcdwHiwPiJJmnAGXi8WnROCwHoLt0c1x3lupFli31L1qjwBEWqs85Ffee5Pg0r4blR/dWRTlCe0I9OoC4AwN4XsQ+Aah2BJP3RX3LvSDWHvApW+YzIsKuot8d2m+WFLkCLa0zsc/jDs9sslbsaeo2QjiMYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Yes. If you cancel an annual plan, Brindle refunds the months you haven't used, prorated to the day, so you'd get back roughly the remaining nine months. You can also choose account credit instead of a refund; it's applied to your next invoice and never expires.\n\nSource: HC-101",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1394,
+          "output_tokens": 235
+        }
+      }
+    },
+    {
+      "request_fingerprint": "4bf6d20c8589ebac18cf00b55cb9a790b4a150f46524256cb82987dd6b538973",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "How much does one extra team seat cost?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+wQKEAgTGAI4AUIIdGhpbmtpbmcSDC60qYmjzj/mTcD2ihoMc8on5pjre1XQYkIcIjDOLX8IG07IwfOAScmgZjmD72OFxU8yNekBp67xVxt1a20Nfb/bTD8Mgmpr2wjF1/QqmAQ8t66uiWQWORCFGI+0ECM6G6r0WsiLKKG4pKz3ycyaCKI0NrB4oKbuHL9jQaHr/hXa8hDyIIPd7XFMqjsMN1dHBcHbshEAC0nJZZ+wFtlwMcUpyGEEcrDzjp4xqliW7a1LVNZSE8u9kBWApAfoK3/COlhfaYunQ4l7iPFXFeNYjLVgjKrdj3WDwDGzypaYyqzk/nisnqsQcNipQe5tZU96waA3py5aJzON0OiePaujCH5f8E7vRRiKhjwW6lrfnSphYduqXEn1+esv3a1pPOAlnz4TGOgjaOnsbid3xZsAZ5kWnJTGQqFLSE4+Mj0KghuxLr+L+T2esK5ZWvZo9lT5QuGoVesgYTrgpsA5bo32hXHsCLrxJVDO1jwtu0VZj4ayhnRrs37hsnkr9DYFHaYlJispYHvBvh6cU90h3i/EUJMzWResxFzA5TK49X4FvpqX2uNWmuMGJxpv2+wvhmIMbOCgJ+0YMMyoPM3esCajAuEJIUfDR44sX4aPJY3nR9NZu5T/j6p3P4u9KeKywMr4QWRoMr/UDV1JM6BFArjLL/G0AAa7Neg16xlgzmm2q6MaFuQupeIZAZtMiyIoL1BYEVZEeCwrr1X41qhGze/QCCcksOByOBXAeU/bJazUN22ZyEJJDQxlwQpYsJYhSy3zfVdp92hEsRekXfGMzfTJzMoJwpd5n5KZbx8CldGx+LkOCxprID1BzRgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Each extra team seat costs $25 per month. If you add a seat in the middle of a month, it's prorated on your next invoice.\n\nSource: HC-110",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1382,
+          "output_tokens": 73
+        }
+      }
+    },
+    {
+      "request_fingerprint": "4bf6d20c8589ebac18cf00b55cb9a790b4a150f46524256cb82987dd6b538973",
+      "request_summary": {
+        "chars": 39,
+        "last_message_end": "How much does one extra team seat cost?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+wQKEAgTGAI4AUIIdGhpbmtpbmcSDD0Apf989PMQikislBoMzulBnbsdG35fVl6jIjAHyDep6k6WUKSw8WymGGb5nSBrhYCJ7PszMddYX5y0V2tS5t0bevh+Pho/u8fPfPcqmAQfZXM/EmDde0u191kDHSEzPcTpv15cJoG5eVL3p6VVia7oinwXPuRmq9Qq2v9JoUlnzmFXn3R/0VIVd0n0k1nRRRGFvSbMX0wx5TwRj0EFd1zPBPeH6AnXK2QhQtlpWwPMCHsrpQBRSI7DMatzxNbPcHUuJmAdTQ4no+nn5YNs/rXCnUkEttg1R0O0ISC533M9TXBU9XCJLw63W8hkMfx3/G398MJCto+DecNf43ZBl57RB6iq049FiT5Qg9HNn+Ftad6IZjWVLXTL7536qaowXsCpHy8jdJXN8CNywUuAqMsBVWF6J9TA1M9uwvn/Og5GlF8Ab3vZGhlVo3WgJ5LA6POCj8yEa8C3fzQN/yjuffc+el1rEclxNUI9tn36CpemRaO5NwnxpfRfWT7thZ2DnqsS0JTgxFTSFAsV+vmVbY9xmRFA3Qz+ctOylfna0r1s6QfmyUovz+XQa5K6wOQ0SmOs9R36cQYjjlfpUMxI448PPqsVA/VEGG6b8IUQOzXyB8ANmhC40jFNsWs3flgLhq3uJMdOndQ3aN6vaaiBHQ6F1SLAng4TLUeIMScyNWnEYeA6DmWM6IoEehuc1N4lSaWkNydKh0J7WAeqzRqgoGMjf2x/Fer3MQL9DJJhqRszFl4vYSFOvZx4bjhCfxwwdP/nfbTOIES2GesWeNJy1q1JYjBfGibOEN0xKJLDt2W4300vtl3a5xgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Each extra team seat costs $25 per month. If you add a seat in the middle of a month, the cost is prorated on your next invoice.\n\nSource: HC-110",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1382,
+          "output_tokens": 74
+        }
+      }
+    },
+    {
+      "request_fingerprint": "493cc5aaf18b86a4b3570f8a6f5f1b5dcf6ebe0144d0a59ac28104c94fe4171b",
+      "request_summary": {
+        "chars": 29,
+        "last_message_end": "What does extra storage cost?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS5AQKEAgTGAI4AUIIdGhpbmtpbmcSDA2QCERwO4xf5uS/WBoMw/Golg96Y6dyPr2OIjAB6i87JE+xgoKP+cD8gT/yHWhWkRA6YWe9sopkZucOnGnnJySLSIW36zLelF0TV7kqgQTIef15iV+hoOdnUYfRTO44cpQWnuEoR9n86njHNzkwmod0Pt1bolM5KGwa9e77Nl2bNyPX2B+eWDKRhJE4VYkPVxsnANa6IMXzxdASLoG71cEEpvSr99iy1egdXLDbHnEjV/yE/u4xU0hvmYesgU28tPWwVQ/X3V0i/yPuiBbDh8YPQqtt2H6i7+30uDTeQkRqvBcAtl3FecDEbn+ht2ibGK7pB0TW90F77ecTCj1Ro6NlNjMlrO9JSRVP3/J6bVzJkH2/WFte8nVBaKp9IR5ORkItNTIy66z+IpeZjDot1VYpa9DWdo02gDKMUHzRDAVQBGeZyoCDXC/xtwcpX4qPnq0PoOTZyinwCLMDbu8FUpv6fOAcSvjtYlA/Kcr96HoUR1ESZqlGO9yZMUEObXnweMYq1YCTgpwFyKlBBwXdVw7bwZFRq0xsX995LqO5LVmHN7CTrW9lWUtgzwPw+BABWV9q0C0tqWzbJJjmIRqNeLNW4Bsv2daXlR1hqj+FSJOGrNzrtgwOmTA7QpfZhf9c1nB8DRvyIqZAKgzRW1ekx9e6JKHSoRZaK1fYHN/Ld78rbONANB0SA1RuVDv9+Is8iYiJd6DQc5gaZxAAzsRGvRSDTEp2Cekyolz0zD89kWtG3rSvqZzo3fFhhFgmkgf6cIeK9Ep5plpZPLnWwTTqeYcYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Extra storage is sold in 50 GB blocks at $8.50 per block per month, and you can add as many blocks as you need. If you reach your storage limit, uploads stop, but nothing is deleted.\n\nSource: HC-111",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1379,
+          "output_tokens": 87
+        }
+      }
+    },
+    {
+      "request_fingerprint": "493cc5aaf18b86a4b3570f8a6f5f1b5dcf6ebe0144d0a59ac28104c94fe4171b",
+      "request_summary": {
+        "chars": 29,
+        "last_message_end": "What does extra storage cost?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Extra storage comes in 50 GB blocks at $8.50 per month each, and you can add as many blocks as you need. If you hit your storage limit, uploads stop, but nothing is deleted.\n\nSource: HC-111",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1379,
+          "output_tokens": 74
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9a50d4a724be74eba39f9b315b6798ba4fe80c89c194abf7013ff9a32bebfa23",
+      "request_summary": {
+        "chars": 36,
+        "last_message_end": "How many rows fit in one CSV export?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS5AQKEAgTGAI4AUIIdGhpbmtpbmcSDKZlOqiuuktogzEQvRoMrev5JDNy+Lh4/lsaIjAAh1HxIGLdrga8NVAT6knC/ejtJsUfOwSmQi56IdmH8Ymw1PLSskwy9alvfIzKpIsqgQTrny93hXPyguTdxNAvaupIMEARZqrhGkJR9JqmUtLitohfiG130m25WgDzL59EAQdNbHvHUOB6UfOlPO8qUAdvOxc7Owr4vBCMlEe6KiTipklQew194Av6BUIwSRQDYJhL/QG3OvJ5Gmq22zM/Bl4VgCJ4uvZs5Av+5U3ksggXSc8zDutgC4NQEci48lk3rsaYAp8OuHyBjJlnThuaU1SJH/EJis+lgcE849L3Povv4c9OfX4w+1MxwiteGdv25ry39/0sG7xY0u3LkWEjClOv3Urn4n3bUxd4QDF54l0dWeNkpa7vRSQqwcyOYMaZw3qmbnTlhMvADdpUbwpMOyjFKHRmLnHIPIQGWQN8fJ9Y4TTxjt/gRqq6aggP0N+EvJs0Vpd8BWuAKCjtzzkW7Wni7KfYkQxCO355aOy+ubOU7kLQtah/0iYT8Xif85sJy4Ih/+EsZpjbAJTx/ZSZixFcdpyIWYIwkRoWKmntRSv25r7XjvQXybh/ZBzoaCOLy4oGGSoe9tXK70YS4Od/GMBrvBdN+583mfJ1I6hLdGPRsSRcwhQ5FfnOIfvZwaIZqAoOKVhSKMW5II/czZU1Tuk8x2+E2a5UDPYNAi04aKbbrKmCCBn5b3ExANVnnftfe4/VRksvMh3jbDD/JBEacbEwAge9kUR/WvvjaZkEFS/nLtkYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "One CSV export holds up to 10,000 rows. If your export is larger, it is split into several files and delivered together in one ZIP archive.\n\nSource: HC-120",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1383,
+          "output_tokens": 65
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9a50d4a724be74eba39f9b315b6798ba4fe80c89c194abf7013ff9a32bebfa23",
+      "request_summary": {
+        "chars": 36,
+        "last_message_end": "How many rows fit in one CSV export?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS5AQKEAgTGAI4AUIIdGhpbmtpbmcSDCqgV7dO5rhoTFBUMBoM1IQfEbyAViY6SxIzIjAWHbFDsaUv1MT+ZlashWvpgyeY80EH3lksPzWburmJDVFYq4m+WeuhxOzuR0mdhIQqgQTrJYWyjdOWv5hYPFPqIguvqdio3q8p+nW8daZkkTS3aH1nNwt+VZxCYWTLyuxfdvclVwPNfF4xFHWgsz9ezIv/eG1YSmoR/AEijV1gfNOD1zKO88LOuivYqeiLcsuvAJNGtHIioNg1JioqidyzzLi79tVdOLXA2XVyp4fLN5WwQ0L50Fz8PoXDfz2YJbJ0pFEYbAs/z7WRAmXwhj0vVdh7pW3sBdfyL0Nyzc3+5BZgg0w9lTVMrDjIAxh0pIBysqwwd4pfU3f0aRMBjIcNH62r2xm22Gpr9/VJ87Mx2A65Oj2NmeyyjgnQe0mY5pSRZ52VzfXEbganCwgvqSVbGfKXof3drcmDLKOgmBZlDujV+e1Z5LdwHSO9JCYvHz1oPMA0FmAN6BNZRD5gEpl1p0aSWz/UqZ5kh0i5IKL6Zpxm3iCqLEFO6gcjfRpLbkVDnMMGJ+oY9KIr5oo+G40CxbIrR5xDTw24tS3D+jyVNUvc7NXaESn6noJDTb+TXrL8YVYnA5pR3+HtoktWoIKMA/OMzMRHLnYLVllfBCTZBRdv3Gp+j+hIzikzqmp6v7r00YkxXuVuDIUmQ1vNV4I/LrLL4+h3SN2QiLhAfSV+OLGLbByUjS8XfFZXMj5tJ2uM80PBw/zQYoCyOShg8wUgXxvLfxcKpxMqwFgHsltLG0NG5+4YAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "One CSV export holds up to 10,000 rows. If your export is larger, it's split into several files and delivered together in one ZIP archive.\n\nSource: HC-120",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1383,
+          "output_tokens": 65
+        }
+      }
+    },
+    {
+      "request_fingerprint": "de3ccc0833b4381aab37de800bffcecccdbc330224081c8537041991ac7e4c20",
+      "request_summary": {
+        "chars": 46,
+        "last_message_end": "How often does Brindle retry a failed webhook?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSwQUKEAgTGAI4AUIIdGhpbmtpbmcSDJr75bb1H72OstNRHBoMsnzfl1uskR1iaGkMIjC6Ame/5iSIR7uoEj5eQX7K7LrBoU/7LBBrvk1MrNnKsJcJ9prC9daLd3KnHw9CzX4q3gSsnt/Tvel0BUZsnh9aZwiNQYk1CBk52JqrM6+T5kNs+6cIbCewZvsJq1PY6qy1IcNwFVWkjvxzdHRP8f+UsOaLjmE3B7vmMyaRGZen4CzukPcpfUCS6cWH0X6xIdJHMHfe2YOoCNSd7RbOon5vYJSsL1OIwdHnrv0fQpEjg062AzYdwX9X6immO0yw2Jhu5nIV140p6gF6h+c/R6UP5bIjijpXbEmpZS2M/4F0Egc4/FWfTdwbt+ZIJxAmZYvxIhnd5lGNdj311JUgprX/3BudQ+sEv8odN6GzrDwlIve/efjIFR+m8tfEE2sIF0bCwpaKttdyCjupCOkxymGTedhnXM3FkgMuPHT0UgueWRO8f1EM0+x+OaLs6bj+bW8581jE+a3KjtcELmiAVQ839HuhA1xYA7Ihzu1Ld4nkWC/qTfr7hfyo/9Z2hZZHaC3EOsxAUnrmIpuLTAL3FGGZYoHNYNppNgSNsRnvBLKvwMsSb0ALv/UbiD7OW4ZfXr9bovzPQpiILD2Xyl5qPGV/rNfG9Q6S7xhdbP8hGb2qK5obhC16vLB5z9ZseKhR3nLD4uB8P28KfNcUpFo1detgjp+8HHE4KfUuPaWuLIteR0n9fQDRIq/7CB54cGzmwhAcB14V/nJBlrhj8N4XsgKugVg5amYSGGP86WWGU/E6ncWEyFwbWmWXEf+MWa6ECaj/++94B4Wv0vIKMB3O11ZE0qF0xAf4lVjEKna4OIA3nSZyM1SRzBcbEpX7k/kXhNihAwEGKbupA+0VLMQrUMr+kmWebUMlFfoWx1mH1f6nbuQYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "If your endpoint doesn't answer with a 2xx status, Brindle retries the webhook delivery 5 times over 24 hours. The wait gets longer after each attempt.\n\nSource: HC-140",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1386,
+          "output_tokens": 118
+        }
+      }
+    },
+    {
+      "request_fingerprint": "de3ccc0833b4381aab37de800bffcecccdbc330224081c8537041991ac7e4c20",
+      "request_summary": {
+        "chars": 46,
+        "last_message_end": "How often does Brindle retry a failed webhook?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS6wUKEAgTGAI4AUIIdGhpbmtpbmcSDFCVuWiT+jrQb8LUOhoMtgLYpMVRTCprCUhWIjAWcZvz+xsxIwPcmrdGH8KZeAxbngywIdahtJjz2x0atavMpMHTSEEiJl9jqZOjNjMqiAUZ0FEpaDcbm/hLnWJw7ijB7Q/zdS8+Ky+h6rcLPK5zWIOkICcEh2yQMVpsHgFil2XqHN50sOU1cDgCPXwFMu/FShbXlSANZ4SpibhFkvOd/zNVTLHPGP3PFqflv9vFF1fPrQwh0PxZsR+pd0F4NlOOhJtxx5LQEfbWbcbN0UeeUVSza09S0e1qH2XvsZg1A5E9Vu2WOM1dT651GmMTd456MswMh516FNWKzpiL9Vz2tuaFnq/wmAw6zdEPHf6G4tqsDR7QyFvNwHk1iKJ+OUdAshc9jB76/XnR/JXbxogRMEnPLdMNhr5b9y0WzHdy660NLcTrhgFaJuc9nS2h5dgSTmKbCYyKBAFMKpK3w2cPjgcKpujIfMB5uavTp6vEDAHebn4vwq985SunKpjDM0Ed3HekVpuRfMAPk48M4o44ABdeTucDrQBu59vRS8leGDgQUAzQbbnuKPvy5oeshx+KbiAimORUYP1pMKRNYIw4JPCc1iJL2tPNigQiDEttSRNBGAhIIeRE1jf5GIUfU0/qeeYxtiA2CywFnQ/aPBGQFcDMRkyucImNdo8lt/uAo71iQtAkYzLTfygqzOMYNv48pdAeuf0AfFPoSBzIdFX8xC1xF2x9VpbWVH3O0EgYw+vTmK5M6UlnCHoR9I8o7rut7PdPSHjuyaLcqYytt+SFtsuKy5JrSz10WuSIWNE0aaHLN9T6zIIGSCqK/Al9YPD6upBEu0beGA9dfYvvkVrshzhwlMPV/MJljZQ/K6LoIH3TVMEpDLxpF71uPNxb4FkyZn5b8cALaPv4a9oDpOXxZ1orSO44fLgc2EccBydT1bfZ4OI1q11cAa0/F+mkuVeuIb2Oj+bw5WcYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "If your endpoint doesn't respond with a 2xx status, Brindle retries the delivery 5 times over 24 hours. The wait gets longer after each attempt. The help center doesn't list the exact interval between retries.\n\nSource: HC-140",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1386,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "request_fingerprint": "49379f2c47aea782adcdcd35ebf55c6f07c3eb78ba5a1b2c6a160521ad277290",
+      "request_summary": {
+        "chars": 56,
+        "last_message_end": "If I close my account, how long do you keep my invoices?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS7wUKEAgTGAI4AUIIdGhpbmtpbmcSDE2QtDYCFd/F6/KQWhoMRghY4QXoAvgrQcomIjAA6XSKNEZpQG8DGu3IM5QLIF59TtrB7yU52kRna2TvvIqcvk+oiUoxwOqnWgXhZxYqjAVlRmzxMtL464V+ZZV/gfaD6hqscXiwlP23XVz1oRPWc6vWH+Ny38CKP63FdMn/OBMvcsXUMnpAt7iyxGnUFaWzHcTo2PeXgJMXMbL3+EKiLV9Won10ZVQLRZSS14miUM5w9kjiP1W1rC6rd48ggyBYN7Er0SqSv/Z9daLvdSoyY+Fbxjl6+swjGIOpqp9oOfAT9RxtIwLqceEL6Kok2C0yp7i5xFO389m1fxbKju5noO8HyNhQ3Z4QnIBxkYm9XowYQF+uLFGQ3AQ2xy5IZZdtxfUsHP9el7JIUMVbpM7xeeDrYr787owp9j2CvSWHxfK2JOs3freC/jiYtQrDP56O7fRX8fVadDNcemUPkDuP/q89CiEAsT4pjK1Df8x+olHXm5bYa4o0BFeKtlB2n8zVQhFCjw7bmJG5LGcNHh4HbhfR7LxOsjO9GFgj9oYSJgvPqiHHvDL6lXHWVBsOnnDbFdo74iTFwf1Zj8ta6+l+jeJYsq8cB/ik8nPHO4vWR+dChMSH9J2HuHSSSfo+q64aom1CL7WlFJrU2qBxGz+bQl6YUdeKH+ieMIeXk+NNRl6N7C5wYuUWeOsP9Ypa3xTd3AOdgiuDhDC3Sb1bdZwZ/12gNdrdjVJYDzKDvGiE5dhi5q76fbysVkzR0NkpW/d87gM/du+gRwhLOh25jkJALT1WWf7Z9k8QuOpePqfYZunpNblBNfa3WXyXhvPdGklB6aTWtw5JcxIk+7t23QGVVibKE8z7pYra4a7TyzzoSpxY96+SykNFRj5qY5BLQklMSchlWx0KQJPwU3JuAnqFvDFl/dj/C/iisisaA8m5LDPMkQozmU1msTboji8bwWpOEwuX3BnPp2ELQSaTGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "After you close your account, we keep copies of the invoices you issued for 7 years, because tax law in most countries requires it, and only Brindle's finance team can see them. You won't be able to sign in or download invoices once the account is closed, so export anything you want to keep beforehand. Your customers, products and settings are deleted 90 days after closing, and until then support can reopen the account for you.\n\nSource: HC-150",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1387,
+          "output_tokens": 182
+        }
+      }
+    },
+    {
+      "request_fingerprint": "49379f2c47aea782adcdcd35ebf55c6f07c3eb78ba5a1b2c6a160521ad277290",
+      "request_summary": {
+        "chars": 56,
+        "last_message_end": "If I close my account, how long do you keep my invoices?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS/AUKEAgTGAI4AUIIdGhpbmtpbmcSDASVZl9+ZR0iypoPthoMvO2m8KPP3LwiSwimIjBHNnEVtxf3xDuYjLv+pSANdvcs9IY5SLF3a7U8Z1b+HCeehtm90EkWCftOOPUQVV8qmQVlxg0wk3Wt2JYlg1DOq3lEKjd+9i8LGlTwsmZhpObPDpRW8FU8IframGjA0QZe582Rcz2fdWj7VMSkqelzi4KIt44x8oWj31wybwdLyPk2z6MsaGm7Xqtb5ZSxo0Z71Uwqgl2MRLXYaVC64yQGz3YikHz68doYEz4PVyXmaIYRZ+70gKMpiRBvLiE2WucXfhWsLyYkR5IT6UeFSSvQHoW4v9ujSN68ORHeYW153DjIjgWM4P0XjmCw+tmySm0TGSzt12hluAAQq6lf/b24NvQ9RA5kiqPanM6cTY1lKb4RETaBjkklEoIpBtE6zAwKchb8QwfHMRVMTXWlyarqckxsx+H1hBZsfcYjRU39+Gut/BYSPQWJCXY0R8qeVyhZ2b36aysSIoiyXBg5hR91XvoVWsfM/nUe4LajuwOKtoqMloN15GMiB5C0dPzYwBhgobuNsogxkAffSe4ixVcJN3Vk6mWLPcnxm3huqcU0UYbQo+3IoQL6g744RfWXGnPe11rCQ8jzHSqYfKcYRqbnEScaJ/v9xQyfjYzE0dd+xPlqQmPDWHFXrYzbck/GNIasCep9TP9LVyYzRvWDY7sPu0INBejV9liJ/CyWRgChc8JLdTOF0Olx7WKqsMAsO4Ah4+lGVWThOgTD7b9nC5jjfTCISdQMjY5hVIwJHa7/f1LoDeSzFJsUVQK6+LnCJoBckPtwaRtL0kkgDI6po9+UJfEOw3Y3yjoFUwy8rJYOJDD0Cgp848Mmby4RPXpWiszOnJAVwVFr0g1r38U+xQyfOz6orMQpV4JqxSVHAuSLRmeLf6EPOrrMEWDtcqqhZ2PCh4sCbSvr+ofFr/gi/j8cKh6GY0NO+cXeEgKunG4K4WsbrFjm75bcOLEmTBgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "We keep copies of the invoices you issued for 7 years after you close your account, because tax law in most countries requires it, and only Brindle's finance team can see them. You won't be able to sign in or download invoices once the account is closed, so export anything you want to keep first.\n\nSource: HC-150",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1387,
+          "output_tokens": 148
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e23db991d663c2f523480dafe10c78a5d619353e579e1195a2f6b2f79e771162",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "Can I get two-factor codes by text message?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShgUKEAgTGAI4AUIIdGhpbmtpbmcSDBdAIpUZ2xXNTc1lGBoMdy8nPToQTNYua0P4IjCO6h/H+BNKagZ/OE928PmuxWVg0Tif9SAGCkZlNjQYWqBaz4dOPgayQACKl/POwRsqowRK8ZUDOVlGALrRCxoKIk6llVTMIUgo5aJk9TzMT7aEuECjSITsK188owlsFqdnAEdmtgMFN1Td+F8qha89wK9h3NVtL0d1JSz/jvWcVEBS0B/TlaSjSCo7ZggA9mdumEfaOqhJUcT6pjQ2rm+C5M66cSbwAh+bm92TD/kfXBQUQpdFYU0bifTWBDr9xFiTM+Uy2GLoXq0qZeez+o6vjypxzKqfd99mvstEpRiBPa4vfJ8K8g0M2UhQnis+lpIJIAmXu7ViJrnrD4lSZz5nZSkreQdA/mlNQxHZnYBXEVuooabsDvch+GSbCWCAO50F4X6A3cFSmjBGGME9aXg6DuhGrk/YKw/FUMUCDqa6yYQViAiiPxbTjrGDbOd+YJFZX19YgGuDPjK3E/FwFR1CXcXuD7B6B+bJHhmIuFh0ubEsdOfSbxYVnGB3oOoNau0XcDSGs8PoZ6xEeoJXTceC1fSz5EkPibXTEz0gZFqNZn3NhqBCaJ3jgwm2KpG4rImK8TqtM5xYUXtHAG/caDhxA0ZxPOIw9DtGs85Hd5TbnfB/DBeJ3gzozm6DsqXLpvbOE1RbFwM7kEj2tKWcNdQ/knSCGqN2LIi8RTm35JmtVEAn9GhZso/XFPmGz7iuJr9duYvt8M5euyuFO4UIHMrHkWl4U2XnJYEv+K9ORNzeu03r4JwKNaYUrr0hsymierwmiwJ7ZL1XimR+MJU5QTJVFQaEhtZfGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "No, Brindle doesn't support two-factor codes by text message. You can use an authenticator app or a hardware security key instead.\n\nSource: HC-160",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1384,
+          "output_tokens": 70
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e23db991d663c2f523480dafe10c78a5d619353e579e1195a2f6b2f79e771162",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "Can I get two-factor codes by text message?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSpAUKEAgTGAI4AUIIdGhpbmtpbmcSDHptuX6tAcA3Cb2VkBoMQDLCDJgM5QOChst7IjAqRM39RwChUyWBgr1ztPiiqlrSuoSAirIgbwf+8IgrnkzlAHtOswasf3drF45eXQoqwQSomGND1izq9hleRynDbiKbq5ymHFYiqJscBxsWV4NwfZUFfEJJ6uAeb0WsGgjIh2qGkzJS9RvwC0kiH1Hb+4g7BM667b9h9GIyjWzv/vdVMoG/CnJNxGgecO0ewcn/fN70IyUOOHc1RchAW7Q44P/GHg6txxPoU5/sYcwrtPOgBiTrSUwr0Sykq8YjmCTb5XxLdZR7qCysFU3k6gfFqNrd+E9TXSvliTFkk5LQ8fE0yXRxsSkgeqRlKpc77DGYe5L9HEVITsk5GBwXloIQFJe5dvbcdn29c7fbVlhFZO+YTRUhihey3dA6RK865ejsimuxkhD/amjSm9XB2CkSP2tvzLiXM/5J846ufpM4AaFDFYBOdnnlaSwLgA+zfm1/DGMKHGyOxIbs2EA/7rcsl8I7p4Fkmg3XKRyh6ZFNNvfYRqWBm3Ly6bY+0m7vyK8hIX2jkGlZSvais8UN8CqbpBp1teToTCcjYHzQ7CXLJZ2Lcx9pCYAE9pGKl3V/3BhGCDGgI4C6l5rXpWTyfsQoi/5VzVWugyN5oMkArDwsTUiHU0fV5+qVCAez7mZ0nb3pLdLg5QqG9OwqbrLK8KhMoIGyOX2txIK7isBpONA6R1qTZB7Y/cuhdN2xb1Caz40XtwlPQehaK8h/9GD0FfT8xyD/OYDhYsZ8EiDVObgvwzkPllV4Fuil3IF5FJx8MSCuf6vqMCPAYdKsdu0WlQrJVGgjlO+WjXLAxG0MKpI6Vk1F1YzXPEcm9wJDo4h6jxmg3+AMGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "No, Brindle doesn't support two-factor codes by text message. You can use an authenticator app or a hardware security key instead.\n\nSource: HC-160",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1384,
+          "output_tokens": 85
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a45bc06e992f19b9331ea28e43dd2398a855180196cff38a64a9980d6f03fd52",
+      "request_summary": {
+        "chars": 58,
+        "last_message_end": "Is an invoice number ever reused after I void the invoice?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS7gQKEAgTGAI4AUIIdGhpbmtpbmcSDP6XHn/rz/cGhhkleRoMoiWBzs/dDGu9/4CmIjDJf8OkbnOJL9YKBbxQ5D5DByNgvgu1AfL32X/+3lrIa2Dnej8E4od5cgbNGeT16rMqiwQ9DGnMm1O1PsBmpSI8Vy1BJvat7SEYCBBwOdIIHCHe8fB7JVLjhdniM895qwMjnNQUzZ0NHP/pFxAkdZVL77Rcr/CACncJbS4A3AH4RgC5M83Zxs8FavOqUxG3BCQ/4QV5xYhyzcdVAa5/SVfZP9/C6wQ3FAplI3B2ovvfVig8YwKsznw02lGVHxxZfKWRJxwUO05uxJ2adZfk+VLAw1k97tOzAzQFB+aeB7Yf8hzCtKwYxOco+425u8G/+HdyXJ2Esy2qnt6HtY/Q8Lbxcm6z4j8xBSGJO0CeJNki4zjBCrYufYfEq1S3UX8koaOzZ5FGRbRk3VWnb7ucr7a71YBVeVXEkDFRrUv4iIGya6aSzDhpviuoCqhnshkP5+QfhwQLYIE0oCMHUycTw4D31N2613H8O0uOtkEfu6rJyNZcEm8pdw/HrW8BIhREOMzrluxaiZ+9Wtu/v/c5t8Imw/tnSVH5z5B6mO9RRG2LCOgmpL8gAlVkP8Pej99/AOojqLxPvRS9B8ql1HV1l1y1Pc1ykURXeqg76il5m/37MD3qxMsJeg6VIn2qSGP+qxkZD1uscSwYHHX5XEHZVoLuJJDsiFPy+I+6sz5kkuHAYjRORn4VMEqCHvDp55TXqc5NvPrirl8P8fYquubZBZxHhZxKJfCXKk7jec40vqV3l++H2cbqs9542eEroYelGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "No, an invoice number is never reused, even after you void the invoice. Invoice numbers are sequential for each account, so the next invoice simply gets the next number in the sequence.\n\nSource: HC-180",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1389,
+          "output_tokens": 79
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a45bc06e992f19b9331ea28e43dd2398a855180196cff38a64a9980d6f03fd52",
+      "request_summary": {
+        "chars": 58,
+        "last_message_end": "Is an invoice number ever reused after I void the invoice?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS5AQKEAgTGAI4AUIIdGhpbmtpbmcSDNu/vGTOocGpmeiezhoMjbaHgypElke76Nf6IjCrG/oTKzJb3D6jUgbt4xOFaiwI4iekVkP0hBm6aHJajxfLgW3FGMm0Xhd+hPxXljAqgQRYxDeNg8ahqVfrTOY7M6GGtkvcXW2eYZNjXnM4y/loHIZPdqv0GUGCbujo+rIZ81JgW0BGVYFwkqrXCFyPMNS+G3EWq4HQxOwsNUBmlBr2jKnvI71QHVNYUJFqQ3+9YDoXRablIlD+4Md2YxP2eyiw9hJcGwOOaYTzRSZsAF34l0GrR4Dz5xbNSYcrc4LLQ3loiV6BrFrPTnWU+2dRdWCuYZIZUOE7rIRsqhgCadEUMGBlIDw6+p+u40m+jPAoDws5pZkVATjjZQvzt71Jb6WHfksN1OlC51qjL6O+83qf6B0H+/ttZAFCLDoAsNkJlDVgHZODEtjmgsSrnmpEcW9OhBUiHdzWbHDEkWFxxG9daF+jc1rDZJ7ByXJT7oiouphNW13v69+ksNHb65tGkb7cl4SqJVzvZVMpQybGTgGjIrCGmdeEYpFGDw9KShH1lO021/Tffbm3XKG4ulcLhNZPCjbyZRaKu307DM5mXaY/1xKuXfAWpjhkR19EcyAuCbyXnJMHAWh+73jCCsstCEHYrR1VSYUHLcuVDl98vilRcyysBkL87H4qUevTwixEHcIO8HOJjYNfvNi98C/fLla/m00ev//Yq1THF8FD3cQcHb4oaA7VMp3NsT+vePnhhp+PFcJ07IRteTML/oNY3f6SzEDGzAyUfrlL34L9inSz8X0YAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "No, an invoice number is never reused, even after its invoice is voided. Invoice numbers are sequential for each account.\n\nSource: HC-180",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1389,
+          "output_tokens": 60
+        }
+      }
+    },
+    {
+      "request_fingerprint": "790c8c6f201fcfca24a72840c3d2b8a4843763e0df66b175822853e160faabf9",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "Can I pay my Brindle bill in Bitcoin?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSngUKEAgTGAI4AUIIdGhpbmtpbmcSDMlZN+L6Hiqbiiw+hhoMWNSQ+rZQhLvZgKL5IjDdpd/ac+Mok/dHDHkaKWm3cIapglaJkJ1YONDB5keluGTFpbT4YGb1XL2dL56YIZAquwRaazznSpR2Ur0bQv5ULiEDLOqm9VuYCeWp3LA0kKOkCup5H4ExIoVNUpPIJ/VJpfoxLk/2VRHN71IZZNYhavelR/RyVpTJdQKgN63qM3GzwktZ4SJqFTW+cguU5NT5u9Tl+H7zc4EA+B+8s89T7ej4BRir3cmtsuHa/YEIZp3lVEChTcdnGkhNxYdalYlcBO/q3tGqyGH7zRYOBRZ/tqpy3Y9F6lpduIkEu+3k9Kju1TyepSYPM3Nz+/DQ9vE77gUnkN+rZfz8oQqCg6owFi04QvdRoy3uDbSZislM967oJ4njKkO4FNbz+rWTeWx2Wl55GmugobFhJcRoHxS3LuQ9iTL55TgKPJGNP/xpKthT7UINcGSQxLaO2sxS2dWK2LEZXpLwjOn7BWkmbp66R249Y5OEqT/Sd+tr5Jwb7YY7QpKxm6iVr5liTvApL58tE6DtVvm3aazjNSl5//VRBeG521WLkpb9eFbm7BQOUe1ZusPuHQtCYU3CTxblKC1LYPVXUTsVZWylW+rlPmX4gGxnb9F+8vxMy6iaJhjD9QTpi7Drnr0wJ4Tsx3pr1ASix3A0rTsgORUtbMUoszbi8g9btA04GkLUxY9XBU9/nEhHRSV35P1AQJBpyzd6dpZ2ZOpRWxEylDpQ9YRNJZpdXC0pgr0dPcqLZKW39s4iHeYsQglsTIXvP1Z1S3U2zBe1A03hQTc0C0vmSf3sNO8FhQKMJ3zT3vd2DRQeIL6lvN1y6z2U5YCllQcF9DubGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "The help center doesn't say which payment methods Brindle accepts, so I can't confirm whether Bitcoin is an option. Please contact Brindle support directly to ask about paying in cryptocurrency.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1390,
+          "output_tokens": 102
+        }
+      }
+    },
+    {
+      "request_fingerprint": "790c8c6f201fcfca24a72840c3d2b8a4843763e0df66b175822853e160faabf9",
+      "request_summary": {
+        "chars": 37,
+        "last_message_end": "Can I pay my Brindle bill in Bitcoin?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSqgUKEAgTGAI4AUIIdGhpbmtpbmcSDPpST1TXaKU09KUsRxoMuzxmNAUBL/3o5SW7IjC7qUlFiD4ZdSe/gTORfhz8CLSMt/GXUdL3gnyGNHdaLg8voEsXsRLK9V/YmHl8eswqxwRqwzL2aojkksf2mGEXvxiAdHx8LK9lSRod+iNnys9RZUsKBj3tTlNRg3vY399vI37Bt7OxLz9WYj5ojc3so7OEvvtnZEtX2nt7mfqbqsWIhcRb+PJkjVo3A4z3vTnja1iqygAu9+9dBMHxnkQjfDaeH39p23Plw3y6rAHR8gKvB7wXNYezWB7edRt/IWcjKZaZ7PioHmD8OPk+3GCx++ZE7fWHHpzpkEQd7rTOZ7z8bhpM08wxw9ttGPa5HuUc9AO4iux/NCdfNJ3qYoq4b9eCada4nBTKv4cWBnrjPkIlLw3ysZjQmxq8eotEPDClxzWDhY+DCaathwltRESdM8MyORTjnmRQ9T6Hv41cRnLW0LFIKMzosDHEL+aPZIrJW3GTCDzAmBXM+JlA7Vg02J+vEraRqnxaW4cu3lOCz9uH4oAb/7m82eCxKlmeQTZRlU3V+SAIUsPn9k9b8dchAHRBx4fG6PNDK+mlbnny1e0m70+rTkxZM9lDEZ8ZastfGLj8FPJcqdWQYbJ1pY6IueM8jT6HDhGet0mZbs83iBU1ARUFLH3nNl7aujEDtGJakqGVxDPbtzVIdaknqWRxEsoSd79g6zrc+K8+JfbSuDylm0gC7kUYktkCy5eZPDgj6kepqII7X9hcdVW9Ed+pymO2ybSk3ZuurxzPVHbTNqhSUsSSnKt52lUhhD5yNg3/FAQeh2SY0R+SsJ6cGR166ZOF09Tx/RS1OnA2ZHceGmDJmF/fNg7iWvYrChzHrW0/sSlka5RReVfVGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "The help center doesn't say whether Brindle accepts Bitcoin or which payment methods you can use for your bill. Please contact Brindle support directly to confirm your options.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1390,
+          "output_tokens": 98
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1305ea6a718e004d24c3a301cbaf909bcb352a42fe0064a256ce72aea24e70a8",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "What is Brindle's phone number for support?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS/gUKEAgTGAI4AUIIdGhpbmtpbmcSDDM5xxOPnNv1m3+iIRoM37Hjt0AvYINJYcSpIjCQ5YzhLzmQrWU0eQufbVQJBrsbcWafTGt0peNjbu7dzqAKqXN1z+hgWlb1nFXjkm0qmwUIlq9cXm5tQBDgdcq1tp6T2qz3j2KYYxGghS0Ccwb2pmUBwUmx02L/UefKNDJMVaBfYfReKqNUosuYSF75nOXdAwclkAT+tY0UiogpUSZglxTeBRMHLIMXtR2ovTh72IwY/uagOWi3sWA3A62Q7GPWR/7pwTXwzgTznBCJ4CIJziISy5qmke/RRizmi7SDMnlYmz2rM9q+yA78X6KmdmIgDBYwbOcWg6mdIIknpoKsJ/Y7xbEnZ5S+vYVSkLy0HMXRN0t+4YSKPqas1GKVp3udd9RS23HQsJ8U650bXZRq9qGsAgey8J3qWFwWbnAgd+FAozKjT8GeGE7sptj7qIPPrqKw/ktZU2bkf+1eTRxV1+RkcC86stymWCgIsMNTASKvdQf/nzCeH0wu3MlNaey52G5tQHleHUEtCK+LG8REbVN2Ji1bbRXNq5NIZYNOJG6f6qHNT12esuxSKKIHcyiZvdWHlnFzof5JDZvqIDaAp1vqXms2vTgL7OqCmSITpScNae05A6GZwm+EG3/QsPTJq/gE3nO/YppdhCuIjhHiMqom3dYIxaOree0KfAcgnjoGEr15F3O4wzJi0xl7fW2Tsw3NDqGqnxlkOsEhaK4GMhub6SbxUW3Tj6Sk/ezCwwMlmyoD9HqSTZszjhLg+4NmT1yfSqnaownlDVnY2/F1O5U6LN6mJ80NjZ2cOJOGDbrHUW84MWfWLm4wRMpiPVkbsSB5c2qgQowwo6XOdpbs8zhmZKdmqLD/YoiuKwUU050hNWFuKWPBhCpNdGZf0s0mO/8Pt7m0BX+Eh396PyIYXRrjNWXG20S+LZK3bP6g4cJY9pkAKq6+8OWZsZxhco1E1IAHSb+17t2VhRvqZfFdGsA0tnB1IBCNXhQBGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Brindle's help center doesn't list a phone number or any other contact details for support, so I can't give you one from these articles.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1383,
+          "output_tokens": 98
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1305ea6a718e004d24c3a301cbaf909bcb352a42fe0064a256ce72aea24e70a8",
+      "request_summary": {
+        "chars": 43,
+        "last_message_end": "What is Brindle's phone number for support?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQStAUKEAgTGAI4AUIIdGhpbmtpbmcSDP/ntEa5mGWKtlwnghoMoLFzyfwVeQr3DpdZIjDZYOTDkMXtaRpQY7TwKkpoNmGslYyUJMRWW6qWINvhIJKsRs561zDeg/MgmMiV1hsq0QSp/bgpiOPD80pVC9qnAiiTejgjareS6/WKw37QipSRzk4nPsqW0/3NFMD4YfiIU4JC1CGuEFcND+AjEFwkshLkZ95f/gHCH6b0TEmZ9kHNzGZF0ZNGGpefI7JYD1Ywndz0iJq6Sp+YH1f3iqIpHWepqLlwonm/CZtG9wek9Me0C5/PrZ1BIflyFxEIAZwNE432gWZHPy1CQcqzT4tYfxgfNHOKjfX8FauV/tRAcUgUfx409nTya/ynPbZiytFPaxZJv7kfC67MNka4n358NPzwbr66vaUlO0CG9SlkooV0aKciVtbuyP4+aTGZ4IIh2SpgstDrCdFKgwFc8L60yEqg6nZTD247tfUfWrFsJLx0Qvf4bbmkx3gNADz9NKdagmaj0t1VhSb0Xpz5Mo+C3VwmW99/ogJEUFwj7grQ0ndr5qNdbWwNHR1cJY3rBXwLlfBMC80rgcw3VDKOQpmS/ESzrv2lnrRjoqfNCK+M6iJ5Zwz9h5LOcXJUJJhrtWZZnzUbmQ81pQ3PrIvKe+dyw9/jCUpqeC3EU9BIxRue2Kc35rgFm8PRHkkqI+2k3o9sCj616+GsERc1ghA01Rfr88Zi6N54H/XUMs8suAYDl9DJLmxMTd9OLFGvh6fkqU7jmMHqGJDS+w14wMKSMAKIpk0VuJ3/Q+KYKffNTKHCpL5jC4iRI4QSEdqRvW8T2e0bBNkFeKHoLTWdVh82ZOaNeueNeJRHovy16fd/NwPxGDYP1LWrHnGjk0o6Cw4t1bRsCeRaY2SFSQsLMXAjukknoJfFuxgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "The help center doesn't list a phone number for Brindle support, so I can't give you one. I'm happy to help with any questions about billing, refunds, invoices, or your account settings here.\n\nSource: none",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1383,
+          "output_tokens": 97
+        }
+      }
+    }
+  ],
+  "recorded_with": {
+    "effort": "medium",
+    "fallbacks": true,
+    "model": "claude-opus-5-5",
+    "provider": "anthropic",
+    "sdk": "2.3.0"
+  }
+}

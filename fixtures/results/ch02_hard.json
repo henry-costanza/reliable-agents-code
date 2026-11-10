@@ -1,0 +1,463 @@
+{
+  "recorded_with": {
+    "provider": "anthropic",
+    "model": "claude-opus-5-5",
+    "effort": "medium",
+    "fallbacks": true,
+    "sdk": "2.3.0"
+  },
+  "rows": [
+    {
+      "task": "count",
+      "length": "4k",
+      "position": 0.5,
+      "trials": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "truth": "3",
+      "answers": [
+        "3",
+        "3",
+        "3"
+      ],
+      "input_tokens": 5269
+    },
+    {
+      "task": "count",
+      "length": "32k",
+      "position": 0.5,
+      "trials": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "truth": "16",
+      "answers": [
+        "16",
+        "16",
+        "16"
+      ],
+      "input_tokens": 41535
+    },
+    {
+      "task": "count",
+      "length": "128k",
+      "position": 0.5,
+      "trials": 3,
+      "right": 0,
+      "verdicts": {
+        "wrong": 3
+      },
+      "truth": "59",
+      "answers": [
+        "58",
+        "57",
+        "58"
+      ],
+      "input_tokens": 166039
+    },
+    {
+      "task": "paraphrase",
+      "length": "32k",
+      "position": 0.0,
+      "trials": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "truth": "7341",
+      "answers": [
+        "7341",
+        "7341",
+        "7341"
+      ],
+      "input_tokens": 41621
+    },
+    {
+      "task": "paraphrase",
+      "length": "32k",
+      "position": 0.5,
+      "trials": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "truth": "7341",
+      "answers": [
+        "7341",
+        "7341",
+        "7341"
+      ],
+      "input_tokens": 41621
+    },
+    {
+      "task": "paraphrase",
+      "length": "32k",
+      "position": 1.0,
+      "trials": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "truth": "7341",
+      "answers": [
+        "7341",
+        "7341",
+        "7341"
+      ],
+      "input_tokens": 41621
+    },
+    {
+      "task": "paraphrase",
+      "length": "128k",
+      "position": 0.0,
+      "trials": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "truth": "7341",
+      "answers": [
+        "7341",
+        "7341",
+        "7341"
+      ],
+      "input_tokens": 166124
+    },
+    {
+      "task": "paraphrase",
+      "length": "128k",
+      "position": 0.5,
+      "trials": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "truth": "7341",
+      "answers": [
+        "7341",
+        "7341",
+        "7341"
+      ],
+      "input_tokens": 166124
+    },
+    {
+      "task": "paraphrase",
+      "length": "128k",
+      "position": 1.0,
+      "trials": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "truth": "7341",
+      "answers": [
+        "7341",
+        "7341",
+        "7341"
+      ],
+      "input_tokens": 166124
+    }
+  ],
+  "outcomes": [
+    {
+      "task": "paraphrase",
+      "length": "32k",
+      "position": 0.0,
+      "trial": 0,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 41621,
+      "output_tokens": 80
+    },
+    {
+      "task": "paraphrase",
+      "length": "32k",
+      "position": 0.0,
+      "trial": 1,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 41621,
+      "output_tokens": 80
+    },
+    {
+      "task": "paraphrase",
+      "length": "32k",
+      "position": 0.0,
+      "trial": 2,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 41621,
+      "output_tokens": 89
+    },
+    {
+      "task": "paraphrase",
+      "length": "32k",
+      "position": 0.5,
+      "trial": 0,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 41621,
+      "output_tokens": 75
+    },
+    {
+      "task": "paraphrase",
+      "length": "32k",
+      "position": 0.5,
+      "trial": 1,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 41621,
+      "output_tokens": 92
+    },
+    {
+      "task": "paraphrase",
+      "length": "32k",
+      "position": 0.5,
+      "trial": 2,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 41621,
+      "output_tokens": 76
+    },
+    {
+      "task": "paraphrase",
+      "length": "32k",
+      "position": 1.0,
+      "trial": 0,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 41621,
+      "output_tokens": 87
+    },
+    {
+      "task": "paraphrase",
+      "length": "32k",
+      "position": 1.0,
+      "trial": 1,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 41621,
+      "output_tokens": 94
+    },
+    {
+      "task": "paraphrase",
+      "length": "32k",
+      "position": 1.0,
+      "trial": 2,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 41621,
+      "output_tokens": 85
+    },
+    {
+      "task": "paraphrase",
+      "length": "128k",
+      "position": 0.0,
+      "trial": 0,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 166124,
+      "output_tokens": 88
+    },
+    {
+      "task": "paraphrase",
+      "length": "128k",
+      "position": 0.0,
+      "trial": 1,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 166124,
+      "output_tokens": 105
+    },
+    {
+      "task": "paraphrase",
+      "length": "128k",
+      "position": 0.0,
+      "trial": 2,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 166124,
+      "output_tokens": 89
+    },
+    {
+      "task": "paraphrase",
+      "length": "128k",
+      "position": 0.5,
+      "trial": 0,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 166124,
+      "output_tokens": 132
+    },
+    {
+      "task": "paraphrase",
+      "length": "128k",
+      "position": 0.5,
+      "trial": 1,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 166124,
+      "output_tokens": 97
+    },
+    {
+      "task": "paraphrase",
+      "length": "128k",
+      "position": 0.5,
+      "trial": 2,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 166124,
+      "output_tokens": 115
+    },
+    {
+      "task": "paraphrase",
+      "length": "128k",
+      "position": 1.0,
+      "trial": 0,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 166124,
+      "output_tokens": 151
+    },
+    {
+      "task": "paraphrase",
+      "length": "128k",
+      "position": 1.0,
+      "trial": 1,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 166124,
+      "output_tokens": 105
+    },
+    {
+      "task": "paraphrase",
+      "length": "128k",
+      "position": 1.0,
+      "trial": 2,
+      "answer": "7341",
+      "truth": "7341",
+      "verdict": "right",
+      "input_tokens": 166124,
+      "output_tokens": 153
+    },
+    {
+      "task": "count",
+      "length": "4k",
+      "position": 0.5,
+      "trial": 0,
+      "answer": "3",
+      "truth": "3",
+      "verdict": "right",
+      "input_tokens": 5269,
+      "output_tokens": 347
+    },
+    {
+      "task": "count",
+      "length": "4k",
+      "position": 0.5,
+      "trial": 1,
+      "answer": "3",
+      "truth": "3",
+      "verdict": "right",
+      "input_tokens": 5269,
+      "output_tokens": 291
+    },
+    {
+      "task": "count",
+      "length": "4k",
+      "position": 0.5,
+      "trial": 2,
+      "answer": "3",
+      "truth": "3",
+      "verdict": "right",
+      "input_tokens": 5269,
+      "output_tokens": 312
+    },
+    {
+      "task": "count",
+      "length": "32k",
+      "position": 0.5,
+      "trial": 0,
+      "answer": "16",
+      "truth": "16",
+      "verdict": "right",
+      "input_tokens": 41535,
+      "output_tokens": 638
+    },
+    {
+      "task": "count",
+      "length": "32k",
+      "position": 0.5,
+      "trial": 1,
+      "answer": "16",
+      "truth": "16",
+      "verdict": "right",
+      "input_tokens": 41535,
+      "output_tokens": 1239
+    },
+    {
+      "task": "count",
+      "length": "32k",
+      "position": 0.5,
+      "trial": 2,
+      "answer": "16",
+      "truth": "16",
+      "verdict": "right",
+      "input_tokens": 41535,
+      "output_tokens": 630
+    },
+    {
+      "task": "count",
+      "length": "128k",
+      "position": 0.5,
+      "trial": 0,
+      "answer": "58",
+      "truth": "59",
+      "verdict": "wrong",
+      "input_tokens": 166039,
+      "output_tokens": 2495
+    },
+    {
+      "task": "count",
+      "length": "128k",
+      "position": 0.5,
+      "trial": 1,
+      "answer": "57",
+      "truth": "59",
+      "verdict": "wrong",
+      "input_tokens": 166039,
+      "output_tokens": 2199
+    },
+    {
+      "task": "count",
+      "length": "128k",
+      "position": 0.5,
+      "trial": 2,
+      "answer": "58",
+      "truth": "59",
+      "verdict": "wrong",
+      "input_tokens": 166039,
+      "output_tokens": 3055
+    }
+  ]
+}

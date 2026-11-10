@@ -1,0 +1,537 @@
+{
+  "modules": {
+    "anthropic_provider": {
+      "AnthropicProvider": {
+        "bases": [
+          "object"
+        ],
+        "fields": [],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, model: 'str' = 'claude-opus-5-5', effort: 'str' = 'medium', fallbacks: 'bool' = True, client: 'Any' = None) -> 'None'",
+          "client": "property",
+          "complete": "(self, request: 'Request') -> 'Response'",
+          "describe": "(self) -> 'dict[str, Any]'",
+          "name": "'anthropic'",
+          "request_params": "(self, request: 'Request') -> 'dict[str, Any]'"
+        },
+        "signature": "(model: 'str' = 'claude-opus-5-5', effort: 'str' = 'medium', fallbacks: 'bool' = True, client: 'Any' = None) -> 'None'"
+      },
+      "DEFAULT_EFFORT": {
+        "kind": "value",
+        "value": "'medium'"
+      },
+      "DEFAULT_MODEL": {
+        "kind": "value",
+        "value": "'claude-opus-5-5'"
+      },
+      "FALLBACK_BETA": {
+        "kind": "value",
+        "value": "'server-side-fallback-2026-07-01'"
+      },
+      "from_api_message": {
+        "kind": "function",
+        "signature": "(message: 'Any') -> 'Response'"
+      },
+      "history_blocks": {
+        "kind": "function",
+        "signature": "(content: 'list[Any]') -> 'list[Any]'"
+      },
+      "to_api_message": {
+        "kind": "function",
+        "signature": "(message: 'Message') -> 'dict[str, Any]'"
+      }
+    },
+    "budget": {
+      "Budget": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "max_input_tokens",
+          "max_cost",
+          "prices"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, max_input_tokens: 'int | None' = None, max_cost: 'float | None' = None, prices: 'Prices | None' = None) -> None",
+          "exceeded": "(self, usage: 'Usage') -> 'str | None'",
+          "max_cost": "None",
+          "max_input_tokens": "None",
+          "prices": "None"
+        },
+        "signature": "(max_input_tokens: 'int | None' = None, max_cost: 'float | None' = None, prices: 'Prices | None' = None) -> None"
+      },
+      "OPUS_5_5": {
+        "kind": "value",
+        "value": "Prices(input=4.0, output=20.0, cache_read=0.2, cache_write=5.0)"
+      },
+      "Prices": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "input",
+          "output",
+          "cache_read",
+          "cache_write"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, input: 'float', output: 'float', cache_read: 'float | None' = None, cache_write: 'float | None' = None) -> None",
+          "cache_read": "None",
+          "cache_write": "None",
+          "cost": "(self, usage: 'Usage') -> 'float'"
+        },
+        "signature": "(input: 'float', output: 'float', cache_read: 'float | None' = None, cache_write: 'float | None' = None) -> None"
+      }
+    },
+    "cassette": {
+      "CassetteMismatch": {
+        "bases": [
+          "Exception"
+        ],
+        "fields": [],
+        "kind": "class",
+        "members": {},
+        "signature": "(?)"
+      },
+      "MODES": {
+        "kind": "value",
+        "value": "('replay', 'record', 'live')"
+      },
+      "RecordingProvider": {
+        "bases": [
+          "object"
+        ],
+        "fields": [],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, inner: 'Provider', path: 'Path', store: 'str' = 'full') -> 'None'",
+          "complete": "(self, request: 'Request') -> 'Response'",
+          "describe": "(self) -> 'dict[str, Any]'"
+        },
+        "signature": "(inner: 'Provider', path: 'Path', store: 'str' = 'full') -> 'None'"
+      },
+      "ReplayProvider": {
+        "bases": [
+          "object"
+        ],
+        "fields": [],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, path: 'Path') -> 'None'",
+          "complete": "(self, request: 'Request') -> 'Response'",
+          "describe": "(self) -> 'dict[str, Any]'",
+          "name": "'replay'",
+          "unused": "property"
+        },
+        "signature": "(path: 'Path') -> 'None'"
+      },
+      "STORES": {
+        "kind": "value",
+        "value": "('full', 'fingerprint')"
+      },
+      "current_mode": {
+        "kind": "function",
+        "signature": "() -> 'str'"
+      },
+      "open_provider": {
+        "kind": "function",
+        "signature": "(path: 'Path', mode: 'str | None' = None, live: 'Callable[[], Provider]' = <function _default_live>, store: 'str' = 'full') -> 'Provider'"
+      },
+      "request_fingerprint": {
+        "kind": "function",
+        "signature": "(request: 'Request') -> 'str'"
+      }
+    },
+    "evals": {
+      "EvalReport": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "scores"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, scores: 'tuple[TaskScore, ...]') -> None",
+          "failing": "property",
+          "pass_rate": "property"
+        },
+        "signature": "(scores: 'tuple[TaskScore, ...]') -> None"
+      },
+      "GoldenTask": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "name",
+          "prompt",
+          "grader",
+          "system",
+          "tools"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, name: 'str', prompt: 'str', grader: 'Grader', system: 'str' = '', tools: 'tuple[Tool, ...]' = ()) -> None",
+          "system": "''",
+          "tools": "()"
+        },
+        "signature": "(name: 'str', prompt: 'str', grader: 'Grader', system: 'str' = '', tools: 'tuple[Tool, ...]' = ()) -> None"
+      },
+      "Grader": {
+        "kind": "value",
+        "value": "collections.abc.Callable[[agentkit.loop.RunResult], bool]"
+      },
+      "TaskScore": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "name",
+          "passed",
+          "trials"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, name: 'str', passed: 'int', trials: 'int') -> None",
+          "rate": "property"
+        },
+        "signature": "(name: 'str', passed: 'int', trials: 'int') -> None"
+      },
+      "contains": {
+        "kind": "function",
+        "signature": "(expected: 'str', *, case_sensitive: 'bool' = False) -> 'Grader'"
+      },
+      "exact": {
+        "kind": "function",
+        "signature": "(expected: 'str') -> 'Grader'"
+      },
+      "finished": {
+        "kind": "function",
+        "signature": "(grader: 'Grader') -> 'Grader'"
+      },
+      "run_eval": {
+        "kind": "function",
+        "signature": "(provider: 'Provider', tasks: 'Iterable[GoldenTask]', *, trials: 'int' = 1, max_steps: 'int' = 10) -> 'EvalReport'"
+      }
+    },
+    "loop": {
+      "RunResult": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "messages",
+          "stop_reason",
+          "steps",
+          "usage",
+          "hit_step_limit",
+          "step_usage",
+          "hit_budget"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, messages: 'tuple[Message, ...]', stop_reason: 'StopReason', steps: 'int', usage: 'Usage', hit_step_limit: 'bool' = False, step_usage: 'tuple[Usage, ...]' = (), hit_budget: 'bool' = False) -> None",
+          "final_text": "property",
+          "hit_budget": "False",
+          "hit_step_limit": "False",
+          "ok": "property",
+          "step_usage": "()",
+          "tool_calls": "property"
+        },
+        "signature": "(messages: 'tuple[Message, ...]', stop_reason: 'StopReason', steps: 'int', usage: 'Usage', hit_step_limit: 'bool' = False, step_usage: 'tuple[Usage, ...]' = (), hit_budget: 'bool' = False) -> None"
+      },
+      "run_agent": {
+        "kind": "function",
+        "signature": "(provider: 'Provider', prompt: 'str', *, system: 'str' = '', tools: 'Iterable[Tool]' = (), max_steps: 'int' = 10, max_tokens: 'int' = 16000, budget: 'Budget | None' = None) -> 'RunResult'"
+      }
+    },
+    "messages": {
+      "Block": {
+        "kind": "value",
+        "value": "agentkit.messages.Text | agentkit.messages.ToolUse | agentkit.messages.ToolResult | agentkit.messages.Opaque"
+      },
+      "Message": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "role",
+          "content"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, role: \"Literal['user', 'assistant']\", content: 'tuple[Block, ...]') -> None",
+          "text": "property",
+          "tool_uses": "property",
+          "user": "(cls, text: 'str') -> 'Message'"
+        },
+        "signature": "(role: \"Literal['user', 'assistant']\", content: 'tuple[Block, ...]') -> None"
+      },
+      "Opaque": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "provider",
+          "data"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, provider: 'str', data: 'dict[str, Any]') -> None"
+        },
+        "signature": "(provider: 'str', data: 'dict[str, Any]') -> None"
+      },
+      "Request": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "messages",
+          "system",
+          "tools",
+          "max_tokens"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, messages: 'tuple[Message, ...]', system: 'str' = '', tools: 'tuple[ToolSpec, ...]' = (), max_tokens: 'int' = 16000) -> None",
+          "max_tokens": "16000",
+          "system": "''",
+          "tools": "()"
+        },
+        "signature": "(messages: 'tuple[Message, ...]', system: 'str' = '', tools: 'tuple[ToolSpec, ...]' = (), max_tokens: 'int' = 16000) -> None"
+      },
+      "Response": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "message",
+          "stop_reason",
+          "usage",
+          "model",
+          "fell_back"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, message: 'Message', stop_reason: 'StopReason', usage: 'Usage' = <factory>, model: 'str' = '', fell_back: 'bool' = False) -> None",
+          "fell_back": "False",
+          "model": "''"
+        },
+        "signature": "(message: 'Message', stop_reason: 'StopReason', usage: 'Usage' = <factory>, model: 'str' = '', fell_back: 'bool' = False) -> None"
+      },
+      "StopReason": {
+        "kind": "enum",
+        "members": {
+          "CONTEXT_WINDOW_EXCEEDED": "model_context_window_exceeded",
+          "END_TURN": "end_turn",
+          "MAX_TOKENS": "max_tokens",
+          "PAUSE_TURN": "pause_turn",
+          "REFUSAL": "refusal",
+          "STOP_SEQUENCE": "stop_sequence",
+          "TOOL_USE": "tool_use"
+        }
+      },
+      "Text": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "text"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, text: 'str') -> None"
+        },
+        "signature": "(text: 'str') -> None"
+      },
+      "ToolResult": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "tool_use_id",
+          "content",
+          "is_error"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, tool_use_id: 'str', content: 'str', is_error: 'bool' = False) -> None",
+          "is_error": "False"
+        },
+        "signature": "(tool_use_id: 'str', content: 'str', is_error: 'bool' = False) -> None"
+      },
+      "ToolSpec": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "name",
+          "description",
+          "input_schema"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, name: 'str', description: 'str', input_schema: 'dict[str, Any]') -> None"
+        },
+        "signature": "(name: 'str', description: 'str', input_schema: 'dict[str, Any]') -> None"
+      },
+      "ToolUse": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "id",
+          "name",
+          "input"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, id: 'str', name: 'str', input: 'dict[str, Any]') -> None"
+        },
+        "signature": "(id: 'str', name: 'str', input: 'dict[str, Any]') -> None"
+      },
+      "Usage": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "input_tokens",
+          "output_tokens",
+          "cache_read_input_tokens",
+          "cache_creation_input_tokens"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, input_tokens: 'int' = 0, output_tokens: 'int' = 0, cache_read_input_tokens: 'int' = 0, cache_creation_input_tokens: 'int' = 0) -> None",
+          "cache_creation_input_tokens": "0",
+          "cache_read_input_tokens": "0",
+          "input_tokens": "0",
+          "output_tokens": "0"
+        },
+        "signature": "(input_tokens: 'int' = 0, output_tokens: 'int' = 0, cache_read_input_tokens: 'int' = 0, cache_creation_input_tokens: 'int' = 0) -> None"
+      },
+      "block_from_dict": {
+        "kind": "function",
+        "signature": "(data: 'dict[str, Any]') -> 'Block'"
+      },
+      "block_to_dict": {
+        "kind": "function",
+        "signature": "(block: 'Block') -> 'dict[str, Any]'"
+      },
+      "message_from_dict": {
+        "kind": "function",
+        "signature": "(data: 'dict[str, Any]') -> 'Message'"
+      },
+      "message_to_dict": {
+        "kind": "function",
+        "signature": "(message: 'Message') -> 'dict[str, Any]'"
+      },
+      "request_to_dict": {
+        "kind": "function",
+        "signature": "(request: 'Request') -> 'dict[str, Any]'"
+      },
+      "response_from_dict": {
+        "kind": "function",
+        "signature": "(data: 'dict[str, Any]') -> 'Response'"
+      },
+      "response_to_dict": {
+        "kind": "function",
+        "signature": "(response: 'Response') -> 'dict[str, Any]'"
+      }
+    },
+    "provider": {
+      "Provider": {
+        "bases": [
+          "Protocol"
+        ],
+        "fields": [],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, *args, **kwargs)",
+          "complete": "(self, request: 'Request') -> 'Response'",
+          "describe": "(self) -> 'dict[str, Any]'"
+        },
+        "signature": "(*args, **kwargs)"
+      },
+      "ProviderError": {
+        "bases": [
+          "Exception"
+        ],
+        "fields": [],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, message: 'str', *, retryable: 'bool') -> 'None'"
+        },
+        "signature": "(message: 'str', *, retryable: 'bool') -> 'None'"
+      },
+      "ScriptedProvider": {
+        "bases": [
+          "object"
+        ],
+        "fields": [],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, responses: 'Iterable[Response]') -> 'None'",
+          "complete": "(self, request: 'Request') -> 'Response'",
+          "describe": "(self) -> 'dict[str, Any]'",
+          "name": "'scripted'"
+        },
+        "signature": "(responses: 'Iterable[Response]') -> 'None'"
+      }
+    },
+    "tools": {
+      "Tool": {
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          "name",
+          "description",
+          "input_schema",
+          "function"
+        ],
+        "kind": "class",
+        "members": {
+          "__init__": "(self, name: 'str', description: 'str', input_schema: 'dict[str, Any]', function: 'Callable[..., Any]') -> None",
+          "errors": "(self, arguments: 'dict[str, Any]') -> 'list[str]'",
+          "run": "(self, call: 'ToolUse') -> 'ToolResult'",
+          "spec": "property"
+        },
+        "signature": "(name: 'str', description: 'str', input_schema: 'dict[str, Any]', function: 'Callable[..., Any]') -> None"
+      }
+    }
+  },
+  "package": [
+    "Budget",
+    "CassetteMismatch",
+    "EvalReport",
+    "GoldenTask",
+    "Message",
+    "OPUS_5_5",
+    "Opaque",
+    "Prices",
+    "Provider",
+    "ProviderError",
+    "Request",
+    "Response",
+    "RunResult",
+    "ScriptedProvider",
+    "StopReason",
+    "Text",
+    "Tool",
+    "ToolResult",
+    "ToolSpec",
+    "ToolUse",
+    "Usage",
+    "contains",
+    "exact",
+    "finished",
+    "open_provider",
+    "run_agent",
+    "run_eval"
+  ],
+  "version": "0.3.0"
+}

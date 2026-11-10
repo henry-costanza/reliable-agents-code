@@ -1,0 +1,1011 @@
+{
+  "format": 1,
+  "interactions": [
+    {
+      "request_fingerprint": "12ff1edb8c36dfa0e489014ba03a82f09234e9f896e8fc119d2fa53a29fa30ef",
+      "request_summary": {
+        "chars": 128650,
+        "last_message_end": "last sprint to cut noise.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS7wUKEAgTGAI4AUIIdGhpbmtpbmcSDDFkUVga8id6emAYgBoMGJQTxt4Ewo6nmqteIjCiFlDSAKLY0/77XqNVxrftKQwT6JopiXW+79mwsbancBrGWC6V327D383LIiYwRZMqjAV9RFEQIGs7ydTAhGKWXg9PZMywUC+lTSqb85V8MSUALRYH7z6C42M/GyRz6zzHdg5M0WrpyylbYprMGCe6TLCfVdWyJlGQOpxN8fxy9oUwb4sLk4ftr6uwPPCE8VzT9g8vGQlBrVQxB9GhDNfsqwnipuRFbxvtYlyHNC+rF/ezvgREq2B2AOnTNFatfYBaQ9IvYo7tTAzL3RPsCWKkSh3PjVM9sBG7h58aadckZErYt8ra14jiPFhvoV5ZfpPaylohgHga3WLxKhnzV/gwpfesV0J81nIX8Zy1FkKoebnpUKC+CExQmJJtqFRw3FwF/nWKrWp3S+p+STgNX6Flu93/SRLevwDNbJ7yLak8Tyg1BNE5QDLNK3XXmBdS71ZeXe3BkYgNSb8hqQaINqZp+7QqSWV6tz3zRHM0zS7TENfMvZPJrXxTJnFHTAKZ+b961wbvZcL2F7sCevfAMue+r9X1mCa+41YxAFTHzqm/PvCMC2BV090PNFy9WOIBljnqVWHjwgeELKKb1JmPWM5Ury8FRbdM37zGYQwzSucYqEqSG6Nk9JhxZtKpCsJZ1DQRJw0VqIHM97fU+7fngX/vidtJRilfYxtz+X+bISRQ1qCzYZcdBdpPuJZeeiGkSY5CBG71JMEIPdXDIur6+e7StudIkbztKUk+9dVrpM7i9GGY4qx7Q2E7SH0VRMWFtm5e6G62oJD2fdvX9f65OkOVkZov5Zfc79O0Tf2cxQNv8XihJf2F6GgT1qdhu14KzP4gyaprdPu/H+Wf92zc197NtlBVLU9746jDmqjqdmANpQFOTDAH8Yq+WHmSqC8MqbbHw7PGwXRBPJAiJjbmD+8M8gJff+FDaHKgW2QaBY7gGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41621,
+          "output_tokens": 80
+        }
+      }
+    },
+    {
+      "request_fingerprint": "12ff1edb8c36dfa0e489014ba03a82f09234e9f896e8fc119d2fa53a29fa30ef",
+      "request_summary": {
+        "chars": 128650,
+        "last_message_end": "last sprint to cut noise.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS7wUKEAgTGAI4AUIIdGhpbmtpbmcSDPT1htg3M/OAFs+P/hoM797SACro3iAxSr8hIjD38zHswvtfw1/Bt7/F34HEB0ANf47z0N4Od6rVUF1LgrOpRefIDaaJDWQ+JzqbtiEqjAVJyHWyqd9KoXoJRNUATsB18QHKxlaUkRkd/vm05ueWtLlG0rchn3cMXkrbnolrO5kn8+DAAVg0zbH3j4Kt8NHiUNJ0BNfSrbc3e08G8sAsXTaWN8pChU11ITdtRxaZVlB+jQSwG8fQnczwuwH9vgghUN62tT88f4qBHxePJlYf+L4KmbdWIlANB80zuZgjMT3tAPhCVIYSquPn9r84UwiA8KzEWKvwFu1dKRxJFd+AgL/C5CnwwFEwdB84FHyVgQHaMmufIrYy5ownyX1PvrydRDPtaKRt26RRrpDyEARQUl9SvRenuN51qZuJaMEyHm07yTKfAMBf/TF9oOiymXjxOAYS+8aPuLQmNKsLaGTDesptiiQMmsI5hblrUWKgro0kFnEs/tHsl9ybS4uXNS4RKL1ONO6cW8o0tGuXXCL2O0XJw7tFlwx4sUyQL54Te52WxexB88VvTmm45lg6STEZiKsHenE5LRA4lFVxmISvdtrjqgjr3TcHA0nkAz//GGY1FfA0pUbnr6QF5s/zmpsk1gkowDHbrg9IC6RBJUOoUManuIKCMpuSSRZseJ70iVuzYFH9R5tDfsDsBPt+Th0p5Tlw0aevXYpqvMxarJ0C6mmSF1pGaN9Q2PYw0o/GXSj14/rJ9BcgfFV3TUr61lCoUPPN/vPrkaJ76vfn9jGWCbwXxRavaOTcBCRonC87m17V83lGa6Fx6PReu7fcJe3GHZCsVrmnIT0PEUXd2SlBXPF2WAjxL6hYzP88ZUDAUa4OAgCQWLNmYqbgymFVuYoRJzDKmfXTA9O0Kq+1pMYTc+XlHFoZFLT1Q1m2sYgv3pVCroA3XuoQOkdu+YdaENmGz78fWTxepL2VEcNsGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41621,
+          "output_tokens": 80
+        }
+      }
+    },
+    {
+      "request_fingerprint": "12ff1edb8c36dfa0e489014ba03a82f09234e9f896e8fc119d2fa53a29fa30ef",
+      "request_summary": {
+        "chars": 128650,
+        "last_message_end": "last sprint to cut noise.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSjAYKEAgTGAI4AUIIdGhpbmtpbmcSDC4iTvU4ltwNcgx6YhoMYEv6NqlZILSyLOR7IjABg7+3CGxII1eQOuiB4bx2NHEqdQ4peRiK8NRIlShCqYNP+0lM73x3pZ7qAfNW4x8qqQX64ia6hON7dvn31QoVron99Dm8VvgQ2AxYasn8agDI9ZedRw8QKuNFhj1MRtSHU9hCq1F4Gxq5fitFGhGM9lJfK81tWkPYC+n2Jyha8jv2wUfBJu+XDAFqtG8dWSqJ43DJ8rV3QGYDa+/1t963qF9kcB6m0R8TEiQNZRDsJaSfMehCZzqh+zdiWsYLEBw6Kk1ltqv33MVtBJ13rK+t8l4sZKWR7auwdby3Sc5u84MuX9x6//GOML8ytQbiDtw5CLqb+/ulr7nZhQn4bmHdMjxaSz9h2fhJMTvqa7P9RtgmawvZWrAq2hnVceiMZr6lEHBCs7aHC4dSkMBrAZD0rL38UvMpFHdi7aIEjr75J3/X3fF7oUM2Xt1xIejpMObKZRjtgVhAaBiX2XeipJlxb/Xd+yOd+If1UvvY9UmMG3o6O16Zguo6cpEZWUGwC/DauBG3UzpF1uTWK5t6WlWr/27iY6SzHUn/kPUOIIIE1VVYACmcK+kIsRsxuNPp6c/bS04Lxtb8xnrv8Hmpjjhy49d4j6mmDo+YaVw97gW328VPQlw1chLSFMGZxQj/eikoTESEpikMXzxLyb7TDNtQ0fNhvhK1fmcO/87LUk9IcUU2qezbaXCRgRgWw8z0BsTESyRZKJQvMXKdZZ+BBLpNAHWkxvwmLhEPf3q/fWM91IaNNfVvys4rWMN8Leqcsv77Gj41u7pJV6jFVVslR1jJQS7tkV1lbWcVMrkJAL9C15n8qU9dClE9tN07VlJ8e1uuGOQ9T+Gz1Q3k5ku4xDhGFpLYW6Be+MX55qX+FFBDEYaQC3DwwiFeKX46zmof3kVecMGcEYAcsNW9uRMKC+nbycXuXlccd6C10Iw1QmmfKobkwiKbMZcy4lBieuHIXjnrl+XQmQPwgAlAYqAYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41621,
+          "output_tokens": 89
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7e37b29d22c562f508dead1110d9de0a8243b8c7389e007dbdd22361a532f743",
+      "request_summary": {
+        "chars": 128650,
+        "last_message_end": "last sprint to cut noise.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS/AUKEAgTGAI4AUIIdGhpbmtpbmcSDGjFg5o7zdVAE/s27xoMuOmsGytJebIpufdEIjDJKdyQ+VFqrjkKMJo0yPFdf3l7M4ZrUcliDVaOv43ZTLOTIJKNuMXa3mtDl9By1t8qmQWrdpZg3A8Zqv3ukr68toI8TzVGWMKq+oRyXVEGWlJ/VK/8zbPRC1/+MHVn4xBieXLCL5xPWKfgAg1HwNBGnWACaW68RQVRjNzztdHy8Dc7Tbc7glMyADtM859JBDg2Epmx/EX+syrhI/yV8T1RpAe5rAJB6L2mVg/09oS6vsXmi9/IF43FECcDPdi0B8pGeX5q5DuO53Hfl3cqh4ySYvU+VhRqojAiCka+PhEJBaPAhX8HEK1yq6yHiZuzR2fyP1UzQd7+LQ884Gw8eFBtrMc/2qZo6kAqKUkJM96znWnWDet4bI109lW0LWAMyITwPMrfD9TqY6KZ0b+Q0cjVkfGpEmD6R8DeL+mn7TDRJVIm0HglhtqwI7YyXtO+tn96oznLgiwixwi9Z2/8BH1O1j+VYKo0Hg0EdxDRLvyfF43inSMViOBdUaTcRtaRiKWOKDT65elm52uVL2nN4Yo1a/qOjskhMq0Q4pLvmnvYTv4aX1/xt7KCiey/Biw0xWZRhopHMpuyTsiEXKL9zqBb2HGes/tVcOPGdc7w/MYAheyWJnX4uVHfbz4hx4aWzyutJo5Rztazr0JsXREgrwiH/AfunBYSLlAHOjSsWRRBezSc+sTTl+Y+/iim1onhVEoE4uQ7DUnuPW3UD26AI0jlnbki+wYFt/we4FRqHULbF1EFJ6CkejkiLb4A56maaKwc5PtvLeRsL7ct5SZ2IZ7OGfOL55p0+SQOp4mFygHo5M9e+iTzrzS799vOP74CrX/H91Yi8L4yOa8s7lFOUQcfJKSBnAv1dr1X0KRweVZCxg6lYC/f97nHBSiT2q/8eqot9yqVk0agixUfnTkm0ToSGF7bVZncizF/LzhKag7KgbWZGAN/XK77IT8oFxgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41621,
+          "output_tokens": 75
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7e37b29d22c562f508dead1110d9de0a8243b8c7389e007dbdd22361a532f743",
+      "request_summary": {
+        "chars": 128650,
+        "last_message_end": "last sprint to cut noise.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSjQYKEAgTGAI4AUIIdGhpbmtpbmcSDMM6ODJ+zeEoRaPGIBoMISzpTGsheHj3MmbxIjBua5ZPjRtl3ugy76GrSAVu1oZbaMapGQX9MKE5z9ojusmgpx3D5GcLBk9Sf7/UpM8qqgWzP6UEQ7Yzjlu/36lQbZhEPszMzhfEhTiZ436+vtFJBgpXJ4UYnGZrJdtEzn6GAFDCaZvlacAKRnNGQD9TIUKGUvODJif1MN9VXQ/h45vQhWOwy5NwrZvEcqjToVJJOCnktdZZUTibd/4beIGIGnFD0S5hqH2xHkaUMv/o717syZ8Bc73uMrPGruyAlJDX48RhQlZTZhQpWs537kuVHQvmLIEEZrl/+mAS7/nseS+Ujv0usP40pk3EmsPklY7cbQ+XEctOKHas9TUcvKDHQgbklwCKyh5mEwnVG140jle/fQ76QLNbMC27ZnlCZJ3Xy/aX6ayBLofxSUNjzyH5qpMAIGD+aWRaljpgPdpQcwpV2ShGgHYa8ZCqbQRLUM+yc0JfDu3mMvTKP93hUQot5m9Cjun4IxXAFelAkPqyhyedpTg+sPi5iYN4VjPcLfeqWZ4d01A1NjbRuFBBs5ueVj/UMiXzL5TkjQuHGXxwE6maHQhuShMDaNagVijB+meQJdYjHqf0G5XEE/kI3rIUGig5QF4xOopNb2oqQaUVN0JU8XkZ8i3VEM7Xz+H9u7Ivzwf58Qbu9XXaVffb5j/fYwLN74P78KQrcBqOs+uhciBw4bfEQLD9z11Zwbl4kXdjmpWj0UGR8cCEo6to7TmjAfYSs/n9+EY8f6m9J1yduYWgwvJ8qg70SnPZLwpLbqXTzVHy3ZTCUDdzzGbx0Eyunst89C9xf1vjdgHmdKz1MFWlvotOdNPPn3AwrLUF00ApJBvzlvsFjiGMUdpqvqKq2eStL5mF/CwYtikNPCfBLSg27ZLj2l4GHe5rzGv5s/04hV1wqcra2xRRqySKZbDfMd2c5CSfMDrOhQRWq1vlqjzxRAqsvHWeEvw4IMzeFC62qexGLrxpftvV4M3gGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41621,
+          "output_tokens": 92
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7e37b29d22c562f508dead1110d9de0a8243b8c7389e007dbdd22361a532f743",
+      "request_summary": {
+        "chars": 128650,
+        "last_message_end": "last sprint to cut noise.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+wUKEAgTGAI4AUIIdGhpbmtpbmcSDPpA8qWQlnK2z5yD0xoMYoM/ZTAbIObMYV/XIjAHPcHpPumDyUUmtudFSS9w553zldHPfcSiQgZKufxXQy9Oi0Q6A5p06P4vjUR7So4qmAWl/GFdLg/6hpz4EPDGhnTWI6Zzkcylwee4W+P95KCqroonrZG5FNeDskADsMwD2muz5eUlUftt9HsCHft24OrSj0wqPmZhx5TcEkFuAsBgHHwGRWHR7q9I1G9Um/tTJws0/MPuRHRn4Jgzxia6u5gs8KCwth1Gv2Y08FV1MTW5sXbUUUGVw/4jKBC4QbzHWoTnO3JtoXSc7oOjFNYY0EbIM6o9uIrUxhANd6huZ//aLldfFzgSciHkhNnwzckxNHzW+AG7lf7OJgYmIOlUA8uBK6fgaMp/U4AFnTDAowZRVVMJ55SwB1TpRWXcQyq6K7RqGH4oGzwCQwXBo0ZS4O4M7lpqeZc2g2wQbIqFeEsy6OlQQjSS7nNMAJx/lX52NVg/1ump7OeEGrDMmUpGnCPWsYhE3N4tmEkirLjV493Lf86YUDOW1zeUqGlHUBbHhmNNv4feMXJb7gfeahzz5HJ5NniltHnDli5UNOW853SZ+65Ea1yusJO7+wZSoMYlJBFcioM6mCwtiXMuPKR/HZpLKiOOAX6Gx0bFYl2KcDmt1MVKcxsTbLh3Vlgouwpt6hiY86xq9Sips0eDiSckBl1Xw6P2tqG7/R8J1WgIaMIp1Bixuz+w1/Op0HP2jo6W5jhp4LwKUFETeOFsXwaWwDwm2nVn6QoKfwAFGx2U+6L+n5PN1ff1ruTWIEoQIvuM+fRrc85FSElfmlC0w+VNk7hqeltyzUyR+dKkxoueZctcEkxRanZQHW7xoF1S3D6y4O90+sLRILrHhFsA7ps21dTFDfQBlvZRbFk8i8SW/fwOV/YiWOGvxlsXZQEEfP5A+KAd6IsxoPnmTn3aXfQ/8OYdnAszba1sbb3Gv70P2eNhmnbc2DqO/+IeGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41621,
+          "output_tokens": 76
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b9854a40f573abd9c9916d1393172017327339bd687ce1047643c0a95131afe3",
+      "request_summary": {
+        "chars": 128650,
+        "last_message_end": "for Orion Bakery is 7341.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+AUKEAgTGAI4AUIIdGhpbmtpbmcSDJAUoQvGle7VU/O65hoM5p4RQxNbODtALrDZIjASJAn338rGE9UsxAjAqiXudFncw47/uEwVKHLtxfp438Oynjw+Jtc/oF5sv0d/u+0qlQVEMghAy6xm6hS7+w1UkrZmu4Xux7Jklg5XSnTKQa5gRnnfXSdGZ8arOj+8vV1/vTJTdmcQkh9ofvkhtODfpMjGp8eiSEXdym/zOuyMpUjALGcCUyclKPMrejOwXzlYSM7ZFRrRcGb1dsN89OKJwzivZYLRvk/N1wo7OoFOU846ijfCl95g1rnqnnee1pI62Oi94BlkbNJ/vX5zxNIrsSFyNttyGYjoxPzaF9WyeQErsZ2e2F7tYLyfPcAc+L9tUJbCsbKwQeOaSvUYgrjJ9O6wJs3kMSWyqq2EkLZglxs7fCFMsd5Qm4F8/eFa8m72rfc2ZLHzeQKy72mmtjVjquPcoaZrnJFfTd5X2W22RUtzLBun8uKULETw369Mx6KT/zoVhNrvfBjldfXozNyNdhL1hdugiW96Rd3QPaLOsq5joiUvucaYG9CGgKSpJTDA0aUn0HXL9JaGtIYJ9IKvHR4efJtvOqQt7cwx+3rrSGW/HYy3otR+R6XujcSWv3TvIWPUuCwlkadUJxza8rMRlYnWastLIAg8CHQWvVM9trNzLtN91/QSncXSrIqoErDAQ9zBXDQ3qGil7bmEp4NOo01ODuKBU0ADhqoMJefXLGqwU8epnAbjdeduvxrJONB74whUGDkPV1kcVgB2qvhk4gjf6i9zKTHKIHJXn2nQ5kIco03cUTTfTKoQUayUoLmT/QW44vN0Ser0a588Qp9FRcqmstweh5InqsA3TAS8kCN5rR8u96YCS103LisJrnIPd6hxUsSeGEyapJxg+318YTHA0WbZqFZ8vYYgcX/6rdVq0rq210PPPiM+PfMP6tBYSad7P6Sy8A8/6lFjgvSOMf9WvM+ucQXBpE4O2FImDaQV2G9DHj0uGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41621,
+          "output_tokens": 87
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b9854a40f573abd9c9916d1393172017327339bd687ce1047643c0a95131afe3",
+      "request_summary": {
+        "chars": 128650,
+        "last_message_end": "for Orion Bakery is 7341.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSjQYKEAgTGAI4AUIIdGhpbmtpbmcSDOfMUvwek1bQGb4kMhoMHeR94DRoumwTQxkAIjAIoWa+p3wov0sUyR42FCwgqyE0NSpFP01e0+CS5hRsf8N5jxEW5/AZYHJ8yGOMUIkqqgXJV+vX185xoMtjk+KB6o2AjovoWWoRJ/wsBsPVn0AaARUwwb6Vn+CJAnuo7HKO09M8196LATwiJeQ/+dGi+qKTfUWvP3AABZ94DUeQvz6tfSPfSKfx8JeZd2Npu8zqvoj1LKWHOrBHVFw4N+XlioJoPZaxyaF5g7LiF1jlgNYa9/SGF6/XMiZqYKUWWhBB2VsCDGPvUUWtRNKijII2XeUKRDf1wBcM1BGQbfSIS3bD20aD4f/GI67S0n3Ion5oGpl/5KXMvZU+vkOsUptBd8zXrW0MV6kx2KmbdbGRDpOekFuv1u+azswgBpYdW0ZTwHO81fJTAkkH/6plhz1bSx2zQujQ6Z5sBxWIHcOl1RjSUxKtlvx75MQH0MdQK1EFeiYrUwKncDFxeH69+fXGw/n9c3MQffWEeD2ZzYvCdl7Zvr4szB9T18g3GoKPDoutby8LQtqcOIAThkiHnmwYMqDu7ujZzz9PY04W8wxpjJARezwQqjtIGXOAMGlXt5hzw++gKqWyuCpWckZCOQBlVXNfy5oarX/XY/cl/fbVEFd0Z66OuwrTx3BqtRJSOt05PrtfPvQLOvhz9dVfJx+ZFFovGPm6yyQBxhDBXnevARwbRiXUr29tExssGbhlYKPiX8AFs2VRR5sokUdNWOPJGAJb0e6kQv7GSSUIT7lRBH0PAaqgKdpkc5lmU3FTDeVw8kj/CFmB7SMuG2Q2Gh18jpUzF3xEhCZdU0m0nRmkyTnfUMbJm8QnoCc1WQjt/hdmf4AWapt+HfnZxdGFnR0eQVosNhf5xVk1eCCrz/UmrtS0j7qvScC9U+mYp6uwo4E4Xj+k3tv7P5/xiuIBaZ5T2aGQRFBiLKUilGO9mRfZLWr06RRBQgExU4Z3wigUIzXCafYZ1VVLJW91SAK0GAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41621,
+          "output_tokens": 94
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b9854a40f573abd9c9916d1393172017327339bd687ce1047643c0a95131afe3",
+      "request_summary": {
+        "chars": 128650,
+        "last_message_end": "for Orion Bakery is 7341.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS9gUKEAgTGAI4AUIIdGhpbmtpbmcSDBJMFG37xcQteb3GUxoM4M8NAT1+nDB+7KVqIjBlvcYoRHeMq409vNF9xNlwiWyc5Kh+vEkLZI2pCn1OGpGzk9QXoJwNEkje73VKbhoqkwUHVxs57JKPS+RAJzSO8pW+Zau2EHcP5lbnASYZy4jo+fD6sUa+uUIa8KWr/Gok5E7hwJnQ2jquniJbG/GtbEUNfSmsu0xXOwkIV91Sg1rz7YmNCb4swVL5/aoxwL6O6tdCF1bfLh0pBbQl9Bc6+mgWKDZU9NGmcJJSEF8ZXX6uNz3aAslR571k6VviX5ub/bEyoP53p9PfzhdMegOHNQQDesFGBv20HgfXFnlk2m5YsIM1R1J4LztiGhw6rer4277ADgHFEjcjOXTm0AQPm3gNifS3AEZjG04tYJKqXB3Ky/E7W4a7p9NCYKrJss1bUVrF79X9WSTHpGvvIMFKvYg1PypZ06hX9TUEIXgb6LZBIctApz+TZeprvnNb4PuZ7Ww3pTrbunhoLWOMhZvTikARI50n3FybaQ07ptWuVMntymO6PEjzYz9kfvzagvRTYgqSYCrwtSXQtv3zL3kZDWEvBFZB3MNtMXC/HEoqjc5Jy9nRzGSb57sfeh1UimfCPhVarDGMgSYgllCHCWaaimHvcZRILTTa8cWBE9tLqVicBur0ju1iGy10Rb77SacYofDkt6g/75/o9y+pSKv92og14XUwdcvbjDHHLuR6GXEAsVxW/4tA7OwLXLOMi8s+n7qOiRU9IbLbQfAIgM1rmqmsWiMFt94PR8NxX4b+fQEIEzHkBD/ntBIYs61kQUvuy0VYUEhH2qYkUS2Syj6UYylvez4NJpL0y3szPSo6FUZQpnVlU99MKX+50Ie4zlYbedtG6z1yJCcmm0f4KCwpc3mgNBPl+O11+fMixb/mD7kk23IIsmAxNJ05oB5lc6xehQdV2q7H4F1bAcjeOH8Q+Za5gFf+gCwwjEEN4Kz1tTU30lOAvhgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41621,
+          "output_tokens": 85
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5d27ec627ef2380e6efa11ffdf58ba56ec3ee8e483a8eefd2f9d49db4c4e6f81",
+      "request_summary": {
+        "chars": 513305,
+        "last_message_end": "ause the old one drifted.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS/QUKEAgTGAI4AUIIdGhpbmtpbmcSDGZuJTTN0mxktKxJbRoM2+Lb/Y7qDm9U3m5QIjDH5M5YX9fzxc71zLN56M2t4U2rA8QMWltlS79zThTKrX/aqjeR3SOCCjvSmIyMP/IqmgUaPXphSOv5zrltwvQSHil5SNhGNzVDQliM2pU0606RLWwPyT29yBjWvqw+wCYGsHQGWaF45MoBjdIJV2NR2q4OKZMPDczlDyxlyxGLVz5MO6vZyH18ZSxfhIFUNx9z/5OD91yQHjTCfr8V/T0B2N24DKmJj0sLVk5pPZvyJycqmUQib/EjvrP6gpWUzOqqa5YEszmFwj4eRucEg9vSWMdHZuSoItkHCX13v+ifvRvVdu5bz5exsj2+y/fEMV6tGOLvm/yCvxoRRKJeEE2mJyribaXTkF6z/vru3dTrFaOqeiqC/h2B5aZwP2xgfFfM7jslFLLbhbA3NXbcqEsY6L2AStOt4QsxmhmRr831jz2LfiyEZT60LjT4GHgVViVFGnRnfL/6wlR0KXq1VjJTNsyYY33p2EYfBaN27Z6w8jMXfHlG7HDmp3QNKYCytcABwVEbWEZNgHPw0pUefxx6eUhVrXljEnyGeOILsvEwg96oo1mQJXIPfA1z2XpNpqhmoZw7F5gZKmvz/JZJ2tr52wRbo7oKGtTrBQGj/ZOgYeW5AkDuIlvdMe/T+jlyZ/h/yjBZ9EQ1gz7M30RtHBEQ/5z1djgZB5duLKGz2ZfBtFZEgvJludSn/V31/SH1Ru16Hhjd171tYdQ+nXmQ53O4ADk8C6T0loYqSoOGj52k5ELAsMoQfvO5XaVoCViWFIJ/GixXYLe0ypQLzFV9YPJeoB4WjzfZk3D6AP7cUi7CHijBSBhfmhq3oA7U25vwE4kYu39/YSpSFsvWychdv/7DZanPEC0ax6G3noQU5Ud1khH0+buoHIjpjFUDAJcCejlsM2ScWAI5BQARoSEtJ8itCKN+DMBrZrBSqgtWJvev6HW+Ad0hpgkwQnjIerwYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166124,
+          "output_tokens": 88
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5d27ec627ef2380e6efa11ffdf58ba56ec3ee8e483a8eefd2f9d49db4c4e6f81",
+      "request_summary": {
+        "chars": 513305,
+        "last_message_end": "ause the old one drifted.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSvgYKEAgTGAI4AUIIdGhpbmtpbmcSDAxpxJxAbj0L3AIglxoMz5IOaCmdJhxv+/TcIjBWuQoE0VqwDDIHeLNfxJrJUqfUMLaDOsyHXwxxIXXflLzQaXrtUjWpS6PdDJvE7xYq2wXnrLrLuZHZ4cVSdvO0OHvIMM8TNUmxcfmK06MrTiKAeMduHZ1CR/Wu42JUxGJxGXL2Mn2qrGsImR92slFjE0rTlCI54poDwlVhckZlD2YFI1ph6CZeMN+LR9EcvpLc4uydGsDac70EN48Sx7OQKDnU5Cx9FtD14Jeh1NNyJE1PyP0x0t7rIguw3J/DeDhsAMTRoPX4GxX5d1aHKrEDMa07XSUmVK1nXY5FMPxYYiGLNAiTWla0bGOtovVVllkE5EzoZn/Is68kDjnB5cmAOvZA/5WNOU2QMDY3NCtuo+K9BwRCQJi47PAvFy/e4C6l+onojkJ7nqru8q3Kwyn3wIFRbaDRL9noh18WS2dbpGshXqA4U8ZFFKZG9ycRKtjBB3jQWIXBGUysbG9uN+aBOoLJl1fuAONbRAZAKeSs/2/P/2dTaWOILUHY1hlwqY9RfLK2GJtUIHdj/LvlvMvIb51uvsbunjwOI/fy49AyJ+o4EobrQ6qL4Mkc4vNUip3JlMKLg0hl5yfGSQnMN4XZLrKMSjtnzJNeX+xUEh0bS6CiXvpxOuUlCXXsnSe+pJ2/YEoZ0EWRpKIX/3TDWzXs4dB+J7+PrK9RuC33IkSae7JD+Vk7cZTOham8K69XUfPkDWLwOB3reOtXOwuaPKZx7G8Bik2SeEyIiPVyIZEB5KSp5TO+tEkMcGwjlU6JOa9nD/dog9YQTWGVp5DrD/AeeZ9U3GLGPFKBCHCZN6opmF53CpbTfo1cQe9yfrOQt2MMPsyI2e8CSA+QRxddqlOIq+zumVj3z+t4ZBJsZbBpGLmaC98OChPJDrl+UcwltBWd16jeeOiMU8gK2uKzD9jVs10HDPX18OdahSa5DFe8mhTPYzOrMg+Xi84uxDARzkC8GbGVA3urxc++zuNGNpZWuH5LvOI4rw7cn6llVq7rug4tQIC1zOgC1EIscNw8f683gAExfYCI5Acv6UwHqRgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166124,
+          "output_tokens": 105
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5d27ec627ef2380e6efa11ffdf58ba56ec3ee8e483a8eefd2f9d49db4c4e6f81",
+      "request_summary": {
+        "chars": 513305,
+        "last_message_end": "ause the old one drifted.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShQYKEAgTGAI4AUIIdGhpbmtpbmcSDFocBPjHMNyfeK5gpRoMmo2tiswHn9Eh9xoHIjA2NHIGljRelKUUs7fCUehbLcyOVt2u1VQMdEAeTb3/5QD7PXpybSNAQq/0oGyKX3wqogUwHgbHXEnagP6S9+vyR7Z3tkTvKrCMMxNpdyZ60QIDAfM4YnIJ7CevGQipo5naAcQbRf5iFVdcDbNhq++1O4EVMIht2WNKaD1/Dtu1B1QG9Alm5SxIZBKiUUVs5u+BUllaXlhR6R7KkprgszDv9npL+4EOO5esPwwFY3U9wbNGLbjowXw5KHHAdanpB2flLO/8ZXlYzSGjK4bXpQRLp22lTz9RlwH5vwjclt2snBCAxOVYhcXMZmSwvxIU5W9OpCWEYYITmBraehYCqTkN2XJLH1KkFsVxKbbcZyjSrTqTXWP1lnDDCqWZAEA85qibzOq1XsSiLMSNt36JlSj2CTdtNPocQq3ycckbH8omJkcNzsURPPEZLIOxQm1zjw3oAYA5msh/cSIHYdWEk2ggoeuPpBgNM2dBkoq3AFHqeuiFKnfAe23KPkBqM1TiWr/y4us8msj81uvU2rIkHJZz8jALdOK0nOgOrlePRp0SDzX8Y6euoBwuKHJtUYZa2ntJMF10aE/xFyYUhDP+KKEisuxmgAkf+K1U7lit2vSktuUEy6sYvaY1yX03h/v5ilsmxnCrZbyWCLL4hyFEIP2sHOCSOsYf3hvBZ4AtDrXRI1COE9Csbfc4NrCQYfyBrTeeoiNmZwnuTFNUfzXgTMH2P2NxLJQ9sY8lfJvQT4H6QWfKCYXMLbmyz7YBThqm8HIi4yo1XkR0EO0GFBuKvgCwlSveQYnpDVAtvc1svMQY045HdwSN3rsY2URFaw2iAD/GA8DvQoq5PJF9FPOs/ICwcOCnL0VOaXHUx5fYTgUv4uPo+Uz429btxiMUn6hWtyXLl+mNAUcsfRw96xW7zsNqx3P+4PJcsP+fBTo5gJFherYZkIuwIsP8fiYBJedf4HT+BOTPaxgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166124,
+          "output_tokens": 89
+        }
+      }
+    },
+    {
+      "request_fingerprint": "85b247a7bc299437251203c17597adf685ac52b2e7f27538ede386d79fd7db2c",
+      "request_summary": {
+        "chars": 513305,
+        "last_message_end": "ause the old one drifted.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+QYKEAgTGAI4AUIIdGhpbmtpbmcSDBVqy6BgIUXxJRN/fBoMCziTddWToTf/YScLIjBXFEdFTSTsq1+XwcP/WJMAuFJ8BYiXKRo/vojhGlbfBV12+24mwxX0Vweqd6RDRKwqlgYE6EsFFUj7X5WNJop43+cNEJx5S+xc/SmlF/JvX8bvASgzjjf4QH+UHO96A9VSBe7jy/qw+TxeiTu5A9Mer+sUaQHB9VKx/fGMF3C4c/RPypKXhqNUOV67uDefx+HKvV3hEDFrO/Ir4RDolhwiN/HBI7BaJrXJDRm4/RfuD6bYh3Kq0ULt+8YuCZA+zJJbXtXWGzAvBZR1xd5DN1n4ZbfaavYFvjOSz4OzwbvWIpaenZi7KKSgHdjzLvp5Qv8pnK2EOBowS+5n+zPibiXvnBbT9JigZQPqiP+PfLkZ1hGnRGFIobLF09ECnV8jWKlqr2kcwlbvXRACaj2yJVOdAQ/fk2+kIW2pzLuY0jW/oX3V8owWESgaMYhWDN+4FsVZuiuggnmBVhqADjYUYPKVuN7zgKLoobsqggTSR630i/IdPYBXl01uDDZ1wGNQyEMtGNmv5ODBwqkKztiid58XZ/gUrPb3VgxNjt190DLdKw5Mg+TZOoLKIdInLQ1wfPtzjrWSxxoVlqDbK48FIEfwbWRtWh00nLDwON5B6AFRtQyUiv+t/vfhIMbKCnA5Q2ZtCz1ChWoH9HgyH9QzYt33W65xtUZiC1xRpTguscc0YAiK3kD0mbHeea5Tcg/3PxRgauyLPUYq8o72myDuATj+htDQ7SiPA/M8GPscNaQWcrrzEJ9uwe9QYMX8kOjJcr4rSWaHDuZyoxxEQfOiN8j8YYM41ZCSoB7zwW/BZXpuk0M97+sObTI4Ed2feF3gd0MMk32Ixwtq/Tsjq9idzdC2S+3blzrhTRf43gdHzMWonhNH6pmwEzLWoFmIZsC81kNWvca5oqvk0DJtXYc3vfsobJR2eCzQK/edngkIov84vllGq/6DdgXfLDNItbn4yPP5S77DN7H/at40Q3rvC8byDYCDxBRLkzw9U9SHBlPjnFHb62qFyk8gx86S4+Rcqs1MCJNCeyJ9N36XJ7FxvPY0GsaXTY87Bay+R87bJWpAQatjDa00ab0ICSZFZhEp/eklzyo0nIp7xDXR/c4rv+a2ziuVK0ZUPXaVGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166124,
+          "output_tokens": 132
+        }
+      }
+    },
+    {
+      "request_fingerprint": "85b247a7bc299437251203c17597adf685ac52b2e7f27538ede386d79fd7db2c",
+      "request_summary": {
+        "chars": 513305,
+        "last_message_end": "ause the old one drifted.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSmgYKEAgTGAI4AUIIdGhpbmtpbmcSDBVL0m7B+UqUUwOx7RoMb+daU07WngJ1sqggIjA1UjWdI6R8iVLXQSn0KlFXYfzeD/KSHZfSw3bicF/XTQJAtgatWD8gQwhEb5EDRk0qtwXqGw5Fq8KlMPKfyhWs79rjy04U4fNwDO9Dn3Bv34urNOli7BI74JBO60uHpP2ET8X4f1oYDzwDamKM9hKfB/g9p+7Z/WpYW+qYjT97M0/b2wR6uN4EGj2DO0SmRccFESvMRSrZJeZR2W1HdrmIOLwt/oKzD1bhk41qGzOvQ6a0gF/1hgYCYn6x+5ekf/YPwznnOTnCXyrPZeLKFSrN5udGo4D0+MQIfOoWcDDy2+GRv5E55TK9UP+vXLQN95GqJW+KtS2KYsz+xeHnCmvtiYYcya9YT01kWp9CsQqAG3H6/7GPtLAn/ZOk/9DfM4XHu/B3M9g25SaKHzCZCw+C702eMRm1X+6p2UA49nEFC+DAnBw95fUmzRIix0GjbEQ1dvPRvRI4AJo0/s7GbU0N8RdiQrIq4IF+q68h2ycLtYNet1QW3InKCreJqikuR82GOnWENInjr5ZLGTRg9lOZVHfcfqqOUzZEdad3+K0fMPjEvod5qbKApE41+/xCSVYKoA9zQhdt1gdv1sCTF/SA+hG9cT9VaS9HJFknV2uIcAqPASV4rK76FU+yII+/+Aqo79FBk2QNaU9xlyCTJPZrMOxjpmN2UM6bpXku+nHdtjT6Y7KSOZyUW8p1jn4TMUsa9XvwliOEuNym7/3RfwHkEdHFKuVgV0yOEsyVj21x+oBcefWHlq88TmnDBok6Vj9aAOl0L6N6ofM3XXtRYFRB4jCmOiNJcEEQMc4LEiBKjKDHm5EX0isho2Xc+Y3WlP2KdJiBRab5Y4yQVozZ8AsrT4d3kZv9UhHEOGboSDHboNy861aLcqFBBuxiFO9lfhG9X8oQ1T09Why64WzF4L5vUCgWo0A0bZFcVVcp2gudRDVeHPJP0X7Z7o6jeMFdhjRvid9L03ROPAC1rtuLM/bIDvBnGQVvmX6BKxgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166124,
+          "output_tokens": 97
+        }
+      }
+    },
+    {
+      "request_fingerprint": "85b247a7bc299437251203c17597adf685ac52b2e7f27538ede386d79fd7db2c",
+      "request_summary": {
+        "chars": 513305,
+        "last_message_end": "ause the old one drifted.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSzwYKEAgTGAI4AUIIdGhpbmtpbmcSDENWOtsTeEgzDmAB/hoM5ZVZMVBX921zJ+wuIjDk5mA+Hx7f8Fb9Q3/DNxtIrii7wPloX1Ow7uCPd/mHIb8RFd3NYfw1qAIrabVDZfsq7AU/oQYiIafQM5oUFViSr1scnRbdJdS2NUt05NpFt9pW/+lfB4ZOw5f23XVipRwbpLqv5VF3JX2h+VKovpLAa77V0um+FeoO/FshoyBDvSWPw+SkmYVRHTf9Jtaq1Q/2jrQuGyizVL7AEcdZGakCMiHc6sq1UDDUsB9Sc9nlCek5ZIIdg5oVkKDsOJf6AZBWMrdyMVFJ+udGMDdUnMCFEx/NJoMWrbWlPe41QhdcUrugu3JV+HfkGEgDc4Xak6M221paXDoCGnd7IllqDn1qyHbbmhGnxRpfNqjVw328J3xqzPXaFP9V22p8ZvPuPdqEqDrAFS0E7QOQ6zmRJQ1wQj1xHyWKp0RmVr/7sgwk9RM8BJ95Hv+yuZiyhcjFmg4+HBefJvLetbC9awUZqW+fOpYbkyhiBq9WO5B6wCxMjtxn2a7CLMXQjFv0P2GT1IJLy2xaaN4SVK0KlsotNLrBS5VuQhtxdB4Ik+mfvHRbja+L2eIiGWZIQJOdjY9CRAjoAltmdi2qXf40TfZGa3eZhguEKt4yM+YG1HYRxmzaq2fQQ0J9HwTFrdEG9ZOdnxfl9KW5QJ5ygylxcHu7PFQPxIdc6QVRJZJkQteLfu1BbbBB22ILSBFbO3/9fsBi2NI5Mj9W3ZjV4FPuzskR6JjBTaHiOfKso8WziI2JKVO2RgNGDMJ3n1FFI59TZeU4rDoew/kwRyDj7xcoBX6h+fdFIwLI9eED+Ie3lIcde63yTs/XQNpIXRHr6TjkTeVEhANnKJim/rH/PBUkZpJcq8okYtncKh3jxO2iNbVj4gOPcQvgMvvyROQ+5tGrU8Boxv+uJ4Zxu4to5LjxhQR9ZlEVTT/KTuKVcsIV9or69/3oWYgdtOgQ81aedh9LNdOA+Cv1GZhK4VSugmjCdR8RUGmzL/2oNlGqU2oXftRVFgPWgrIEElsqw7S3HkTngw7OZ3hlT0Nl5Y/2jNNiJ29D8OF4XtHM0Ebauksm0E2oc4gkGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166124,
+          "output_tokens": 115
+        }
+      }
+    },
+    {
+      "request_fingerprint": "07241fbad0a83f673c94177a2b562e61fcf66fb1cab160a124a9ab90a7f1f487",
+      "request_summary": {
+        "chars": 513305,
+        "last_message_end": "for Orion Bakery is 7341.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSxgcKEAgTGAI4AUIIdGhpbmtpbmcSDJaLSFVvhfeQlt7uNhoMJ8N02qTkpC6xtaGjIjAxEZwX7PWkGKXcDJlZpPWosZsBqolpaj7nucHT6xZ6Yf231M9rhwBU3WgWqIIeyVIq4wZLyrLDg02KTFtMC61lUv2m2UbzSD9Qc9cVEe4Tgya86mDGSmMnusn8i8ZU8aKYcHmRdfh9xuV+nf8+tif/lMmSQ5XN4RBiZRfiJ/Ke/xX32OOz0nwiAg4xR1RVmPWq6DEdLWDqrJ0yNLubICN3hzKPhbbPkJIWJEktGXFgn4arFH1/duOQnl+X86MCordzhehmFzK7uAAuniQwg3Npsn71SSqCPfnKgWK1aJWIL6GtBILYoeOarnxmdEblOQ0ExU0vwSM58EWuJuGhOttLzYtWP10z85hkVY5N6raYj+Gzp2OrJcIs0LY9GwQ/QFtfPqP8aaN0cuOtYIdrBqDu8u/oaNg0oKgCCrIp61h8lQa07t8WGQFoPT6d6tqGt8Zz8j3o3UuURreJdGwvn7MkvMzZmrTWJGAcLjvS/t/cKbNRMuyFuWn948HAoPCXB77czo8P2ssbjM1M20LBlICXkPULTNdwaOJdqu8GvO8bCFKrU4G0GYaIIDOhduiV2Wody3Opip87r4QEtUUszJ+qJfr62+hu4vQSWK96mQOzlxKNPQE65AQPcOF3565I6DBXgEvpmHUC3m7o0rbnO6ZV977JqGpSRsoaxBCnD0H9MSSssTBx54qGe5stAsxaIm7Dkl4cg/wDfqfZLyC1BNsSVlJ/Vuap6ely3cgAMm6VW+7q7jXMtmh5QuIVYrSUXpTvOtIcj5CKc3iJrGCFl4p2M+n7mjE/lH+K6w9d6EIlCdoirtQxXwN+uC7UY2LuB4OHX+T6z2o9KiwORwWyvVDzj2nLRPQIEc3G/zmCiNpK8dABbfFDuH1CqW13qxmsO7HlFRPvXmbsoX0X79BKq4mFPRlcIkToQTsu9jXoxVhsQRaRHgYxO/43LbZxANPj6+5f/Fu8k+rhVyKQJ95j4WQ54MY9BX7Bf0UoDsCJs2ZB5WTJNKL6rnNf7fPS+2ixUNokq9jebxLB03W0thDfMEZsNSsytZbQ5yF08/Fb+DObJJ9edibFv5pktCLXbP3duCvviaXlUukInra+aVMB9Jjtyh4P+C8U+4scZxfsrLe8OzADl8+yyR7xT6D559grD/y8DRDQTAWVZTZo1aLJV6DRwei6Ev0B0WAiTXJLTmu2oWC/BgJC2NVs8yN8ULZGg5duiqf2zfkYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166124,
+          "output_tokens": 151
+        }
+      }
+    },
+    {
+      "request_fingerprint": "07241fbad0a83f673c94177a2b562e61fcf66fb1cab160a124a9ab90a7f1f487",
+      "request_summary": {
+        "chars": 513305,
+        "last_message_end": "for Orion Bakery is 7341.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQStQYKEAgTGAI4AUIIdGhpbmtpbmcSDPhahrrtIOaN7eKkZRoMHc4vJCWtqCY7tSAYIjDVICb/h0JKhWH0K9tZsX0LNU34pQrJofms7cSheZ9Jem3J0uloy8T1VAepFZ4o7Hwq0gWg9KJiiDpdgHeSl+6CV5KP3VFnxrVPYKACtHs9EUL9v8VLxERffV3n5ZypziDloj9Dxbpk7X+FZPHeXv0mOa9bKj6ct/uv1hBAZ8aqydVJsE3RuWJEhE/els0HKuCCqhLY9yMGWS9JiXzgOATu19JTaoEgQ4u4hLLeAj5rziC6hrUbOUbSLC84eagsyuJfQ4oYeZe/3+Zy0ZPWUGZGtlL25bcJ2NM3MDbONdeVkSHAyjm0WMf/FsaDcW2lCVmtaUE5bF1N3HF7J/zYPGjoPx9tXAEOVTG44aLQuxLo9aG18Sr4pyutaMuJhyeibDyj0ryc0Jmss0dbirNk5HUBKrWhKSkDedZVwWMjo7EOnJRzWze9cypaAq/Z0gFVwHEXRztYuKoia3cAaVq359KoujSjGqtZzqvfOKO9/5i2ztPbmSxkb+84mHqsCCB/df0qYl74te52yZybHbpy7jXfW16MwLQHJ68eJtuR6bhXtvym4TwNtKzba0GeF7/qc6NaMzWaJUFb5j2DqFOcHKUycRZyBEeMhCa7Te6FtW61kRZ58k2Db7IFy18R4riEGeA7ew4a+xdZ248yYclUpxDPqG351V8an7f7faYg9D1CIEzLTJltLJlMfIXlaCk817K89+RwXvbguuCZ1wEGaQNJEZVhMY360GCekGhrIdzq0zJRHycWustXTn5iLgJS99c/0X5sGC0RxCyujNBb1bgBWpIqFszG9HAbci4U53zwj1YpQBz/NTa6RNRCM3UQr2dthzk3bH9xS2c9RXUeAnaLIfAfg5xiaAYGwGvNQv6lgDy4tjjbFTDGIpP/4huvZBEiDm4Qq3TmovI4+PkCKMHsywRoWg8rMRuSnSWQfitgCPsfsrF9OglbJhq8UR8475shp5IKFFLht9xqErIRP46eqyPAzqZj4+sDF4Ni7sLzAMUO7BwPSY2D4wFBgO1YBNfCUkwbyhgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166124,
+          "output_tokens": 105
+        }
+      }
+    },
+    {
+      "request_fingerprint": "07241fbad0a83f673c94177a2b562e61fcf66fb1cab160a124a9ab90a7f1f487",
+      "request_summary": {
+        "chars": 513305,
+        "last_message_end": "for Orion Bakery is 7341.\n</document>\n\nWhich number lets me send money back to Orion Bakery? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSyAcKEAgTGAI4AUIIdGhpbmtpbmcSDNLRKYjrqi3sSRToFRoM+k6uDA4Kqn7am8V9IjAbHSs24FDgjjK1dLguH72x3JjWZO4HmcD2pzlUhe1OaUYxp/K8rzdPuVtYWQUkP48q5QZANZQwZCJvijSz6aKxyfXpYPGv7LuzZFTWgAwx7jzL0CumqlIsEzEUSNyt8Jhdv8FDg2RawXh2R4s+7yNstn70Sx8pd4Raqq1pTXOrKaFdQD30ldKNQG7/mOVK6b2TKcao8u97jE0YslsqY553xSMjQI8/xa+GfpuCvXJRs2Patzvr5Xz5J2nKiADVmJuwXu7P2Nk0GAaXzuaI0t6u578PY1ugj9hOy9a4N5/dhxNxT3CwFJFYrOxzft0tqwIaj0ZppDoiAIPJKZYZb3vh0S9zYyG66cYjhcSlzZYGw7l0AV5rNf2bGIMqudyFRCb07vwvKpvlgFmaHkrkUjzdm0ET4jOTwcCi2XKiG6ZrVS65dQFvJ3+xr3vJgQ8g3gVpEkp90ATE0apThTnCvSCgEtHMTisK04ufkyf3mr0CQaqBNmW0/lKRRMAyHCXaEIly/b0G5Z1BieyfZG7nTWcSOKG8XCB7+z5cn2dtdfcxE7p717N7YA2p0Xxu0pUNkO2DfEhw1YRA+qTyk5xGMAtAIyI6h9mDxUBhI9I6mbM+6AfVvmy9jooAlytyd/b6l8dgTdJ24/dZRGMKEeWoS4igMLvQf8/ppnqvukGKXSyKGqMqFkJiRdvaj21llpdUCI2E886/gMnyGbJAid2qs27lOUCt0kDPPSA7cwd0V7W/LxHbImmsAQbcxhBk+H3kRrehEPOyE9ur95yjgXnvMUyoEdaD8FN/qkHlVCxf9aVQKZwE9hzgh5oJnkX7qazJovtM+YgHWaIJ5nQx+3/n0vAc6uy/wxrg6movEZodes1fj9CCXLkfvegLhiIgVaslrT6DIKZgw0uSsCnp3OAWWjA+iVk7d4+5Y5fPKM5/JT60kMJ9+oXLIoDAPxm2j3AMHFT9nqcW+vh+arFpMeQCKRdF5BA930ynWrw2iSZzB6CK2SG58g1orkqge+D9e5tYcjY8YN8xt/r4R3PPpm7uE69Y4Q3LJN/kPTkNDQYO95Lp7hB9TQgcykYvjpbQ9m1zWur81QQUw0RKpOxf6gveBBWzYA0eHYebQltDpNBqDOLJJ3ShwJwK1U/5vMlZA8R2IqvGvoFp4G3eCIiaS4mX6kjEbpEYD1w7Droo3jANX11xMnYQyjPamU75rrm8orr/3JlZQtzP8Rrm7hgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "7341",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166124,
+          "output_tokens": 153
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7dcbffeb1b0fc24c50a25386eae90f621bd17a43fd58bf3a675441b0b34d5548",
+      "request_summary": {
+        "chars": 16233,
+        "last_message_end": "e while waiting on legal.\n</document>\n\nHow many times did the security team audit something? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSpAsKEAgTGAI4AUIIdGhpbmtpbmcSDKtcbwFhs3jfwQ1hJhoMf4M3gjY5UHcN4WauIjDVQvYqX1BcAgZlo9JBf8a7H7n8p4RbmR63CsLW2nQjaYODP+UnsWhaksLBmPyiSOQqwQqL/RbFc7X2zlrBJiQapPTrGYQN+yU/qMZ2Ge/nJG2OaSGyWMiu/NNAeHpIY5DSzXXQJbu6+GcfRch4ddrtt6Rl3p/LJ/YdrBQiMgTDhBmm6CyoCwwDZet2ijKf1k03K8w8pW9Ryl65kFkc4N3beN6UDMtd5Z7OHqmgkVoLIZprMFPP7BUwO1zVjL4CcY/3vSlrEQkU/N+Humop2DaYpn5RyFTi5G5kFa58FOFeB8QaYXh0QoZ1iWPaeg4ZyROBy1j6SjLVT5NHvLNtWuwt64iFOAUlGA1N8oOl0yALVnLYSuWd/vGxVNacNuHV/UtGVJolcMqzcS6flKOgYnF2/veqUMEcV2inf3sLDQl0dLYfDthoScr84RreK6wv+euGnLeKhCRVxEAkOab4xnEqj9RkGSOnMEjY9lGCTtP5MJwMiQ2uRw2j3Ei6hHwwtHtOU5RpA8x8vBhKZwhp7g0eEsB+iYJtlUgHsVf3VB7SRha/aJ5nmDEC4Do6htowsUUckK7zF3xgmjI7UHKtnLreb3vv2VDj1MxrfMtQS9IwV2rGjI+KxHytdMId+KhDpB3pRo5OMkl4btHtWPPn3Dni55gg+e9m4e6uYbeLnxGFWCUq1xClj/UXG7IhlDaRlEbFLL1D9jq1Qc9OTezQVa64f7PooWijsVyxuJanlfCpdDn+YWAcH72HTxGyhUfwas+7GSYKCdj5nfcLTxwhesMQ5RX6lg8m6MHGPVU6sTL5BVK91O/y8yTzfJlFyxxJZckHVy/qj188VofL2OZ2cusIzQQRb4LvL9VY+DqV1VQtRQyAUba9Qm1UtHWTMsPFT8H53bh4BjPQq12UV9NPsnAnOgt7lpqiFkP79hqky/Ru70krRuVmS84dKHdIPVU/Fzb5nZlhJ+8a81WT8/CfFm0F7es1chgdfnj9Ij6jC3ksxjX+VWufvSNnJ86ayOF4sxzRF31iQDULKyLXUByP3D8CF9x6+O8D+CYYor6aU7+ApJWsS/MRgET+YJws3Cwy9S92vXu4dA2F4fOXzS6Zfh44VcvMBLTclZlkLVIeHpGR/3aeWOZ04Gh6YbbbOTCs31IjDH+pR/UqY77jml/DnZE51m6dwiaB4xXXBKv9qEbN6a9tVeRX/Ob6T9zDoyGhGQfNIf8Lpbiu82MvRfTRCtGun36ZJ5cc+EmirPyVPvy9ugvK/1TnZA4MFpPbzBS4qaLaY9fFiN0qoeT9PBcZzK5/tf4NmstbEnlGJn56ZLS5+2kW8cIbA9pFD+DWu0ofxLN/DJZpO7CNuerKuUyux/OSLY0FN7+idNRWThiOLY1E8GFoOjskS7S+eCcCy/UneLGMwk9sW4HiHGWIQzUgKHhS142gqz5Bbi7frdU6fn51WYVzlwh0NPs6ubr3pXOXKhRH6OopNAyLClGDHT7UUIRlev0oPU4UVcreQioXVSrx93TPpGEz9tDnSIJmFjsKuspCjLpf9FqCMMHEkAs+UJFJtFSmhZ+TNZtH5n/L5jjYY12QucprB9GlVvrF+6FbIPfJuZ++EJfvsI+F5SQPCaniVjNFQu/+A1kSPtTMzlkanX2cpnYdLTpaV4BknhkC8OQ0a+gD5nfSmxmDWHMmZHqA43sWvDDixPg/YRxI4HE4h2ZbxL1s3mhiD9qqP368fgoa0zUB1wA7ALZGy/C0jh5MphiJsiqJObgc9O3VSM0R4TQGLHobaCaLVpdZKNEk++Jruo9bBKN4zgBghENidAERkzYaugCeqq/MI9pMC2h+XKMBXT7M2zM5fmky1bB/sApJgGPHGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "3",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5269,
+          "output_tokens": 347
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7dcbffeb1b0fc24c50a25386eae90f621bd17a43fd58bf3a675441b0b34d5548",
+      "request_summary": {
+        "chars": 16233,
+        "last_message_end": "e while waiting on legal.\n</document>\n\nHow many times did the security team audit something? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSrwoKEAgTGAI4AUIIdGhpbmtpbmcSDCe/cQynUhzeIaztHBoMweDqpqlZay81uzHOIjC71wfHlMNmbzcXiPO+kW+0pM/Ra6pzO4QT6OMpQYqJVnVes6xA5rydP2mRO6flYXwqzAnAERm3n6/Se1+Uo2AXnAtBhpr5GLn0LwIuv9OxveGuUAxOuh15HJvmEKq8Ge2XxfXDfH6PRH/GNHBAhlkWjSfxUfnOO30pi33Ow5N/BV4ofKo43PwU1ZRcVuEeGivvfdEoAM6Gyd1sHU8PjTnO33O7KerYnoXZJEPC1QH8cN1cQVYERMfDK6MefzEM+XM/mKpXdwE8/3P1/yGEi64sMCmEJEdEKQmzVSBAhzBvs86uZGvmZPN9yWRnttDdMQOxCnVcTrQYAZcxUp/Rul7hvM3eLafy12i645imdeLzk1c7HWERERNPnbyL5/TzuDz0x9pyEWNOIdGFgJlW3mRI/eZyMO90Mf0W2hAxr/efKFSnGaXxVTc4u12FVajqhkVoUXhTuJhyLrOIr2apnofCJejpS7vytpTB1hmyNzTEYLVvYNz3q5PqAMQs6D8GN6XKmEm4Ssv+UNrx7Iq/lYXs/vf93MVhFe+5Jk6AmYSOVP7ULwtNqQXXuw11CGDc/UUpEDJQn6ABSFtknMlm5GZQtyA1F2CNxKga/SAuqxQbphw437/PydlWea9VIWqc7Onm8bKT08qqIqwIZo9zWM/Ila3tl8a2v6SVycBcZKbV2xxlHRUpr2+KnRE9Q4dFTbNaOaQPLFArhB7HLA/v/nNhZF9M5l2xMOpZcMvpc3UX3C5bby0h5weEx9kGYgjThHmeU78GTS1bgIkVMFU9HDiau4JiHev0B2v3io8ZGGNTdUvbPcrvty9phz/H61W28FEYD+j0m0BGc95PS9gCRUK3kVxwCmRmfNXQyNlV5V/a5JnTnBBRKky3Dko+jnnQK3YgPH3tiCYCH5hF/BLSjC2/KUylucofn6wmrjKWUovW/v9kyBKrTVajRTuDsDwotmZYXKF8a9El9Hj+9dvOi43aOA6+NhLci38/1PHkd0auPhQRdRz+FUILx0tJSjz8pZY8JBCZo5CmozOAJCH+iE26MRSd+Tf7tZU99OZXDWG61SzJyZh4/KToIIofDZ/mYrr5xsdtkmKQPLGbG58z+QSnpSLY+eEo8ElaakzturLIYH5knJ/pdeK1lIOnUymW5ROQ/EuYQ5jtgHXq7697cl77l+Pu4CWowEB6t1fmJt8seRfFqtQQv6g35SSdayakCH4mu7mPCeOW3tGOo9q6wwg25Eqw7QOxH33KWX4jh2ThY0yqJuNsJqsdwXMCsKoc9LqOpiZn6nsuRmmVoSjGDRrNfgDXDkT3PRFVpmhvUxu6m5dj2sqaN9NSRN/Cuv3jxfZrsHZmFizmbTKXs1UiMg0o2DrXvY4eQI25egKgnP+nzBN6G2DQC4kMDP/tEvAT0jlZ8EDFiaN20kS6JfS1nTZbDhLdb488/egvd8Bcu5o3EXVEO8qjoZM6QJ9DzoKTl30113hUP9YpK8r7fIFx02Ks2OMFZUSga5Sk9kkSU2ZAB7Tkj4IKchff8gEdB2yyqX+XiNJxtcU7YdulLJRkdtgxUW5Go3l9SuJSRi2Q+Oq6HqQOEMZF+q54qnvXLyYKE2gHYUs69IXJTIICIxDO52+gYVIMQ4WgJ/nuxK3uy1mitoW0dVmpK+vkC2kmNkz7DsB+P1flDZTLsPxsJqI2tlpokUAFL7yDa+vtugxAxKHYGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "3",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5269,
+          "output_tokens": 291
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7dcbffeb1b0fc24c50a25386eae90f621bd17a43fd58bf3a675441b0b34d5548",
+      "request_summary": {
+        "chars": 16233,
+        "last_message_end": "e while waiting on legal.\n</document>\n\nHow many times did the security team audit something? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSiwsKEAgTGAI4AUIIdGhpbmtpbmcSDOrtYSIU1xpXn+4IvxoMkkrf1np485y/+hTMIjBDGOOxFEv1ezTp5AtJSHG9tZkACYxJfi1kTVol8CvAxVREAdhfwYIwAzURDoVEI5wqqAqdLt6ZRgehVBsUWTr0JgquB9NU9rnAGft67THrySImME9jdtbO4G8iIHJ9FZ5G2PiL4K9Zh9BBNeTxwrRTtqQgKxM6P/+Jm+7iBGD9TU5Im6+uQM+8Vd8NcmhS7+olaDuSmaNCWKxYXsNLh2DnXn/I2hfH4+V7/Okonh9EQL1y/McsJyeRO0psn69vJ+e0VR401CJB19MJuME8u/ChmnZ+zhv4qKyrFyHbl80QQhwN2777v8UHdz8AWU9Hbm5kIRBzlGendtTC9dsX/pKU0hTl7I3CPTa/YKEs/d9lFxtnz4z42S9pshGKsrsPB9IuE83V6M29iTBLU9hNFNPJ+gGACqxxX4iPuOvyQdKjQ8YWPOg2NoQ0OK2WIyePMbeR9uEHUgXHEgeIqNLsWm14cZwbXlNV09wm0McMv2c8xQIghK0/7W2/k7+kXksQync1x0G1emb9T8Rt4UIEj4fj5GtF74McPHXBnuus/gt2Is0NjEdtzkY953UjtF/zFzQfHuMefHKJbCCCP6wcLIobRHrXJGnCTrlhljBXVhgMutLGeOOjwjdzA/+PQwasVl8551pTE7ws0nGwUz0y+hfISD5t9M+xnygNFNAAOzPVeT+VA/beGHpwh2NXaxav4dI/IUVNa5hGk1xods+sS6n252CNjJiNQixn9wus3s4R4kQ+B0UuxIVzhwId1HR7QLeseYL/Qw9e0HY2eK7lU9b/sLZdOBKkRrPYQWCVUiiGztAMv82PbLCleQrSPMlizFYRKr9M5aSzKTQtxBvp2L5GKyYkESIs8zOMRhGm6HBp7Bchok0bXjYhUXshCaB/nnCEu4VMl4K2E6mHjF/DumKqBHJl5tTRM0nVgRBXxj51r/e9jmfakSi+1N7RAFx0BAIt5KFIexjIHpSnJ3PI4wuiOhk0saqc8uIPVM4B51IQtvu6pdZk8AlDpQk4pT+AQFPyauJnLcDt4kVdCsNcK0ed3zJrouZutOS7IYTcCOxJ2dhzEIJle+2mi9Pdh4hCezBnXNXWh9NfZ9KZo6JV3u/u/fGQml1icaWRvIE2SdFLAuRr9Ul6LEKtHMRtsquJh4okrrhbVHA1FJTIwEMXdLkVwxBnUZ7VH+9JdFW9NMUUsE33OHzCX1bGFfmQlrT/uJE4sOlp+LKgGR1x6IV8agMeo3mkXoranSkWLnVgqqQm3+ORGY5YnIv3CghPoS1cAZBolzaXe/SKA1ezTid7YVQe+pRgcE1sqr6kHOAEIiwkn+bFe2HQLlIDn+gRWjrYgQquM+MVecj4JJOQlhoIJBzlA0wRC/MKA3t+MGMJIBEIqA1ALdR4ozJ0805XiEuIpaQILhiBI7PrA7hpLkpT74mmKyJugAxEzvt2DkgMTK35EfWWCsOMUmUdiCr4IoW4/2odqsRqepjeynRIdj+rydayGo/6CQyeQJm16VnRMIGRo+c4b7TEfkHnQS3gYWLGLLMXEvwK7bVTuMjXwfwZbf3Gju0kN0RkTNJP8yZQWGyQGfjAA49LPV3bgnYQVhRzap5srXuF4DN9jwIfFEaYnBXt08MkAflTERI/4uCti7mOzuNb59qwYjUGeejVsf8PcHwkBA0vhjDl5V9yzzCWoDIED7a5WhbMhzfxYDV5/f/RLgm0kvzcPK5nR2W/4QpxiKMA5d54lVrCo2u7oLnj4Eci8dK7Qjb7UALCB4ZgM0AnIFmqNsdNoxKlE06ONgavuwFzuimOdEDg6SXYGPY3RTaXveAkpig6kKCYKEEYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "3",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 5269,
+          "output_tokens": 312
+        }
+      }
+    },
+    {
+      "request_fingerprint": "81f549a002820727b72e14ae57266bbfa69ea5ae1043b3a83d9b4e5d064a7a0a",
+      "request_summary": {
+        "chars": 128443,
+        "last_message_end": "last sprint to cut noise.\n</document>\n\nHow many times did the security team audit something? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS2hMKEAgTGAI4AUIIdGhpbmtpbmcSDEeFm89a2go8QVyp9xoMau9Sv4LxQ2sHkHeJIjAgb/mynWGdDO1k5dpTzdx2UZzInKCfFJclrJmW49ySR5VBZkUlyk4v5oPCdCX4jq4q9xJNed5Eou/tRb6E3+TpTJWMWHPSBoJCb3Ik8YeHKy0ys0/VsTjKcQ8DGo+fJBXmIxTcn1eUgUc3yiVGNe1VvfSyoZDw0YYJCEQZ3ieKETaQuOOy7W0rRtdsrWEUP3B7moHy8erE/mYUjuMb5Y7vLKJIZuH+Fx2681M6bhi9ff1x6by1GaSs/oVcwHGdKCb9dRb1P1rFt9XFi94IBy0opB7pR7WzmNvVm2FNPoecU9e2NRcoEOBlO6ne6PDPIBreu6Sw9AhpgIr5eKPI1IiSpAXrzIEkS4fpYnMu81X6crSoCnrTOAatWFtvCJf4dpoQE5NbqeMeH1cA4+CqNHhMPoxu7YdzI6SihaWgbviJJRl6fzFzBCWXCRpgUXuy0ONIdF3HnEIquMT391TsWsTcltmHABsWcMJq2m8U+701n9ErKcXcIzGtrUnhzsF+EgDhQdLsmaYHPizKn5wL/s/HNHZ4Ce0ERjzLmt5Rf2rHEjivOjZgwedfmNnCshomvjE4n+oGEgMp0RBlJVriwwLI4W80da94+480GQVzgMvxQa8Q4gBRUO4/MnkEyoeEQUYfFtuvW4Y9CIytRy0s5Us2PJice7OvCcnJiIvc/fELsQPMFNcZ3JZC+QZQghR0Ua77QfRhJLR3/cu63DZj75JPAJMAsCCaGsxlZtA1Px1Tkpw4OLmM8G+UGkn9kMPoGdcRRex3XgRuCrgJt8cZj2mmpIMyo0CxcwJZ7Kg5v3nvN1mG4OtmCBV2hWXIYinjudoXtXpmG89WgODmSwe0wFaOgRW7SsqZC0jix4wvMtRePd05UvfCqMJZUf5+wWX6+EUYLOMtxtzcODD4PMNFXaC/oEeJIkavlaQI0G9lrlH47xCrHDorZavOwGV/pJiyf64kaFejwoF1K4YbCNZ+FCVde8w+9X8yvzpLvLqO/LShfw4jz3QcgGZIR9xtQ1AEH95ZilwmuToI1FphOkiFzJzJzGR1mFS04TT1mllAL0CZmoymK0TD3LWYFRcVOUaeiKdyPYmRlX1O7wKPLGNUj2TCiY/n0gv1pBVnB9JtPQKvfC6NGLvUE8BYdU72ndAgS7oTKcyJ7Ti5wULEHshKjBJGMGQK4mF+EvqWqLX6q16Vtv+XyJPJnMosyiOaccny0/EietRCJUCq1Y9AF6ia+PXm4HgaT4AcDRikX/Q6sl8CGmH7upBT+n+r9SN1buFb58mas0moqetVbHG34y3Sh71P9VlhdtFQ4m86V3d1o/LfGoD5SoMVFEz+WNIjW2rQGoUci110K3Sii1rQuqGodXYHzMtthm4pQXowiMxvJt7+yI5JqL/ZRSqU8HK8gRLYcXO2AIqZLULK2mg8YM8Q0gqy5s4cTMWZ9wvsBLpKpmp2oPf7cHE2mO1gR/hB9mqKBuhhRUEHDgHLDA2LIpTs1mP9POW+GlHU7QCKm/ELU0YgW2sg04KsVhQVjm/fALXo7kT8+ujUItYwGoq6UHsrv+tvcNYKz25/HGwSaJEwO4wELRYVIUnhw7HTK43V+s1dHt/uOzj3YYqMX2uSTqmtAGHsUYVxLar6sbM+9tizcxoUAoZ3EvVfe1fWCzwq6YyJYUd2j245n5eRs3vzYkiz5erQOmkvhUhhlePHumLvzYkClLLPKlKM+VWpjPdle9xrpVH9e2+l4BDICuXAyoZN96yi+IWMSypfmd+7eXnQD0RG/OqKUyqMmjzE7qj4CiGxr1yrZmdhaLl5a6iGMdbCJZ0Jq7r5NDkQ+oz/c18T90hBSeACGVpcHXc6vWSE1LuBO/o1kKb7nFg93nnoLW6uj+ox70V7UlXXeviZW35kiZRTNo3gk8C8MmW2WEcFoU0NrnuWmqlxiR7Cff9Rgv7sIPziO7pHqC4yk8D70qRrT7cpE3uDkVXbOdlZf1wkVrXs8uY8OzHaJf5LFJJjjFpZHd7W7X4RrMdDkUc/MUXjZ93BYytpQ50CljyFW9TmWClJtsm4bVi+rKlEhisj3sz/ctsL9D6IvkTWQfjPqE/g9X+iX03MjC5vZ1Ybx10Ibfq67wXYWHpvScDWefIOROE4PNHiq38WI/KMNl7hq1xgKsb8WMZC9M95n45KfS7gaObjUF9zrEGHiSgYB5oQTRrw51XOh9ihtcybyHbsk8VXiDNnez5GxHyT6Win0Ob5vSqb1hjGrRZlkcVKhJT2mND5ETej9itZI7GIDiZmFf4DsEDp6Jkmcy+GwO5CQG8rKO2bj4VeTtMDQrPYhaJpRy0AsOkAOLMxOndvxgvDM1pyQXYaetD55z4RGip3TL0iyX5uVXUr5sd50gLNM9pj81v4elmPxHfcge/e0p3ige4yDKMgRq6YMZA0ohlS7l0XSPWE/yCzD3UaqrMk44izIyxiwRXrN6PH+4LjbmKWmIy2o4JzWoMIVo3w80Clsee3URIswW10lgHpNd9XVXfSIfpvouYbEgs5ZL3GuctSa7qthdkUSxS5RfaObjYWc8XcfSytgbM1O/zfUR5KD8tXgSCWbEJcykBI3qi+Q4IeVBSBM4K9/vNwI56KwSZdqQw6JZqaSQXeqQxlEV4kj80mdItvuS8+AYWw7vxzyfE5kBjysrt2jBe5biIdCSq59HJahXkLQgtB4+kJ59xqwKhIsLEd0gfstK5nN4/F5jbqzcbgi5cBQrwKuygpNpBGzTFu5LhsWIVxJNJ1zBYde6jN5Pzmpuofba+nX88X6upeFyxphrh8lYmQw1L7FyI5PzfBs02WyTkWADNKyh1SdgkGd0E6479+T/riFl7SB/E9FDp4NueE6yGtj5WQvAjRuclmecSREvkwiVKFaFIneKWjxOge0tidRPod0Df0Xm3DC+Cldw0jEE66PIETJ2xkv4o9z3XIcjO9U8ozhDRA0PKe7uCDbqUHQowv4HS0nymr3EVwb1GJ7z7VHOE8zzx0UajDluidCNnH+NI4hBrpbs+At4lWcbH8ZBCYplTEEO0r3VEzKfqlnjJvXSA4FyHEl8QALpoBs0IyfF8agTj8Z4I2Fn2S+4v3bl53N5vaI6fhbL5+tEI/aWmrOdJbngQbypLtvVv2LDZcd1rcY8S2hbUNjnV4S1hv7wQRY6iXkRuqZ/hWQ6AhPSNvRE6vqiEDlbWI+4AD6qkK7R4/tU2UOYY7N4Ceu5UBKwDmop4OFggSYpH8UUrrs3VLhzVGUc2Hlhgj/JTot89z3L3Go5eYb7Nd89kbfzpiyMD6a+1icGnHORgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "16",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41535,
+          "output_tokens": 638
+        }
+      }
+    },
+    {
+      "request_fingerprint": "81f549a002820727b72e14ae57266bbfa69ea5ae1043b3a83d9b4e5d064a7a0a",
+      "request_summary": {
+        "chars": 128443,
+        "last_message_end": "last sprint to cut noise.\n</document>\n\nHow many times did the security team audit something? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS5x8KEAgTGAI4AUIIdGhpbmtpbmcSDM1zScpVrQcIQT5plxoMhU5+HvFltA2+hb0VIjBOFcq5+MvxfpKs/3iKBEDHh0AevUBW3AQtMc0k8ELmRkauhuwnDvJM5IJX1af0GzcqhB8q+YaHkuWe/5UUstJsaWgjV1Br6Jevm88gyTLQNr5iJfuqwt2MgmO+SVMBcSngeTM/FmrhRBazD5tsv0wGGLYABvF0bJnZtdGv0X8NXQoqx3JCHeosEplm2CN8YdvXjcp2uwy5Y9Uys5BDgCNRuYEOjx0jxxaYf3+K4NfIAZdIqb/e5noj9Zr0lHTous8y3jUbKAasKvzdU0i8Oz3Dh3ItzW6v36v67vbKMpe34Sy/1r7xKCqDxjnWMQezVjGl2kbUSFnZTXiIoXLn1V3hyFij5vRNs8AbaYZ8Vf30WNMHQD6DIMYJwuDqW7KDAb4ay9w2rR93b4kHqN08SXvhxhVgQSs3EhAquJZaHRL0Q0OlgE8ItbrTIWdLscWBfwHqaepqBR5Q6wbYYu3YaODsvwy3z8AkOMdl1L9OT4qRKyMACyF5K1GzcJAE1ylOCdgC4DAPAWTqduo5b45TCJ75SYGVtSmG8kUbaR5BKhJdny9PXFDc8X1soMWH4YkBKzo+YQApfr1IKfoFo0lUuPw9oOWS7nSaqhkb+ZE4e6RKn8bg21V/Ptv916bNkMGabiH6riQX5osAP7MEuzY/C2orLg6QYzWsFysTURByufFqA80bwF3B5ckIYLpeQpL3AJrKfDdlTd59ufyVSZMFD9wvtednDlW0pkdGx3rcUEm7W1IJiEeGusTzg+03Icc0txt6TSucB2PDQVYqSLEUsDN5eXEJdLVN/UYxv+wnk8rCdOy29HhYJNzIv60mPN7Clmee1NdqzcpAEDPqDp6P1/pnsxCS3vTLIGveMo5IC+Q+nFJahZg13CrSFEyzJAtWO5R7gks6Aziuc1j2hpysI3mOds9iH1CkMRWKwxKwYCZkxtk7Kj7PuV9p2BlEqoaMG5qBzJNVRBHN6bsif2mUfoMAJz2Iws8Po5TH2IDGPnn0W67sFStyilXFpsxLUOE0tAMEDJEy7P0bHYXiSgqmG3wK9FiqDpo4zykDEIb1DXfSzE1/jMMryTPKlQEbt/HBPI7F6Un7OidHOEmvskLck0FMqVwygX95Ps7jxc2ATR7g6i76jFfgggMZINDNe+bDO/8FoGrV4wwgFHWqkpI+r+Ywh8g8/ssnY0ovgvvYN8qyKl/BHktKLRh8jkKyiSxcbwuQTQf4jiIdarCc+782W6FvuJKofPxRQYJSF870APDzAYFaLucbTLqXe3hyRT45mghPBpzZir0Ll7fWR0k47ET1rJoJ8gXC1NQg/OF/5md8VP+cJjTWdPA/x62tcuwk02ZDqVhyY+MGOhR8Q9QPFFuFQ7f12KJYKZp04T2YMcXTkmEKtTqetF2+PG4LhsAT5lVGCVOfdZaoibXaQG9sUxmM22SQ/Lnc0pUecy9oB9zKxMUZNNZpxkYjO0UqR/hBEnxkcgaG15qkMk5BLpV+AAQqAV/YH7ICdXb4JwGBvgiCn7O6cWqNK9VR/c4XvYY845sfR7CSBGLu7VVL9Tx33kG2uB22m3+act0txqV0pRwjLtT9hotoDY1NFQAuhq2z/A7wq1PS5KPnufxtpmDYJrSUZ3oDtMZ16AjkMtRul9T9Iq9Xt658mjdQg0/Bm4UMl+XWj9/a56mn27cb0/s9UDHGD16G4Bo4V5qjM0O4XtqtsRWLk89Q6c9q9tQ7zWP4CO166gwbpAbXAn/u/lfn2KDupKUSQAXaInaqk034LENeWeK2ctcY/ER+s7bIc/HlycqmY+6CLCnjIv2JylRZhj7oeqknTXC0o24UhByyoRnx9B8KsdljJnKbJrn0bzUT317vKQ0lBlW6+wdsuujLIzN8v8kF9mSE6rpV9mvNAQ8PbqXktM4oTDPJ3MlfG0ho15YyZmo5G/PXCS04SoomY9NMsgjlOZaiJ/ep3BPUMS1fTEdguCOrubrKGtScUd5T5KNdTrM6NjhYNbE65s/0WlWlT+P52UIwwRJz52UeFkfSofqe/2n26ritF9il69NUg5udfXpeYqxz7Dwnk6XY4Dhw+6Z9h2gIhpCml4jbIvj3TfwpGSd/110bpjR9mGyEcAmfyeCLbKcrrFw7fqhr5iQgZjzaYWPzEK31U7k9PcyGqGvEfNtE4WebGeZfjSrX+aU4BHbmmBgFaSfPdFza+f7xx8O+9vHlInNp5wlGdmDQ+2eD9V5nC6jnLGCAIjILidBmux+/TcYx91AQm/GclTIf/0E+lPVbqRDF973X9zCCDmpP4eVkVoJ9eLTYTuSwmpSKzjpBJYwv+Reh/gvtFFAqaCZwKHl88P5SSrYcndW+mrYkmao+H8vu8Au4+5AI/XX5e4f/jRNHq9iVaT+JKHotRXanu/DjH+3hmLMYOltYsWstFyFwI53+7K7tW6rDcMBq5rorq8Z3g1Rg1ZHZRB3rHhJWd/sCnHoMj63b4x9A7chrfhpoQLYo4sAU1BRPfrplBbz6QdUHdVchH8i8TWLN4GIDvq/hHHKkDMgPpkULeqzksG258U5QgWN+XMxLioJk+ixdE/h45Hr/kjf+QzA5nKkD2e8rn70qK6g+q3qKNdGrtJoovODHcCqXM5L83lHHLF/5wDCgGc/frxfJ6KXFzERXmbZmfohitPQS93VHTZOeTU4o+GYuDE0RpVAFeLCl/Z39p7eD6u5iQJXpR+YKQ6hWGN+SWgcmDaMOtJMcZMRJs08xDDPfVpG7qdGPH+iFmcCP5yGQ3EwjaBw3BZvzjD4vrfC3m0wU6ISuu8e6aLsdrG8xU07Pviwi2GexNPMcATASNaMAgHbzWPJWbOyEj6UBvppc9Sba/az47KSAU+/dCAS6O7yrWZPA4sjBEZOr/LwzMhYpVA56kbKIEuaPhJQ+0xtd62iXSxcJ7lBpecAmSrI0v9gaYXyGqXfvWMGchIscyLz8IfZ69W7FoqZfSGvgd6FzxQ7OKHljtsou0HiWelIvlS0kMoOdf+pIzh8OBy7dm0A6TokKhn7fjpTrElQvOc2c0qo9j9kzeSU8oDfiT8WC7iJodiHTHTmkNbdykiGlUw3jzw4g+WI0HTaKq0cLpvscs0sEVunNQig6yZaA1dlDRktMcHzpBHDdFcRy7YBq92aVYjcsbJP2j3fm2re2pQxi6DTGHdeX7KgGFo4YVNDsZ9YDRznZh98Lj0GeAzZ0sSXHMqpF5uOJsenGWmF+/oSOrcu/e21qw2xRRILKubOOOnviQ0adEqwmxyQrzKLwlMxrIsh085FjA4X4zT4zOr8sqlv2QmVXfUw07EewVFsvG54YJRQMQlcIzWCyS45/V0fDb+PFshKBHVw26a4ZsOWWBZ9TOp83/xlhFQuqjmW0tBcxpFH2NSZeBGHSx3+7LU1FNmI2dVeSJkC3jtnj+4QhkxAbnw4WrT5hwcmpu7eYBWeCmvY/K3A2nD+VSyf5lcyzgD8I3Cjfc5w1AmNFGaymsRRjw6gvOboktvIBQcQnNCoTv68ZmcQ7EqNlLlXyQmJZjsxeAEj479PETo4zRW20tJacVBFL1Kyy9TfnotmOq4HeqDRE88Rwo8cnnXlJQE94ZMmX7JYoawwpT/K8+TJj+F9s92uK5sNv6oNp5SkP9kPpeK06PJLgT/zAWIpPIYDvBRagwX60pV5PKQeIGmAKR1q7GKlHMhviGCBSld/jXASZYXCbStHkUOB7kZhpvwY4Y9LSK4hbsnrW0+Mqtwvp1OvO4uT5r4hgi1ptWWK+nSX4OW6HysNpRin8VMRA5lNhXJV6mTWlb11Yr9rtJhAL8LIp57394M//d8b73JuUU0kVNQi7ZwfjlPM3QxpKLhBnlP7/kTwrQyAbfNbdwTmLb7jOI1SjSto2M4TIUzsYXWgAkgSbGe284liWnDuAoz2ENZanU+F7+B7S92wIiv+n6uiYW2qg2JHpPN+Jl4C6C2JjUoqdwMc57v5DDRxFYAIC3R11ErcqcmNTJYSPQM6P+Qxzw5ZcELIXzcgXAJC58YdNZCYV0hO9ThogH9ibW+CJyWjO5XmWmIPqRpGOYJFlJDBCUza7HiKN8Tq93ilHRGNFbeoeJWN3+wFnxUHGvJTzFxkqxhLpO/rxZTAb+63gz2TGXoqTLRxWZ0xvwEbGjQwB5xemzR0HVh9MkNeuuLnEwMWPwFvmrao/8bNzpGBbtyHXlvPhnDlVsmLjb+G17kspVCbUtM0HaSS9d9Ck9TOfMiwuzpF6qj8mYGCPhwtRl3BIIr2HOKo76GOfNMI98JKP7doa8M/KsalAX+BPgOZoSYUz9fkjpEMI59Hrq0F050a5HEgropEB7Na+AVLCb4phD1o2RDJIsJ8pye68nHbOURjLHZt+cXf0DhoEKRr1s2NAuf12R98G7XdCoYZJemBBd3bUJxzt8hetUNIY32f7LnrQDvw4+MColJiAkh/gJWbimU6442VxgdpGf7nDLSwxKlsfaFwOWpdMuyzgk+7TdiuJztv67a+o3O9r6iTaHUSmrTeTP1cYGbMpw74WR1cGApQFnfA86rUr6cf4Ilx+mCo6Oc7mEM0voaZOnHG7vDxb18DKXX/7HsujHqRu5+T2rgahOdMJ3S3re4TFYjbLjmmdoUfq8lXIHJrViXzcay1GoE/WaLjS2NpHsUYzPCHVTU6fqsUgf3WCM9MhN5jLSMzs7Ia7iZkHvVJWYgyLH5cUtyT9rl/M8GnXHSOfeKpn+bdF3kP4OGR7JsREg1ONOhWAvVX3bixD9ZfFOpk8JplR9gcIUSBmmZQzZJEHmkBFwZsIsKlY7tMPeVCvHWWc3vIJrtcc0q5sTlScqtWwyTpiUEizuY9azhq7G0D90OTYJb4KkiEynZDU4iXHUOdBFDQLbXFX+vWhOwzEfX3jQJEN8GZJ0pLqpgJzU2SA3USv2yXe3aRb3uYUGJovrTroLRCouUToA0vi9m8XwRti7zdJh/KX2f6+svm+lTxEYgQ9mmMTR0B/6qHtLQf3xIdzVanhttNf6Zi7jvm0GJTcaU7RbAmi0cEl705ufF17Dbta8VwPirb0r0OVUat6A8ESK7NXGIFLtGna/M0P1hbU8SuDhGMXy0YYiH0kJOe8ASYZSryJ10i1V9KZBWGD9EJ573NHw7ewcldijOtH+SKoQbae6ki/deVt+p82035Tn1qHS0cAi7KhzFY2vErwpsafaUNYy1v2v7VN45KVivlRFgFeaK4+jBy3zaUGOdkunGwH/UnB5DUmJYzpFkUF9WFXHdTHb883An0Am4tM+byrrVYu8GwC4FuabKD+MtfCZ4yMx/rL1Ag9BiRGedcV+EUcYZownbv1OfaHLjAbTyKAgh/L9e5VzfPmto1SjPExYHIYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "16",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41535,
+          "output_tokens": 1239
+        }
+      }
+    },
+    {
+      "request_fingerprint": "81f549a002820727b72e14ae57266bbfa69ea5ae1043b3a83d9b4e5d064a7a0a",
+      "request_summary": {
+        "chars": 128443,
+        "last_message_end": "last sprint to cut noise.\n</document>\n\nHow many times did the security team audit something? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "16",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 41535,
+          "output_tokens": 630
+        }
+      }
+    },
+    {
+      "request_fingerprint": "2eb61acc052229a8ee1005126f7daad3d7acc2f5187637d4d87587821f3ff3f7",
+      "request_summary": {
+        "chars": 513099,
+        "last_message_end": "ause the old one drifted.\n</document>\n\nHow many times did the security team audit something? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "58",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166039,
+          "output_tokens": 2495
+        }
+      }
+    },
+    {
+      "request_fingerprint": "2eb61acc052229a8ee1005126f7daad3d7acc2f5187637d4d87587821f3ff3f7",
+      "request_summary": {
+        "chars": 513099,
+        "last_message_end": "ause the old one drifted.\n</document>\n\nHow many times did the security team audit something? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "57",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166039,
+          "output_tokens": 2199
+        }
+      }
+    },
+    {
+      "request_fingerprint": "2eb61acc052229a8ee1005126f7daad3d7acc2f5187637d4d87587821f3ff3f7",
+      "request_summary": {
+        "chars": 513099,
+        "last_message_end": "ause the old one drifted.\n</document>\n\nHow many times did the security team audit something? Reply with just the number.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "58",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 166039,
+          "output_tokens": 3055
+        }
+      }
+    }
+  ],
+  "recorded_with": {
+    "effort": "medium",
+    "fallbacks": true,
+    "model": "claude-opus-5-5",
+    "provider": "anthropic",
+    "sdk": "2.3.0"
+  }
+}

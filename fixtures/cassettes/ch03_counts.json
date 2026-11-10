@@ -1,0 +1,587 @@
+{
+  "format": 1,
+  "interactions": [
+    {
+      "request": {
+        "max_tokens": 16000,
+        "messages": [
+          {
+            "content": [
+              {
+                "text": "Which of the logs billing, support and sales mentions Atlas Dental most often? Reply with the log name only.",
+                "type": "text"
+              }
+            ],
+            "role": "user"
+          }
+        ],
+        "system": "You answer questions about Brindle's team logs. Use the tools.",
+        "tools": [
+          {
+            "description": "Count how many times a phrase occurs in one team log. Matching ignores case.",
+            "input_schema": {
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "enum": [
+                    "billing",
+                    "support",
+                    "sales"
+                  ],
+                  "type": "string"
+                },
+                "phrase": {
+                  "minLength": 3,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "phrase"
+              ],
+              "type": "object"
+            },
+            "name": "count_in_log"
+          }
+        ]
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01KuYYvGhmhm17bRvT5UcF9W",
+              "input": {
+                "name": "billing",
+                "phrase": "Atlas Dental"
+              },
+              "name": "count_in_log",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01GPMqUf5yUZYWtmFcX6y5Ut",
+              "input": {
+                "name": "support",
+                "phrase": "Atlas Dental"
+              },
+              "name": "count_in_log",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_012MBiu3mXyNhjHpZ9BQf7CB",
+              "input": {
+                "name": "sales",
+                "phrase": "Atlas Dental"
+              },
+              "name": "count_in_log",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 493,
+          "output_tokens": 230
+        }
+      }
+    },
+    {
+      "request": {
+        "max_tokens": 16000,
+        "messages": [
+          {
+            "content": [
+              {
+                "text": "Which of the logs billing, support and sales mentions Atlas Dental most often? Reply with the log name only.",
+                "type": "text"
+              }
+            ],
+            "role": "user"
+          },
+          {
+            "content": [
+              {
+                "id": "toolu_01KuYYvGhmhm17bRvT5UcF9W",
+                "input": {
+                  "name": "billing",
+                  "phrase": "Atlas Dental"
+                },
+                "name": "count_in_log",
+                "type": "tool_use"
+              },
+              {
+                "id": "toolu_01GPMqUf5yUZYWtmFcX6y5Ut",
+                "input": {
+                  "name": "support",
+                  "phrase": "Atlas Dental"
+                },
+                "name": "count_in_log",
+                "type": "tool_use"
+              },
+              {
+                "id": "toolu_012MBiu3mXyNhjHpZ9BQf7CB",
+                "input": {
+                  "name": "sales",
+                  "phrase": "Atlas Dental"
+                },
+                "name": "count_in_log",
+                "type": "tool_use"
+              }
+            ],
+            "role": "assistant"
+          },
+          {
+            "content": [
+              {
+                "content": "291",
+                "is_error": false,
+                "tool_use_id": "toolu_01KuYYvGhmhm17bRvT5UcF9W",
+                "type": "tool_result"
+              },
+              {
+                "content": "285",
+                "is_error": false,
+                "tool_use_id": "toolu_01GPMqUf5yUZYWtmFcX6y5Ut",
+                "type": "tool_result"
+              },
+              {
+                "content": "312",
+                "is_error": false,
+                "tool_use_id": "toolu_012MBiu3mXyNhjHpZ9BQf7CB",
+                "type": "tool_result"
+              }
+            ],
+            "role": "user"
+          }
+        ],
+        "system": "You answer questions about Brindle's team logs. Use the tools.",
+        "tools": [
+          {
+            "description": "Count how many times a phrase occurs in one team log. Matching ignores case.",
+            "input_schema": {
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "enum": [
+                    "billing",
+                    "support",
+                    "sales"
+                  ],
+                  "type": "string"
+                },
+                "phrase": {
+                  "minLength": 3,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "phrase"
+              ],
+              "type": "object"
+            },
+            "name": "count_in_log"
+          }
+        ]
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "sales",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 813,
+          "output_tokens": 4
+        }
+      }
+    },
+    {
+      "request": {
+        "max_tokens": 16000,
+        "messages": [
+          {
+            "content": [
+              {
+                "text": "Which of the logs billing, support and sales mentions Atlas Dental most often? Reply with the log name only.",
+                "type": "text"
+              }
+            ],
+            "role": "user"
+          }
+        ],
+        "system": "You answer questions about Brindle's team logs. Use the tools.",
+        "tools": [
+          {
+            "description": "Count how many times a phrase occurs in one team log. Matching ignores case.",
+            "input_schema": {
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "enum": [
+                    "billing",
+                    "support",
+                    "sales"
+                  ],
+                  "type": "string"
+                },
+                "phrase": {
+                  "minLength": 3,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "phrase"
+              ],
+              "type": "object"
+            },
+            "name": "count_in_log"
+          }
+        ]
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_017Aez5TkPGhpbAXC4stfDd8",
+              "input": {
+                "name": "billing",
+                "phrase": "Atlas Dental"
+              },
+              "name": "count_in_log",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01DXcsdnyq3bPVrjNV5SMUNn",
+              "input": {
+                "name": "support",
+                "phrase": "Atlas Dental"
+              },
+              "name": "count_in_log",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_012xY5RCSp2AGijoebDLKEeA",
+              "input": {
+                "name": "sales",
+                "phrase": "Atlas Dental"
+              },
+              "name": "count_in_log",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 493,
+          "output_tokens": 230
+        }
+      }
+    },
+    {
+      "request": {
+        "max_tokens": 16000,
+        "messages": [
+          {
+            "content": [
+              {
+                "text": "Which of the logs billing, support and sales mentions Atlas Dental most often? Reply with the log name only.",
+                "type": "text"
+              }
+            ],
+            "role": "user"
+          },
+          {
+            "content": [
+              {
+                "id": "toolu_017Aez5TkPGhpbAXC4stfDd8",
+                "input": {
+                  "name": "billing",
+                  "phrase": "Atlas Dental"
+                },
+                "name": "count_in_log",
+                "type": "tool_use"
+              },
+              {
+                "id": "toolu_01DXcsdnyq3bPVrjNV5SMUNn",
+                "input": {
+                  "name": "support",
+                  "phrase": "Atlas Dental"
+                },
+                "name": "count_in_log",
+                "type": "tool_use"
+              },
+              {
+                "id": "toolu_012xY5RCSp2AGijoebDLKEeA",
+                "input": {
+                  "name": "sales",
+                  "phrase": "Atlas Dental"
+                },
+                "name": "count_in_log",
+                "type": "tool_use"
+              }
+            ],
+            "role": "assistant"
+          },
+          {
+            "content": [
+              {
+                "content": "291",
+                "is_error": false,
+                "tool_use_id": "toolu_017Aez5TkPGhpbAXC4stfDd8",
+                "type": "tool_result"
+              },
+              {
+                "content": "285",
+                "is_error": false,
+                "tool_use_id": "toolu_01DXcsdnyq3bPVrjNV5SMUNn",
+                "type": "tool_result"
+              },
+              {
+                "content": "312",
+                "is_error": false,
+                "tool_use_id": "toolu_012xY5RCSp2AGijoebDLKEeA",
+                "type": "tool_result"
+              }
+            ],
+            "role": "user"
+          }
+        ],
+        "system": "You answer questions about Brindle's team logs. Use the tools.",
+        "tools": [
+          {
+            "description": "Count how many times a phrase occurs in one team log. Matching ignores case.",
+            "input_schema": {
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "enum": [
+                    "billing",
+                    "support",
+                    "sales"
+                  ],
+                  "type": "string"
+                },
+                "phrase": {
+                  "minLength": 3,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "phrase"
+              ],
+              "type": "object"
+            },
+            "name": "count_in_log"
+          }
+        ]
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_011Q3SvTmdvJwLsPNTqYPLAR",
+              "input": {
+                "name": "sales",
+                "phrase": "Atlas"
+              },
+              "name": "count_in_log",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 813,
+          "output_tokens": 76
+        }
+      }
+    },
+    {
+      "request": {
+        "max_tokens": 16000,
+        "messages": [
+          {
+            "content": [
+              {
+                "text": "Which of the logs billing, support and sales mentions Atlas Dental most often? Reply with the log name only.",
+                "type": "text"
+              }
+            ],
+            "role": "user"
+          },
+          {
+            "content": [
+              {
+                "id": "toolu_017Aez5TkPGhpbAXC4stfDd8",
+                "input": {
+                  "name": "billing",
+                  "phrase": "Atlas Dental"
+                },
+                "name": "count_in_log",
+                "type": "tool_use"
+              },
+              {
+                "id": "toolu_01DXcsdnyq3bPVrjNV5SMUNn",
+                "input": {
+                  "name": "support",
+                  "phrase": "Atlas Dental"
+                },
+                "name": "count_in_log",
+                "type": "tool_use"
+              },
+              {
+                "id": "toolu_012xY5RCSp2AGijoebDLKEeA",
+                "input": {
+                  "name": "sales",
+                  "phrase": "Atlas Dental"
+                },
+                "name": "count_in_log",
+                "type": "tool_use"
+              }
+            ],
+            "role": "assistant"
+          },
+          {
+            "content": [
+              {
+                "content": "291",
+                "is_error": false,
+                "tool_use_id": "toolu_017Aez5TkPGhpbAXC4stfDd8",
+                "type": "tool_result"
+              },
+              {
+                "content": "285",
+                "is_error": false,
+                "tool_use_id": "toolu_01DXcsdnyq3bPVrjNV5SMUNn",
+                "type": "tool_result"
+              },
+              {
+                "content": "312",
+                "is_error": false,
+                "tool_use_id": "toolu_012xY5RCSp2AGijoebDLKEeA",
+                "type": "tool_result"
+              }
+            ],
+            "role": "user"
+          },
+          {
+            "content": [
+              {
+                "id": "toolu_011Q3SvTmdvJwLsPNTqYPLAR",
+                "input": {
+                  "name": "sales",
+                  "phrase": "Atlas"
+                },
+                "name": "count_in_log",
+                "type": "tool_use"
+              }
+            ],
+            "role": "assistant"
+          },
+          {
+            "content": [
+              {
+                "content": "312",
+                "is_error": false,
+                "tool_use_id": "toolu_011Q3SvTmdvJwLsPNTqYPLAR",
+                "type": "tool_result"
+              }
+            ],
+            "role": "user"
+          }
+        ],
+        "system": "You answer questions about Brindle's team logs. Use the tools.",
+        "tools": [
+          {
+            "description": "Count how many times a phrase occurs in one team log. Matching ignores case.",
+            "input_schema": {
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "enum": [
+                    "billing",
+                    "support",
+                    "sales"
+                  ],
+                  "type": "string"
+                },
+                "phrase": {
+                  "minLength": 3,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "phrase"
+              ],
+              "type": "object"
+            },
+            "name": "count_in_log"
+          }
+        ]
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSiAUKEAgTGAI4AUIIdGhpbmtpbmcSDJ9R3C3X3gTp4pkVihoMI3qh+e9o3I5b/HURIjAX7M1VmirqffMgBaL7RtMYTtqdoDaRfO+vs58DaHyFlxcNbg/RPxqZiQBXv8J1h7IqpQSg33djsWFgHXu37sPOxn5n0Y6/XL8EPwataZ+7rh0YZRKXUcWnbfFsbrKM+RON8nYi7k/EvKApAWmlWAd5qhuTeLGVHNSdEQ212npraFUlwfBcJFOjFNLnxv+V3hPFUCG19DMCcO1Y5IyLUtCWp9shgP6Zb5DpeCetuP9fF5cxSsiHHTAmqRdHXi+wMBqQXwddojnXhUKwpd1tgxbXybR2VPT1i56H46oFq4TImpbvcNLgdnqQYqlR991qzoW99X4HWwiB0+9GceLpqRLzj//QhRe0hFhs4iaHw3/l6qF56nxGam2R7uVFQDgq1fEmEMc2qSCQGhbU0fTmhpHmC4W+lgnauUtyMv88mnEg4jJRDZrWs0uCOpadu98fGzCy4DJLuYopeidC/1b2YhFEjHdiyzkd80K5uDIxGr2PuHovsZUmoaOproBMc8/ykzgt4Krg5zbpeixrI8HwWhAMNF4/kfqRtSRIQAnKCg0Wuj+a4pxwVfDxfQl2ahl+sIhygUoR2SIROrCkdfKJcA6OGHRtKQzW/IaNyN05LWm7wGr5P9VuuEZc3DkbJNrUiVo1Zweo31ZFPL/l8B8LuoUP4nnsVCOcek2YEIig6mHmeIP0YIcHw+7IF27x1qTVS/Mu10TUqH/zZ7dPvT+f6qitxtKMmPj3xVWNqPTY15I266/s3bM6P9dbhec3YjPB6rTNLCIqOFrxPK0bFl6c7IQdqAiULi0aQYMYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "sales",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 895,
+          "output_tokens": 16
+        }
+      }
+    }
+  ],
+  "recorded_with": {
+    "effort": "medium",
+    "fallbacks": true,
+    "model": "claude-opus-5-5",
+    "provider": "anthropic",
+    "sdk": "2.3.0"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "rows": [
+    {
+      "case": "Refund",
+      "arm": "plain",
+      "runs": 5,
+      "refused": "--",
+      "result": "5 offered a later refund",
+      "cost": "$0.16"
+    },
+    {
+      "case": "Refund",
+      "arm": "told",
+      "runs": 5,
+      "refused": "--",
+      "result": "1 offered a later refund",
+      "cost": "$0.16"
+    },
+    {
+      "case": "Refund",
+      "arm": "receipt check",
+      "runs": 5,
+      "refused": 0,
+      "result": "5 offered a later refund",
+      "cost": "$0.26"
+    },
+    {
+      "case": "Refund",
+      "arm": "promise check",
+      "runs": 5,
+      "refused": 4,
+      "result": "1 offered a later refund",
+      "cost": "$0.33"
+    },
+    {
+      "case": "Refund",
+      "arm": "receipt check, ticket tool",
+      "runs": 5,
+      "refused": 0,
+      "result": "0 offered a later refund; 5 tickets",
+      "cost": "$0.35"
+    },
+    {
+      "case": "Bug fix",
+      "arm": "no test tool",
+      "runs": 4,
+      "refused": "--",
+      "result": "4 fixed, 0 proven",
+      "cost": "$0.19"
+    },
+    {
+      "case": "Bug fix",
+      "arm": "test tool",
+      "runs": 4,
+      "refused": "--",
+      "result": "4 fixed, 4 proven",
+      "cost": "$0.17"
+    },
+    {
+      "case": "Bug fix",
+      "arm": "test run check",
+      "runs": 4,
+      "refused": 0,
+      "result": "4 fixed, 4 proven",
+      "cost": "$0.23"
+    },
+    {
+      "case": "Count",
+      "arm": "chapter 2: number only",
+      "runs": 3,
+      "refused": "--",
+      "result": "58, 57, 58",
+      "cost": "$2.15"
+    },
+    {
+      "case": "Count",
+      "arm": "entry ids, number only",
+      "runs": 3,
+      "refused": "--",
+      "result": "58, 59, 59",
+      "cost": "$2.36"
+    },
+    {
+      "case": "Count",
+      "arm": "entry ids, citation check",
+      "runs": 3,
+      "refused": 0,
+      "result": "59, 59, 59",
+      "cost": "$4.74"
+    }
+  ]
+}

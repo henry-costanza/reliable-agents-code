@@ -1,0 +1,334 @@
+{
+  "format": 1,
+  "interactions": [
+    {
+      "request": {
+        "max_tokens": 16000,
+        "messages": [
+          {
+            "content": [
+              {
+                "text": "Compute (17 + 25) * 3. Reply with just the number.",
+                "type": "text"
+              }
+            ],
+            "role": "user"
+          }
+        ],
+        "system": "You are a careful calculator. Use the provided tools for every arithmetic step. Never do arithmetic yourself.",
+        "tools": [
+          {
+            "description": "Return a + b.",
+            "input_schema": {
+              "additionalProperties": false,
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "a",
+                "b"
+              ],
+              "type": "object"
+            },
+            "name": "add"
+          },
+          {
+            "description": "Return a * b.",
+            "input_schema": {
+              "additionalProperties": false,
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "a",
+                "b"
+              ],
+              "type": "object"
+            },
+            "name": "multiply"
+          }
+        ]
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01FbBj6qSNDTYVASayK2CpYZ",
+              "input": {
+                "a": 17,
+                "b": 25
+              },
+              "name": "add",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 540,
+          "output_tokens": 66
+        }
+      }
+    },
+    {
+      "request": {
+        "max_tokens": 16000,
+        "messages": [
+          {
+            "content": [
+              {
+                "text": "Compute (17 + 25) * 3. Reply with just the number.",
+                "type": "text"
+              }
+            ],
+            "role": "user"
+          },
+          {
+            "content": [
+              {
+                "id": "toolu_01FbBj6qSNDTYVASayK2CpYZ",
+                "input": {
+                  "a": 17,
+                  "b": 25
+                },
+                "name": "add",
+                "type": "tool_use"
+              }
+            ],
+            "role": "assistant"
+          },
+          {
+            "content": [
+              {
+                "content": "42",
+                "is_error": false,
+                "tool_use_id": "toolu_01FbBj6qSNDTYVASayK2CpYZ",
+                "type": "tool_result"
+              }
+            ],
+            "role": "user"
+          }
+        ],
+        "system": "You are a careful calculator. Use the provided tools for every arithmetic step. Never do arithmetic yourself.",
+        "tools": [
+          {
+            "description": "Return a + b.",
+            "input_schema": {
+              "additionalProperties": false,
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "a",
+                "b"
+              ],
+              "type": "object"
+            },
+            "name": "add"
+          },
+          {
+            "description": "Return a * b.",
+            "input_schema": {
+              "additionalProperties": false,
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "a",
+                "b"
+              ],
+              "type": "object"
+            },
+            "name": "multiply"
+          }
+        ]
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_016UWjzYsc4hdGFzxSg9ydMz",
+              "input": {
+                "a": 42,
+                "b": 3
+              },
+              "name": "multiply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 612,
+          "output_tokens": 68
+        }
+      }
+    },
+    {
+      "request": {
+        "max_tokens": 16000,
+        "messages": [
+          {
+            "content": [
+              {
+                "text": "Compute (17 + 25) * 3. Reply with just the number.",
+                "type": "text"
+              }
+            ],
+            "role": "user"
+          },
+          {
+            "content": [
+              {
+                "id": "toolu_01FbBj6qSNDTYVASayK2CpYZ",
+                "input": {
+                  "a": 17,
+                  "b": 25
+                },
+                "name": "add",
+                "type": "tool_use"
+              }
+            ],
+            "role": "assistant"
+          },
+          {
+            "content": [
+              {
+                "content": "42",
+                "is_error": false,
+                "tool_use_id": "toolu_01FbBj6qSNDTYVASayK2CpYZ",
+                "type": "tool_result"
+              }
+            ],
+            "role": "user"
+          },
+          {
+            "content": [
+              {
+                "id": "toolu_016UWjzYsc4hdGFzxSg9ydMz",
+                "input": {
+                  "a": 42,
+                  "b": 3
+                },
+                "name": "multiply",
+                "type": "tool_use"
+              }
+            ],
+            "role": "assistant"
+          },
+          {
+            "content": [
+              {
+                "content": "126",
+                "is_error": false,
+                "tool_use_id": "toolu_016UWjzYsc4hdGFzxSg9ydMz",
+                "type": "tool_result"
+              }
+            ],
+            "role": "user"
+          }
+        ],
+        "system": "You are a careful calculator. Use the provided tools for every arithmetic step. Never do arithmetic yourself.",
+        "tools": [
+          {
+            "description": "Return a + b.",
+            "input_schema": {
+              "additionalProperties": false,
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "a",
+                "b"
+              ],
+              "type": "object"
+            },
+            "name": "add"
+          },
+          {
+            "description": "Return a * b.",
+            "input_schema": {
+              "additionalProperties": false,
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "a",
+                "b"
+              ],
+              "type": "object"
+            },
+            "name": "multiply"
+          }
+        ]
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "126",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 686,
+          "output_tokens": 3
+        }
+      }
+    }
+  ],
+  "recorded_with": {
+    "effort": "medium",
+    "fallbacks": true,
+    "model": "claude-opus-5-5",
+    "provider": "anthropic",
+    "sdk": "2.3.0"
+  }
+}

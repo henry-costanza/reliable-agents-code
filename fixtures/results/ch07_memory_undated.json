@@ -1,0 +1,800 @@
+{
+  "recorded_with": {
+    "provider": "anthropic",
+    "model": "claude-opus-5-5",
+    "effort": "medium",
+    "fallbacks": true,
+    "sdk": "2.3.0"
+  },
+  "rows": [
+    {
+      "arm": "no memory",
+      "task": "resend",
+      "runs": 3,
+      "right": 0,
+      "verdicts": {
+        "nothing sent": 3
+      },
+      "cost": 0.102
+    },
+    {
+      "arm": "no memory",
+      "task": "vat",
+      "runs": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "cost": 0.0391
+    },
+    {
+      "arm": "no memory",
+      "task": "currency",
+      "runs": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "cost": 0.0303
+    },
+    {
+      "arm": "no memory",
+      "task": "accountant",
+      "runs": 3,
+      "right": 0,
+      "verdicts": {
+        "nothing sent": 3
+      },
+      "cost": 0.0743
+    },
+    {
+      "arm": "naive memory",
+      "task": "resend",
+      "runs": 3,
+      "right": 0,
+      "verdicts": {
+        "nothing sent": 3
+      },
+      "cost": 0.0945
+    },
+    {
+      "arm": "naive memory",
+      "task": "vat",
+      "runs": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "cost": 0.0474
+    },
+    {
+      "arm": "naive memory",
+      "task": "currency",
+      "runs": 3,
+      "right": 0,
+      "verdicts": {
+        "other customer's note": 3
+      },
+      "cost": 0.0451
+    },
+    {
+      "arm": "naive memory",
+      "task": "accountant",
+      "runs": 3,
+      "right": 0,
+      "verdicts": {
+        "nothing sent": 3
+      },
+      "cost": 0.088
+    },
+    {
+      "arm": "scoped memory",
+      "task": "resend",
+      "runs": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "cost": 0.1088
+    },
+    {
+      "arm": "scoped memory",
+      "task": "vat",
+      "runs": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "cost": 0.0407
+    },
+    {
+      "arm": "scoped memory",
+      "task": "currency",
+      "runs": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "cost": 0.034
+    },
+    {
+      "arm": "scoped memory",
+      "task": "accountant",
+      "runs": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "cost": 0.077
+    }
+  ],
+  "outcomes": [
+    {
+      "arm": "no memory",
+      "task": "resend",
+      "trial": 0,
+      "ok": true,
+      "verdict": "nothing sent",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices",
+        "list_invoices"
+      ],
+      "reply": "I couldn't find an October invoice for Orion Bakery: I checked October 2023, 2024 and 2025, and none of them has an invoice on file, so I haven't sent anything. Could you tell me which year you need, or give me the invoice number? Once I have it, I'll resend the invoice to finance@orionbakery.example or to another address you choose.",
+      "input_tokens": 6322,
+      "output_tokens": 577,
+      "cost": 0.0368
+    },
+    {
+      "arm": "no memory",
+      "task": "resend",
+      "trial": 1,
+      "ok": true,
+      "verdict": "nothing sent",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices",
+        "list_invoices"
+      ],
+      "reply": "I didn't resend anything, because I couldn't find an October invoice on your account for 2023, 2024 or 2025. Could you tell me which year you mean, or send the invoice number if you have it? Once I find it, I'll email it to your billing address, finance@orionbakery.example, unless you'd like it sent somewhere else.",
+      "input_tokens": 5426,
+      "output_tokens": 626,
+      "cost": 0.0342
+    },
+    {
+      "arm": "no memory",
+      "task": "resend",
+      "trial": 2,
+      "ok": true,
+      "verdict": "nothing sent",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices",
+        "list_invoices"
+      ],
+      "reply": "I couldn't resend your October invoice because I didn't find any October invoices on your account (CUS-104) for 2023, 2024 or 2025. Could you tell me which year you need, or give me the invoice number if you have it? Once I find it, I'll send it to your billing address, finance@orionbakery.example, or to a different address if you prefer.",
+      "input_tokens": 5146,
+      "output_tokens": 523,
+      "cost": 0.031
+    },
+    {
+      "arm": "no memory",
+      "task": "vat",
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "I haven't removed VAT yet: Orion Bakery isn't marked as tax-exempt in our billing records, and I can't find any notes from your earlier conversation. To make the change, I need the ID of a tax-exemption certificate on file. Please send me that ID, or the certificate itself if we don't have it yet, and I'll remove VAT from your future invoices once it's confirmed.",
+      "input_tokens": 2090,
+      "output_tokens": 229,
+      "cost": 0.0129
+    },
+    {
+      "arm": "no memory",
+      "task": "vat",
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "I couldn't remove VAT yet because your account shows Orion Bakery as not tax-exempt, and I can't see any notes from earlier conversations. To mark you as exempt, I need the ID of your tax-exemption certificate on file. Please reply with that ID (or send the certificate if we don't have it yet), and I'll update your account so VAT comes off future invoices.",
+      "input_tokens": 2090,
+      "output_tokens": 226,
+      "cost": 0.0129
+    },
+    {
+      "arm": "no memory",
+      "task": "vat",
+      "trial": 2,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "I checked your account, and Orion Bakery (CUS-104) is not marked as tax-exempt, so I haven't changed anything yet. To remove VAT from future invoices, I need the ID of a tax-exemption certificate we have on file, and I don't have a record of one from an earlier conversation. Please reply with your certificate ID, or send the certificate if we don't have it yet, and I'll update your account so VAT is taken off your next invoice.",
+      "input_tokens": 2090,
+      "output_tokens": 247,
+      "cost": 0.0133
+    },
+    {
+      "arm": "no memory",
+      "task": "currency",
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "Orion Bakery's invoices are in US dollars (USD), according to your account record.",
+      "input_tokens": 2037,
+      "output_tokens": 83,
+      "cost": 0.0098
+    },
+    {
+      "arm": "no memory",
+      "task": "currency",
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "Orion Bakery's invoices are in US dollars (USD), according to your account record. If you need them in a different currency, just let me know.",
+      "input_tokens": 2037,
+      "output_tokens": 110,
+      "cost": 0.0103
+    },
+    {
+      "arm": "no memory",
+      "task": "currency",
+      "trial": 2,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "Orion Bakery's invoices are in US dollars (USD), according to your account record.",
+      "input_tokens": 2037,
+      "output_tokens": 103,
+      "cost": 0.0102
+    },
+    {
+      "arm": "no memory",
+      "task": "accountant",
+      "trial": 0,
+      "ok": true,
+      "verdict": "nothing sent",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices"
+      ],
+      "reply": "I haven't sent anything yet because I couldn't find a September invoice on your account for either 2025 or 2024. Could you tell me which year you mean, or give me the invoice number? I also can't see who was copied last time, so please send your accountant's email address and I'll send the invoice to finance@orionbakery.example with them copied.",
+      "input_tokens": 4955,
+      "output_tokens": 508,
+      "cost": 0.03
+    },
+    {
+      "arm": "no memory",
+      "task": "accountant",
+      "trial": 1,
+      "ok": true,
+      "verdict": "nothing sent",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices"
+      ],
+      "reply": "I didn't send anything: I couldn't find a September invoice on your account for either 2025 or 2024. Your account also doesn't have your accountant's email saved, so I can't copy them the way we did last time. Please tell me which year you mean (or the invoice number) and your accountant's email, and I'll send it to finance@orionbakery.example with them copied.",
+      "input_tokens": 3572,
+      "output_tokens": 415,
+      "cost": 0.0226
+    },
+    {
+      "arm": "no memory",
+      "task": "accountant",
+      "trial": 2,
+      "ok": true,
+      "verdict": "nothing sent",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices"
+      ],
+      "reply": "I couldn't send anything yet: I found no September invoice on your account (I checked September 2024 and September 2025). Your account only has your billing email (finance@orionbakery.example), and I can't see who was copied before. Please tell me which year you need and your accountant's email address, and I'll send the invoice to both of you.",
+      "input_tokens": 3532,
+      "output_tokens": 379,
+      "cost": 0.0217
+    },
+    {
+      "arm": "naive memory",
+      "task": "resend",
+      "trial": 0,
+      "ok": true,
+      "verdict": "nothing sent",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices",
+        "list_invoices"
+      ],
+      "reply": "I couldn't resend your October invoice because I didn't find one on your account for October 2023, 2024 or 2025. Could you tell me the year or the invoice number? Once I have it, I'll send it to finance@orionbakery.example, the billing email on your account, and copy your accountant at books@harlowaccounting.example if you'd still like that.",
+      "input_tokens": 5932,
+      "output_tokens": 599,
+      "cost": 0.0357
+    },
+    {
+      "arm": "naive memory",
+      "task": "resend",
+      "trial": 1,
+      "ok": true,
+      "verdict": "nothing sent",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices"
+      ],
+      "reply": "I couldn't resend your October invoice because I didn't find one on your account for October 2024 or October 2025. Could you send me the invoice number, or tell me which year you mean? Once I find it, I'll send it to your billing email on file, finance@orionbakery.example, and copy your accountant at books@harlowaccounting.example unless you'd like it sent somewhere else.",
+      "input_tokens": 4369,
+      "output_tokens": 601,
+      "cost": 0.0295
+    },
+    {
+      "arm": "naive memory",
+      "task": "resend",
+      "trial": 2,
+      "ok": true,
+      "verdict": "nothing sent",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices"
+      ],
+      "reply": "I couldn't find any October invoice on your account for 2024 or 2025, so I haven't sent anything yet. Could you tell me the year or the invoice number? Once I have it, I'll send it to your billing email on file, finance@orionbakery.example, and copy your accountant at books@harlowaccounting.example. If you'd like it sent somewhere else, just let me know.",
+      "input_tokens": 4375,
+      "output_tokens": 588,
+      "cost": 0.0293
+    },
+    {
+      "arm": "naive memory",
+      "task": "vat",
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "I checked your account, and it isn't currently marked as tax-exempt, so your next invoice would still include VAT. To remove it, I need the ID of the tax-exemption certificate you have on file with us. Please send me that ID and I'll update your account right away so VAT comes off your future invoices.",
+      "input_tokens": 2499,
+      "output_tokens": 277,
+      "cost": 0.0155
+    },
+    {
+      "arm": "naive memory",
+      "task": "vat",
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "I checked your account, and it isn't currently marked as tax-exempt in our billing system, so VAT would still be added to your next invoice. To remove it, I need the ID of your tax-exemption certificate on file with us. Please reply with that ID, or send us the certificate if we don't have it yet, and I'll update your account before your next invoice goes out.",
+      "input_tokens": 2484,
+      "output_tokens": 294,
+      "cost": 0.0158
+    },
+    {
+      "arm": "naive memory",
+      "task": "vat",
+      "trial": 2,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "I checked your account, and it isn't currently marked as tax-exempt, so VAT would still be added to your next invoice. To remove it, I need the ID of the tax-exemption certificate you have on file with us. Once you send me that ID, I'll mark your account as tax-exempt and VAT will come off your future invoices.",
+      "input_tokens": 2505,
+      "output_tokens": 302,
+      "cost": 0.0161
+    },
+    {
+      "arm": "naive memory",
+      "task": "currency",
+      "trial": 0,
+      "ok": true,
+      "verdict": "other customer's note",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "Your invoices are currently in US dollars (USD), according to your account record. We have a note that you'd prefer euros (EUR), but your account hasn't been switched yet. If you'd like to change to EUR, let me know and I'll pass it on, since I can't change the currency myself.",
+      "input_tokens": 2430,
+      "output_tokens": 269,
+      "cost": 0.0151
+    },
+    {
+      "arm": "naive memory",
+      "task": "currency",
+      "trial": 1,
+      "ok": true,
+      "verdict": "other customer's note",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "Your Orion Bakery account is set up to bill in US dollars (USD), so that's the currency your invoices use. I'd also noted that you might prefer euros (EUR), but your account record still says USD. If you'd like to switch to EUR, please let us know and we'll pass the request to our billing team.",
+      "input_tokens": 2430,
+      "output_tokens": 245,
+      "cost": 0.0146
+    },
+    {
+      "arm": "naive memory",
+      "task": "currency",
+      "trial": 2,
+      "ok": true,
+      "verdict": "other customer's note",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "Your account is set to bill in US dollars (USD), so your invoices are issued in USD. I had a note that you might prefer euros (EUR), but your account doesn't show that. If you'd like to switch to EUR, tell me and I'll pass it on, because I can't change the currency from here.",
+      "input_tokens": 2430,
+      "output_tokens": 282,
+      "cost": 0.0154
+    },
+    {
+      "arm": "naive memory",
+      "task": "accountant",
+      "trial": 0,
+      "ok": true,
+      "verdict": "nothing sent",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices"
+      ],
+      "reply": "I couldn't find a September invoice on your account for 2024 or 2025, so I haven't sent anything yet. Please tell me the year or invoice number. When I send it, it'll go to your billing email on file, finance@orionbakery.example, and I'll copy books@harlowaccounting.example. Can you confirm that's still your accountant's address? I have an older note saying accounts@orionbakery.example, and our records also show your account billing in USD without tax exemption, so let me know if either of those is wrong.",
+      "input_tokens": 4131,
+      "output_tokens": 484,
+      "cost": 0.0262
+    },
+    {
+      "arm": "naive memory",
+      "task": "accountant",
+      "trial": 1,
+      "ok": true,
+      "verdict": "nothing sent",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices"
+      ],
+      "reply": "I couldn't find a September invoice for your account (I checked September 2024 and September 2025), so I haven't sent anything yet. Can you tell me the invoice number or the exact year? I'll send it to finance@orionbakery.example, the billing email on your account, and copy your accountant at books@harlowaccounting.example. I have a note that your billing email is accounts@orionbakery.example, so please let me know if finance@orionbakery.example isn't the right address.",
+      "input_tokens": 4130,
+      "output_tokens": 480,
+      "cost": 0.0261
+    },
+    {
+      "arm": "naive memory",
+      "task": "accountant",
+      "trial": 2,
+      "ok": true,
+      "verdict": "nothing sent",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices"
+      ],
+      "reply": "I couldn't send your September invoice because I didn't find one on your account for September 2025 or September 2024. Could you tell me which year you need, or send the invoice number if you have it? When I send it, it'll go to finance@orionbakery.example, which is the billing email on your account, and I'll copy your accountant at books@harlowaccounting.example. Please confirm that's still the right address for them.",
+      "input_tokens": 5821,
+      "output_tokens": 621,
+      "cost": 0.0357
+    },
+    {
+      "arm": "scoped memory",
+      "task": "resend",
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "sent": [
+        {
+          "invoice": "INV-2201",
+          "to": "finance@orionbakery.example",
+          "cc": [
+            "books@harlowaccounting.example"
+          ]
+        }
+      ],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices",
+        "send_invoice"
+      ],
+      "reply": "I've sent your October 2026 invoice (INV-2201) again to finance@orionbakery.example, the billing email on your account. As you asked in August, I copied your accountant at books@harlowaccounting.example. We used to send invoices to accounts@orionbakery.example, so if you'd like them to go there instead, please let me know and I'll update it.",
+      "input_tokens": 5946,
+      "output_tokens": 689,
+      "cost": 0.0376
+    },
+    {
+      "arm": "scoped memory",
+      "task": "resend",
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "sent": [
+        {
+          "invoice": "INV-2201",
+          "to": "finance@orionbakery.example",
+          "cc": [
+            "books@harlowaccounting.example"
+          ]
+        }
+      ],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices",
+        "send_invoice"
+      ],
+      "reply": "I've sent your October 2026 invoice (INV-2201) again to finance@orionbakery.example, which is the billing email on your account. As you asked in August, I copied your accountant at books@harlowaccounting.example. If you'd like invoices to go to accounts@orionbakery.example instead, just tell me and I can send it there.",
+      "input_tokens": 5853,
+      "output_tokens": 596,
+      "cost": 0.0353
+    },
+    {
+      "arm": "scoped memory",
+      "task": "resend",
+      "trial": 2,
+      "ok": true,
+      "verdict": "right",
+      "sent": [
+        {
+          "invoice": "INV-2201",
+          "to": "finance@orionbakery.example",
+          "cc": [
+            "books@harlowaccounting.example"
+          ]
+        }
+      ],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "list_invoices",
+        "send_invoice"
+      ],
+      "reply": "I've resent your October 2026 invoice, INV-2201, to finance@orionbakery.example, which is the billing email on your account. As you asked in August, I copied your accountant at books@harlowaccounting.example. If you'd like it sent to a different address, such as accounts@orionbakery.example, just tell me and I'll send it there.",
+      "input_tokens": 5869,
+      "output_tokens": 619,
+      "cost": 0.0359
+    },
+    {
+      "arm": "scoped memory",
+      "task": "vat",
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "I couldn't remove VAT from your next invoice yet, because your account isn't marked tax-exempt and we don't have an exemption certificate on file. Our note from your earlier message about this was never verified. If you send us your tax-exemption certificate ID, I can update your account so VAT is removed from future invoices.",
+      "input_tokens": 2423,
+      "output_tokens": 191,
+      "cost": 0.0135
+    },
+    {
+      "arm": "scoped memory",
+      "task": "vat",
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "I can't remove VAT yet because your account isn't marked tax-exempt, and we don't have an exemption certificate on file for you. Please send us your tax-exemption certificate. Once it's on file, I can update your account so VAT comes off future invoices. Until then, your next invoice will still include VAT.",
+      "input_tokens": 2423,
+      "output_tokens": 197,
+      "cost": 0.0136
+    },
+    {
+      "arm": "scoped memory",
+      "task": "vat",
+      "trial": 2,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "I can't remove VAT from your next invoice yet, because your account doesn't currently show you as tax-exempt. We have a note that you mentioned your exemption before, but it was never verified and we have no exemption certificate on file. If you send us your tax-exemption certificate, we can update your account so future invoices don't include VAT.",
+      "input_tokens": 2423,
+      "output_tokens": 197,
+      "cost": 0.0136
+    },
+    {
+      "arm": "scoped memory",
+      "task": "currency",
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "Your invoices are billed in US dollars (USD), according to your account record. Let me know if you have any other billing questions.",
+      "input_tokens": 2385,
+      "output_tokens": 93,
+      "cost": 0.0114
+    },
+    {
+      "arm": "scoped memory",
+      "task": "currency",
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "Your Orion Bakery invoices are billed in US dollars (USD).",
+      "input_tokens": 2385,
+      "output_tokens": 80,
+      "cost": 0.0111
+    },
+    {
+      "arm": "scoped memory",
+      "task": "currency",
+      "trial": 2,
+      "ok": true,
+      "verdict": "right",
+      "sent": [],
+      "exempted": [],
+      "tool_calls": [
+        "get_account"
+      ],
+      "reply": "Your Orion Bakery invoices are billed in US dollars (USD). Let me know if you'd like help with anything else on your billing.",
+      "input_tokens": 2385,
+      "output_tokens": 99,
+      "cost": 0.0115
+    },
+    {
+      "arm": "scoped memory",
+      "task": "accountant",
+      "trial": 0,
+      "ok": true,
+      "verdict": "right",
+      "sent": [
+        {
+          "invoice": "INV-2150",
+          "to": "finance@orionbakery.example",
+          "cc": [
+            "books@harlowaccounting.example"
+          ]
+        }
+      ],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "send_invoice"
+      ],
+      "reply": "I've emailed your September invoice (INV-2150) to finance@orionbakery.example and copied your accountant at books@harlowaccounting.example. I used finance@ because that's the billing email on your account, not accounts@orionbakery.example, which you gave us back in March. If invoices should go to a different address, just let me know and I'll resend it.",
+      "input_tokens": 4199,
+      "output_tokens": 449,
+      "cost": 0.0258
+    },
+    {
+      "arm": "scoped memory",
+      "task": "accountant",
+      "trial": 1,
+      "ok": true,
+      "verdict": "right",
+      "sent": [
+        {
+          "invoice": "INV-2150",
+          "to": "finance@orionbakery.example",
+          "cc": [
+            "books@harlowaccounting.example"
+          ]
+        }
+      ],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "send_invoice"
+      ],
+      "reply": "I've sent your September invoice (INV-2150) to finance@orionbakery.example, the billing email on your account, and copied your accountant at books@harlowaccounting.example. Our older notes listed accounts@orionbakery.example for invoices, so if you'd like that address to get them as well, just tell me.",
+      "input_tokens": 4220,
+      "output_tokens": 458,
+      "cost": 0.026
+    },
+    {
+      "arm": "scoped memory",
+      "task": "accountant",
+      "trial": 2,
+      "ok": true,
+      "verdict": "right",
+      "sent": [
+        {
+          "invoice": "INV-2150",
+          "to": "finance@orionbakery.example",
+          "cc": [
+            "books@harlowaccounting.example"
+          ]
+        }
+      ],
+      "exempted": [],
+      "tool_calls": [
+        "get_account",
+        "list_invoices",
+        "send_invoice"
+      ],
+      "reply": "I've emailed your September invoice (INV-2150) to finance@orionbakery.example, the billing address on your account, and copied your accountant at books@harlowaccounting.example. We used to send invoices to accounts@orionbakery.example, so let me know if you'd like the billing address changed back.",
+      "input_tokens": 4187,
+      "output_tokens": 421,
+      "cost": 0.0252
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "rows": {
+    "Haiku 5.5 | one agent | duplicate charge": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "one agent": 5
+      },
+      "wrong": {}
+    },
+    "Haiku 5.5 | one agent | unused days": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "one agent": 5
+      },
+      "wrong": {}
+    },
+    "Haiku 5.5 | one agent | export rows": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "one agent": 5
+      },
+      "wrong": {}
+    },
+    "Haiku 5.5 | one agent | invoices kept": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "one agent": 5
+      },
+      "wrong": {}
+    },
+    "Haiku 5.5 | one agent | charge and export": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "one agent": 5
+      },
+      "wrong": {}
+    },
+    "Haiku 5.5 | one agent | days and closing": {
+      "right": 1,
+      "runs": 5,
+      "routes": {
+        "one agent": 5
+      },
+      "wrong": {
+        "no retention period": 4
+      }
+    },
+    "Haiku 5.5 | router and specialists | duplicate charge": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "billing": 5
+      },
+      "wrong": {}
+    },
+    "Haiku 5.5 | router and specialists | unused days": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "billing": 5
+      },
+      "wrong": {}
+    },
+    "Haiku 5.5 | router and specialists | export rows": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "help": 5
+      },
+      "wrong": {}
+    },
+    "Haiku 5.5 | router and specialists | invoices kept": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "help": 5
+      },
+      "wrong": {}
+    },
+    "Haiku 5.5 | router and specialists | charge and export": {
+      "right": 0,
+      "runs": 5,
+      "routes": {
+        "billing": 5
+      },
+      "wrong": {
+        "no row limit": 5
+      }
+    },
+    "Haiku 5.5 | router and specialists | days and closing": {
+      "right": 0,
+      "runs": 5,
+      "routes": {
+        "billing": 5
+      },
+      "wrong": {
+        "no retention period": 5
+      }
+    },
+    "Opus 5.5 | one agent | duplicate charge": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "one agent": 5
+      },
+      "wrong": {}
+    },
+    "Opus 5.5 | one agent | unused days": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "one agent": 5
+      },
+      "wrong": {}
+    },
+    "Opus 5.5 | one agent | export rows": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "one agent": 5
+      },
+      "wrong": {}
+    },
+    "Opus 5.5 | one agent | invoices kept": {
+      "right": 2,
+      "runs": 5,
+      "routes": {
+        "one agent": 5
+      },
+      "wrong": {
+        "no retention period": 3
+      }
+    },
+    "Opus 5.5 | one agent | charge and export": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "one agent": 5
+      },
+      "wrong": {}
+    },
+    "Opus 5.5 | one agent | days and closing": {
+      "right": 1,
+      "runs": 5,
+      "routes": {
+        "one agent": 5
+      },
+      "wrong": {
+        "no retention period": 4
+      }
+    },
+    "Opus 5.5 | router and specialists | duplicate charge": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "billing": 5
+      },
+      "wrong": {}
+    },
+    "Opus 5.5 | router and specialists | unused days": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "billing": 5
+      },
+      "wrong": {}
+    },
+    "Opus 5.5 | router and specialists | export rows": {
+      "right": 5,
+      "runs": 5,
+      "routes": {
+        "help": 5
+      },
+      "wrong": {}
+    },
+    "Opus 5.5 | router and specialists | invoices kept": {
+      "right": 3,
+      "runs": 5,
+      "routes": {
+        "help": 5
+      },
+      "wrong": {
+        "no retention period": 2
+      }
+    },
+    "Opus 5.5 | router and specialists | charge and export": {
+      "right": 0,
+      "runs": 5,
+      "routes": {
+        "billing": 5
+      },
+      "wrong": {
+        "no row limit": 5
+      }
+    },
+    "Opus 5.5 | router and specialists | days and closing": {
+      "right": 0,
+      "runs": 5,
+      "routes": {
+        "billing": 5
+      },
+      "wrong": {
+        "no retention period": 5
+      }
+    }
+  },
+  "shapes": {
+    "Haiku 5.5 | one agent": {
+      "right": 26,
+      "runs": 30,
+      "cost": 0.0205,
+      "median cost": 0.00074,
+      "model calls": 136
+    },
+    "Haiku 5.5 | router and specialists": {
+      "right": 20,
+      "runs": 30,
+      "cost": 0.0171,
+      "median cost": 0.000651,
+      "model calls": 158
+    },
+    "Opus 5.5 | one agent": {
+      "right": 23,
+      "runs": 30,
+      "cost": 0.6098,
+      "median cost": 0.021648,
+      "model calls": 125
+    },
+    "Opus 5.5 | router and specialists": {
+      "right": 18,
+      "runs": 30,
+      "cost": 0.6388,
+      "median cost": 0.021888,
+      "model calls": 155
+    }
+  }
+}

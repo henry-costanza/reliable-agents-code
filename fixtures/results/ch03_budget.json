@@ -1,0 +1,151 @@
+{
+  "truth": "sales",
+  "prices": "OPUS_5_5",
+  "agents": {
+    "whole logs": [
+      {
+        "answer": "billing\n\nI estimated this rather than counting exactly. The billing log is clearly the longest of the three, and Atlas Dental comes up in it more often than in the other two.",
+        "picked": "billing",
+        "right": false,
+        "ok": true,
+        "hit_budget": false,
+        "tool_calls": [
+          "read_log",
+          "read_log",
+          "read_log"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "input": 449,
+            "carried": 0,
+            "added": 449,
+            "output": 137,
+            "cost": 0.0045
+          },
+          {
+            "step": 2,
+            "input": 134624,
+            "carried": 586,
+            "added": 134038,
+            "output": 441,
+            "cost": 0.5473
+          }
+        ],
+        "input_tokens": 135073,
+        "output_tokens": 578,
+        "cost": 0.5519
+      },
+      {
+        "answer": "billing",
+        "picked": "billing",
+        "right": false,
+        "ok": true,
+        "hit_budget": false,
+        "tool_calls": [
+          "read_log",
+          "read_log",
+          "read_log"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "input": 449,
+            "carried": 0,
+            "added": 449,
+            "output": 137,
+            "cost": 0.0045
+          },
+          {
+            "step": 2,
+            "input": 134624,
+            "carried": 586,
+            "added": 134038,
+            "output": 734,
+            "cost": 0.5532
+          }
+        ],
+        "input_tokens": 135073,
+        "output_tokens": 871,
+        "cost": 0.5577
+      }
+    ],
+    "counts": [
+      {
+        "answer": "sales",
+        "picked": "sales",
+        "right": true,
+        "ok": true,
+        "hit_budget": false,
+        "tool_calls": [
+          "count_in_log",
+          "count_in_log",
+          "count_in_log"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "input": 493,
+            "carried": 0,
+            "added": 493,
+            "output": 230,
+            "cost": 0.0066
+          },
+          {
+            "step": 2,
+            "input": 813,
+            "carried": 723,
+            "added": 90,
+            "output": 4,
+            "cost": 0.0033
+          }
+        ],
+        "input_tokens": 1306,
+        "output_tokens": 234,
+        "cost": 0.0099
+      },
+      {
+        "answer": "sales",
+        "picked": "sales",
+        "right": true,
+        "ok": true,
+        "hit_budget": false,
+        "tool_calls": [
+          "count_in_log",
+          "count_in_log",
+          "count_in_log",
+          "count_in_log"
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "input": 493,
+            "carried": 0,
+            "added": 493,
+            "output": 230,
+            "cost": 0.0066
+          },
+          {
+            "step": 2,
+            "input": 813,
+            "carried": 723,
+            "added": 90,
+            "output": 76,
+            "cost": 0.0048
+          },
+          {
+            "step": 3,
+            "input": 895,
+            "carried": 889,
+            "added": 6,
+            "output": 16,
+            "cost": 0.0039
+          }
+        ],
+        "input_tokens": 2201,
+        "output_tokens": 322,
+        "cost": 0.0152
+      }
+    ]
+  }
+}

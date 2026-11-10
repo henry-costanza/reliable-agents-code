@@ -1,0 +1,2937 @@
+{
+  "format": 1,
+  "interactions": [
+    {
+      "request_fingerprint": "5ac74ef5a73b3ea6ad4fe40275af0c0bb99cc84c282747030e0f9018eeb66ee0",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. We were charged twice for October. Please refund the extra charge.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSygYKEAgTGAI4AUIIdGhpbmtpbmcSDPISDwMpLe8ln3RC/RoMxKSIlBzFigL6UXOnIjBgEQJvGTXqhJ5gVVc0gHpQOxlgrWFKdNxvYW12e5q4UGGnVGSC/bxbc1RLp1PkfNUq5wU+Fqfb5OLX7pIYzhPhLbGtyWIrXxpxtdnnqOEv3LvnZ4Yyk/TOAxXyLDOSCGbRxtihuvPTUMjDNRTv1YOFnF1NxlurYUJEAP2CRbRzvXv9pkja8pe1GvDP/ByUg97YucidiPtMwdYC3vAEB/x5iiMkYpERWfGfL6htAh6xOY4uRNbNQUO8Co1WIWhaOUJq4JBLTWBwG4bhmCIUY03N+VErp6IXJm88P9JP5zSLFFDBJKxlzfEl223z2o0rIWboZnipVwrJCp/W0o62LUqQoGQ7Wjap7P4WsJTPutd/HABGgez6zQBpSbU3m3YAouTVTKxR1xhtH8iIxs4F9IuwINcXZ3trrsA1qutiZj5NUpmPZRnFgeArSjdplX2RjavAkxX/U3O3VNM6I+tDnWxPd/qlvaTQNes0anUwjGyjygTrtyyffCj1WGoFc9po9uCYYb8gmg1n/rKJ/7D7tjT5yors2MzAV4rZqw1iD++onVO9JSMnCa+ASouNAEVGbB52UMNyfCuJ5GeGpUmP9gpxsdTDnuBo3JaDwTSegL76iz2FwVHU5Evk7fFg+NZZpqEH7/oVSShyIw5WaGclgsccGI4+0A45ImX7KEhWdzpgRrOsRH47f8zkOp7mYXnlJnJrZgPF6R29Cr9O3ivYGYMalJ1a7u1f6Kih7w2HMtEnyR2VISXONM3n7rabVzGCGObYBbenU/79N+cnFDpr5pPAEzYH6W9+bkobNbKF9Jpkq4xFPca6Tw/70FlemWxL8HNGhTbcLk8AioH3jmnUNNRSt9WCzlLUt8YVpCHV+gynavHzADTAOUreHYVEH8QN4wMxJczInEBTPtS/ANCesvkcIRvRuTIYcqn4OG4Ipy/7qPUiWRnMjomBwyCUSChOygVh03NRY97vlp67wAqUTe7tlUGv8cKDE3zRVp+t6q4s2xXiLclY1cApaZmCXfPtUbFuFnd8kiSRsy1CK8f+VBgYYOSMUhHs/L8NLRgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01CgVFvHm4SMuiC8CFFZQpAd",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 1851,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 4,
+          "output_tokens": 164
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a88aabce6a03d942bb479c57943d9c55a556d9b725a7dc772772be208c12d5a5",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSuwgKEAgTGAI4AUIIdGhpbmtpbmcSDNlCAXMOgQk9ljdwKBoM1qhw0f0c3pgZd5XwIjAdhWBiJmbunQhBvvSj4to+zEshCVr7o9LBJfPCm9Y3V1WwVQZxuia+jl3IQRCVsMQq2Afn8R3vlQOzefzY6Eb8D6C6/VWtYxzJw0lLZtJflOcz7SbR7P5dwx5VKx4i8AbDC9Ci+7fphtW+sTFGXFPyMV+ry0Tuz/fyX2SXMfeqRTg+vExQ2enBTLoRCkiOpaHJXaIeMDPLPzdSFwNiZRHfDMqPm/yK7TqkwxZT4+sysY0vFylNz08dQqIdcPi1aAHkzBgojxc64/bLIZPlfSs6O148gPuNUdKjp9+ywukHzLW7BpVY0AhTgCsZlsdHQsgfXJbmKnZUsE0CHJJNd2OeTzKn5mSJtVaWLLCdn2k4e9xbVOgnaIO06tXNBfMXzjESeZSmjh/doSUe1vFPjiie0gCTAbA7n6ln5e5QbRKNlcV6uC71WazBGDsP4rqncHyF+ntAqB4YmxNLT+TCVIGrj3m8Mx8g1dexDIisIHcqPbgtxjBi4EYSakOh3FP9k0OFcyOpfkC/3CeW+qw2Cugqifzqm6PC7iUpgBpAf20xXO9OxSg+Rss4e6MraHo0Rn2QpuKBewdbGLk1JoW9IpU0hXrsMed8cm1vIfBNnpsGsv7wvN1hQQDHkLAZYvzR0QJ1Bmopt/hCCbp1DbbBq+KCatcAt73xIC0Kmp8wUxnZ6dePLPX74LhUdXEyof2IFgzu3lq1pVM4xd9BJSPLh2B2abEEQJgskxG2DCBTTEEUWAI9PAGAhqMLZOicyns020MvWbw8Qy2GXZPAE0KrfD54YYkWFD4ivUMH+HB0Of5aOTzFYG86WRiYU1WFVwUFHoBfwe0yaJ54XE9nWFgoEo75IvVx6hi+zqb4M/A74WMdKP/lMOLU6Cst4vfZs087dOaoP6GZEIgr4Wy8YEdEC3XnWVJ5Z8NrdDRhxA7SU9CVubiqq6CIUoRlNDVqZlr8UVcm3/6On1USd9VKJ8U2cRGTjz0lCJ2zOR+rR8WaqUaMJL8MUQJyJ/W7pKl1pKUbDSYU6XadCoPRD1AnpFxl4VeRbrKQrk4KD9AceBWt7FBk27Q4ytjEiDrvszusuv0BDK/kslF2TZwPODDcj1IbLsEJBIBKhB84L/zjbbuGbPWB1Ne2B35P7gnL1W0e8gE5qayt8nisTE1pqZhLsByqYuP2DMfccsh1cwwttnvq8ofQgnpydJXXOXH4O2HgXl70LLgB3MBxYFP/G4a8mG6sGDg6CWdlap2lf4hXsGxR8KkDf+amsczrf6KyKaE2r2n9pNJD8Wh619agK/47F3IBVQd8dAjiiL1sGHTwwRpACBvDlVUcjZ4YU05tMM8YY0fPKESem4fWqSleD/afILg9VAvP9KhRgdLTr/tCQpMYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01AVHvzjhGmDBwhoh7xnt1RU",
+              "input": {
+                "amount_cents": 9200,
+                "invoice_id": "INV-2207",
+                "reason": "Duplicate charge: October 2026 has two identical invoices dated 2026-10-01 (INV-2201 and INV-2207), each $92.00 for 3 team seats and 2 extra storage add-ons."
+              },
+              "name": "request_refund",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 462,
+          "cache_read_input_tokens": 1851,
+          "input_tokens": 2,
+          "output_tokens": 334
+        }
+      }
+    },
+    {
+      "request_fingerprint": "55a6d753514bea11299aa472dc86d5feb30d087424c9ac177a9232d380670b1d",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01Cqe4xehK5sW3oohNttfWpa",
+              "input": {
+                "message": "We found two identical $92.00 invoices for October 1 (INV-2201 and INV-2207), so we've asked our billing team to refund the duplicate, INV-2207 ($92.00); request RQ-1 is waiting for a person to confirm, usually within one working day. Nothing has been refunded yet."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 362,
+          "cache_read_input_tokens": 2313,
+          "input_tokens": 2,
+          "output_tokens": 147
+        }
+      }
+    },
+    {
+      "request_fingerprint": "faa242dd75e665368ae461280e51862143e20337feb6fbebdc5ae388040dccad",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01QP3EMQSMrPcNer6mQ3vGZH",
+              "input": {
+                "message": "We found two identical $92.00 invoices for October 1 (INV-2201 and INV-2207). We've asked our billing team to refund the duplicate INV-2207 ($92.00) under request RQ-1, and nothing is refunded until a person confirms, usually within one working day."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 182,
+          "cache_read_input_tokens": 2675,
+          "input_tokens": 2,
+          "output_tokens": 137
+        }
+      }
+    },
+    {
+      "request_fingerprint": "97c23b764770d0062aca1375c465a9abf020bccc7d4a2bf4939ffe0b45ea0870",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 9
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I found two identical $92.00 invoices for October 1 (INV-2201 and INV-2207). I've asked our billing team to refund the duplicate, INV-2207, under request RQ-1, and nothing is refunded until a person confirms it, usually within one working day.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 152,
+          "cache_read_input_tokens": 2857,
+          "input_tokens": 2,
+          "output_tokens": 88
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5ac74ef5a73b3ea6ad4fe40275af0c0bb99cc84c282747030e0f9018eeb66ee0",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. We were charged twice for October. Please refund the extra charge.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSqgYKEAgTGAI4AUIIdGhpbmtpbmcSDDbYTv4Lb6x75bTumBoMHyKeDGuQwbKNmPYnIjCgPfrzlg9FwVPWVm8XPtPeQ8sNjiHXcJPDgBrb3PwTZAlJ5jeKNmlqCtp7pgB5MAIqxwX/0GV+dLULznaZ3LSESDzwAFLNd4xtm5cSY2+izxdd1WsesQuZdXMAm7mdHRWPPWbNOHchTJ/tBAppehUaPtYBWpoZehbPzpPbQ3c4WarZe98o/TRmhLwVg3eB6pGsx5IORePslDHx3QD9yJwSiB8wFzg8rukVW5bOoRN85kIBRS1NVZ4tJsPrT8vFUubNZ6FbEZn8ULGeyqbHNg77yQ2T79aq+EXIALwsIet87H5MW1Zq4Om4tSXl7z6+8sBNbHHW7iBOl/1YFoL91T52QmLrFfIVAmjn95F5WqmPnAn4B9O4Ox+8nirqQpDkn28bObQEBortbZPgyVsGU4l7KjlvyqTw8UD29DEGxL1tkp+jbIseGSOhYbpnEHbDas0QNI6rIBAHJihMnUGG6c1Kz1uqCG52e7iUJpvMXUOUAdA5lFheaLkyXh2M+j6gGghLR2ebORvl25NX4reM6FC3XS+creTThqe7Nml+2aO2zu8DvTkOcRXeKlfi4YDC8/xa18T3f40poidigYtBpM0ih9dbOfr581R/oG2ieQrhdXT98ZUTMElWbkqNtHM6wz/NTK8hkfH0RYur0zWfEDMmLpf1U/rwYqVO/AH2KnbmZPA+Jj6rcLlnEe1E3+1c+bzwUOHw0F/vJXpOCsNYBvHWOuf1IH3OLsc5OHrCLtl8uX3MBIlu+mjDNZIiZqlt5eGC/dCt+TNIzaK7apEB+8PxB/d3iEireIHc4+hsoIm/aGHvvsGAJGlnagx5JMvN8tL6K6sYReVb0028N3cIGZZR9ebl2zOmWGvELz5skAnsGABsIUuaHbNbAGYZTAG/Pd7zsdA4zRZeUfkH1ssk+m8yf0ngtbtevF52LFQOhgx4injMbBZbhdBPj/DmHFvV0DlMsjxP40XMqimhqWEZ8A3EMLYSBAZb3ws4od4InUAFQbGUU4v4tJnLDG4YAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_0128APCFGcmEoWfLgSuVwA6A",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1851,
+          "input_tokens": 4,
+          "output_tokens": 150
+        }
+      }
+    },
+    {
+      "request_fingerprint": "04023d59b9e536b1e75dc2ba05ccfdcab1bb9bb408b4977b96bc115055830d28",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSuggKEAgTGAI4AUIIdGhpbmtpbmcSDAoG6JYVxoZHb9QnqhoMZNxF3ZyQwvITohQrIjDxVitqUtmvRzSbt0b+d8V5YXkpgDfE0gvOy7LygsHWpW+7BZD9OR116UDYPL/wTJIq1wc4Xsu/ZUevWlybRi9L8rYzkRJQ0JYfY2nC/94Xp4hS8sRWaJqUNBJAmFR7D/TdLqDEfDLqs6wJloP+5z76CB13rEGrle06/5NiDIS/xlX/DOc1WLEyUjvuPVnXMqJM1N4z7zOG9ajeMIwrFPJXFgdT7DJ0eDykWgAKApM1qzyUzA82hqM0QppSYrgh8jm1iyjhOaqVb3ZSSuPxwFktSGakxLii6hepAxZ9jYI26lB9Mpwq//+KvFJNTyrJDj9c0ekFNkKNbEH1Z/Ll+BvVgeMXHg+iIFUYilnfo0wSJXCXxH0EUTYHmcpE4mJieddKhq9pFEXMeyNkDmHu1nLbXrKpPc/UimldTYrIiDoPMVT+3aaySaTYnnluxQ+WPvXOtwFGQZ457smj4uPrOlibWO5VDC+mJHs5wsUig3NNDDi2CjmGfVMmJnJ4buzxS8A7yDIxtlCcYPEqSGKlge2xoDHbdT6WMdk7/2fi7mVVW+cf3GhH6Mj1j/NqnZA3n+RB4IZc9c65MHU79QGOqafdmacRsG+XPHv4tp6WV8XJ1Dmqs6Vi0zUy3Eh7aGYi2dPWGlaZT4CK3mOrcqPG9hVhywwsI8JnxugurDGQVrhY/h7eHA8k+cu2J1GsYzGt/7iwx74+Yq3R0ROLUxPAco31Q+m6xsytgHKm+Kjm1rI8AcOqMjqUk3ZQJ+QzF3a+VzUByYRHXxlC8eh3VDrbQyYIS+bm4cDQlnGCVsIdYGZiE4nzlsRQ68KFjwofsmrQqr5bUZq/KtHCoRGRqsgmWxvpiaDtp0p5KyMW713w51Wgy9EJ3Uy6rg0VWA9me/Q28SY4HXZJrwK5EGhvrXCkKbAi2VAOvy6LORx7nfuQOFq4gsVpQkeGo/IkbOMC+4WYKA5jXufnUHd/M8JIHIrqpKPYjLESr2PmFXkqRsZ7HZnszGc7DEO9tDXdidyCVTdjh3HZpEnKZGMNG6jq99rE16WBxWvSLSnpzaPS7yT3x1NT058O8DDC89M9nGgnbvjRSZLCF3UA3QnTLh2oM4Zt+OQ7M4ZogM7I15+jOqOmRlrbdu1nrgcNaJgf+VZINMWerSDj18n/mHmJpyHOQQWks4ITMgXxHDBJYUx0uj+2R+3bO2NQ6etxOMjUGUsW3/iK1n5/27AwJ3zLZ65KaGaz+LTuKqg3g0dFuL5pPB2m2oVPpEJi6kgsKQk61i10Ztbro/urr927CF+aSUckbN4GQbVtLttk1OBf+bTOh1Ulki3sObLwM30f/0GA1/njv1XgFUJ5WymzfYRJ4KJF0Gybn2NqVkgkezWXJMTxfxgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01XCCcQAoK8zsKB4wCiVvVs9",
+              "input": {
+                "amount_cents": 9200,
+                "invoice_id": "INV-2207",
+                "reason": "Duplicate charge: INV-2207 and INV-2201 are identical October 2026 invoices dated 2026-10-01 (3 team seats and 2 extra storage 50 GB), so INV-2207 is the extra charge."
+              },
+              "name": "request_refund",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 448,
+          "cache_read_input_tokens": 1851,
+          "input_tokens": 2,
+          "output_tokens": 339
+        }
+      }
+    },
+    {
+      "request_fingerprint": "c1b9efa54250d149acf67a2dc637fcc8128e03cbbade0777efba6baed03b3ede",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_018UkhAdNeBVJn7KEufZS9jK",
+              "input": {
+                "message": "Thanks for flagging this. We found two identical October invoices dated 2026-10-01 (INV-2201 and INV-2207, $92.00 each), and we've asked our billing team to refund the duplicate INV-2207 for $92.00 (request RQ-1); a person will confirm it, usually within one working day."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 367,
+          "cache_read_input_tokens": 2299,
+          "input_tokens": 2,
+          "output_tokens": 149
+        }
+      }
+    },
+    {
+      "request_fingerprint": "054990a833689fca3179172f703217f3b6f8ef5a7322e244865586118ed24332",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I've sent your reply. Two identical October invoices (INV-2201 and INV-2207, $92.00 each) were both dated 2026-10-01. I asked billing to refund the duplicate INV-2207 for $92.00 (request RQ-1), and a person will confirm it, usually within one working day.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 164,
+          "cache_read_input_tokens": 2666,
+          "input_tokens": 2,
+          "output_tokens": 100
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5ac74ef5a73b3ea6ad4fe40275af0c0bb99cc84c282747030e0f9018eeb66ee0",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. We were charged twice for October. Please refund the extra charge.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS5QYKEAgTGAI4AUIIdGhpbmtpbmcSDHKYPbHCfbP5O4NgZBoMij9mn+CX0s/2ZwZmIjCcJbNB2bwH5AENPVUtOl+lHU2XL9cnoDXWk2LL62r9f9rhA1zPjKNEtZb0auFYCfcqgga09++WcT07nGCMQHNA08DFdmsgjtfD1tL8EL3yZY11Kt8ohZL3SmGDxp/Zqd7U8ygGDhtdZWPBy+P3r7lsl1PG9mqsTLvo07yO2T3VNNK1SZKSVdskOuBTJXRgQ+RMQ5lGLp0LkmOOc2lOcW4TjiZ2PtgvNt2LU8XtB7qhMIdfdqiW0ptDAZmXbtNSTNlyXG5VEyB7jke6GyOpBTscIA/cNRnYA+G0RL7UpoQyAmV5NRhxGxjyGSQIn00aZy95gwYT8M8J93rnfhqovGdIYnHkVrEWvdquCJ+vVdw1WIekovSrRwm1ERTsYZKyqsOmg6Sa7vwfA8GA80c1Vdsf+y5IHryrXLPuVZbFy3lDNuDE6cSzlmvWnHJjV1utOaiSnuezXjvUMPhV6IWzHY3PfO/phv6V7yRIqr7rMA0JQ4Z0nyRInv43xaSqzOf38j0EtGoH6/ZURXCWfnI3V2TfyJpxvTer6Y+PhZWDP1Pd1t8KmPJKFIBAVu/WXRNHdyrq4NJb844jm9F9CKLJO/Vwx99Iu7AA1m/LyAUzdQ0ljTGBr8/n/Wl4ibNozhwYG/W1xpAkid3bmsmyupvWyIPoWwk99eaTDBcwU2aqSOTMUj/2kJLhSYEkDJTeQ1APPD+umLgn8daLHboexFcSOlHB39CU1O18v6S/E5yPEIXS4HtpEgCIX0hEz/vTCHL1L182agZaxamYooBzKkvhedwoGd8LgUEawxJtRJmjKclhluIvD1Nmj1wKm/+UpFGMxu9a5KBdISzzyOfQ8Hv+TWnthsaMuMIk04ysYTBkb53Lxir4OQDGtlrn5JidHBNseXxYa7TBLDrEo14ZDqFZESUe7Tbc+hDWlUlXdDu+gruZjr/p/gpoPaSVP3PD4+Q/nEq3tKMK5j8yqJv7f8sZBQCPPf/NNAEVhG3NwFmJoYbMFi22gpMeKrNguy4tphlBJvdWD/OKlvOF32jMgH3AZ0ztoeinwbZ+g/dlGAaMdul04i6cFLVhgbKjN9S5CmM4/aRPAFNpkhgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_012RkH1sGE6hz6PpzKGWy7qY",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1851,
+          "input_tokens": 4,
+          "output_tokens": 168
+        }
+      }
+    },
+    {
+      "request_fingerprint": "f03fdf033f9447a5e8aeb25aed944425a1ad97c50c861984c599f1d065a39489",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSiwkKEAgTGAI4AUIIdGhpbmtpbmcSDKoMvtoHiZ89mINpaxoMzewKdgp9FtgsVsRWIjBtB1P0hnUHVAAv+8OgFEEboXZ+JvYWRndI11VddBk8sf8BOfnR2xRgLVDr2vFylcgqqAicGDkR+sM48V5XPda57wg3reZGXCTfP+sxUleezTAzOAqBE70ZObZm3TaBj0GOLIr13p65Py3KcXZmzS4KfNKfG2sLR64/4QlXHCzSrksGXd0kAf9biPC9izwqic7x3vAOZsureWXdRs8eyXSQyK5SQ9G0MeakFR3s6ty2HdX0tx8uvzpfvIoQjEBpIxe1lBBtFk26UO+KLLqvqtiQNDz2Frw9SbWkItHEhopO1gtxvyIYMVNx9j+7NLf8s/UJpLKvGWqd91Rpqg0+F93Wd42VwSLBd/RIVN4yluyLZTX9ocabyVMIpz/ben9OSe0wm7A7eBqIbaZp4LiQUgtS0sU/Kg0333JvM3BLo6gVicTOfL57GgxC+8XMxj/FWVM5geXg4EnuBjORfIvLu8J/R4fi7E7+nvP5GCnubEXS4H3YZexOxQ2qUoW6spJObpOdnIUajtjyF6vj4Fy4/MrqC70SI1NFeuifxdIguDDsJH4GEufj3LShYVuyD01ELtZjrFiQSZzEhspBLPjMz7ohNUwtBVUvDhXknNDTYKsip4bCptWUJPfiLYBYMi7+ze9yzvG2IdwFn22ioL/9zsVCX3RfbnLO0xZ4tdtFBAxd7ObZUQDUJds66gCJ/pCrZ4D9QR1y2ClhKWhelcMIPLM9vGMxNMTklFeVjx2kmbTvez4yJeM2ysaYo823uWn0eRBshNJKKplOp72O8H0NypavAN4PJBDuk3i6/k8CC+Za8BgHVybRK3p/wdJd6eMH8BSQDOMwb4eOyLEHOIrxwEAklOVY7aBwpGzeyzDLASyq/xSKc09QcEtAPDAfE3Hikzxcvpe8xNUp5zAzVL+TZc2MjoT4NkS/7Zxnxkvh3/jmFv96P9LWltWGeV/q3qzURtfY1KcSQrvgeR+lJFACYFcxG56z2X77MF8pN+L2yLQ0k3og5bCtIFsMOy7D+y1SQ7sqt4wBbbm0b6R4TWf7hxBrkqS7hcxTBmn/gq/AxoOIChCtAS1jNK4CSKweHwam2ei0oYm5IF7EF9UghVHJt6gngqKq+h7I3wRdphKERbytoQm5xzFpWtlv1pRajENFO7Fmhm5SvkRq6jCkYLkCIBreP++72rgoBMXqA2PwNpe9XMx1LVJVA5w4c/YZYK9NM06XSvA/hspVPF8hhrJOjCT3WjgC9hcqlF1tMBTACK5u0yc7Ca9CQNkFhLDW+Y1JPuh+9r0U800UxLp1KFktnFI8YE60LhSrxzHzkm3fORKWID13gKJRi04II2yHCESTd9IBYm3lLSBNqy5izIBwublzgTW/+5yLgRoIXFIHZ0X5mDH4fAH9PJmuIC6aEZ2EAgoYFI2L6wLvni9XNDZoLbboPBBYj2gY3UVPrq9F3TffC8dafmNqUP/Xg/lqpmRjZhLhPCkbtFbrfoYvpRgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_012KHRjrKsWHtnse6CbjDhVs",
+              "input": {
+                "amount_cents": 9200,
+                "invoice_id": "INV-2207",
+                "reason": "Duplicate October 2026 charge: INV-2207 and INV-2201 are identical (3 team seats at $25.00 and 2 extra storage 50 GB at $8.50, $92.00 each), both dated 2026-10-01."
+              },
+              "name": "request_refund",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 466,
+          "cache_read_input_tokens": 1851,
+          "input_tokens": 2,
+          "output_tokens": 364
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b2fd9587887a841aa62279c114f6f9376746f65542e51b5e78d1bdeaa78d6c8f",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01DbXPYD2JwMVnLMCKKM12iQ",
+              "input": {
+                "message": "We found two identical October 2026 invoices for Orion Bakery, INV-2201 and INV-2207, each for $92.00. We've asked Brindle's billing team to refund the duplicate $92.00 on INV-2207 (request RQ-1); a person will confirm it, usually within one working day."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 392,
+          "cache_read_input_tokens": 2317,
+          "input_tokens": 2,
+          "output_tokens": 144
+        }
+      }
+    },
+    {
+      "request_fingerprint": "4a1617b590ee5a7f7001334ed34ef6c045051371ac5164360e22f6242e1ee24a",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I found two identical October invoices for Orion Bakery, INV-2201 and INV-2207, each for $92.00. I've asked the billing team to refund the duplicate $92.00 on INV-2207 (request RQ-1), and a person will confirm it, usually within one working day.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 159,
+          "cache_read_input_tokens": 2709,
+          "input_tokens": 2,
+          "output_tokens": 92
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5ac74ef5a73b3ea6ad4fe40275af0c0bb99cc84c282747030e0f9018eeb66ee0",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. We were charged twice for October. Please refund the extra charge.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSnQYKEAgTGAI4AUIIdGhpbmtpbmcSDNCXLT7h6ICKRlEnkxoM1dFdC/owC7fGV+LeIjAneCjMEpn0A9aDZxppr06yqcIhv0AoKy2khc7iS/OopRUgkM3BGMe2fIGOdrcOhCsqugUSntDfz1BdYpubS5ScoJ2ho1eCjKFLlgD5AWDaBZ3A4zwt8gYBn65uIzRNylKofPPEq8GIAezh83+7HEuCXnaCpOAsN3B6jniv2ZB7rIU5cQciup4J3XYpW9pjBefXtRuE1QP1do7rBsKUeOZW346lJgK2MxnSprFz+IY034PpURlmTPGxSdVqe9zdMZApeEBwnknBfu4HCUCoOhrrCR15RYfe1qFn0xtvUVA1x6WRG9PD/2cfLGnBM/BEIpjl8xWUKVyEgvJYXUZudv9CBQHVfSLAx9QPurrL2TTUyOo1bdZOo+lf27MO5hCZP75KCBj/hqxsmbSZxpDexHiQRjAIpnRVKS+dAkwbLDgiZNNW7Wo1q3XF33h+8H89zH0nyK0pB8yipk3ZShE6kDItk+4+OMOdw5Ior8QctGj/govEm7GkfIhpMDJz8wVkHGHXClHw7a6OPG8vgpkePtmjUF8wtjHHCiwqumzJZ50Zgj0fm6HEnk7fbYfH07fvbDCSjT4NbWZqldancO9YL8ha7iDR8PVkDu8R5sz0qfbmhtmu1/VrGHGcrTrh4VeMCfSPRSdG6tTl5T9nuP+2vdSSR6yzXytIVTLNYoJtZ1kS6s76L+4UQ2+iQ4b8kccBzTnV0VnTl5oreFfiH+Lk+KzZFHCfTeYf9bgOywb2YMO6d2M9aUnjvUf2Hxiu+bjtRzFgXZJPc4TiwKFJLi/+n+q8Zric7oaMof9cdsLDEeueM9l1IEaNZtof4/MFhQG10QQzjr5BjuCGGAvEdVFGbHtGn+e6v8R3SetChaYtpzUC78OqJsbW4+Yo0FpAlvdihbhOYwMB6mKCSoYo6h4NVC7Nk2Mt2hKqg30YuEcMgXTTFzet0oozRSwNJqlreEpK30NTUr7kS3oC0o9i0AXmhTFEhxPlHGoIQM3MeamjCBgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01PtfMtuj99HoEMpwfKCyEmq",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1851,
+          "input_tokens": 4,
+          "output_tokens": 151
+        }
+      }
+    },
+    {
+      "request_fingerprint": "4f4bbfeb59e4e8ce5bca915142ce8609da9e9f12ce6418df094190b1e53b0a07",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSvQgKEAgTGAI4AUIIdGhpbmtpbmcSDEqJm7TpPDfZYXczxBoMoNvPBHnl5sPlSiJaIjANgoj4iih7w4jHiMRTyaRxEt8D3ptsF2V4CIJwafW09WqgtTOE+9B/mrY8DKNGU38q2gepG9cUCt8GE/v2UAzQFQTAwVzJrND084rZnQNq7e/NtI8FH6kK02ZyXzYBCXI+iIU8mqoml8BpKfmB14hyCLr2QcmryOaZzAIYtFVnOxBOkuJ+xOF9TscFcJCtSnXsu5fCaxJF9J9mEzoDyb+o4lsS/BJCrwX9fTUJlSXUVY8zW9SnJv+aIuE1XLvKrSlTXajXe4IBFbQepWH+nepRKYXGQB7hmgynzK6w+UhpJ2rpvXMow38+f79zeFm2giKqhcVLg8slO7DWlBNb6qnZiVras1DO8X5Mol8zTLCzTn7yFdawbBqjfZT2HR/N1mUKAuBUSp3xXmzcH5K1y2SqLFKB+93ogbmw9k1PvsJqWxvusw9Jj9xonuWXZfMLihCJiu1o/rOijkfTJUDdCkHEerJDRyGO8fa4Z3QVQfqmTvvq/c0ax836FOowYnM8TWZOlublSTtrB9lVgh1FXFoNNPFWdK5AFgXLY2OEI+zMl8Tzu4MZRzTj5G5OffEe/Y/rmzNB/o2apljtz4ux78pL5ICLenCsTFtvenv+DB/lxuQmDbgyti8RVgB+xZT2o52t6PKRLQt36HFcMNBfcr5HZYOtcVPwgha1ynHYT3TZ+kFR79Ytux6XR71JZKU4KOjEbeTvyXjoCrmCy6miWh+LwZXJns78ce9y+WyBKLVJEojCMkd5N9XbiR05ltxwDjhlTLNm8UErLBD+/frCkH7LneQFK8QILbSgbLS5Ir2GazF5+s5Ziz3tRKg6YNnE/ypxB3B3w/hsvl1lQHt5lH0Egaaa3ShMISfKAQSuhEHmUYasOkn5lgKITlGUyWTh8oILyAJXzXGSBAj82qFUKkTD0oXJOwMTiDwYcAZ9fWDIm1TE7fynOf1DomkFfdSMsefc2lHcD1AZwHdZBmn+KrxS9Bzc2ofI1vtxZ7Lc508kbcdD4BPx4gtQQvmfvFPzS22HfZwDdxSlu6EAYj13DwsM/It7YIj2Uc4PF6n0/3j6pyqdFmnkwQ4ttwCTCJiB6hrBhNBqCpYT0Vg8uXX7jwPEYF8jBaZbOHdxXPpyrAdILvEb1HNmH077a+392jiRhjIT1RelbLyZ8EYoxY98dHfe5qS6kd8j6Rpx6FTW+W83h3abfugfLTcMI42WFdQvoFKqKKvIjLKabQfrvam2hL3mr8J5MwZEhuNAsGD+bDw7lrWDQsR4sTvYoWrpN5rMx8+/bD0pI397oUN/iigcXXj/jOMn7lKywGXM5nUHECGL5UszsONwNsBPJUeDgeijWprl9MpU5Dapi1g5TOilTgYLsc/BZJ4zLGebd+bCXRgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01KEuiGLn5VRKdjStFT58wnZ",
+              "input": {
+                "amount_cents": 9200,
+                "invoice_id": "INV-2207",
+                "reason": "Duplicate charge: October 2026 has two identical invoices (INV-2201 and INV-2207, both $92.00 on 2026-10-01), so INV-2207 is the extra charge."
+              },
+              "name": "request_refund",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 449,
+          "cache_read_input_tokens": 1851,
+          "input_tokens": 2,
+          "output_tokens": 325
+        }
+      }
+    },
+    {
+      "request_fingerprint": "051916feb33523b8eeed371e2cfbebcd0fef61b8c5c154a54595258f9f9f517d",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01H4Na3hgGoodt5vAPDx4VXr",
+              "input": {
+                "message": "Thanks for flagging this. We found two identical $92.00 invoices for October (INV-2201 and INV-2207), and we've asked our billing team to refund the duplicate INV-2207 ($92.00) under request RQ-1. A person on the team will confirm once it's processed, usually within one working day."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 353,
+          "cache_read_input_tokens": 2300,
+          "input_tokens": 2,
+          "output_tokens": 145
+        }
+      }
+    },
+    {
+      "request_fingerprint": "c003e8341740df652cb45b92e1cf3983e5dc2d444f88f34dd81316f21e757944",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I found two identical $92.00 invoices for October 1 (INV-2201 and INV-2207). I asked Brindle's billing team to refund the duplicate, INV-2207, under request RQ-1, and I've sent you a reply explaining this. Nothing is refunded until a person confirms, usually within one working day.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 160,
+          "cache_read_input_tokens": 2653,
+          "input_tokens": 2,
+          "output_tokens": 104
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5ac74ef5a73b3ea6ad4fe40275af0c0bb99cc84c282747030e0f9018eeb66ee0",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. We were charged twice for October. Please refund the extra charge.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS4AYKEAgTGAI4AUIIdGhpbmtpbmcSDEjawgnSo8JtGw+AhhoMObWH+vKtJZZq7KoLIjDlROJFs5UVQTwjhfCDnEu96zzuw0aNwNTMFW63VsCD70cxJUS7OuBT1fPlD4hnPQAq/QVQj4/RSDr7ZlSWbQNI+MmTTfb2NsCvIFq1EvGR0xUKAXpKdL+Z/j78oFSD7yBICKiuNBjB5FR+MCn2IhXFXOiDIOuewJSF1DYl8jISDWupFYA64DKWBmajUTIdUOrcL335stetBGeX04zJS8y+KNMW+VMZbR/Dzhl4hMoFayqe2U04ArJCwfgRqPm2bm3d4dKBRo2jad+U7/9VOEDaIfIdGfwbq3cgRR6VN85fasjMqnq4O0xtUMy2scEl2IexCvj5a6sZLj/aJCZK8O7GmAefF9m/+8LZC5VVwcKw5l9LQ0CJKH8y9srAd4Z3PaCJsGftLX9ooCHu32P6UUtsPmvtws8GzKDHkYxC+N6AiQnemsl11MRj0Ztc2V1mzZc01h5od5gTUz2Zy5oyzXgWxLRCaiPhK4HwS+yKJPqDiD7YyffXB6jNpC+U3iaOoCrJqsmJTE+Gbw3qGku2ghKy0zbRUOfdzPMdIaOy2w0nzFLTp+kxW4KO1FOkbmXL/MgUawOviYqYIiOVvR0V4y87yMu4ZOU4le3Galh/knSt4zICLBBqwzOge6fD4miCcyLAah1Pv0SMF6pi36YeHBpjRv7geUIfH/h365moxhgvqJze3fD4u7X2XQkdu2vITLawfZz++9lNi+uOm04hh5fstW8d0uvEnx+Edi8pZYyOjFCNMiob0uVLTw3G8czFLwpjuiLvHv1qv14pIlUJqPmv61jAiVJMI32Xrai3WxFTU9dUggQgqSeu2NI0HWxvD7IVYF1FJYkjcSbWDKH7PE4ry0fkqtIFIvcHzo8qVF+csidZnPsgjLadVhcKmkbekDB2aKVBumbASxQHFeoX5+DDR6MoLfJAOXVDovk24585+YTmwrWzD02FmH24WfDxqK3a8HoKWUaZPK5mWYV3hDIDe2QEY+TtezdXH4/enhN+5c3p13p1FhYkEaN3jvF88zMvs9ihBLdCD3oFb3tUtekK6Th0avOp1v344xRwog38BCUmPlVqQJBNCn/gVzjplykYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01PTo4vQvv7AXRu7FuvAghmR",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1851,
+          "input_tokens": 4,
+          "output_tokens": 165
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9b14c23f01b621a550f830da76aa8d388f4130d0792c62204b029fc9e5598ab9",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS4QcKEAgTGAI4AUIIdGhpbmtpbmcSDH1XuFmyymSkFVq0yxoMo2jp7QjeI4etJ0kfIjA95Ot3tJxrlL6khlLONLO1ZT72BOe66yeFv8JURj1OXW7E1OtPF/xGqCaEg0STTcMq/gaHDySDEvqEgCDZThm/oYJ3W8n6vwIyzdhTJkwa/1UsX3lf8gbLcuxrZ38xE9Yx+j0GnUlcJ/PaBh3XeoRMdwW+5aCciIZqUynnaMw9nfsiKudI4ijVazPYNnjfX6kRpq82MzbPNgkDOYFfXTg6mKaPeVNWQOv++bT0RXM+qoIxaYlMmcW48LqzTi86IMMZZ9JKGkW/2ffkOMQXwIGhpxvp1KHub+/kOk7+KzEGEtjc8IQBbzSPWiV6jdbgoo4E0A25aIOTwwtVH5b3+s01OJEDesPdaihf+6bqbdP1gAbbk8V93seYipMYyQSYF6GpelcfihGlz0WMw9jqFBECnIA4RNaVhm+arBTvHnouHpY/3f+ZzJEwU8HjHsNWZxvqJHVBCpsQGk8UNJ964O5GANgu3yuVJdXFjmI26w37gjraO6ZxFmHFfE92IDthhtQmGZyabdWXvbZh+c88hxyx7h8qsbLiqTehGQ8jgEJqVawnIZH/rO8eUBS6zWH/r/kKi4+60D7L2W1rMYoSULwMV7HZd0iVyOqKg8gLLz8OgthMh0T69S9UeVbY+CwneYYSOX64NrnxbFolyQL6pWeObDZYS+alQDNNfwPvDuntY0YD9GYTDhHbggKc/xdgzR6FnfUBgqWBxKbVeTOxDRVeDz6ReaOsxe9zCsjgLciKCjturz5WDX+ws3V7ZbsdBNmSX1dlwlktPhBDA/S+ciENdPZoNxdTVNvGwHsh6EVg1KvwN7fo+bCJkzIODtZ5t8k5i8Ibb1dpkn0S3epcYtfaUyXbiv7daUJD1tfgq+jJ4AL//QUFpu1A5aXJ1MICPGbWt0qNCoyfpSofPOVYCLi4R4JDxTuIyJU/2xl9KniqkeCY1UkKRyinfmHZMNImGjExWRuEeUceYGN6Tnxbj0hC/iD3L1zRFhQKx68PXt/oExuEBj0SBXS5yFRUSTsaXphuj4OLaXwOjY3nu9tpRFN5hQuQvOYgrISxBVXaxw44UZBQ15ipGIryyDKmPVwytRQ55TVmAn8thS2IX+KXqnrja/SI6VHjmNyxY2gTzMzTnh0pCc+G8dWCepDD68nSWkD/SGELkOrxfuhU/xTauT0yl+H1TxxiTVDIQZmjlSBsxcyRJS2k2WcN6VeUebK1Mjui/VV5BvjxCuNB0M0jcfreabjBc4Ti+lUPZKyorpD5XV8YAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01QDcR9qCNwxok7egpyJ3FaW",
+              "input": {
+                "amount_cents": 9200,
+                "invoice_id": "INV-2207",
+                "reason": "October 2026 was billed twice on 2026-10-01 with identical lines (INV-2201 and INV-2207, each $92.00); INV-2207 is the duplicate."
+              },
+              "name": "request_refund",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 463,
+          "cache_read_input_tokens": 1851,
+          "input_tokens": 2,
+          "output_tokens": 286
+        }
+      }
+    },
+    {
+      "request_fingerprint": "02d6fb3b781c335fe4bd6fa67cfb90a539674f1430eb6e327bb02dd4737095db",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01F9qBRjofKPra6ybRxRXUX1",
+              "input": {
+                "message": "We found two identical October invoices dated 2026-10-01 (INV-2201 and INV-2207, $92.00 each), so we've asked our billing team to refund the duplicate INV-2207 for $92.00 (request RQ-1). A person on the team will confirm the refund, usually within one working day."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 314,
+          "cache_read_input_tokens": 2314,
+          "input_tokens": 2,
+          "output_tokens": 144
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7a821bd11279ace41fb99127cde25c973f2469f804e025a3c224f459d81ad911",
+      "request_summary": {
+        "chars": 110,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I found two identical October invoices dated 2026-10-01 (INV-2201 and INV-2207, $92.00 each). I asked our billing team to refund the duplicate INV-2207 for $92.00 (request RQ-1), and a person will confirm it, usually within one working day.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 159,
+          "cache_read_input_tokens": 2628,
+          "input_tokens": 2,
+          "output_tokens": 93
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b4c2df96f596385b38c4218724e8b938b2ed1679347b879f8d41113970a2def4",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "ge: Hi, this is Orion Bakery. We cancelled both storage add-ons on 1 October. Please refund the unused days on INV-2201.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+gUKEAgTGAI4AUIIdGhpbmtpbmcSDPCVKGIIMYTLhAOirRoM2uIijuiWG5VPpSkoIjCBJJ15DJ9aH2WCosnim7iSOfBz/oCDpD4oYQCi9wNdY8VgLvpwzqFdFzkEHvuAixMqlwXb7zzX/qc/A8fTaWVReqBWdFwO12vm7nuDuKRLOgdaAyrVYRnuJDrsX3ujf+iRaAkH09Uu7y8JR/WtQlRk8Jd84P1gApdAOP8PBTsJ4byoX99pVQc1ToZfdmcAjgo0BppwF9WdE1iwLt83XoXvuLMOZe/WZCDDcPUVTFqoN81/V4NiGqKCUV+jdVvQCuHKPYYnwp009Lyr9UK1jOvMcxaAfGSwm7m1e/zVEwaf5x+1MD58ZGrQI+A2o73+NS+CQCaqGkmGBF7m5PgghRjtL/RQNfrVVIsPsus/wdx+90YOe0Y726vkc1DtPQtp9Q8SOrmVTedfxVtsbWe8yoW5+pqfRhP37fmrOnf2NrW1kW/ZApzyV1qJfbpxEOrd7lrGhrfa9LoDT1s16b7db/AtuW6L4s4izuhAEjT4kTSw2RFUIC9NP0Ys8RnWJg9UK5pdRDA5KK1RatRbvEFoETrpy84FsITUlkidnLxQlEjHJKX2+cgzCYNSflgtPbZ5CByyxXDSPVTLZHCqI3CDZBJXqmWblJr6JiYzSL+FbD1uATAoFs97m8PA2+EokZK1ePFbb4L4LEzstA46tpMxrg1XAuS9tDvbqS8xk4hFRDNZIYgLkiKdlIXwm7pGrk86mF6gFoybaACNAUsRD/ikZWOMeMSFk9ii8BKBnO+a1IT2ogL/PeWEVkxOCsfz+6li08x9cZHerUAMH4regKjYcnTALp4jFRsqNhEsM+8g4It58NT62ZkFm6AQYhMyK2ecY5aE4ed/F2qGPE0QZC9qIP/tpUY0oh5HpQ+dh8F2rNTCLARcOdbElCJn0eDACBftCMq14DRVKOcc4zJtlRca7ly9SshyhbBu6PfGyBN6G4sEKyYmsvlvD1QZF30YAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_011SWnRDrf4dBcCX9KGefTMn",
+              "input": {
+                "invoice_id": "INV-2201"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 124,
+          "cache_read_input_tokens": 1741,
+          "input_tokens": 4,
+          "output_tokens": 115
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3bee47cf379cc0f7f68af0e3b50e2dcff5ba7d18c710b874546a92659dd1e775",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS1AYKEAgTGAI4AUIIdGhpbmtpbmcSDF/LX8d18R3X5IsNORoM4YchvtO2K2sDa531IjDV5NhoPxQqadqxJDMMDeVnOWtYaC0tHOhCiLbXUhE2xVdFtDq4ayypJlEaIEbVyQYq8QU+HYA6cSCnTW1Mkybqc7doyjLc56/QS7mryNLG44BMMAdzefbGjNKOF/K+i8TJlKSq6Ig7Nt/clh/1Mo7NbEqfy4ob5B4NYfY7utOrSy25igF5NX74wG3RzmqD539Lrgq3GjJRnkqoVAYI8XCAVzewOiwvwNDKgPR0pVJmzDpy2DCGDoHY9EvDIFo2Vbn0HLO8TYJWQFbzwJeeIK31UMse4dYf5pCd5gSeWXAFO7a3DhmiVKs1BdqwJKrmks8tS+TMMY/k2/4dk7Awg1efQm8Oa9gckIPJxS47wGW2WrhTMnW9KHULx6YSJQGgPth/KZIngyvuH1UEd3e8lQby8EusuMN6ZytTqmsdB5WrosyAOv70f14XyNYt5iKTZRGVFuvVdHe9TC6ggb3BwDkH0FlFY4aQ5Cyw6pEHuR4KiW9XjjgnOpbhIxnBOw7uLl98cKa9ggh4LwMBlIfuw+hRKATtQ6922dlclTJSqoNhIekIEm1tACnQLIIX5bHla8Yc2JECbjZZiE6EZRIT9MRoXN/vRn8PaDTu9C8FmFnra7oR+/ku74lIKxv0F2slVGBoTPMU31h9OPUoM/iqjzVkU8qednipT2ZmlVFZ4b/7kFAIpNULw3U7Tkw+7VsQFNTjQyB0+MNTY1ZImP/CBUyjJxZnX5LASX3HuOFp2peREgx6Zev+XI9P44Ev2wNFMnEwdZ+VKL0BMN97O2nBHRWQFnrqfZwDi5J6COc/iPJ1Xy5In1hVLxJAfThm3lCbAABT50pnY2FTQQ+UrPO1wLFrwhc9DgWL7J/EF32IRRLiNlbnawn3ZbDH6kX2o/w7nUQyjSrEU138wMiYqEjAkw2g7zVh4WZegy17q9EihkATkFT6/wQ9e1COTMWZBDd6S/gcG21bV12qeB9Q5E+sCMyMgPCqFLaOKtC24MuvQrIS9p1+EAnfDWjSzGkdqS0RZgPeMnD/fMjd4ZKhGyY+GQQH+WZ0jzXii0cTRNbKufa2X74boiUYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01SBEP1LbDn9Mnuco9XXv7kX",
+              "input": {
+                "invoice_id": "INV-2201",
+                "item": "Extra storage, 50 GB",
+                "quantity": 2
+              },
+              "name": "quote_refund",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 266,
+          "cache_read_input_tokens": 1865,
+          "input_tokens": 2,
+          "output_tokens": 186
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5dc041b8f1f81d4832d37c9ca8c7dfc9840dc615c634df8122bb2474b6308cca",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01C1gwrq5RhZ7Jh5HFyPmL2u",
+              "input": {
+                "amount_cents": 767,
+                "invoice_id": "INV-2201",
+                "reason": "Customer cancelled two Extra storage, 50 GB add-ons; the account records show cancellation on 2026-10-17, leaving 14 unused days."
+              },
+              "name": "request_refund",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01SNnEdcxpbWHjQL6Myea2Ne",
+              "input": {
+                "customer_id": "CUS-104",
+                "summary": "Customer says both Extra storage, 50 GB add-ons on INV-2201 were cancelled on 1 October 2026, but account records show cancellation on 2026-10-17. Refund of $7.67 (14 days) was requested based on the records. Please review the cancellation date and adjust if the customer's date is correct."
+              },
+              "name": "open_ticket",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 275,
+          "cache_read_input_tokens": 2131,
+          "input_tokens": 2,
+          "output_tokens": 697
+        }
+      }
+    },
+    {
+      "request_fingerprint": "22236fa9f55549b4a7b1d7b71f4b33f1f0a8c6ee87f209e4ddf1dc38d47da7de",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01S44reMvrPcTx3GPvPQUiJi",
+              "input": {
+                "message": "Our records show the two 50 GB storage add-ons on INV-2201 were cancelled on 17 October 2026, not 1 October, so the refund we've requested is $7.67 for the 14 unused days (request RQ-1, which a billing team member will confirm, usually within one working day). I've also opened ticket TCK-2 so the billing team can check the cancellation date against your 1 October date."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 793,
+          "cache_read_input_tokens": 2406,
+          "input_tokens": 2,
+          "output_tokens": 174
+        }
+      }
+    },
+    {
+      "request_fingerprint": "10fffb97457f9a37207b4451575267334359529792d18784c7062a0f3e22490c",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 9
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I've sent your reply. Your records show the two storage add-ons on INV-2201 were cancelled on 17 October, so I requested a $7.67 refund for the 14 unused days (RQ-1). I also opened ticket TCK-2 so billing can check that date against your 1 October date.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 189,
+          "cache_read_input_tokens": 3199,
+          "input_tokens": 2,
+          "output_tokens": 95
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b4c2df96f596385b38c4218724e8b938b2ed1679347b879f8d41113970a2def4",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "ge: Hi, this is Orion Bakery. We cancelled both storage add-ons on 1 October. Please refund the unused days on INV-2201.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSjwcKEAgTGAI4AUIIdGhpbmtpbmcSDHyhQJPwBOmFSH/jAxoM1CVPs3hb+wRZEy/rIjCifYQ14S8BJ+mQViXbS8Olca0fT42ECgS7czeRL+ZB243tFC+LiNrKsVKIrMjfOLIqrAbkQ549a9RZujOcNidLLpKbmLHaAuCjbsGyk7Ed6AN3zq1V0kSzTkVGjyqVbTlKt18DxqCvu9IlK9FzF6coUDep4/O8JrXd1DOn4diY1QyDM02wxwCvsxeDfGa8jMH8uxHgiup4QaAV0Wu2u4DEpYKuQa/Hu6dq3PG4gMo5GwGNrZdvLoI052AF7Wm/hJ1fuDxRRSl1KI1c50Ic4PzpYIyf3XN8AtP4lGxXMj8I1iXcsFf4YWlZdDUy4CxHdJr6WI0lDKxp+cWhawjh1aVDFPznaHSdf/HJTyGj8NukBTLSvYxKOncctDsf1JLdd9iBfyq6++6BbRXPRZh2xDfHtYsd+zn6ticemTy0wESl6CbHgIv0TRXFO/v5Wjc+LwjI1jZzoHfGmjTeGZws2dlc51e+hkWsynXeIU7eYrOHDS6i3VHIb+8YX6grB+VQOzluu/I+eAUviEpFfpMd9MzpPC4YvJ1DD+f0yS7ROoMxuGldL50Ndw2nDn5oLkx0LYWxBCFmjxbBnviUwSWkgUUZZIhOpcxW6GGZ3ZjeeYFCDXQvE29GZM2DiVmLUZEUcf5QSY1lfPQPIuJQaJKQ0tYPQ38Vu6uzeoXyPpyAYf1NyhGTdVpuON0ZRXm83OQ+BCex8vm5Dn89U9+AybXyOMXIOsfRP5Qfi+oulzky2KmgEerWHViUGdsv0/3U5CD8MHhYwykYgtlk6rE/qKErMel49FA2dIS+gkofcjCCsWC3cSkTeLR6+D+x9wtHNx9fj1ODe7b4bWGXDurje+VnJttqIvGhzJUPG2QtUVuYv32cTiKYwS3MpWQjkAId17/lCxsPKpKTVJbZyQr+7Ub4Ndz9OOE4AM5RLNiUVOejBiwyuDi/49A8TCCpsTt0qSWt2u3REJFl28OWqxyUcsWsWnoQJxVaKBySZaQCm+O2D34nqXYm7glCfIoMR9S+DD8+6ec7L4t71ToqXMY+ciSU0PrggX8EuzV8gFBwWS52qgtZM2QBPhhRqmCOIV78BLHYtJivJwmFWmIQ8Gq7k1h7wIr/lijinkXaQhBU91LZwGWoQQMUmIFV4Jjs+oYfWDZTxRgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01AjsNHhqbXqekQztxkb4LUe",
+              "input": {
+                "invoice_id": "INV-2201"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1865,
+          "input_tokens": 4,
+          "output_tokens": 164
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b1732cc7a337ec7568cbc53bd708a4ff24518e6db4638ce2f78dc337356d8fb5",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSoAYKEAgTGAI4AUIIdGhpbmtpbmcSDCc0XKzQeJOfoKQaFRoMJ96KV+gm/wfPEK2AIjCAOeh13T2QGNqN3jv81tKhYZD+gLHQOi+QNYmYbEXJSQ7HfbtulTWxhatS9rJcXqcqvQUKAW3b3LXZjvMObYD0PcAvi2sE1ZqFeNwYA/oeNc2WyIdZy3HIIehto0t3Wwmj9UgBPymMHGxC9r1oHtdJOIIqMTxl3BlWYInxY2Waop849L1Zsfoe03pl/ol8mcw2rIzjMydQ97DGdWeUhLXYOujTLP75FEXG6ZdbQOdD02Pt3DeVVFNQU1oh6miJ2TSEvA5DUsL4hCokvqPOX4J1OQO7a12bCoxKgUrFfRvqV3ZcheFAhl45NeWbJusXZhUFRAA9GZxg5nEXeS9bYRAKm/csvbxim4LqTQXKlFxRzkGCyYRlE9e07BlVzrAS03MX6gtyRk9+nj72d/9ofrhBYKQ129mAEvqlxz6bsdJ3KzuxORnrF3VJpKXf1d9YmoDCdL+630UrtVxAMTt16ugvpsV7d4sOY0n/NKzTkP+D8DfQnZrnQ6iumk1XaNqqd8/pAOJOZ5jmonwf7j3wBjVFn01H27QSqG6L3Jn4w/s85uTLmLLL93UajMf55NY4rS2Lhit7lRwlPD0fCY+Q0n+L6knNKgyTt+U+ypBnwW5HS5evNDpw0QBCJ0nwk7ZmDFFjuCJS6CxweQnodqE+QsZLcoyAPhaY/7C/Xep3Jn4VtKz1mx+D5bNiAS2w+Ep9Kxq2K9Hd86jaQz4GtD4XJ5upTeVVOFRU8bE8pI6quwVAFHJoobuVRpNhmrjY4KDadiOJBR79/HgKoDpmRA27g6+1folh1wVXalbhuck2kvR2unLVP8hP29FtBuW0bqKbG7f15kzAELd4YCAQTVQVUNJWSkqMwF14593LRUyhJ6W7Gh51piU08lpIyWPYs85LxE9LMZ9Wca4fumuVT8iEWTR2H4F4uM0p+PwJat6b+fohRaKELxW6LdbZQReLD5cjv+lQA4Dwp2bNaV3ZLrEkMN65uxaOQE7LX2r/Xh7BvQ6jHxgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01HERJdeLntjG5MedmyUsBjy",
+              "input": {
+                "invoice_id": "INV-2201",
+                "item": "Extra storage, 50 GB",
+                "quantity": 2
+              },
+              "name": "quote_refund",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 315,
+          "cache_read_input_tokens": 1865,
+          "input_tokens": 2,
+          "output_tokens": 170
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1a1c612942ea5bdc9b6c0673f5bdcca6b9571568700fb954560869cb269f1bee",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_012nQrwXHEN5cN1Tcv5hfWP8",
+              "input": {
+                "amount_cents": 767,
+                "invoice_id": "INV-2201",
+                "reason": "Customer cancelled 2 Extra storage, 50 GB add-ons; prorated refund for unused days per account cancellation date of 2026-10-17."
+              },
+              "name": "request_refund",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01FCvapeZ6EPzwSGX4FRhLBq",
+              "input": {
+                "customer_id": "CUS-104",
+                "summary": "Customer says both Extra storage, 50 GB add-ons on INV-2201 were cancelled on 2026-10-01, but account records show cancellation on 2026-10-17. Refund of $7.67 was requested based on the records date; please verify the cancellation date and adjust the refund if the customer's date is correct."
+              },
+              "name": "open_ticket",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 259,
+          "cache_read_input_tokens": 2180,
+          "input_tokens": 2,
+          "output_tokens": 677
+        }
+      }
+    },
+    {
+      "request_fingerprint": "6ac8287fbcf08faa3a986dabdf16f6c29f4c0a6b4e3c83e82a1f515ac075f06f",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01RXBTENv52nyFFCZKkXNN9T",
+              "input": {
+                "message": "Our records show the storage add-ons were cancelled on 17 October 2026, not 1 October, so the refund for the 14 unused days is $7.67; I've requested it (RQ-1), and a billing team member will confirm it, usually within one working day. I've also opened ticket TCK-2 so the team can check the cancellation date against your 1 October date and adjust the amount if needed."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 773,
+          "cache_read_input_tokens": 2439,
+          "input_tokens": 2,
+          "output_tokens": 170
+        }
+      }
+    },
+    {
+      "request_fingerprint": "360e2ec7923e3035680a88dc6a195cb4d3042eae3c445a9cacf4f25ecad17020",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 9
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I've sent the reply to Orion Bakery. Our records show the storage add-ons were cancelled on 17 October, not 1 October, so I requested a refund of $7.67 for the 14 unused days (RQ-1) and opened ticket TCK-2 so the billing team can check the date against your 1 October claim.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 185,
+          "cache_read_input_tokens": 3212,
+          "input_tokens": 2,
+          "output_tokens": 104
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b4c2df96f596385b38c4218724e8b938b2ed1679347b879f8d41113970a2def4",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "ge: Hi, this is Orion Bakery. We cancelled both storage add-ons on 1 October. Please refund the unused days on INV-2201.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS6QYKEAgTGAI4AUIIdGhpbmtpbmcSDDDGy8E3FoVfmfmuHRoMkn+/ApIGzXl6gYVNIjDZrC9JFIaadPpp1R/Jk6jzp1fingG2DP4geph7thiiNOzlJjPf/q7wVnocwjXS8NoqhgZblP/bqkusKWVSARDkvlSuxYyH7Exd8osSwmbFga6HmGfzpf8FvjiEcP78Ssi281tWXXvsCs+XwBiMOyppSYmiYBkYV7wnZi/HLFtTH8iQ0v09iRpoBgoaYfCAwNW5hdo7tm7IPvbWg2jQUsQ9DlA8bwi1Rz9XmiCyQb+QR0gT0YTEs+e9VHj4HcE36AlSnKzITrCxJp4ISEd4zoqYwhoRKSkd3ndJ/gQHcBNqHmK3cBhqm9Tn6Av4Z1UUs+9b/psdd8XEPuSjTqrTvquJAJM50SXXwaL38KQ8cvNW814m2rCbMKCarMhbGv73JsaZe4PCdx1c2p5gKNchnv+SL5muCmzU1JZ/LZ7l5g5P7Wca5ufmAZ80w+XQiTXlUZ+n47VZHSS61PncuUy1Ek+g4CLalrtyKqmduBJVe8rtwwRqSWgaQ5Dt7zGcTCQL2DV097dvrGcYglk1S9K5nPPiR9k9rwi5JqZF4Xt5xtG3rMGtpklGX5mSFquRA3ssdBlAolqRUd87yPKC8f9Jdmxjajfatcce/JqITWcJfNmBBOcU91R9kbyIWoRcDq8WVmNyDPTxF8D2nPi3L2dS2EQeK8p6/F1E6O+HSkE0hTMJ4SS+9M5Gu3BYqoiuBlV+N/qh8IRvhdboR0yi/uKnYTFI7SYobKaes6rKjlBUe97DGzAZhw98qmYN/sF9EnMKRKJ+1QKRiQNlffNEgc1vXF9J4mumm92Q4tB86tJGoxfO/q9gXOA0p9nPSS1ILQ1k44j+W2rRkJrgZU9lhfg4nus1en/E2sOhNsdrzGosuYoC6tjJbyLsekYypgBuNV4c/SWSniSZwBV8GF8h+NgAiKkQZ6vBaEVxlj2WBMSWH70YS9tKrPw2p9Zn2BNioOfoKFXYDew8H2rimyrhDZB4fUpCXEz6Bz/V9SoBRnXa3V6z8KaeKqgZ4p5FaiMH1Kpcb+09rs5g8uo/27VWGce/k1KoJGe7smyqLlQoxx1pzfq1vtae9gpmQlG6J8HSPjJbmhl3lNkOsbLVBC0YAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_011uZxwABVLAmVETZ4ss7yHj",
+              "input": {
+                "invoice_id": "INV-2201"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1865,
+          "input_tokens": 4,
+          "output_tokens": 149
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e958b5f481e5ca25eb5f1a32ac88a7dfd4ce635d64573e1925128f505523965f",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSlgYKEAgTGAI4AUIIdGhpbmtpbmcSDAhS3Vq1WsttKbVEdhoMCejr51mKMSaf5LqwIjASNcooS+dGqce4WoGFAgl8jQw4V3oAYLmSw0MmRdIPNx9CxDxZkrmdX29nG6TQM5cqswWIq7ICYNNPmbIX5ILz2L8JVPg3OgJAYzFyr+5B9gmoEFf5S/NGfqA8NHqOZOWPbroi+keThdBAz3qjTfrYgPR6RFl2LX5skT9YK2Avm++1cOUaNTIl1zAAUDq0kXMw+ivyeA4+RRdUc2vmUfIWP29JAVEwSxUsuvV6EjNoHPdjOEIe/KK/ySlkS00Hj2APsO9TyL3U7KSNC1hURb7ItLEyG6RU43WvoQOz0i0g5dSXTrrOgi3LHBypgrbM9E44qlMUzsoyAd1284Zrx4juZVTz6HXVC3L+PPhkz/Nhrln9qwLTNQQh3hQxOOx4UvV38kssKveghBHnnIsGHY6ggfaRZbJM48f6Sj021WIp95QsLHlUgIDotpS13xokoetbdN7sSUcI0YlMnh9O5EOCNjSSLF1WuPRgjWDwj0opf96NJ5fHjID4Ge8yQf4NgMDg6TkbpsMNiW/cWE/auQhh7aZKLgn6GaB4Vb6EoCr+QW1ELHZc2xPxAR9jKa8jwMvLHOn/X31db6aM/eXBk5V6dZ87j/zpy+sOOyL+wW+1RJyxgx9EAudX+Z4UwWjkBxLKs5y8MBak5XhsQxSwsAOo0KdN45wdFoEvWJsHc3VbbvK59qd8K+i1IkMua+FKba0gfiAIOYicIQk7ww/4SeKixQoIjj7OBi9XBpNY8D7Ze8Y3qrbPvnqH5eFtxjxKj2mvINSFaybsFz9vTiB0EYdfRv9Wx1a/Owg4OkTRcxwF8DAoVfQrIOq6Eh7QqjyPvvXv34uKRWYKB+S2FF/tCRpVKsIZXIbFswzPIBkJJnKnrduG15z1KIypfkxEsK+S4LBjLZpF8/sGOjb5hsBEjpMCSEnqZpiSUyTpq3MJcPnhnGiKL5L+cGNClBL+bRXLJq2i17koIve/nBTvdNTBQ4nvReZaTjfqGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01WBs26cJDyXscyrm1AWmkzi",
+              "input": {
+                "invoice_id": "INV-2201",
+                "item": "Extra storage, 50 GB",
+                "quantity": 2
+              },
+              "name": "quote_refund",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 300,
+          "cache_read_input_tokens": 1865,
+          "input_tokens": 2,
+          "output_tokens": 168
+        }
+      }
+    },
+    {
+      "request_fingerprint": "681f1e591ec0cf0acc67e0ebf8b4c45ea5b67fde15e95254cc3dc11f648a2306",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01MkJMdUsgPc1esk3w454Xt8",
+              "input": {
+                "amount_cents": 767,
+                "invoice_id": "INV-2201",
+                "reason": "Customer cancelled two Extra storage, 50 GB add-ons; the refund is the unused-days amount quoted from account records (cancelled 2026-10-17, 14 days left of 31)."
+              },
+              "name": "request_refund",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01TFyoTBj5xnme5qVkPwpJh8",
+              "input": {
+                "customer_id": "CUS-104",
+                "summary": "Customer says both Extra storage, 50 GB add-ons on INV-2201 were cancelled on 1 October 2026. Account records show cancellation on 2026-10-17, so the quoted refund is $7.67 (14 of 31 days). If the 1 October date is correct, the refund would be larger (about 30 of 31 days). Please verify the cancellation date."
+              },
+              "name": "open_ticket",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 257,
+          "cache_read_input_tokens": 2165,
+          "input_tokens": 2,
+          "output_tokens": 827
+        }
+      }
+    },
+    {
+      "request_fingerprint": "904fa2514d3ca0d2f22ac7ed892f2e847fc292f308189d25c4eb4f1c2e99f23d",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01Hve3BYcRcvUZ2RxQ8qKUDW",
+              "input": {
+                "message": "Our records show both storage add-ons on INV-2201 were cancelled on 17 October, not 1 October, so the unused-days refund is $7.67. I've sent that refund request to our billing team (RQ-1) and opened ticket TCK-2 so they can check the cancellation date you gave; nothing is refunded until a team member confirms."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 923,
+          "cache_read_input_tokens": 2422,
+          "input_tokens": 2,
+          "output_tokens": 157
+        }
+      }
+    },
+    {
+      "request_fingerprint": "d7e4cc4158b97acb540ae4049aa700e66d6bbd3a27ea595ba8f1303e4d36d9b3",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 9
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I've sent the $7.67 refund request for the two storage add-ons on INV-2201 to our billing team (RQ-1). Our records show a 17 October cancellation, not 1 October, so I also opened ticket TCK-2 for them to check the date. Nothing is refunded until a team member confirms.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 172,
+          "cache_read_input_tokens": 3345,
+          "input_tokens": 2,
+          "output_tokens": 100
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b4c2df96f596385b38c4218724e8b938b2ed1679347b879f8d41113970a2def4",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "ge: Hi, this is Orion Bakery. We cancelled both storage add-ons on 1 October. Please refund the unused days on INV-2201.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS9wUKEAgTGAI4AUIIdGhpbmtpbmcSDJRkauIUcKM+IaMHUxoMDs5qnXTmlqzLnlKIIjBqeD5Hd4KWPowK8iiwq+qlQ7HRI/xN1BI6FwG3kI0z2s8nwms/+9pYwd/YQIAWX1MqlAUluH1MrKHd6mYe0u5YiifDm3n1qRKr+LhTcR+iXNQQ+z9ie3a1qpj7aNfjrpQ24ikvruvMZ2E1a/j3DHenOdjqQENC0JarveW4XRITTT342cykk/3JS+X5J4gU7wHz1tT8CfjK5ctiXVipVeqCCq/EmekI2u5Wm71Ied8HkDIKXlK4krX23+FkMM1C631yqZ7dPUUc6b/3PZ37yfvXUB0zFSgjz8dq71RQGzh49HpuC9Fjbn1ibqFnESdwowv8yc9e+p9ZmRSze7IV7dWDOaAOEc3jFSOQvswCmKUpsK7K+6CiyO+Jh2rOJCe898dPhY4sirjaunnGABh1wAeS6jtEBJfIegwt4UCz8ElLuJZQlMPxmmVvopeBHFt3XfOTk+PnHZpXZVRI3igf5hD15Ihat3AoTc3UtbTNHk2O2mw/fufxMxhcyfu6RI2LYD8ldlOBgQHDEvNcsUCZf3g7W3/mY4wgWyTZWs2WxvF4K54UqtntBxgWdX3bANNiAJnZx0fRarTXfDLzyiKTzEOxFP47GXNvm4J5Z35YD4kTsmLDMLPdaVxwIlELOPvKHvoUv1pj7It3LgiIEwaSEr715TKh04eVXO8FpBq2iJWGUx2USS8+hKI8cw4InDDno+5E7Vmy1XBJSspNhTmYHVmNSCHsAss5V8nJ/FqzkAWkGYJQTKSYNSHAZsxlStGxrE1WCXFHeiAqZQes0+jSpteKOKE1xOJpbY32pV+pibs23df2q9VVSxcit/3hMgWEV4PANTlHjALU/uWOVYxJ4kZK6daRC/TO7qMc/n+9SI9WP5x+mnpOiNVoORMVXUjXjJQlenaWQ5YOHY2DzV1Uf8Imvz4B4OIUE874Q+CmOjXPFFbENh8Jy+MYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_018D4dFy2tR6gwZaHcBk3J5e",
+              "input": {
+                "invoice_id": "INV-2201"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1865,
+          "input_tokens": 4,
+          "output_tokens": 111
+        }
+      }
+    },
+    {
+      "request_fingerprint": "fc7600f0ff04c159f65c6ea0f67053865bee4992725adea15747789efebea0c2",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSzAYKEAgTGAI4AUIIdGhpbmtpbmcSDLPM6kU1OIhMoZIw2xoMd87X/pEbr7bY95vPIjD9U4J84srm95qGt0Ykua0uIXYzhaTwDOjhMmYaiEqSBoDkuPp9myn6Xpmbf+/3498q6QXS1u8tz538fD6oW7seW3FoI0Uj7yaG1ywlMYfEHUBnGxeJqLeyfZcR1PO6Evb/2GXEYCRUZnL7BKLjOAhBdg69AlY1tdqyeUjw9/l0c3bed1rNTqenKzwwGzB1yjrjS9p+S7Vg6/9QpkMPLqYsWfTuI39EsldkqNOJwKI7GPpR0NI2iUec8Wh8SCvzuY76bniBQ04XOceqd1Nr6wbmURx3ituRVjBO1NQVn2fuwD7TurVrX/A8U+LE/rRNkYCJ/jH0Jk8cIWdD/eLMQdmUIMzXViNrIWnyfYWBgpIo56vjM6XVevLtOVzl6DohEtSh9CN/DRqTyJ8L9Mq9g65g6Hw1X+vDwJI3l05N7F7d32nyy9l9WGb6h3AT7GYFS8ADUhBPFnmIsXJWS6cEMY9kNQCiTq5zNaJllv5T0ZR1NreHtw2GgRnR1iwHMinbHEhg/MJzgUC8ccwndKbRfcWEUb3EK8cSFi7HoRCNxFFQHqJfaP23i6aTT8DOSPD+3XS5aGK9l9W9WYgRse3Pd0HDSf6TTvShFqlF3V0K4u97p3eqTrHuVq1eDFaLK3C0kCDrwMl6ywAiEpAd3WnL2SZArNpvm30V3hQ034U8CQXEz30Nvl05IW7C2vekAr/SKTWFHWJwXnQoDTmR0iIyf9IIPy8n6VKLt6yEKy2SGclE4RAZLkh1RN4SFhn5y2HnJwuGg5Kmq3Y1kHHLHDCOWgiTldENN7i7f8sfAQgVTXBZSJIepEbTFaBRpKV2/MqQ3VNtwM9IECwgk8kyOETHuwS0vEkwzJ5vfSjpux4krQ69wjf1vvkXK3TUiNntC/f35VVqvK6g+q3uAxdi1u9zK/pHSsUCqmowmjjwhCRM2GFNzwvsNWrq0hCkxWWPNJPmo3b345oSHqzNF8Mj8hOKZgaVQ+G9kVwYRwTMnEAwUqrWWdeoGcbO4W65+ir4H32cQ0kaIT/UIVXzMniowoHXPihLArUU5HVxO/lvpG07GAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01EXHUajvWBBfQDcY28YzkNk",
+              "input": {
+                "invoice_id": "INV-2201",
+                "item": "Extra storage, 50 GB",
+                "quantity": 2
+              },
+              "name": "quote_refund",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 262,
+          "cache_read_input_tokens": 1865,
+          "input_tokens": 2,
+          "output_tokens": 178
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a5a0a1254bebc61a194238fc0e9e3be29e9f67571bb5858ad6c1a211edb90ed4",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01AxuVEL7Xuz2R6AK6cu6YCS",
+              "input": {
+                "amount_cents": 767,
+                "invoice_id": "INV-2201",
+                "reason": "Customer cancelled two Extra storage, 50 GB add-ons; refund of unused days calculated by the billing system from the account's recorded cancellation date of 2026-10-17 (14 days left of 31)."
+              },
+              "name": "request_refund",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01KYXK1yD8SzHkQ3KeZtarse",
+              "input": {
+                "customer_id": "CUS-104",
+                "summary": "Customer says both Extra storage, 50 GB add-ons on INV-2201 were cancelled on 2026-10-01, but account records show cancellation on 2026-10-17. Refund of $7.67 (14 of 31 days) was requested per records. Please verify the cancellation date and adjust the refund if the customer's date is correct."
+              },
+              "name": "open_ticket",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 267,
+          "cache_read_input_tokens": 2127,
+          "input_tokens": 2,
+          "output_tokens": 857
+        }
+      }
+    },
+    {
+      "request_fingerprint": "337ac9710f497b3c38a79916d76cd44b4d1123c104f631065031c399d4fd9b6d",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_0185jrUGMsKqKBXz5Yf5jBU7",
+              "input": {
+                "message": "Our records show the storage add-ons were cancelled on 17 October, not 1 October, so the refund for the 14 unused days is $7.67; I've requested that refund (RQ-1), which a billing team member will confirm, usually within one working day. I've also opened ticket TCK-2 so the team can check the cancellation date with you, and the refund can be adjusted if 1 October is correct."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 953,
+          "cache_read_input_tokens": 2394,
+          "input_tokens": 2,
+          "output_tokens": 172
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7752f353ae7fc5c92ddb0c8ddcce60f7b5eb1b11e64194a5e863174ece5d0c1d",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 9
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I sent the reply. Our records show the storage add-ons were cancelled on 17 October, so I requested a $7.67 refund (RQ-1) for the 14 unused days. I also opened ticket TCK-2 so billing can check your 1 October date.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 187,
+          "cache_read_input_tokens": 3347,
+          "input_tokens": 2,
+          "output_tokens": 84
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b4c2df96f596385b38c4218724e8b938b2ed1679347b879f8d41113970a2def4",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "ge: Hi, this is Orion Bakery. We cancelled both storage add-ons on 1 October. Please refund the unused days on INV-2201.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShQYKEAgTGAI4AUIIdGhpbmtpbmcSDF/fguwTWNrovSBgRBoMG0bOmYyySvOoRQ8mIjBwkkEFy2f6EG0XSTtlTg2YTw4p/n6eBC8CR7pPAE0dwytP0UFAIy6jyihFJbBg0icqogXfJA4iH7YPHQFZvzPSa+yJzdlZKBvgm761d82z4n+hcxER9v7rV0cMn11TPDfE7/G+d6qo/l9OkqRWIAuN3xIOk7fUsdoeVwetHpBMDj+jJdAHbMMVclW3bocbTLGUy82SxwNXQEjUcqr0DfY/0o/2YS/8PzhtJrM6++AMy9wregc7/WR8OVjTPiLyZY0CbZ5vSG02bvshq5XVckDcCyVKRd95uKTD3+OLWqYDV9OwJdS2q2sghMcU+azcjqmstL3hhVeQb2ffbiojTy2rCoRmgg6vsBJtXGhC98RkozFZ5CS4WzrkkIKMbznLofKIwCxIqH8TgEwxUxhh1mIVMDbJOXwbbQ3EkLgKdVMDTJwGPD5iJRUPvfeTpoVZFLC38AAyJOU+5VyLVi7X6xE7mztTZxhq8guS6guRfpw3EF6CGnxbIWLUeysfo3AthS41W7HQfDLqnQpLACWJtnT6tMIsrUzz7nKNuknJ9lJzl8nLXke392T86nc5lwoo2nas2ZYbKZ5ZFo2PMvAkYW6HFGyqTTlTU1Pw1tWIg9ofdwyA1FbnT3O5zcnak71a19SGz67+cuqwVER6o21lW6QNgIkSuoEJtPvrizm0QIdngtU4EyUiTJdg6xFzB1NxGTLOtpRCIxS+1awoJKwy3eA4JHV8iFIWc7valGmtTc85NYeMFIjTuobMk2Ipullhu0CIZYbUmRT2xEOUbqTbOiCP7pqVJOZSWW1PKdWrBSztuHwW96yefcB0S+CKPTO1aoJ0qfwz4yT6ogpreKXZgFjNJIx/jtIOvC2fJcJGvAL58AnXD6IVv5OPWmDJftbHfsyk1DUjLajs2vJUbhS9GIkfnpeNcQwn+Mesrsq+qQFGM3jgXV8AwyLzuyXEg6WnoWX4S1sYlRgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01Xxy4Zhn1HMUXJySLnUneF3",
+              "input": {
+                "invoice_id": "INV-2201"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1865,
+          "input_tokens": 4,
+          "output_tokens": 119
+        }
+      }
+    },
+    {
+      "request_fingerprint": "51ce0e93a8408679960b62c7c6ef70eddf65a73ab02602dcea78bd867b31b505",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSuAYKEAgTGAI4AUIIdGhpbmtpbmcSDK2xQJncdbuhIbSFoBoMWY+9R/FUkUDYVqNDIjDgD2Bukust1lKhJ/mOIsrhqMmx0WezrYskOFWCKvYlLt+tvsvbQCyV6uSl1wy83h0q1QXVBowrwDZYKJdlUzOt/uphQaNmqbqeaoUazI6BHxyxLqAAualtB5ifnbAIAOQdLmcGLOMSPuB+0yNxKgJdp8gESKcjD/yQ220AezaAO7frfOuwe0sOBN2dfdE56nxHpYmfo/glp1SrX6CTMc+GsnxD9xEUdRdupAr4LCXWXoz3ieuPksjGYnhWtScSK4tAJ4S1nxqiH9aUwVMK8/yw8Qcx9yIJIgh/s3/OSJUMWPUfT2C8ABtxIHZztyGk/E0k6TU8XX10PbRVBHZpxGETW4AtHP4Kh3JkeFz1aPH5mQYGppTWgcq23C9kfEIJWbnJjzPn0tRDHbNu7nAGSlcS2A9QWBfoIhVqUabm7HnQluOatmSjIMJWdAvyaLXjUqSxRy2l2jwWQkque3yMLOgJnFkDwaJOI+7wN0548QISEWT9Gah2He+EBuRCmBlQlF120OmLBw4WIn27F8I6sKbCfe1p24EWpYbHNT/NoKbcHYEA5ghoN9fSwKgweG0C1XbziwNf7XkM9qHUvBpUFSGMlkAfuN+pn7aLrXY1KHVT+F3f20H2IvmXxYhFvdTivgKPF/C7JmFqgplWORfh7U7kLoptxd5RuQ4bGyxPCqpS3ZH9d6Mocte3V004EEe7nCOmUu/Jc5mtVDaUzbcMv0J92OjblLMYg8eU4S5YU1aVBvPL62ln1R9YpYaI9UjswlHETJTDPk2RkAV5pppNpgkL9FYVEcGsO2W/mfo2XajIj7GaaI6uPRqa8U3mQAbfkxMh1Sx0KVDlPc5ShHUakFlwVDhzHvlGPsb4HsbtGALwAHoaX+0NwjlAULB5qG7Q+MZVpTGFEkEsxiBkG5+DhCxeHvt6gzw2jFmWKKa788nIX4YuucFO4DQ0NTdt5F/pa+zCruKODPlmHLupD+XbbqbxgcuTb9uU3MzDl6PnXKwoCWl05VXc2ZsfA2S8UamT+ERPHTtHo8jIexgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01XEZF2ceJ9dFWkkDA3kw5AT",
+              "input": {
+                "invoice_id": "INV-2201",
+                "item": "Extra storage, 50 GB",
+                "quantity": 2
+              },
+              "name": "quote_refund",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 270,
+          "cache_read_input_tokens": 1865,
+          "input_tokens": 2,
+          "output_tokens": 170
+        }
+      }
+    },
+    {
+      "request_fingerprint": "c293a5cc96e5677e4ce2f5eca141b44439522024032def52fec3ab38e4a4601c",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "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",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01NXw4j5bMrRU1c4fiaziki7",
+              "input": {
+                "amount_cents": 767,
+                "invoice_id": "INV-2201",
+                "reason": "Customer cancelled 2 Extra storage, 50 GB add-ons; the quoted pro-rata refund for 14 unused days is $7.67 based on the account's cancellation date of 2026-10-17. Customer says they cancelled on 1 October, so the billing team should confirm the cancellation date."
+              },
+              "name": "request_refund",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 259,
+          "cache_read_input_tokens": 2135,
+          "input_tokens": 2,
+          "output_tokens": 568
+        }
+      }
+    },
+    {
+      "request_fingerprint": "d7daf14f7b78426ac09be2a6d35af3a084c862feafef1b3867000315423eca3a",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_019cPD6g1Eq4x9D9DeZAGbwd",
+              "input": {
+                "message": "We've requested a refund of $7.67 for the unused days on the two 50 GB storage add-ons on INV-2201, which is the amount calculated from the cancellation date in our records (17 October 2026, not 1 October). A billing team member will confirm the request, usually within one working day, and will review the cancellation date if you believe it should be 1 October."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 596,
+          "cache_read_input_tokens": 2394,
+          "input_tokens": 2,
+          "output_tokens": 158
+        }
+      }
+    },
+    {
+      "request_fingerprint": "99aaf4795cf9e0ca61525576ef02307d8cafc73d3e0cf1b6d46eb203bc91d76f",
+      "request_summary": {
+        "chars": 134,
+        "last_message_end": "",
+        "messages": 9
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I've sent your reply. I requested a $7.67 refund on INV-2201 for the two 50 GB storage add-ons, based on the cancellation date in our records (17 October 2026), not the 1 October date you gave. A billing team member will confirm it, usually within one working day, and will check the cancellation date if you dispute it.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 173,
+          "cache_read_input_tokens": 2990,
+          "input_tokens": 2,
+          "output_tokens": 107
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3d20299c8d595ccb18571e46da803c2da2e084795876e22fd47a72f5badfab76",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "e: Hi, I keep the books for Orion Bakeries and for Orion Bakery. Please refund the duplicate October charge on INV-2207.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSrAYKEAgTGAI4AUIIdGhpbmtpbmcSDOXv7MtpTBByWU7Y9BoMJJMxTdKhrH7J6id6IjAmhmSZ2rwL0v4J8MJ8lp14pkfYlfDbmvVb6R2CJDM5A/KM35oS5P6a+98wfv8q13EqyQWHfjHcetglUHifz1W2snrKAd7Sw/et3xupxpScOz//dz0KJelvp9bpQn5IxRS0W5eDhe3EfsNaei9zdEv5aXnrw50mmcWlr1x4LUtEltLoC+Ki1Y2AJ1IjSYZ4EAWnUBzvQvkCPkeRHgZFi7v7+zxR6yGlcVhvxRYOcso6nKAQ16zcTHGSzEHQPaQz7/A3qseclLjmxC8JzRDvvAHy+FlDLAqKsANoKzkgfkdfbWUdx1eSngaKsg/VbuAIk9FFIRT1aMGoizFQVWeYwLshvn5IlHOoURk6ar+bDYLOF6d542AT2ISVaWDT2gn2g2MiMcYhU1JKLnOvcY1iT2cLEi1DZM5b8ZDIATHxCAFRPjRGKJ55mc8Crca0r6S3jLo1EkA6pegD9Jpt4XXXCxLQ8DuXJClhNFsVEhyH052AglLzGuylDXdXQO63TxEqx26taPujvNPmWrO5XjRxvZCKciwRURX4+L3Cvg+gfOnRs1WLY6OiTP8am43Z1vLbM4TnxWqPbFglO2F3lzxJ9ffg1UlRBM0CMf3CVvFZItuaj7+yEaFQtvprfIFdrxIQAJ1GxFgjnx8J6yvp5qlvlBu1A3BI4WWsXk13HyaqJRX3L7MKB0h4WntgUBnq4VcQymoKOHI102Is9LHjexflZG1YCOz6ruX516NXVys3yV0CLaVOZmt2spe4YnAaFsfZMRXl185sncXrXtJ8tcL7bDp+/9RMjx9DCrVlY8krcHmPxJxxE2AfBeqDkB9pC9Laa2DJWVAy/wNSSCdfDBlRAi+/0wnOG2tF70aOhM9onhryDXX0reJb2qLNST4625aFjDR5tVEKbzQTVCLoCjTljJ5oZtm1jiwhSM1585e0qvUsd5z/thrsq0x1P9nBmBskQcZxVVyy6HzL1fDpfPaLXvsQkL8NCLeoMr9QQc2uLQTJqoPocoNHK/qa63vexRgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_012EvYJnbHHWismYbzXPB5vo",
+              "input": {
+                "invoice_id": "INV-2207"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 1733,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 4,
+          "output_tokens": 144
+        }
+      }
+    },
+    {
+      "request_fingerprint": "4bb6ce1943b882b408e93cdc125f4e8e6d1a99c75a236e53bac0aef74ab73926",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSzwgKEAgTGAI4AUIIdGhpbmtpbmcSDN1aSoOqgoEJA91VCxoMg96klScRJy7ylyiMIjAWNEhS3pw5JnszkbUNOstJ7rRv1ZTYmmcGrRmYymoGcfJ+Um7lc9vZINrOulrP81Qq7Ac+xtS0a2DzI/0JtV1s+HuUpUg3m8sIZdSwEKXWXMW3ME90tcPj/zhaBJOuJv3QF+elguwaKNeMOIdoBekWBFJYso2rd/H8l0G8AvLAnWMDyuWo7iGm3gWPZABVl6ufzcxs7atjueJ8IbwW05NsETqpFNjMYvnXw6sSh8n88djOZqHtCG8pvA1bsSmKoswWeX6HMpuz34RQS9e6ol46XkHOcFUF5oUFMF3wbkA0/k9w2UJ54y3E6VEEYvSuI1ySKKsUKWR9eQQwxhWdV0zdlRhuaVAbZxk7QvkEMkZJKHEjJwQk3wfwNn8X68qecSTM0OBUvhkDRQZcJMQky/64tuO/Fg5QrzCSkRyD/re/5tlg7FLjx2WXSpgmpTA5RqdM2Mv5I7ogS7pkFzFjpxu6w80N+wNLkYH3Ms4B6ZYHEpBIZsa21DXZSXCBUM3V6syDlLmGrmKJ6dWMkdv4B+DDikNdRmimqWeGu5X9u2queWs2MOfJvQ79hqypZyJVR7F8j7RmBTPCENjSH0A+gyIAq/w8XbjjhuU5EFqWc5+ipzS3KpHMb+qvvsT+/Pji1olxSoImyQhTCieVqIQTJdk2SRwwojHBfP0768ysfS72nIFvjGhtDHJJMMToEAFw9ZjG8pQGGLWcDOx92q3OiVEWZTwrDwRgG6/T9aUFa6AzvMgiHemFLK1GysQTqruxqsEQE5/5PSi+KZeO86UNfMOknOx08CFtB3XjNBgc0xIWCHixSzfSmK6aGw/rveREyEec8KYN8UrSPHZp0/pDYQfnvQD81p3cFUSLXGy4x+GRFdRqsvWJy5BhnAHmdwgCGrimXUJfoKtocLMRYEZt5B8zybIjA2lMNQ+vA7EIfBWyuyXMT8hFzHGmyIYtzhnFvkK5br4s4F6ZsLmNvaQsIpby+PwQqOLWawE1/4Co+/kVXbagHrBfyyn13/bTuS8GaXzRY9X87vP4D2wVWF8IDqGMfGIeHgQtf32FHZyyj3UI8dPkgZ9He5dUYDiIRIzn7IKXr5mgXEq/KA7BmM1xDiWXpqThFxpYXX22Ck+acJMqmqoYgHcIhlXPR7sVZq3U8aZfnemTU21+VYGoSRFIJQcwT1q6OTJel1BQdOAuR967+in1dWUC659cucNdWL0qJyr4yMWVXK5uO25Ti5LWbByEsKX3alWXiU3bgv2qAwryyKaS3DWQCJhUK9TS7Puz1W3wnivb503kI65v1Idc/tWtPjoAjSgfbHFvDNAdk2xeJAuvlZIQBx4GAQix48fXo+3BP28rIqgJy2iwzC8irF6CgYeSuCDnSB4wLhoRbKF+ExCx2chhQhDK6++ILBKXbBgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01286La1XYiPxCYGc3Lwa2hN",
+              "input": {
+                "message": "Invoice INV-2207 is not on the Orion Bakeries account (CUS-131) you are signed in to, so I can't refund it from here. It belongs to the separate Orion Bakery account, and a refund for it has to be requested by someone signed in to that account."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 295,
+          "cache_read_input_tokens": 1733,
+          "input_tokens": 2,
+          "output_tokens": 288
+        }
+      }
+    },
+    {
+      "request_fingerprint": "cc94e8f7c96894125b1d9d07f8b0d622668f9fc11e296d30e9419a10ae895e66",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't refund INV-2207. It belongs to the separate Orion Bakery account, not Orion Bakeries (CUS-131), so I sent a reply saying that a refund for it has to be requested from that account.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 303,
+          "cache_read_input_tokens": 2028,
+          "input_tokens": 2,
+          "output_tokens": 72
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3d20299c8d595ccb18571e46da803c2da2e084795876e22fd47a72f5badfab76",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "e: Hi, I keep the books for Orion Bakeries and for Orion Bakery. Please refund the duplicate October charge on INV-2207.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS5AYKEAgTGAI4AUIIdGhpbmtpbmcSDDn9VkY2vIfTfRQhjRoMoQSa1XqJG3NGXkLHIjCeP88EdQwDRM2H+I8RBHeCBko/TOWQToq88DfB2JznKW+PHeCf61bwEuoWDiKI2oIqgQY5TJd1yyTOk4mL0/fh0H6e3zUW1skFiOgCzlTmG+8S7GnU9EVWTH00xYSBBIuP1FoDpTARKSBPihoFNYFBOzj9WIP5/0odi43bhfLJIGn3KRzM50MVON+yLVUuROUobL/xYf/zChSK2bHhZmgn0YZZLNmD/ZeJE0+x02/8uOQcCRS/gN+9nudnQX2hBG6s7o3wCl8XMPWQYrvf7bTDDbpM87+/blGfU8784u0pl8wMXPQX46/4p/LvMO3ES4yQZFuVBWbuj5n8kDiP0inpV/29pijPvx3rUmawc8yOD/d8TmTcvdg3a7LSXFH0kRStfTDuvUQ/g39QOa2DvkOVcCh+FfnK18kOagbP1i+6MepBOnV3cmFZviPaZ3/u1ggyrqiJFwglY3p9HfebkvZtj+07e+UocvbqVFVBLGtq5pYBj9lDiEd+qyb2MatDqiR2A5LN90lUiagk0ANTHd0W7s/Y1TJwpLQbMoVlyNAcOTxm2j5t9URbk55NEJqoTs7COBRgZWlTJU/v9wTLYuk42nR9FAyptzHOJVpXypx6+jXQa6qBZX6ft0LHdmqRtveizAI1OKee6RBfm/cc3m92VtaGHClvVhvVqnx/plXdnPu+4gpaCv4fV7NlXcreg7meHRLEVgTn6h3iRPQFC5juNnFbdvhXFw/KXtUuW6/zAnPQuE6uQSr+9A37N2VIaEV1dKnlGKfguRPQpiEkPgAvDeyOtTg0SqkWub1XeroFukL+8DH9kdpCU8LlZqyYoW18YukCdtA4WqBh7z8evb9Ddm0/pyV43ZHpEmHOr/ihGosjYUX0mSDRZhoUxWJmMEC1CK1PrFeYTlhjqnl3xDxir+MnGs6QGyTgTHoOC4/TwNmdTLU5d5O6iE/a0JUjjdGDTYeo+dF4o+61+bykr4g1m0ObddKZTI+Fn0BIVUVityJBZisrQok05o361I+WL7GhZcDuKTkKo5TItplky9+oTH4y3gCYdy1ws5ZO/VQMqpFYcycS5QWrUJHayA+niYkoEMR+GAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01NY2AQid21fm37cAKbrQoBT",
+              "input": {
+                "invoice_id": "INV-2207"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01FwzX6nKVSowouLaebFuFeF",
+              "input": {
+                "name": "orion"
+              },
+              "name": "find_customers",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1733,
+          "input_tokens": 4,
+          "output_tokens": 208
+        }
+      }
+    },
+    {
+      "request_fingerprint": "676698ce27dcb387d56b94d72a4d82fd02af4fd38f299f61a2f90f94f4b64857",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSsggKEAgTGAI4AUIIdGhpbmtpbmcSDBBasn6HAF2BmhD+1xoMUdFBrN5JUvh2geP4IjDvcWIlB3Mvhurt9ecOQ7H/41SeeEBG3S4UDFBBY95w74oNnw+1wZQ2aVO8v3MsAb0qzwc9DNEuZj5lS3tV2KAT2LMNJX+dy0Xy7xRA9DA68q4uS+cxGDZSqi0AWKcJCIvouvL6xUUrUSskuVZ7kxYoKkRHxaHFzKJMzDqgpeiCci3Zhtz8yvAF6yNqIerotlFv7u54BPI2BAstyDxrl7t9BefuTX0tS1Cl5Qmu4thhy+/aSAMbD5vZHF7izlXmg3+ppFhdCHZuWggCEVHIJaAtgPdyIf+XLAIQceVDeHNA6poxwYo9OHEDBMOi02ZhsuQ87ihoCFNbw0S5Jjp26OGQSruR/YwCBMj1lGbgbEr6nRj8EV42qP5iOQN/WY14wP8q11ICkmit1FEvbn/E7Q9fKncp4DKxTAexY8rnYmZEodfnzlS3Ugj8BzDZG7lwaBXJcsw7uNZ/V7Cg8CUsMGUPtmOPhwHlIqUcmtboB53rBmcCo/ziKN+49ABD60QGX5M1ubfWxVpjZLHoxKuIrH6nDKRsuvw5qBl4q23r8y2L3W0YmfsmZ7R7MYu41WjwVTAipyFJ9IarMvOBz4J31XHpuQNcgAWIR2Rm9ryoduZyLGGPMcbM099zA0uwnHu1wSOyUaskYY6KkF4mr3E5RLc17+HE/qDWFzDXVUHBOVI/ymkMTtzri1mi3g9FbvM1dDQTfOzS9osDPXt30z0Pb89DT4NiO2aqSUe3FKxAhTsqheS876N1Th7ijC5nmiWoy+th3u/lBaoqM7lk8rIH+D5cvG8r91L+Ok2dPhuEnl3aWvsaKdLlsJ9uW6ruSlv5aGmx0kyi/KRNtBOeVM7r8bM1tsNOoFGlkLYHYZ5YKzkfIF46o24XN+zf7tUMYhd0SvJyNtiCTwBtSZGbHiBXdKof3BTzUr9KHJCkIuo+Y5nJB2F5+OZ/IX9ZuxVQmlq+i/8SWTEaLkvIbczfU3oqWUjNb7xkExyi5xQyKVZK1Hg5xuoFSHuwAKPDAzV3oWLlUilf7udv1UtutE1eBlzp0h2WFodDS1cQX3wlMgtXpEZT9LIy9Wvi8Ejnc+lVEg+GH3uylIgM4GYQAN8zmpZ1UQZ6vOhKkQT7/rH3Bb9nSZ4BMNfjqkx5UhInvYoO9pFhTXufaAMZZ2HVoLK8JzdaVcb9NJ8iYwrO40d1XFAwCZmAUlelgNTWkOul+dRwEJt7ldPKg2YWVT31gQr3T5sp+Bro9dkwAuJ+ZwnL0b9Qs/QWhV5eNVHvPIpgR50lUYm8YEEEe2GnViyMwywgCwVGrbPDR6Z5Ksa2Nnq0gH5/AQ78L4lxOJbh677DFuNRAXXubSPVj2adeOwDsn2j+F1erpQKCMMYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01NsxZjQFvgK3cBegUQf59ei",
+              "input": {
+                "message": "Invoice INV-2207 is on the Orion Bakery account (CUS-104), not on your Orion Bakeries account (CUS-131), so I can't refund it from this account. Please sign in to the Orion Bakery account, or have someone on that account contact us, to request the refund for that invoice."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 471,
+          "cache_read_input_tokens": 1733,
+          "input_tokens": 2,
+          "output_tokens": 290
+        }
+      }
+    },
+    {
+      "request_fingerprint": "990fb9ab6978134f07c6de1251353aa097d743d69307756f44fc584676a0a60f",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I've sent you a reply explaining that INV-2207 belongs to the Orion Bakery account (CUS-104), not your Orion Bakeries account (CUS-131). I didn't refund anything, because I can only act on invoices for the account you're signed in to.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 305,
+          "cache_read_input_tokens": 2204,
+          "input_tokens": 2,
+          "output_tokens": 86
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3d20299c8d595ccb18571e46da803c2da2e084795876e22fd47a72f5badfab76",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "e: Hi, I keep the books for Orion Bakeries and for Orion Bakery. Please refund the duplicate October charge on INV-2207.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSogYKEAgTGAI4AUIIdGhpbmtpbmcSDJkRLBkU5A/h5eUrAxoMmnXfAT7U4RIYcI4VIjAHBahR/lnZXt1xltmW9DYKJUm/kwcQypyd8sjjtkMNt5qkr7/5irKCJPmhuOZN/SoqvwVOlvBAKjBsVNbSg6gHYLUCHTU+6YoJv9MblDoQ4S0rXr+lXoZ8ZAegFVIBIi2ixuioH6jYScaiJ/nnuXqpjr9po1wASXVoyGYryiHiXa2g0fQ+9hrQuMkdfvYERGtsNl1pBXi+HzVqFzu6q1xfaC4d+et4OLA/lrO68zBNANYs3peyMPdaeVWb398yE2FUZn9HJ26+yWHOydTSf+TahEfS/z9ml7DmyDgccZ1uQam4u/ET7Z94wlKSeRrlNBRLwasO2bH5X/QC0iSXGz6owJZ0nx+HnajwnO/hhkYhzXhttRHmyWRotMa0UAqzIN4yQp5tIUWyKMmhTOmFXK+HEPY5+lJuhfKnK8Yle9SLkB46UJDY3nf372KoooqdPqum9RWcYgIgXA/ySNR9i9/qt9z5t4UIfTsugLo/lcZnWzV1j9voyDdz+WICzc8VWkU+8Mxa/+Ep3ja+r4v9oDKDL6yVQJDTAFSOdPCesLOsGwz+W6YrofBg3mcoxD9HsiXxTEKhiM11BDEkLdWiWYiGMcavqBGTY4eXcjdbkFwUyp521ALpy3itOH7D8bxn6cIX0iDmqPyNJqJiO9fQOZrKzUXeS0aGmgI5LGgmuo+PN5605uQOgSyVP6oqWdfZAMag66baNwTPKxxOAaJQkHFIEERiNdjKKkF/o+0s48pch/xLE0dTNZVk4fIFGOHjt+o5+m/XzLWChnajjjHgRegOgzpYWuIdW6YGt61OLf1CCWb0o58T57su57PgcmHPWU7sqF3CMA0a8/RfEyRgEWdtsny4KPbPrjFVa/0GsoddyoZ4lySdF71MZJMD6FDyTvXV72m6OPbbGkw50+7EsZhgy9myhaOn/kgSk16BQIu6lxvvXhlvz4wQcxQ2SWGsoMxEqqP/dEmqnITfxyzQIqDkgbjjDG38w9ZJzCvZoZESICN8GAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01WN5nEe1b3J4k6JxT8APcyL",
+              "input": {
+                "invoice_id": "INV-2207"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1733,
+          "input_tokens": 4,
+          "output_tokens": 149
+        }
+      }
+    },
+    {
+      "request_fingerprint": "423e6cf838dbadf6590999030cb009ed15417d7f8fbe9d7dd4e0ace600e101ed",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShgcKEAgTGAI4AUIIdGhpbmtpbmcSDEdWmtWw/Nrb1W1s7BoMN8Ay23uwOEy6jum7IjD6yWOjvybjWGXyBPw+JfwFiJiQwf/cnBN+okSlnygA7MPKS6PUQXYtBU6pzxTXP9kqowbNTnEaKF4v+47Mdd8Wg81+s0XPLXJeJuduYD0Xv4NZkwx8bfnKcEGSSfXpBHJy4RTOSC9H4uF+KkGJCMkxh1oWpnEZhuHpAmqDIjQ2OPADX+jI9eK8WPeAVN75aGaSHYXbVSmOtb2VWU0P9RydEO+MjbMh10RtDfsRYFc6hGzcCqmLz60+Y8j8e+oAZ2fRd5Dy8OcwpSsQSJ8/qexS3RT1lDRFxxRg+dbgwxkc+Lchfh+iPN/6nFjlPT0/pc5XbIm0GEMEZUf6VoSJYQpy0zvNChXfza0FAlREEJwROcp/cZckawSak0SHPij/ym2cuxQKRlyuZUIgADzL9hK6Gjb8F7u3uWdwkdF8ayyG8h8bSEG3rjj27268v+haL3R7s/vuueFBZ9E6CqIdm1W7CMqRM0ARz6ccgD/5s4zza+uk/Ggb51z+jRNpN+xozzajU/fVak27DdGVAPUomjxhMRVNEzqaeTFQK8v4zeLR0y/75OVHq7jIRiIsJxM8NFmmJ3SzjkDOIErnh3jPMLE2q31bt5HZw+wLyGbp4mSXgxJrbxVqy/PJemgon/QKJL5I+3ksC7h/oIs2XCtcAZpa7EWXNEnIvljfSuJLxxqUCQOluFkYybQxRrVrHLXEkCO+7BvvNHj20G4YYk8JkZnLIvx+Ss2Nr/D8wRoHxuAmwf9sSILwTY9bi1tVwH2f2FhH6t2NP/YXhXPAB1tYhDyb33syJOAFLLHvca7rTlpmS/tGDSU+mRDFDLlQ0cUUVYTJff0Fkw6Rj9pb85bmLiqzCeJFhvOhY4wkonQlReEQL6+5BFHQ899AnwocOmqQA1TIELUoI5YtF17TkT4dma3A35DZBmGE/IJ7EKsguhjlgHTkfEA8WvTJ3ekifWQ5Kf4S8Qo6KL6zq71P95nwt5FavtXBINGDYwgOg8B2Ab9fbhyI92AbLt4pOVSKfVN+Pus91aJgJKI5RplyzrHwhjG/k5Xt5qOuVWaIeCDSdPo07IwIgjjApa9eINhW34RF+2GRlfoNFMFOo67nFqoHVhACL4d+tSEJAQAYwDt899xhrMMGpr1yMhgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01HEjsokA5t2mBTGmDjBUBYR",
+              "input": {
+                "customer_id": "CUS-131",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 300,
+          "cache_read_input_tokens": 1733,
+          "input_tokens": 2,
+          "output_tokens": 177
+        }
+      }
+    },
+    {
+      "request_fingerprint": "61e59e6171fc34372bf88f2fd20758095ca1b2822de567e4d65450e4c98bb01c",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSuQoKEAgTGAI4AUIIdGhpbmtpbmcSDDsu6ec3Cc5gdlStqRoMtQHAwjNgLMEmoe1OIjDlDHmTAGRhBSGfGiAd/5mPCL69SgIVQl5sbp9wGoTGLVM2JHDCV10lqJfObO531zIq1gnNrzSuU9rMvB5GVbHFaXbORhFeHfT4n1bBWHhJTUeLqXLxWJoCdVHyVF6lHL9thrnNPbv89UK1JKomFuBi1ZDChULCAmdFv3ImovR8fvvgr2cfJMNU+beZUf4KqJdltTxxxkYIQP+3IcpbpUbMo9SOq5oT6w82DEQBuZrl7SrMDhcZtFHgDj18Wp5gl7SvvM5N9F6NqeAt7zCdxc/qW2gGxiAyjhfZ3zwPvoqNsJ0LioZLvaE49hVrIW6aydj/7+rn19uCEgSyx4aBzhmdqXLfHuaOogvFoM8Pw6FLTdZMRZquGthOcaXvyk3AO0IsKOoe59av/Cr3rpjbaOMUKhMXzJWYeNSiXFznKtfhzS83OI7XnEfih5yBD7M3i3HqIOb0DMZW5AykC7ilDpMwUiBoZT0FUbWKSqTZwDBBOFL0A/cyYVeCjgNtFdSxXXk59ks9AXhgWQDNRZ4vQg+eK5pC8XUndH/z8l3r0J5afmo/RAYCoZ6LNaocMdNFH7Fm9JXWgpC9Qqt1LNVsV/9oYpV/bHEom0phGYkGSjZEzMNzDT3Dke0+ZgxWc8RhSZ7rFF9VLSQ0eg8agoBFqEnGBfh/CmZHCkWmpTeYlO4G45d9nJ8jX4YIl6XGIFxCf2GXtL7mvKTgoGVIhgjzqv6sUWVkaFOoDvRaCiD52ZIEyelJHN1dmA2kdloSuhtLirnSM1CRUWlznfbaKqK9Wf3/GLRZFt6/KlkYFqpGJFDwKhdgSzR7ZdSkkUi5pkcO/MILpqodXyDB8C1ZcIcurZrONKCBhuDsQhkHIo1oadvrKocnwpSJs3nMaazDCDrC8rBZCAg3q2JrrVcWXoqK77MUp10529rLw4BOMMpDHfXSXFDd3x3YFIMYPAw2bS8nFw0wZXLehlhLBACSb6b+WEAb8hPJH4vo1ALRZjaDy/NYK6XKnjEQa5hA3skluZm7i4lP7gDRDAtl6JQbsgXCFF/4k7F/d5ESEeXDmomjFUxC+9vGkyNhJyYKB+a5GHneYygkaCKtfMAMx6lS6O9NBYBSHq5bHETsJ6QRVVWKXg4j+qgx6kS2YaT0I3NjoFMIiHpWGK2fFjs3ZonQxKIPPD1JEiD5fQfpChipjVKhJm87osOi0/ZSft63iSDOxWXbjD7TDiXJA2WaYPnkTuFNfB/nxWgj+eTJkBFv3cGElpzbT35zKFy9R3NzwExhaU20Q48tQq9tEwNXPrnWbluUTw1u3XMGa+fRPtl1yZGfQVfaOmUxzalelOMTo4/F2rwr2RmJxpf6oX4b0K1iN8byplokagBPL/L/pnrPaXTOhzGYGdeR3oPFnIIXf6xXs+NashuPOv4SG5gGPmAVlytm+iJ03u0ZVAZQV+pa0cLjaFpVXTbdJjFIhDRjpSHb8X09T00af5B4SOTdAjU3qRu3uRET3HChNFZ95oHyAtN7QyWASHagPDf6x3UuG/I8lO5zIXhM7YiNgcvkYETJY+TQU0wKcUPN9CQaIwrJ0SchkbrixGxLyTcglVBK4Z6YVPCOGe+D36Qf5WyldEqsoq1V5Fz0bJqObBd5LtNRx64ONUEz0VulOPyl/AHmiqweyhfd85zTJVLAIHymS0tE9iHOxJZD+5XhzbHyDPzR1fC1D6j35NWXFazJPfBQ9hgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01FRvyA5PJXi9WF8Av4c7TAG",
+              "input": {
+                "message": "INV-2207 belongs to a different account, Orion Bakery (CUS-104), so I can't refund it from the Orion Bakeries account (CUS-131). Your Orion Bakeries account has two identical October invoices, INV-2204 and INV-2212 (2 team seats at $25.00 each, $50.00 each), so please tell me which one you'd like reviewed as the duplicate, or contact billing about INV-2207 from the Orion Bakery account."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 403,
+          "cache_read_input_tokens": 2033,
+          "input_tokens": 2,
+          "output_tokens": 433
+        }
+      }
+    },
+    {
+      "request_fingerprint": "03b27264a5f7f5b5eff044f63eac00f8a1c98f1a67b9bc69b881365fa6c1b689",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't refund INV-2207 because it belongs to the Orion Bakery account (CUS-104), not Orion Bakeries (CUS-131). I sent you a reply pointing out that your account has two identical October invoices, INV-2204 and INV-2212, and asking which one to review, or to contact billing about INV-2207 from the Orion Bakery account.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 448,
+          "cache_read_input_tokens": 2436,
+          "input_tokens": 2,
+          "output_tokens": 121
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3d20299c8d595ccb18571e46da803c2da2e084795876e22fd47a72f5badfab76",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "e: Hi, I keep the books for Orion Bakeries and for Orion Bakery. Please refund the duplicate October charge on INV-2207.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSsgYKEAgTGAI4AUIIdGhpbmtpbmcSDEzMzfDTg3+oJuLKBxoMaas41l7ZORCvVmIVIjA9yl/t+hCiNDMEVWcNq6Qy68EUxih5QqDQq/hbn2+Uvhc71jrnN2FJZz6GCiB8QjYqzwVw5li3qQ0mlQVJaLKQCGZmWW39D3M9tCkH/JRBZv0CtKpQZrseG5LLr0CqQQfkCTlMESSXIZKrY4QFQgcT34eVTIfEs5bDQOcnTMh/fVkw5gARseS1DAEZRVNUHmvO/K5jGWM24/+FrLCSQ8GH6+KPzPJQVZp44K165ZtPV5CUPUQeERkOZmnl4aa+BRYR0YX7TIof47KT17SeMzLUd72TDKhCF7PyhD8zP46hTvS2NNMspPSlez3K3lu1ufze1JolH6DSerNnVGcvgbABRvPuVLApSZuSPJauuyFaxi9vbufkfLZWewS1jwOPa3l0jTDy9zZ8NBHSpotBYk/FbcOHAtNeA8jRWUJ0QTPZJT5cXlivN9fYf6JL4uSNaB/CQn8W0M7Yh7NZTTN6ihy25WA6rEw8N3K6m5flFUCd4gsdtyeyRpQZPVdW16kWAPcret0QR7VhBlCblsAkd69ScrPCmnRtZjV2aMf/XpNuHzCHiXzfRVcGf31lseCjb26QjgnFxU21o2cUk0wRcVZ4cNlVfVCrut7S4UFMOB0NKjTuRbNovxWglr6PHbKFhl3cVaOrYLacUYPdtmiufsmwpOMaqoZ/crHKLkGgY/9M9arEHYQvEQdaTyq7jKk2vQia9oOMtVYhYzqtMh7lIB3olyZVhYoiZdbBHL1qRccrb+ZgckJTu1pmLFWdZwqQ68kJp9ILL4v43a2MeBY9HKfnGGScsYgBhzrhYeZkbLzy/NQjvfK3kVoJZUSyEwU7kInPUV8huirT0HbQIg/YHl8Y2EayaHLykXVB1cr88EmUYMqpWFL+Xo9EKsIxy3cvBzznu5ZBsk8dnKEuDDjugWCw1S7q31K8XcrohInyzv+7560eEHRSFHOmnq8Ev0bJ5FasipYNWmUD31IqturQjNF296FxRv2X8UgdPIsGzXMqRrDvPUuOO/xNezKDR8awVJWm3hgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_014wLQrhLm3udoYnrPmQHhDs",
+              "input": {
+                "invoice_id": "INV-2207"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1733,
+          "input_tokens": 4,
+          "output_tokens": 149
+        }
+      }
+    },
+    {
+      "request_fingerprint": "bb40c59106f2f4898c0c260d28fe40b3ff65767d0fc2331d5fec859c4114c22d",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSkAcKEAgTGAI4AUIIdGhpbmtpbmcSDMgHT2Y3dTfXVlYZQxoMVHZI+M06tk7K/5rsIjAB6JV75xlxNmgvBVbpRcp/eJV3ILs+5hmORkl1279VRJhl2gLlIca36zRIOJpS1LQqrQbUAKu5txzKmzcXD4FGlcZAxrtQRBp/MMLgRF+c847ioQg0bW6GaDper+A5z9muBrVDhb6lOzPvyPMn3KjSJrtvjsyiqqZ1UhwdxZpZhPdUi1EJlaiNh2qytYSLMiZ5jkcCevDIzrHVWf8Oa4CU966XM0lfn9FCbhDoXZHgex+NMMGN240+mbHnwuDX+E1RGTLzX3mW3wLJFuXRTQQYe2fPHBt8Cc97UB/ng2S8i+y7y8oFpGKvBgDCGGNLkrx2k7tABEUHyRU3hjDEYsCvi5O5Uf3hw+/aTcSlJ+LRQ1aoX/j6VW1RmMF83ozf9x3ml9NYFVrHEJ+EXVgBARRRWZ6wxzzXNIC9eKPrkX5Sr0ThT2JZVC1mGsJx5Sji6TWSZ7TG320LXDnHv7rrzV1TrGYQ4J03d+gQZoZhGzqxLGx5OyPMpuC7M4CviuiMk+4YdLzouLyeh3oeagBiRbY3jhMk5a4UgH2NZjRDVCOayilpnwVUuU7cPYgWLxIlOAzfC/SkNCBXyPccarjb48gTWCs2IfsHeunV+wr1pQQ9xPxZp/ddb8zSbFvWzDTOTtEreiKofIbiU2M51qYGJrPAhGLcAZZVvIe3eklAVXZ5m5T6Vnnz4igc9PH2NdwTl8lmhAaQKJgf3DrX1kwFF+lMNPLP0b0Id8y3ndsNfUxLwYxmmggP+ay8CcNlWAra53P1tzbaA4bpCLoaMpmoYrT00an+SYalZZcKkL9Hrtq2//se56Tz+fkajbpTv5S9iqsEDHpAQlaKivIi/xZqt8RMvP8STetmJk3lkM4z3az4N4D/+pEMnuVw+KygBfojEmLAmUJGfGkooaRDsftuqTTTbjJl12cLIhnFcZcWZ3yGe2Qz1VCvT75V19DV7xVoy7Xquz5GC1Jhaocf5/qnL902cHbYkbBbXXVcztqilx4Lj/RRN1ccF381xVTrj3bEsx73jR+6ce9XjZt0fDKufCa0Pc70baGzoCs7sjo2zymS77yPIUD7R7UwjkdfpGhDRLzaXePHgHTr3drW1PRg5NobxLjN0WJdzwvulFGcFLUJYazdmHSyEGiVRWDVt5XGAaAYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01UazLHBHXHBsT8nBgcSpHa5",
+              "input": {
+                "customer_id": "CUS-131",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 300,
+          "cache_read_input_tokens": 1733,
+          "input_tokens": 2,
+          "output_tokens": 177
+        }
+      }
+    },
+    {
+      "request_fingerprint": "aac2414962d2f03ef286cdd5dc581a72d6d5171bbfa0063031e8f46bbd092e03",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSoAsKEAgTGAI4AUIIdGhpbmtpbmcSDDHE+ypZP2yRXGVzCBoMpMnTTLEXdSPvxqGSIjBkFxUqF6wv5T30o5uGoqgAfPdDScv33IYtO/ad8t/DZUc0mqQH4H3+vMfbf7qBYvoqvQrnJrMCfpQZS8KqZuMiOdvqHPh5kEB6ix0WCa+8gXXz3VRyxp6ryyXXBwuR7O19wK2e0xaFJqXn4ywIFjHR6qPTsw9IDtrh2taS+U2+9c0ThLS3swwOSp3/ki0H06egbEjfp233dwFWdJgLm+BihsRc9DXFETvlPU6xbDzTBeMFjWadpmmpaViO5Frsz2rSLPRUMQ29HMTGryLju8U13vyZ7qiBKZV8f0P3nic17lTVYmRkz4hW9uDiFCzECVYMZi+5PzBlYYp0TVfiE9ueHwBbWz0hYxTqgyvcpTKLolHHFnZznl7Mw0xRCp+ahvrvNF5pdFQ1UQlcaBz7fcVFC6v6ZXToeDwIkX0W65HGyzp68YJ5sQhHNL5bjc/tflIOfEn0ltZTLHk4Jg/nchNTZL8OjEA41LUa38LZ5/HsWObMRWtYl3uDrEAVktZeNwCVbleF69lQ2+78+jFpsSWRu2qHgPnoJDFKSI+MbBv/4iYNiDew/qhxr3z+lPjDxRZeYCg/UobaNQzsm9l3CnWvj6Gqr/NrYl4G0TjpepQuxDry4FeczbICfTLOI892uic7RHgeeQtKvxAhDk1FlPXP+CCN85z8ZlDB9Yz04vDa19Kh9mottBYmixEWk+0QwfYATprgVN7vgtpnQnyMmsJLTyOaW6unfYW9lQJXMZWjXk2qTzCPVZVTb5U2wnLZsymTKWkNvZDrOF8lV2+o/OiZv+RkdaVYJ7TeSLgIhUbP0vYGvuymthWZypgF1gy0GZjjMM2mjMxiT/av0sRVsGK0AJA6We81OZXOUvOGgDduLD+GQJmD9XVA3/gjK4d7z6Ul5pxfHI87n7k12m7GgVeq67axmsl3Uk1TKYa6LsQ+zZC2VrlkuH0wxbJ+HGptPqopcr6eIM2ouEWMesFUUTk5lmWV8xitjnN6dcyr2+qNIWdUrEDml982SuMvkJ+wXbV4oEm4Pvm4mCyoAiMqHd9vZOiMIVrvsU0J+E4rvcrZQEaBzCA946lX/iUPxNp+61m9Y3qnJfjjomf3O64ieIkRF2aMrX+vvFseJAMvYFnZyRuhVFG6Vo/qC/hbJ/BhGvVku9o91YACqXYI32ShxQEcSrh8yU6AQBExPNPlvIwD7Gf44XgKz7sNdOSlZPtaJUdPUET4bWQ2r+s5IIsVcgRjEU6ZT8FBFgnJjVx7gdnLplpHXEORP+nSKNIvDJ9ITb0Ns4VzTGTtX8vjwXb+ZzC90n8gTqYvdejLMdpZaM+4aRDd3UxoHGG3oSP8XzY7nGwoMooiqb7w5mhYYtuwixPeLwAwqdCRLtWSum/HjSlK8zM3tD4QVo+DmDTHicVfbHqUyD/r+NFTL4DzELXZ1x/+GJc25ZgmBtvqQ4YDJC2ODHws3ySKKSUpGWdJKLf/JAxoYgWRWAeB1MQX+RkozVg4qiKZAWzujSHlaPp+Ipk0WvxX07EGI4MOhqhvx9UoX6XthuUz6H8GYB4ET/HwJ7BMP8N669rhqEBN8UQW35F+6154koQHdRInOtpWqOcbVYvSVDijuQ7PMC2YAWeCZNDbyek57od2g/5PzGs38hy30ewvjcpVKPGscNXVI2V8GFlBwyYoEwDIPdkBcT9de5YUJPCAZL2oHAoP3BBGQdAGTi0X79tcUKqjia3TPw63MG2TcJqNKy35kS2MlhOqZDuEsxb2JMvzlenII8hjMLLjqBTsLg01chiXesTO7SgxYoqYz9f19S551ZpzQjkTC0Kd/OCUtfN2wZh1lwx4GMC+GeYAk7IANQCm13loKLlI0eMYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01VDedhhXCLYnDZejGhuVnsS",
+              "input": {
+                "message": "INV-2207 belongs to a different account, Orion Bakery (CUS-104), so I can't refund it from this Orion Bakeries (CUS-131) session. Your account has two identical October invoices dated 2026-10-01, INV-2204 and INV-2212, each for $50.00 (2 team seats), so please reply with which one you'd like refunded and I'll send that refund request to our billing team."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 403,
+          "cache_read_input_tokens": 2033,
+          "input_tokens": 2,
+          "output_tokens": 446
+        }
+      }
+    },
+    {
+      "request_fingerprint": "919435a8ae97465ef9248b420e72f660f620aee30bf588b761e7518dac3a99aa",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't refund INV-2207 because it belongs to Orion Bakery (CUS-104), not your Orion Bakeries account (CUS-131). I sent you a reply pointing out that your account has two identical $50.00 October invoices, INV-2204 and INV-2212, and asking which one to refund.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 461,
+          "cache_read_input_tokens": 2436,
+          "input_tokens": 2,
+          "output_tokens": 103
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3d20299c8d595ccb18571e46da803c2da2e084795876e22fd47a72f5badfab76",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "e: Hi, I keep the books for Orion Bakeries and for Orion Bakery. Please refund the duplicate October charge on INV-2207.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSjAYKEAgTGAI4AUIIdGhpbmtpbmcSDDj7AWBUBNOPEN1sChoMbLIcWpBqJQj5YnGmIjBVdKjm8vf01TEdP4BPyOCnIlrfdy28bBJ0y92+vlnCcJeVbfUAF/gWE7L3Q0vmQVwqqQUBWMol3VoinyUFno8zXJ7e9EEHvWjTHK3xC+qy17SzLPg95PlChvFsO8kgcvgKFH2GGlvdAuMFlg41BvGy5R+jJeTZ5F8U4zTrXFsohoYiCiYf7lGzobHYv53DL5agSpFl3RG72gvtRjUhLDg/+sgCQ2w3vVltw6HmrsNtbefkf6LGViiS7F2X0ST/5rwxwM2RmeYetaGuEFhU34QgWV6gTtDimb5pHSApmo0x9m+PqdAtkWt9yZ4vwViSfZ6uy7PDMIaRCpBuJW0p4o0qC9LOKHZ5+9yQ7WrWgKwwyy/e/rogv95V/GnhNrobiVeLTmqFrtGWW2YsYfgsPjdRC9vCZyU1xIFeUsaIDDXr2HNFedRVRk0zPv9zmm+xxaIhul8NjtUexH4ETZU4gIH4YuFFfHFe9sOqcszxa3zcECX2fk9t6UYtfjyZbPdvcJwB6BePEC+2hGRzBT/mNbdkghmA/F/Dw+8ENJLxh7UEygLkQPo8kNDUELYkhMkZi6+fXG00G8rs5ofKiLjapmU+ndxaXXkgt4cviZ51GPB500DrztXG3qXhHmhisG6oAp8P0asx8hyp3PTLADlkt7vjTUlWu2TMsSV5lhlQQR78suNELuKHP7Xnz9JCSJ0QoFetkGshNZOKZFEgmnq3vlF8GamDSbtXctVlIuFzDsMHWwlyICnVmNDXVKVb4Mq6590LuBPVS3QblOCSAkaekB8gNDopAWQHEyxv/pNxdWQY3X5KS8qb6AGXuoq/4FbBKbpy/UKgkgEiYVgA+kzDtGQtr9zkGy+fSwhw0SsYuZ/FBb+/lw0BZGxJCeyx4uqZzT8R7iC0W0erggpYczB7/PFIyiuu47r4j+/0LCCo+n8Jn3OyHKsvu/ccZhrTeXyjzgFbvSvJdfzxcr+wROQYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01KpqESBiHArLbvSXfjqLEw6",
+              "input": {
+                "invoice_id": "INV-2207"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_014wBjP2gtdN7RmoaE1Ys8Wq",
+              "input": {
+                "name": "Orion Bakery"
+              },
+              "name": "find_customers",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1733,
+          "input_tokens": 4,
+          "output_tokens": 188
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a8003f3e7e70ed3d1538ac4f7ab570d8e6170abd73aa73cf1d8b906f5b5ac6e7",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSpgkKEAgTGAI4AUIIdGhpbmtpbmcSDLMQXvuz+eoEPPcaiRoMG1MVmx04wghu1uOxIjAbaHN8o3ar6MB8NLTLeBLzMy9dRx5fTURoVYhf6OwDp2q61n3hJecJD4qF1+H6+qcqwwj302FNU+Dev4CS+E530Xg1Q4dfHXXkn/98topaptbM7Y1v7Jvb5oixbHKHNKTF7V1KCy+dPU+EW+aTk1gLTLIn+/cigJUntacJ0pcvHB0cS6KjW1o8mIZn5Fjg9K/ZSYLKUfNAiiTzxjwPpNoyQUOpJmWeqqCtbScNAKsUXDvqRIudluDhvGdbKoPuI4IOlbT3tsSkjOxGo3Nqt2xZwUwzJ1/FpFUcfFuc9qs2fxUv1YQy54pg+7Y3FToR3dlwZUvpYxfcpJ2y+5Gw8BSqG8zY6ItWzodVAHPBahqu8MYaIKXSM0QM1vAbxGJcgMZVG4mEiCktOtkBXQpY7bBjvyQqKRpOikjssNjZ8uwz2+zFgw858aQkvoi+JwxklENpfAJO9gIVJtG49DKprVYTKaBxzSqZQkq105yhySP+mJcw7MzOHI5z6eI0Nj+aRqN9YEAyPpe+patG80zTYpndqN5XqU8NbigCls3JtLpYVPlxEyC925ZNbN3WQQEF+u6W+bCnJGe/pV7VGhozawjgcxgGE4KyJoA3XquJ2hAlVLdS2SzDsmVj+iPbhvjD3tPu4sHAHiz/zuATuhdmsfL5o2iF0GPogghrrBP2J/jGVi5+SDhPMvJnSy5kerYuGBJ4Uv3loXnxwivx+GYo2Pu9+8rfDxYQswInXpQXtgZRfJUftTja+DuDE0oCh1AywMHUi4yd9wYloqUnTXo+1Fi/gg/atWLhheDxldm3GnbHv+1WYsq2dYzp10QR+DBx5AzHiffgaTIrwy1WOY0y2RgczFo12euC66kT1kDp5B+d1WFmSTrxAYjWRcspnMniEj5tRyAxAp4s3jWWziqWZkwzqbRJNbPMeNW2i2mVrn3aOUGjkpWKQ3azlZWB87d+BzZ0v5HnymW265PdkjAcADwhrY8LJdh/8k7V8Rm/15kdqQ1cv8LKCUslcirrKn3cnfisoHO8Rj6AsWALug1IgTDIgvd7ZVNkpoe0RQU4VlBbVXPXfOegAMSoURZ/bF6QZcNEyoK7mN+qyOxhJMtZjI1y20AIpgUgI76GHl3+F0as+gMrb2zFq0RowHMzzepo3nDdVGa8g+7u7dCBCrqvGaf+a0rm5Gv85fLIwvCzx4jsTqDamrc6BLlfQ9UH5OoI5+SextZIxOdViP68gjPrvJMA2/iv5VHlBo7OG2h826zmDWPEWCiHC57ULIgkUj4L2+7kqfOrVCaj5z4qpFxIYcMliXg4O7IpMZsG3JmkRt4wxmv7FU45no16ghnsdfWRYHbUibZqQB70oGsH8eKe1jLGRjh5gFqV6g7O7n1Nam0t7JqPf4XGkRS2qNYZ8Tvs1S/jfY72or6kgQn8xlyvDg4BM4Uu1m07Y6ca7URxzRRhS9lC7hzqjL7Zg6p5yFg1Q7XimbCSMh6DOUMhS9TzfrZNm/saWCHQ9eKbnoWx4KNDVeLCpRwM7xgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_0175MhyRvvtusEaCz33pz7JA",
+              "input": {
+                "customer_id": "CUS-131",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 422,
+          "cache_read_input_tokens": 1733,
+          "input_tokens": 2,
+          "output_tokens": 271
+        }
+      }
+    },
+    {
+      "request_fingerprint": "4573a76fd988bf55abc2ea620a1c5541dc47a7f1802e8135c5290e903237f772",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSpQkKEAgTGAI4AUIIdGhpbmtpbmcSDE6aBIjRmRcdj39DohoMftKUp3PBf1mVQDxsIjAqxmf3fVpo2o1bVRhGVkzcH2oIEO2G8W3qEDAFuA1shixfR3MXNR5eokK0Hs3Z6NIqwgj67yN52qkEvn8OXxuILgYDHM44CGWalvy4G8XSL3PYLWeD7Bv84H0HpXKUTRvnvCplaLV+qnUQyB+ljedpG40OmT+vUQuldaz9Qs4lBhYWciW5YXsMkC7uFxuemlnWMEzRdDvlZVNPut+19zfHdxW1dL2ixnXBfUDg64pv+jvalCaHqnkBfcZ/RjXPP1f6+VMUaFCWcYv8wgd7xYZnbIZEA5wBFTr0FEPeYQqqsxzBRm5biUMBY8VVBMRWu6/87HU34+ISOFrMZvjXMIROjx5EackfSnkrR1M1cq/Qt9AchL4NeIlVW0AGVkBge6zlgNnF0FYJ7RHkGqc/wuy4PLAAlCsAeDZqUfBKwT4HKhT57iVtYFFpg7e/mdosJJUKyJG8L4pPCoX1D5SzgMXtwG2JFr+WCAW5+VL4wLWQ3yM3CT/8HqfS9rPS8VeoPQLHKlaMHJ3YbHIZgrNDh5MQ8mlMMpiEKZ2AeYTzbeYB2QeXKAfyNkVYqyQmsIDtf12XHKkdxhvGiNmyaW5AFBhalOZiy5ga3G74bfCqZ6jb2DRD3Ixhh36vkBRyiEl2bHsRd92nOK7bVYh6e0R1irt8pzO44Oxgv7I2mZtm3hn+/DU7uBEsP+XG1coIQFTvgVRT1Q+UADxu57YnuO3kWt+7C8yKzIxU1qK0nIN/qGLAuqBE+5bthdWUS8t9npTL/aOecdld1SfM4dWelxXUkideSAmbmqWgFRFi+LJRe19/ARXxt9LZ9hjX2qPXII6W7i5HhHdd2IGGJFpiOwbHTDwN9bpfHIYK/GPH0x1DAz5O8nk2vjwF8sgz+HmCZDLTfGKhX/aX24iqbjFtk97YjjU9B8Mp2PDLHKTLDDBpd/+3uCGS+3UeABQpptA1w/8HoPfBiJFU+OgVkCza9RFQ5xXkwGG1/uSgQuwXiZ+dcy3DPrsNVZdN0+rwmzqZlwyuKCU6HnuuC/OL21/eRiBQUWvfCDvb5MzC87SHB8OP7HUToxvDJQHJMcK6CICHaQvnpXUnrPGPuqe9P1NTtoBif8fg7HCO27deTMANEVajUw5JbASAPJ+JDPc4ywpV6U6Gpta2LzGXipebQIkXnv3+rX7zpZh0UXXXC5adGqqmIY7PQkOsBY710MqlhVlyXMTImSifTXH1eTv9VP5gdhqmyPy3ca6EEW9FPv0gfvJhEHoVaCYRYKnPwYMw7+x5zjNOvpnSOso4N6Csfn3BHdzm0GEU2fUMw/sJh2VElDOm+m8JhFMRgBDOD22O9R0rxGiEoXmy25a0RCnJ6BImdvdkbajRefgyP9L6YMQM+ApE59dl698FTyVAgvnhWgHdGjfJZVVZ1VPOKyPNn8MuJTukurJ4RCowbejksaKe+j5o2CfWCNtIapf5pY3HljUPxI0K50GraJFKMt3SFSZYS+nM+KUsF850ZmDM8YAzMXDdSfqFNzF9i9yDGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01Txxpwq78dqg66e5VaQxG95",
+              "input": {
+                "message": "INV-2207 belongs to a different account (Orion Bakery, CUS-104), so I can't refund it from your Orion Bakeries account. Your October account shows two identical invoices dated 2026-10-01, INV-2204 and INV-2212 (2 team seats at $25.00 each, $50.00 each), so please confirm whether INV-2212 is the duplicate you want refunded, and contact Orion Bakery directly about INV-2207."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 497,
+          "cache_read_input_tokens": 2155,
+          "input_tokens": 2,
+          "output_tokens": 375
+        }
+      }
+    },
+    {
+      "request_fingerprint": "429816553b48f247624b97a3220bab69e4618850b241b99af4ba10a950578d19",
+      "request_summary": {
+        "chars": 135,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I've replied to the customer. INV-2207 belongs to Orion Bakery (CUS-104), not the signed-in Orion Bakeries account, so I didn't refund it. I noticed two identical October invoices on the Orion Bakeries account, INV-2204 and INV-2212, and asked the customer to confirm which one to refund before I request anything.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 390,
+          "cache_read_input_tokens": 2652,
+          "input_tokens": 2,
+          "output_tokens": 117
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e04076690b0a2c7ac2a71519a08ba4c0ff03eb7da97973fcbcff95918b1c183f",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. What was the total of our October invoice, INV-2201?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSrwYKEAgTGAI4AUIIdGhpbmtpbmcSDJPTc+PGRtlefTmqPRoMpQjEstDga9upnRPdIjB/97vF7IBB1Kda1Gssxd33ggdxA8yYOzuZj+ly7ijFINxUtDmdCuE7ECJ0wn5hB8AqzAUVtO6JwRsgpesBtWvMSD2458I0dZ7UcNRx9pnsfcolSJL+3qRXgQhGxalejgV6yYdyaqFtubcUz490L7V04Manh/ofBumZfRRWSO3O85YCzRySz3SXCA4MzR8s92Paf4B93dm/UiImoFIz5SPFZd5+miZIa6OCJ2Jidu/S6JgGM+wZQ/iVHNnFsQR9ToED47jlvbqaHpKFqUa7v7TTjQn/EI1LjbXLnLzGyBCuqh1Sid8gjhJVbooDnoxkYa3p5JO4WKrGkuPns8QH4tBgGv8ARp3E+URgwOeBSETPiyFarmZlW5ywgK1ssqMMynoz9/iIG4eXuLfE8/5vMnkXL7qfIt40AFdZXRnincTcKNsSMZaDM7oZfGzt2fXDxs3fxjRjmGM2AX7H1p46Z2yWIiqx6r8c67VWQjFoHhxXcjNSmPOAQKDyT+bLWBiwez5qSTLV0gIngnfbSqe3GOmO8YxTgRzv26Jv6JBk+L18gdS7F1RPKq/Df0OGyMM8SOxeC0z0VbjyiyTQm90NA4MghAnQJiOjnvedJ46clR6P76e23yPVvvstSVwvU6PnT7f2FGczVwcgZS/QuSTk8r6N4jMYH0hhOs+xSLA083gOPRk4kgYc3AN7xbL65yirgI16PIlMObZzlGmVkIK3LcokDOsVqRs//uRTBreBODOAt56nhM6JOY0FZE1B8h4KBDLh18lqxeIMkjUC+LQRjUl/R2t5EfxF9XeyrF+6JloXBeduYhpTlr11NtA1Vtl3WpLUaqHsq8M/xIgz2aFpt2W+9z9QFfHW0glbBJyPWe4gds1B4J0eXEP2P7zZgTwwI4xKoSJmbXcR++3KuP8m7vnXmidQH80ezPb1LjXGnbbxyEJCxt+bwJMptMfE5EXqCpyyaDJ/v4OGpS8eARTnfk5Kzo1Eyww+Y1yC8HAIWQaYZPtvMM9asDxo9nK/FXxjiBgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01LejVJ2ZbTuFbpQhrYA93gr",
+              "input": {
+                "invoice_id": "INV-2201"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 108,
+          "cache_read_input_tokens": 1741,
+          "input_tokens": 4,
+          "output_tokens": 130
+        }
+      }
+    },
+    {
+      "request_fingerprint": "13679aecb3bd063c5ee17981fa0de9944cba681947f7f84a11d4b0bf50e9558a",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01LVhmAUTNU5Hwi9bjjAvNoW",
+              "input": {
+                "message": "The total of INV-2201, dated 2026-10-01, is $92.00 (3 team seats at $25.00 and 2 extra storage add-ons at $8.50). No refunds have been issued on it."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 281,
+          "cache_read_input_tokens": 1849,
+          "input_tokens": 2,
+          "output_tokens": 113
+        }
+      }
+    },
+    {
+      "request_fingerprint": "2a6280a7c476b38f13ff408cf707b8f9bde6fb21bf75b0c2738f36c8515049c3",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "The total of INV-2201 is $92.00, and no refunds have been issued on it.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 128,
+          "cache_read_input_tokens": 2130,
+          "input_tokens": 2,
+          "output_tokens": 29
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e04076690b0a2c7ac2a71519a08ba4c0ff03eb7da97973fcbcff95918b1c183f",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. What was the total of our October invoice, INV-2201?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01FmZZ7FV9zmhR5sbHkqDcNv",
+              "input": {
+                "invoice_id": "INV-2201"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1849,
+          "input_tokens": 4,
+          "output_tokens": 57
+        }
+      }
+    },
+    {
+      "request_fingerprint": "966057d5f9b00cec55b5682a07efb4477a82abab061fffcf94fbf5181651cb53",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS2gYKEAgTGAI4AUIIdGhpbmtpbmcSDEsrmD7g0oibqqWaRxoMVBplNhxMA5UfsVo7IjCHnn0/qEFVv2IxKC2bDCXcZvso39onwr1ut+vAXbPyqQShL2HeBvy57BnwinnLxCEq9wX2rQ+Su73kDXA/D9lG/KJYzq6A0UeRjUa14j2j7xsmCegRDzqCPS6vp137mkFNHFlmWjynmKRFXAuC/+3AEiCWAhBdyCT7BQ9rLxNy5Xog+1dDbtyx3xySJwGJIIckr3dm1qXk2P+H0SdB3v5vkGtG3aYYxJex2iPNKHG9ZFLzDtzMYhH5+v/TWrNjf+1RYH+hDkok8p+QR7exeBnXjlCAoAEhjb8f9ip/6AuYkgtA1M9YWZlzZAEYraTixigJTmUpoy013x2WcuV82BURf4OobXmvcnarsTVC5hl0prZ0KEI7kaH/oZ/LTBZD5G71rhEQMTAh4DgMUc2gHIzgUGkM7O7IXW3js3KeOC5qYWuU0WhNDRNqq1a6wL+Fw0+8jFRUgjyE65U5Yo32hLZyVynpnTF2xG/vxqIi+uiJKbwMvTL4M0JDiXm1upccdg+k5WEWf4PMDovJvyLYDlUt1JT5h6K8rAWzLnQbqsd2vgydLDnLyUP0r1S/7xQsrXK7uK3hvOBFzDTUsl9h9UR6aXFxMnD454ZRoz+s/urhXAg43kkRTjRnmO3wZhr6Gdb/ruoTYd1oMF8sbozgidRXSyAsL0je3XhWmEilLowMaSu07WK8+teaALJ6DhEfh1kLdzEMv1COTk3KeMrsODgPPlTv+DYs+LfZgCN7DGsy9g+ISrhBKKaC6R2PpoBsKhzz0C1L1S9nYoP8EOc2WOXh3bFCNZNPzR6l740gvoT+DA+hK9u3KbasEPGLn1LPWhjbzYOZuW8BnY3E+b0ErsEd2ha6RU0lpd+As0pSNI4etQcNC5YPjqn8OgA3uCuS7lY3jeGytp/voREfyaxSkiaqyracyD28fR3y5apWE64pvZMas2RFKEJuanG2Fq2cS8BAOohbSqpeFPBJLcW+jlNav/2iT3/D6l+qtBVXm5NBNXY5jmC6jZWfs8Uso6wdQJfZB7afu6dHtI4ZjTGGManCkP7BktzTBYA/Z0YBe3cTKZ22+vbUDysB+jYYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01QgdnygEvjjHaX2hXPSrXqp",
+              "input": {
+                "message": "The total for invoice INV-2201 (dated 2026-10-01) is $92.00: 3 team seats at $25.00 and 2 extra storage (50 GB) add-ons at $8.50 each. No refunds have been issued on this invoice."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 208,
+          "cache_read_input_tokens": 1849,
+          "input_tokens": 2,
+          "output_tokens": 238
+        }
+      }
+    },
+    {
+      "request_fingerprint": "fdbc9c10fafc4acb9d7898ab43ead8e34789fce02657b7b858e61e785110fc66",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "The total for invoice INV-2201 is $92.00, which covers 3 team seats at $25.00 and 2 extra storage (50 GB) add-ons at $8.50 each. No refunds have been issued on it.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 253,
+          "cache_read_input_tokens": 2057,
+          "input_tokens": 2,
+          "output_tokens": 72
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e04076690b0a2c7ac2a71519a08ba4c0ff03eb7da97973fcbcff95918b1c183f",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. What was the total of our October invoice, INV-2201?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01JUNprRpPNLnch6Fni3G2Jd",
+              "input": {
+                "invoice_id": "INV-2201"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1849,
+          "input_tokens": 4,
+          "output_tokens": 57
+        }
+      }
+    },
+    {
+      "request_fingerprint": "2e0632b8e5cb3329c17b3310d72b4ca9a25f7feceac643899ed81b7a3b83c885",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSsgYKEAgTGAI4AUIIdGhpbmtpbmcSDCoX0TQJHbXVVRuzTRoMrlPywXnKCBqRXt4IIjDkP6+p1yTHg5u4+NBbqWOnwvOvrmuVNtYUhUmV7g3y9Euk9oI31ajqF7xMqvwU+8oqzwXYUF5rNnXUmR6DDl0Le6jmzhzQRPVjpEHG+Sgh61XTgNWltSc6U1ynvcSJcfqKTYWEgFVP2ffpeJ8AfIcrUU9BzFofHHmO13pPly1LO38v6wpL4Gx7KAtOMkYhj7Nfzl1c9/CQ5WQgGionl1TiEswktuiB+NKgsiZhQAEVRQs4dPwxeUpLl6pGmUGSbE+sd0xzkOh+ZLhZ6nO+szRbV1Wx5lHWfgXhO2Wm98+W7IIkldPXJNH1hMvPpONHvNjmY8HWRS9mzFP/aDr7GDylD0uVX5XvKIpP4FxDpn8cgVjDT8daH6/BfC1Iz18S5D/6XT20M2n2buk6UuBuoC5PonZGW+03BFgK2Uf6sKfLZD3t5A/+Hjel9sElKpGGqPWykeHQ0yQ/OpgEyylLRtdPFtUMrx+HmEWKSp9E6Ywnfp3HakxHy4Kypj5hIZxH2ZUKGXiOqYH9ilM5qw6WyBA37a9UNnecyWBoEkrlQ8eB5QBg8kCGThMxCGAEYk8WjT4/lvG1v5NXCUR0mjx4Q9HgesbEs7g5TI0Tvrk1gkX6KhfEv+JFegaE/8bGwvIJTD+YigDakJCfOCET/OOLDoCk+h+RX5GqL/hdjPe2Q9x/9szZ2xOXEzrMHvLfMIbbfnlup4qQUVrsdUufUcbaDYS/dUOe56p8hLbrTZu0BJCGdDOoFrxboV298WP+V1ZjxFHPWXd/GsJOeO7UkzqT72ZXm3uuNKqFxCKpN3W8EJ3BA8zHDWytPPEZARyIdsoNvJKrKK4xt0FfZKSxzipJ2aiOZcJpI3K/to9mA1mvsrQCAR4i7TU6TYnjQ3g963zkcRtCZBx4KZLiN+sMqhEfd8XYQwqkRPvAKM5ADRUmRzs3ddufGbZDc0qdwCnTaHy5rjGMKaTRkf8zIQPjhP7n03c03WBKj62BaIFK/UetgkxQm5TfQ/fhQg+5MVZaDJSrNsLI+hgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01NTHUqJm7xx2ygjAvRk8Dfi",
+              "input": {
+                "message": "The total for INV-2201, dated 2026-10-01, is $92.00: 3 team seats at $25.00 each and 2 extra storage add-ons (50 GB) at $8.50 each. No refunds have been issued on this invoice."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 2057,
+          "input_tokens": 2,
+          "output_tokens": 219
+        }
+      }
+    },
+    {
+      "request_fingerprint": "0b22a3a7581edc78ac63856308c69f99f2128e7e38b80ae1c40aefccdcdfa1f4",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I sent you the answer: INV-2201 totals $92.00. It covers 3 team seats at $25.00 each and 2 extra storage add-ons (50 GB) at $8.50 each, with no refunds issued.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 234,
+          "cache_read_input_tokens": 2057,
+          "input_tokens": 2,
+          "output_tokens": 73
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e04076690b0a2c7ac2a71519a08ba4c0ff03eb7da97973fcbcff95918b1c183f",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. What was the total of our October invoice, INV-2201?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSkQYKEAgTGAI4AUIIdGhpbmtpbmcSDLhW8RagSKGlQBFSjxoMmlzySMR/ejSREPEsIjC3fT56Gh3PPepKqMxA2Hs1iUEh9z4Gr7RgBsCqQqEm5c10c1Pa+1RCxJzqPMny3CYqrgUUgIvm7IEaUtpWO27EzmNxRjnpIqx4wn7NEc7BMlv52/cjohs0saxemw0MNBMgTwvToTp1OZ0hnBQg/B6jOJM+Pl16ih15pJrHcDEYfwdAirx7Um4+7Daa+awgROBJHUElAUCDEC/zbx75lVY9RAMeViuCRdMCz+IzElw/a4oJcwZQP4KRmOat4sQVHW8khg/b+zA9bH99tvgRcKeeGP8MDmVea7dio3r27UkRtnmW+37sFReOatV+R5i+basxX7KPQIQAE+UbHte6tuBjkS/2eQJCOXqpBmZPr/qgLhuOTI1Hc+Z2KWPhlRcaq1lJbgBJLdtbv4bPOAuzDkev7NTPzR5P7+wkRRe+MmN9a0B9S1rnhwH+67xrYSvB6QZ6g+e0ZccbF2VRtoMU7jgXLfUnv6/s6GgV2iF9mKb1EC8eAGq8qqQdoj0BB6WLZZaJXLs42USkyvbypO8xL3Z7bEK/72+QwYaey22jsc0rkGVVnaLKxrjInCl51pzgIKv2gjWYyJhy8l7D4dZLS4A7ADnGnBBSq8BcNZhuJ4QSPz447A6mT8lcIMKMCkXmVwPz009RMYOtz0MwqLYTb5Ox3hZnQG14MpHZlhwEdqpxm2Ck82O6rTCfbX8B1eIjX9xY1F88Y/V1wBUXMSGW2nn1rorVU0C2mm9RIQ+py3XmRNC7q0rB/FtB6xJjauIrPpaw2EFHZ/0MzeO7HIeL7HlyUnSNYlMJXRxUUuJcWPgUDbUYr7f2EO3+dL/o2jxATmMN+CDk/qpOaxSpGpnRr46cHoqtE8rSkivh28vTOF7GxiGNzsH/IZO98LXJAWU8riDoknH17Q9Dy8jSOToteuyN2SIhugXqDUbDBFjg/IE20VcD2W7iF3Vz8feDddYV7UVsZdBlM7SgG0BtfcvNah05rBgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01RPfWKdkpz9evp2Hk4dsuRT",
+              "input": {
+                "invoice_id": "INV-2201"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1849,
+          "input_tokens": 4,
+          "output_tokens": 121
+        }
+      }
+    },
+    {
+      "request_fingerprint": "72155a5f61a73c41171cd6af5664ceedf62fb880b1ac5a25a7ae16dd8844eac5",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_017EtRwkQRn697yYEehaTBNV",
+              "input": {
+                "message": "The total of invoice INV-2201 (dated 2026-10-01) is $92.00. No refunds have been issued on it."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 272,
+          "cache_read_input_tokens": 1849,
+          "input_tokens": 2,
+          "output_tokens": 87
+        }
+      }
+    },
+    {
+      "request_fingerprint": "0d2feba31b81bc0de59574800cbad2108ea5a7ab3d206dd70646b32b3386bb86",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "The total of invoice INV-2201 (dated 2026-10-01) is $92.00, and no refunds have been issued on it.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 102,
+          "cache_read_input_tokens": 2121,
+          "input_tokens": 2,
+          "output_tokens": 43
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e04076690b0a2c7ac2a71519a08ba4c0ff03eb7da97973fcbcff95918b1c183f",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "Customer message: Hi, this is Orion Bakery. What was the total of our October invoice, INV-2201?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSrQYKEAgTGAI4AUIIdGhpbmtpbmcSDKKvwWRdRXEq3/IzjBoMNvva8K5f25Ak1bC+IjDlmxiFoLssVCyNp3Bli7pWcjD5qRPlCn2YJKr8YEB8NFyCQFPLZHmuLkwHbnnJiv0qygW4J06IsVc8bXTKC/sTONkmEoQfBQJGlLho5TjkiC2SAEKz6YrAbUM62QGNb3zV58Rfcbqd9qIgJwa5U59/dkng6AqDvlz32kYLeTo9v8RvQXZA3zggpuLuj4Zx5xrsVHk4cLA/vp6UTRs1F3xB2uCKjxtgvoDGafsEera4K0MUSDak9RYRibJihhMgdbf1PyiMuSoZmY0OzPt2Tg9UcbsHiXf0TxZ8estHPIvpYvrSCJ/K8fY3eUNWE6kNGVA5lrPPxXqSmaTYq5Ge0/zuorKjHmbPyKssUMcmhJf/+/uQBiaUOJcYi1/PE69cA9YcZd9I6fo/tll/U9/t5FLhEXt8x1ZKk63e/T3apbshFScASlDPZv9oE2HmVsyJnLppNTzkgRm4yzfUUfh/3dknkO/Ffy3d8zDw0IXhnJXMb6ukORAhYe2kA6KwgNgf6lYAD7chX4RCi44a48bXVA84c51pm5W1U4/tV51LXRYYNZRmnt9D7d2mL+EBMueqnj6aCD+szqFwrOEMy8oNCENZQpfaNxLEp8M91zW0EIkFI51bNkP0GesIS4hEOQNTs4HKaszTIkAyZ9gn2rfQ1jH3qAYZouv043oOY+JD5u6fVtiEg0tWtuQhzMU5XTVxwazj66U/Z/2tyHxdWStuXewJ8+0JSpj39C3QIzW3+/8kZyGDcL4q57iQ1Zfsnw+2PvKnoD9G1uYSJhnJcia8eLQ8rBurQ1KiiyetsCY50thIPbCJfbKH5BAGHz36Xntu5B/we+N+rvPLtPP2URTt8OgGq7tarpFqBFIfdh5fx+RILqN4/kj99bpR9ck1CLVE1YvX4dqyQ8QC5ziJLz68qyx8ZUHb7n3Z7AkBUlslO32c4OG5q/egHz+riCQNP8RYY155gbv1AIoVA97JEluU+RIyhS1ZD8KYRftgZLcBo3OIWrvbXmuZIPMVMZnO5UQYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_013wzCVgKdvGoi3ujN63Q1zy",
+              "input": {
+                "invoice_id": "INV-2201"
+              },
+              "name": "get_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 1849,
+          "input_tokens": 4,
+          "output_tokens": 128
+        }
+      }
+    },
+    {
+      "request_fingerprint": "424234a569bb4994fa6394416334e23dde31126790b65f769a528849c6e0d3ff",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01WqgBN2QNLdrjf5djAL2mx8",
+              "input": {
+                "message": "The total of invoice INV-2201 (dated 2026-10-01) is $92.00, covering 3 team seats at $25.00 each and 2 extra storage (50 GB) add-ons at $8.50 each. No refunds have been issued on it."
+              },
+              "name": "send_reply",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 279,
+          "cache_read_input_tokens": 1849,
+          "input_tokens": 2,
+          "output_tokens": 128
+        }
+      }
+    },
+    {
+      "request_fingerprint": "1c14b50f2efcd3ce9d0d36860d570e5cf2dca2573cdec5e97dcb746d9eb1574b",
+      "request_summary": {
+        "chars": 96,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "The total of invoice INV-2201 (dated 2026-10-01) is $92.00, covering 3 team seats at $25.00 each and 2 extra storage (50 GB) add-ons at $8.50 each. No refunds have been issued on it.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-haiku-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 143,
+          "cache_read_input_tokens": 2128,
+          "input_tokens": 2,
+          "output_tokens": 83
+        }
+      }
+    }
+  ],
+  "recorded_with": {
+    "effort": "medium",
+    "fallbacks": true,
+    "model": "claude-haiku-5-5",
+    "provider": "anthropic",
+    "sdk": "2.3.0"
+  }
+}

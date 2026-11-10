@@ -1,0 +1,128 @@
+{
+  "rows": {
+    "Haiku 5.5 | chapter 12 desk": {
+      "conversations": 20,
+      "cost": 0.0264,
+      "median cost": 0.001415,
+      "p95 cost": 0.001781,
+      "carried at full price": 0.6865766134534043,
+      "read from cache": 0.0,
+      "refused": 0,
+      "handed over": 0,
+      "requests for a person": 0,
+      "right": 15,
+      "dollars by kind": {
+        "new": 0.0057,
+        "carried": 0.0126,
+        "cache read": 0.0,
+        "cache write": 0.0,
+        "output": 0.0081
+      }
+    },
+    "Haiku 5.5 | chapter 13 desk": {
+      "conversations": 20,
+      "cost": 0.0263,
+      "median cost": 0.001324,
+      "p95 cost": 0.001988,
+      "carried at full price": 0.7025628980339192,
+      "read from cache": 0.0,
+      "refused": 2,
+      "handed over": 0,
+      "requests for a person": 10,
+      "right": 20,
+      "dollars by kind": {
+        "new": 0.0056,
+        "carried": 0.0132,
+        "cache read": 0.0,
+        "cache write": 0.0,
+        "output": 0.0076
+      }
+    },
+    "Haiku 5.5 | chapter 13 desk, cached": {
+      "conversations": 20,
+      "cost": 0.0124,
+      "median cost": 0.000582,
+      "p95 cost": 0.001025,
+      "carried at full price": 0.0006167030840470608,
+      "read from cache": 0.8743307974077205,
+      "refused": 1,
+      "handed over": 0,
+      "requests for a person": 10,
+      "right": 20,
+      "dollars by kind": {
+        "new": 0.0,
+        "carried": 0.0,
+        "cache read": 0.0016,
+        "cache write": 0.0029,
+        "output": 0.0078
+      }
+    },
+    "Opus 5.5 | chapter 12 desk": {
+      "conversations": 20,
+      "cost": 1.1723,
+      "median cost": 0.051244,
+      "p95 cost": 0.0881,
+      "carried at full price": 0.7114194247738301,
+      "read from cache": 0.0,
+      "refused": 0,
+      "handed over": 0,
+      "requests for a person": 0,
+      "right": 10,
+      "dollars by kind": {
+        "new": 0.2279,
+        "carried": 0.5618,
+        "cache read": 0.0,
+        "cache write": 0.0,
+        "output": 0.3826
+      }
+    },
+    "Opus 5.5 | chapter 13 desk": {
+      "conversations": 20,
+      "cost": 1.0612,
+      "median cost": 0.0508,
+      "p95 cost": 0.073556,
+      "carried at full price": 0.7084850455136541,
+      "read from cache": 0.0,
+      "refused": 4,
+      "handed over": 0,
+      "requests for a person": 10,
+      "right": 20,
+      "dollars by kind": {
+        "new": 0.2152,
+        "carried": 0.523,
+        "cache read": 0.0,
+        "cache write": 0.0,
+        "output": 0.3229
+      }
+    },
+    "Opus 5.5 | chapter 13 desk, cached": {
+      "conversations": 20,
+      "cost": 0.4849,
+      "median cost": 0.021982,
+      "p95 cost": 0.033572,
+      "carried at full price": 0.0006500876552617135,
+      "read from cache": 0.8833092658805224,
+      "refused": 5,
+      "handed over": 0,
+      "requests for a person": 10,
+      "right": 20,
+      "dollars by kind": {
+        "new": 0.0003,
+        "carried": 0.0005,
+        "cache read": 0.0332,
+        "cache write": 0.1085,
+        "output": 0.3425
+      }
+    }
+  },
+  "alerts": {
+    "Haiku 5.5 | chapter 12 desk -> chapter 13 desk": [],
+    "Opus 5.5 | chapter 12 desk -> chapter 13 desk": [],
+    "both models | chapter 12 desk -> chapter 13 desk": [
+      "refused: 6 of 40, was 0 of 40"
+    ],
+    "Haiku 5.5 | chapter 13 desk -> chapter 13 desk, cached": [],
+    "Opus 5.5 | chapter 13 desk -> chapter 13 desk, cached": [],
+    "both models | chapter 13 desk -> chapter 13 desk, cached": []
+  }
+}

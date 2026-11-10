@@ -1,0 +1,348 @@
+{
+  "totals": {
+    "recordings": 12,
+    "calls": 679,
+    "conversations": 312
+  },
+  "rows": [
+    {
+      "id": "stopped",
+      "name": "Stopped before the work was done",
+      "chapter": 1,
+      "mast": "Premature termination",
+      "check": "stop reason",
+      "in_trace": true,
+      "trace_found": 15,
+      "trace_chapters": [
+        1,
+        8
+      ],
+      "graded": 0
+    },
+    {
+      "id": "huge-result",
+      "name": "A tool result that floods the context",
+      "chapter": 3,
+      "mast": "",
+      "check": "result size",
+      "in_trace": true,
+      "trace_found": 2,
+      "trace_chapters": [
+        3
+      ],
+      "graded": 0
+    },
+    {
+      "id": "gave-up",
+      "name": "Gave up after a tool error",
+      "chapter": 5,
+      "mast": "",
+      "check": "error, then end of turn",
+      "in_trace": true,
+      "trace_found": 5,
+      "trace_chapters": [
+        5
+      ],
+      "graded": 5
+    },
+    {
+      "id": "unbacked",
+      "name": "Claimed an action no tool performed",
+      "chapter": 5,
+      "mast": "Reasoning-action mismatch",
+      "check": "claims against tool calls",
+      "in_trace": true,
+      "trace_found": 4,
+      "trace_chapters": [
+        5
+      ],
+      "graded": 0
+    },
+    {
+      "id": "repeated",
+      "name": "Repeated the same tool call",
+      "chapter": 8,
+      "mast": "Step repetition",
+      "check": "identical calls",
+      "in_trace": true,
+      "trace_found": 1,
+      "trace_chapters": [
+        5
+      ],
+      "graded": 0
+    },
+    {
+      "id": "miscount",
+      "name": "Wrong answer over a large input",
+      "chapter": 2,
+      "mast": "",
+      "check": "the true count, from code",
+      "in_trace": false,
+      "trace_found": 0,
+      "trace_chapters": [],
+      "graded": 5
+    },
+    {
+      "id": "rule-broken",
+      "name": "An instruction not followed",
+      "chapter": 4,
+      "mast": "Disobey task specification",
+      "check": "a check per rule",
+      "in_trace": false,
+      "trace_found": 0,
+      "trace_chapters": [],
+      "graded": 9
+    },
+    {
+      "id": "stale",
+      "name": "Answered from a retired source",
+      "chapter": 6,
+      "mast": "",
+      "check": "the current policy",
+      "in_trace": false,
+      "trace_found": 0,
+      "trace_chapters": [],
+      "graded": 4
+    },
+    {
+      "id": "leak",
+      "name": "Used another customer's data",
+      "chapter": 7,
+      "mast": "",
+      "check": "the account's own records",
+      "in_trace": false,
+      "trace_found": 0,
+      "trace_chapters": [],
+      "graded": 3
+    },
+    {
+      "id": "forgot",
+      "name": "Lost an instruction across turns",
+      "chapter": 8,
+      "mast": "Loss of conversation history",
+      "check": "the desk's record",
+      "in_trace": false,
+      "trace_found": 0,
+      "trace_chapters": [],
+      "graded": 3
+    }
+  ],
+  "findings": [
+    {
+      "chapter": 1,
+      "recording": "one round trip",
+      "conversation": 0,
+      "failure": "stopped",
+      "system": "You are Brindle's billing support agent. Look up invoices wi",
+      "evidence": "last reply stopped with tool_use"
+    },
+    {
+      "chapter": 3,
+      "recording": "whole logs",
+      "conversation": 0,
+      "failure": "huge-result",
+      "system": "You answer questions about Brindle's team logs. Use the tool",
+      "evidence": "a tool result of about 32,013 tokens"
+    },
+    {
+      "chapter": 3,
+      "recording": "whole logs",
+      "conversation": 1,
+      "failure": "huge-result",
+      "system": "You answer questions about Brindle's team logs. Use the tool",
+      "evidence": "a tool result of about 32,013 tokens"
+    },
+    {
+      "chapter": 5,
+      "recording": "poor and good tools",
+      "conversation": 0,
+      "failure": "gave-up",
+      "system": "You are Brindle's billing support agent. Use the tools to lo",
+      "evidence": "ended after the error 'DeskError: bad request'"
+    },
+    {
+      "chapter": 5,
+      "recording": "poor and good tools",
+      "conversation": 1,
+      "failure": "gave-up",
+      "system": "You are Brindle's billing support agent. Use the tools to lo",
+      "evidence": "ended after the error 'DeskError: bad request'"
+    },
+    {
+      "chapter": 5,
+      "recording": "poor and good tools",
+      "conversation": 1,
+      "failure": "unbacked",
+      "system": "You are Brindle's billing support agent. Use the tools to lo",
+      "evidence": "said \"I've flagged\"; no escalate tool ran"
+    },
+    {
+      "chapter": 5,
+      "recording": "poor and good tools",
+      "conversation": 2,
+      "failure": "gave-up",
+      "system": "You are Brindle's billing support agent. Use the tools to lo",
+      "evidence": "ended after the error 'DeskError: bad request'"
+    },
+    {
+      "chapter": 5,
+      "recording": "poor and good tools",
+      "conversation": 2,
+      "failure": "unbacked",
+      "system": "You are Brindle's billing support agent. Use the tools to lo",
+      "evidence": "said \"I've passed\"; no escalate tool ran"
+    },
+    {
+      "chapter": 5,
+      "recording": "poor and good tools",
+      "conversation": 3,
+      "failure": "gave-up",
+      "system": "You are Brindle's billing support agent. Use the tools to lo",
+      "evidence": "ended after the error 'DeskError: bad request'"
+    },
+    {
+      "chapter": 5,
+      "recording": "poor and good tools",
+      "conversation": 3,
+      "failure": "unbacked",
+      "system": "You are Brindle's billing support agent. Use the tools to lo",
+      "evidence": "said \"I've raised\"; no escalate tool ran"
+    },
+    {
+      "chapter": 5,
+      "recording": "poor and good tools",
+      "conversation": 4,
+      "failure": "gave-up",
+      "system": "You are Brindle's billing support agent. Use the tools to lo",
+      "evidence": "ended after the error 'DeskError: bad request'"
+    },
+    {
+      "chapter": 5,
+      "recording": "poor and good tools",
+      "conversation": 4,
+      "failure": "unbacked",
+      "system": "You are Brindle's billing support agent. Use the tools to lo",
+      "evidence": "said \"I've flagged\"; no escalate tool ran"
+    },
+    {
+      "chapter": 5,
+      "recording": "poor and good tools",
+      "conversation": 4,
+      "failure": "repeated",
+      "system": "You are Brindle's billing support agent. Use the tools to lo",
+      "evidence": "called refund({'amount': 9200, 'id': 'INV-2207'}) 2 times"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 35,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 40,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 42,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 44,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 49,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 51,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 53,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 55,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 60,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 62,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 64,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 67,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 72,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    },
+    {
+      "chapter": 8,
+      "recording": "five compaction arms",
+      "conversation": 77,
+      "failure": "stopped",
+      "system": "You condense support conversations for a billing agent.",
+      "evidence": "last reply stopped with max_tokens"
+    }
+  ]
+}

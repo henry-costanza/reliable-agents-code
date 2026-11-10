@@ -1,0 +1,3865 @@
+{
+  "format": 1,
+  "interactions": [
+    {
+      "request_fingerprint": "50c62bacbb44af4121cff80b85b7dde230c1572460080ce021a1a777ddd0e2a6",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Please send our October invoice again.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSiQcKEAgTGAI4AUIIdGhpbmtpbmcSDI3cH1g3Vk745NGmVBoMtllS+9tocoqXGldlIjCZzKiCKM4xPPfcADPJDkLqAPYqBFa8mft7kE0FPPQa36LYqJsDSI8h8l2QAqtwqm8qpgbVq3eFXz1iZenPswmHE8+lbL3Bybor6voEC0M/jNe1AoZCdtDy68cqq4/fIixu/1UZnaEnXjYDzsKKJa/bvMNkqK0FwEcObuKJ9J8yTktbHntBiuDbz0RPy1XyQLzCPF/ZgeZ2jz1Sg7jLydayh1oYS3PB9SjhA7S05e2iKYZi6F4dLKpSuPNhTgURSKyXdRVLEBE1qXZ4nOz3dIBn5bB+JWQ8+mZ448APRbZ0shFqFZMpAIQw1LXnUSkjfP74epPGccaySCUUA7W1xIALS7jfV0dDQtrSZC8Bar6q46Lk8skXqxWPVS8mR9pQpYtqptE8Twjj3qNJ8ceMSHyM721f2x1pGuFuCF17eKnFlUuqe7eLdDcLUZoHs7Y+autg64uRjcm7m0BD1hM7mpqulH7olupb8IOUw10uf4xYSb03Hb8n+qMfJwR2ZnQFqmnP3E+d+p2p/QfJU/IihLn7amyLAgFlElUb3mFMjcOitKHyyWyk1rw1RJaIeTPQSyHfAVzrWWl3OGVp0E2ZIyXyFy2f3WhptVtIZgghWmZZPYGK7hiirx5HBeSn+lhdehYTy6BJjB3tjVvC//Vhjvj5mdijmVkk36hENoL8XX5A8DH2OJ+M5Tciwc9qcrvSlSaeScf4MuNAkX46fJgK5ENRdqlR2mFV+W+fHq95YsxK+oOhF2gz8fmX40e0XmTDbDNPf2RX5GS6/SJhDNiGswzz8mi54+706IzYxNq+YRRYWTeo+HdmvpBhqwy2ibcVlmtLO4gmatLWH8hf2X5+7uCCXSClCRJNxT6XY2JG7YYVJF6cgM68qQcCtbCNzvLW4jg7NUyDljTnRj7A7k5WuSMpS9b8cMEsYXRljCcecaRCBTP2OU4iSYLzY9HTuiGCtLJpA1P6vdJThxcBOXLdaG1fX5FALvqFPxAbmJM8ZIqjZuyCKbNowThRI3yEiy2GR7jAtMAynWSVSTfZoVNjfmxOfGo7HV6utl51U6aU+7W9zi8d6QR7sNeQKEqAEX0be/YHHRp7l4Xhsu7QxBmSGjCMWGGsIT0NJ8WFn+1f3h9NxrT4lyevfAF0ixgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_014JTRezQyByn9RVymJM9uG2",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 957,
+          "output_tokens": 152
+        }
+      }
+    },
+    {
+      "request_fingerprint": "66f7cc3b2d055d8f37d0edfc3b1630dd0aadda361e378c6705a8eb1d726aa820",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS/AUKEAgTGAI4AUIIdGhpbmtpbmcSDHMUm3Tl75E4dWnUwxoMUf8/GElAoZ2CI8nvIjBbqnoeiecl1zCgtvlTT0ssFC0m2nhsWDizaYtYiRTpPERxPmYpDntjw3T1j5ynpeUqmQVHDMq+6dHI4CRyxiNX1ImuEizYR0FInwhaS8EwPpJlMVeLPV6tm8afo7cSiu3bw9HNOvYO2YgbWpNTL6H6wXozp7g7uHjzVkVm3nBLp8r1DSi2YfACp7OXspiHQWjLPm9KY+0NAv6lWq8q85h9o/zGSIBN6UAh1yW+cQBRVLSeuDYF5y2cmjR3636gSOhuhUh2XxmK1PsWStwycaH5Iq1NuT9yjW5gdEFFkydoyuv9cXf5wBurlWIDYa4cuLIEOXBOqUbB3fnuEnujlbkYK/SwZ4B1lKRwuWBZBHYB+sBOFUTQWpN2V4EHYp+aRYU352NjpOyOKhHL8bxHgsEfEcrqRbkb9/Wnvzxy/Z4Zg1pK37bsg9/IPhrYacoQpq5LHWzGgr2HgXF2myHjI4/uaa45zjxP0/+JyEybU9y5zcG43ieb+bVQB0cR7iViK2jzyaKgr/NR3HzA30KtR037g4K1odolJjaqj7JxLBfDcVqCXVPJC37vmkmn6BrA+2Bad4qE6t/SmTjzCSW9qLHLabZ8tNZPzrPfAZTrQHZTWZtNyi8u0G6ZddEsLJ83By2gcq0SA5LalKAwaOGjJyG+rLugRiAUIzZw/VyLHMxdFivBNkEDeAK/GI9u788FiOByiNQKIbhoPnKoYYnie18XtkJa/OsKyd1gO81MNGDlSC6TVOf0rLJGWoWcyL2Dd+np8TPG+Y3YKM8SfAQOC0zieUStIvt04KkjfXruX38+cM40eNyF9jQ246Ze0UGoO/hXtjhw6ZZ+nTwZ+oyrl5Kw0iaD7X4bJXNjyDx9vx+cHcd51CmhZyFFOhlQIIEYH0EF3w2HDgTuxoUtgtWzhEP+gTkTpvBC50pZF59GH1mRf8r+4tcMQ84rOfQBjBgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01Cu8xDQwuRuFWQSAbvcm5S4",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2024-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1176,
+          "output_tokens": 122
+        }
+      }
+    },
+    {
+      "request_fingerprint": "8128a4be81330ce0849027a0f6521b4f84b6c48622f7e3f4abd39c48153a0570",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_015p1AuTywaNdqAQ4FN1zCQo",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1305,
+          "output_tokens": 80
+        }
+      }
+    },
+    {
+      "request_fingerprint": "0ce66c90717ab9ab2ffca519888cc298432eaf9e74aa21178b8d0b1b31e51293",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSxQUKEAgTGAI4AUIIdGhpbmtpbmcSDClGgY7GeHI8W+9cmBoMn6WxNf2sezprm74uIjC9SxSFATRQ8HwVNKI6BE9IYZbKKsq21ggnbZ9NHyuklvg1sAaE9f9PiXZsyv17VJQq4gRXfW3+28zYozBKF+5gbSYhiKz1fEqe0UEJFxm5njUr2LjiSx9Lh5WYcSbaVJepbOuQhhcrqFfQIMj/BMBQGbbt1t9WiAD1YXoTHyvKL/2vAIj2hzp89MLvDOfw1J3LiQ8sTGuhs0axpwrktfAXVUE7hVsspQHJ90xiGwRfpZ2iJ0NHFxgOywIn68ApOhsN0ppI/+A/QxHrYf4noym8I26IgNmvrf0R7kv56a0+WSM7S39W5vMe+4tN6hFWssvmqtR2/Fmuh039f5D4D1yO/TQN0NRbSOXpsjBAmgtCe/aOAlTcc02r0vMl9stmss8CZ91N6G17cgqNt0C43MsrWqHV1fZMACyLlxHK7E50902yAH296x6jxH+yZOXvT7byA/+1HoVjWN56fwCr3Ew24gNf5BgkYzNJLUACCGoyzE5QOxv7evnhS84lSaK4rcx3tb1XkbcJ7VtpRFkarVy32qowVUnboFcDsppjjES4MA0mOsUKPj6q4ZeQnCRkdc11HfgS+ul0i81jjo86M1fuHQNGqppCUWzUI47+sainWO50cmdoIAbUEz+73JSYneXAuzE129KTLeMm/7SZNCsrxJ/tfPCYCDMv7xLlCPlrLzLz2jifDpkgs3pX91lDj/6dDnglFbTJDr+H2zZyeqXWtW8Ljj4hU0h9NinImH8fipdEP7XiSskAflmK/Z0VV2jveRoZ3gt+qkNszn+kGVnL0XSohBlqYu51JbaKOM+FcXNh4nhjMMjwlCrkV9u+/aHd70yQQzX/01zrCPRr5sZ7Om54WfME8FgQ38/lyr3rzmvu2BGrGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01PdKHyfVskgnUzBMoRopHEc",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2023-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1392,
+          "output_tokens": 93
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9d6156c87eb2ac63e2ac528eedc4efb0a5a927658fe29b2353150b1c2fa3c948",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 9
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS3AUKEAgTGAI4AUIIdGhpbmtpbmcSDAg1XyQzabgu2RIhmRoMCeIsPYnYtHTwMiZ8IjDPP6zwG/e2mYZAI09Pka8vvWvrjNVzNLJSm+RXMrQfG5dtT+6Zohsh79O3o5ShXmgq+QRZlPEhvxTqaTo3lmVhXaqcQ8vSn/5/lgxHqNxy5A77Qx9m94ZFgSLXSI5LiGTF2zaUduxaOJNU7qT/1kZ+CthICEXhm4y2Ak9DXeY0Fxe/tKsfYhdyM6sGU9mwyPaVMjDeaKF2Y7ql6+WOXHWUAxKA4z+Tg0bVdY1IM3QpJQgpZXKU7a7EaJ2MqdCtLIShhrkBKDmLaaUD5c1phds/P4L+xXFV21s0FdmDtmaucoa4qK9MX8ODk+MOyrnIwSpZCrFZsvBvAkTtFye/PuMGQzQfdXF4hB5ls2yXq8zUtytbsQKjeDch+Lu1dQKScrPN0wo6bflftszTzIQs1ck0qRelgq2DeQLo9TyLT+DY8n1hlGBB0ET0FwXiSV+VPyaCvzbDpSkHw0TP9eu3hwppUVrs94YT2wVwDMS/jisWDnVP8JpoL4CHDsZOvazQDXeN/X+A5NVkH5neODTLBReD+upfGPJQu4+sTu9Ejg59uYJEAUzmJ99AFGWxIbHbx/fqQMju9BApW2Y+Zn36oC/qh55whsP/RIYcV1Dd7aKzynM57fDrRsY94Dt2UMWD9FJ1Zc1NR2liZRM1Zd479+oyepEAjqBnUw9ILuQBmkop3PjetjEk98bp1SYPclQgYsCQy83KXYvURB1d8ur/NdpshOXywX84iND/gv9y+He+vLKOBrReVVEOCOYlHzXoLN+8mBaJj3kIiR0ceTe86Ha5sc/NsDMHIjCM1SPNmfwWjijKXdwI+2Jsvn3bwQNhLWlX55l7iqSmJ+FyT7Mb0JvNkYgdHSe0vEugq7PAu+/RvmUfNzc/6SbQSCAxWXPpmOh4R3u5pdwREJBKrRgYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I couldn't find an October invoice for Orion Bakery: I checked October 2023, 2024 and 2025, and none of them has an invoice on file, so I haven't sent anything. Could you tell me which year you need, or give me the invoice number? Once I have it, I'll resend the invoice to finance@orionbakery.example or to another address you choose.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1492,
+          "output_tokens": 130
+        }
+      }
+    },
+    {
+      "request_fingerprint": "50c62bacbb44af4121cff80b85b7dde230c1572460080ce021a1a777ddd0e2a6",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Please send our October invoice again.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSsAgKEAgTGAI4AUIIdGhpbmtpbmcSDAc0IzRUgQh7L6+54xoMCLsC4ROosM+61xsaIjDFYxdXRJl1b/9grdqHb5+MfCwHSy7PMWqnLx9uptRbqb0Ly4VuGuBVUGO3ET9JDUoqzQfEFtwLCPdVMPYoDp0+iy1+cO4xuTdBvXBbeEBK4TOu4I9lTFuc67xWr5vA51E/cP1LH56Njd2FHM8y6yUMs1ibV7tXH1Q287dNpiZn0D4l96KCU0yjQM2D9j34mpsK46Xxd/FsgjyK2bqdGGWXxO2mfwLtSod98schWgAfOhzJjUBYekzejqOwZVWWp150YI3OpaEZe7Ll+CIK810EhomVVlZAmiKhFrksEU8JuPKNjeEpXGZBnt7XqQe0hYtjK61759BECkjso2QYjLR8DNDWiZ/ap0/DMDrRBCj3dqZV8uo3SqCHUPwHuGmchQqBlh0xLFFImXXVpDOAEQ1Kwu/yESc/nQVmQOewdo5S2TXNUs4oZ/qw0YptqtSlDppf2Z2pxzWR7IEjWcQxucVU1fpZ0pCagV7FBhj96R3PVVzicHmUH3Gh4Z/d5efbU0n34l8hrcptt1mY2woAxsFqYkQdg4mn0USd6FPkeBpWm7CL7Qc0Q3piaxeSQ302XmuAKZ9f30mADFAp5S0stDU9/9aii0DCdiwO5WmKLiqOdoBUNui5QQAmGbor6w3qyhUxHkkABRhfFyEsT+C+pSzIe3EXRuL81DOBW9XvZSGpIDaxwe5+23oB6zHAYsqCX7OFQfQObM8PqJBYpjyTiJknj3te4kx0Lg9bVGFIqHPgqqLlmQSwhkiN/y10+ZQeF8MseHqc2jyxd+CSVrsMF4Y0P/s+izo+lBI2tpqKTht1Gdw2qkgbIP6LzzoENqLZWnOltJoCJIsoBw3XPSSuyxPmG8nIQYeMhTPolcL2Rq9eQnQPLRLXGrdCMgJrcq6QXURv9uBTqrcvcWVhAINH0G1WD5JA9GHbZQFs2y6zOqxU7yBeujc1VDo7wiihlgEMH3DgTk6Rkkt5W3x/gnnkXVA3FB299+guAxWWd+vs8sg29gcKKNEjQWSxcQsXcafFr0KKmJ46u/DL0Ir35N5ukgBrEA1s4PYIlYoBPFrie4W+2UtE2XeGdbcM6CgWO3diZvSiY1GEk5gw5cy2TPNAD5YlMPp4FwRm8Q0t5m3T+sMMR0pR9/ODAylzsLJ6tTx+gcfjl7WqeG+OxFkKhSl03TIlbzv+J15Qv9LbCZY/fiAjkaMRap8VJsCpwzq2o5fRT/TFzrEh9INY8KJLHnTaeUAP6AMco6JenVMqV29Z28s1Py8bHamrWjmK7RpTFv5u9H2BPCQzsMxvodZb/lnbtlOkfwyYZCDnr9eEYj+LKCTfmhM9tWGW4sXT33PliKtVMoloGj6xgnFxGMMqcg7vz2LCGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01Sju82KRipArvhawn4v4c1K",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01NrvwawXr5etHumdwMqQA2a",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2024-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 957,
+          "output_tokens": 295
+        }
+      }
+    },
+    {
+      "request_fingerprint": "6d6b6969690d71c2dfd5c4f0be630efa25cf8d3e7d98622c6972bf4d083ba13a",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSyAUKEAgTGAI4AUIIdGhpbmtpbmcSDLUpBSA7A4ILcjxuARoMrEa+RjFZpdO2fk9QIjDpXWOz2K7HNZVBs4GSxzvcstsD8ebGupwtu+sEvGY2rj/nAQ1C353Ys4NhKWegUakq5QROb/iSmEa5W4GYSY/tGne8mebKr25fcrOFnaJme74v3GFBNLJiPwzcPICHrd0Bk2daI9doJZXzPrBES3bt5Oj9Vm21ru4s2rfoh0zyDKCor/KYTDHIhI/GJXMxUxDY7ha6iSi0DErEegz0nhitpRknB+LYIrbKtyjDBk7d/tYllaga2Tbo4LZEmi1C8C0ml3i/NMfYOJf4yqVpvMcrH64ruL4pWRakbgBMCfxzfpHcdiLTZhOlNA10U2R8IxB5FN2Z5J8/IJaty4EdBk9afIle7cqafAbgPet4Oc1+HF9Jv/QlobPBYafYV1ygsTDBKOD08C6xhYUgXdN00qbzOaT5519mCS0WhL470KP99Uw+pYjmSrR+KEg76FAFRlP+/gF8icEePYbMqgpCcBT4wNzrrhqgV5DIyEiOrhpwQ6gD/Yk6zD2gU942H9oJSTv33jrqhdjKtQgqmVXFbIjk6VogPrgntiit4ZxdZKM7bl2Fyk45ztIwjbYlsXtYfRp3l3cqE/PCfCgq9/nSxIp1Yaez3dz24+fSA4nhwAoSrIrAHoS4nxLpE5GDV7RXn8ZRdhwlGl9FLJiNFNNS/tXN0HVY6iN4a5UuqRBcKzvJIU4fvhR7nA7J9MHUHoCxnkqrW0ujEnN8BUbK0VK+gd4p+Hl9vM6n4e0dn/P4xZBWWgLkWc3lI9wlxonFIM7t18VzhnbLkyJFtK+V29g5cXSTysllejTnUT6D6fPmH4dB/Ahi1vuI1WiPGt9NQqsSqP1hCfNdYZfkzfcPQbwe0BPhDQmzjs9lqeuI8NhAuC0Bc8RB2symt1Z2GAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01KyKPm1Evrn22JVWyiAX4Zy",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1374,
+          "output_tokens": 102
+        }
+      }
+    },
+    {
+      "request_fingerprint": "45c9da55c977ed3e6ae293cd7ff5119d587b1f43f7f923529e6bd773d274c1ca",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShwYKEAgTGAI4AUIIdGhpbmtpbmcSDB6g1x3C/FMIIAtdTBoMPCZT514vz2QED0XmIjAOZzRKYeNs4OMwvqvCdIV7yWTjLHPCTsWEwGiKEgXoB66MlwM5//PCXySd7w5V7/kqpAVmG/GqrDh/c7KOyYWkL4czDll0bXVn78F4Jc956u3q9Y/l6z0X63hbr/gY/oGpkTFEVt+aN+u/LdL0PvH5V0y8avJtmQPEIWEROvWHTTmOX1Av2UAxf7d5m+SxG+RcGxTS9uyWON91LcU24FOCUXRGaYdhTlB8jKhdzSgZMdJwiu0m8VcPk/SHJwr8qDmK1LQUDWYOKLs0E1Kim2cZt3A/TPanTq/k32YUGcZ2dRNuJaYTUgxUwsSjVKAivLSgL/awFOCYSguzwmn8Aq6kEnt77WUc5VDcNTnbcTfuhVhyjbdCzUAPizL7dR2zUGm6cLF4fjVc+lq+CSoSqNcmhmnH5XGynxaoN1DbE47tMDdq9IMjEL9o8gOqgUgwsFl2+oj2ErCElMhsgXEUSEjT5LBVLKph8Hw7paVaTYkuQkk6xpmg4ps0oouBeyywZSU0FeYQdaimGP/Zw4CIFFyl6ED1Bjl0OfR5fRXzCkugfNDzKMXW511tYL9ndumSwII6Rgzfjsbm2XqYYPIYVjw/Wobt2DAnpZDCM9ZssDQIGMGnkjssPbqEja9d9GxXZnKeszTjJ+GUqfdvPiH+cOu042dJCBwOGaEsw64G9lW9N/RjYmtuNc9dfrhNXQL65LF1i/dot3vxd58FKhBszdMy26/iiuPQpj4C86sS9hWvVv66uiTC1mhekuxDTgbQyOpmC7c21EalFPYLeFElNMGK7nZshdwXIuahlM+T7TlB+m9LniPs90ywHFqpOJPJEUtGFGeL3ZdDJgnmjwH6eZqlvKfRvboAClRHRG6npCKxr3d0VZ8tTN0H2DzsUIBSS/YgKxxE6iYsS0Xg+WmWsSkVnitV2V0gabxvq5VgUKBi29WuKkUYs1UP2ZVjdBsfbxJVNK8bZ2uNGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_016jcEEgAS4jNhPDy4HDDCTP",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2023-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1483,
+          "output_tokens": 122
+        }
+      }
+    },
+    {
+      "request_fingerprint": "70209c57165fc9a28bf5f34da49511ef240260962612e37d2710c503ba8466bd",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I didn't resend anything, because I couldn't find an October invoice on your account for 2023, 2024 or 2025. Could you tell me which year you mean, or send the invoice number if you have it? Once I find it, I'll email it to your billing address, finance@orionbakery.example, unless you'd like it sent somewhere else.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1612,
+          "output_tokens": 107
+        }
+      }
+    },
+    {
+      "request_fingerprint": "50c62bacbb44af4121cff80b85b7dde230c1572460080ce021a1a777ddd0e2a6",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Please send our October invoice again.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Need account (billing email) and invoices for October. Year? Assume most recent October... unknown current date. I'll look up account first; month needs year. I'll guess 2024? Better to call get_account and list_invoices in parallel with a year guess.",
+              "type": "text"
+            },
+            {
+              "id": "toolu_01UYUNVzLop8j6ER1nFnp8YW",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01WkwKLLxd7Ewi3NyUQgMS6P",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2024-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 957,
+          "output_tokens": 209
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ac2fe1a599abe6817795de4670dc7cce8d32e186bda5d8110026061a5ed385e8",
+      "request_summary": {
+        "chars": 342,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSigUKEAgTGAI4AUIIdGhpbmtpbmcSDIwEbjh5ZN2SKcAu5xoMlI9apl66pjPkMPTCIjAgzyaeFLxVQA6R4v/RHa+VArMYGLxwzORlT1SNHuOgk7HJfqpIELoplDR96lsRC1sqpwRKk8SNtRsz8PYwAeqDx4V4jhXZ7xjXNnQnCAXgJPqJciBroRSX+0GQd/2ZSRFjQhv5KVm2kI6Ks0MngBbrXwH8DiZA+k9JlhMGXRb/4nuUGS+XTg6Xpsrs0oaeB/aFfc4ccyST2+i0wDaZrAxJ/dvqWOkSXnpNu8LcgkmOiQcB8vQ7CkXfPYdbQcrzfC5HWItlXqGcIrillsHvtqsZU19kNAJjij2ktCvuDjBffQwi5wqZUqYBGlWumpDMqPeBRuzcTo+uEfPvNkMWW5nip8F80fHRgk4TjkhuoN81XRoSzWYKN9KWhYtwDJL9fkBdEcxwZ+uko/AVlKWI9O6ITKYXlt39AvekMQT8nIF8IYJgp2NN9uoU25ZPtBjuG60feXsSnsthuOlCn2MKZR3Vj6vazRUluGM0xgftbi2QGwZEBp5sMa+IcNjyP3qEagcHdMIwVXgluzCznng/RRLGYQFqD2Y6+jf+uNWm9Hrt/Ocr6vRiLDNA+6wLtiUFqQYcOUyQuv3Wf1L4gL4mZqN1I4MiSbFITyzCZvwJG/uQe2lxu3sGk7qLHDnmHP54gxKcMmStnh2zRId3M6SOIgA82dCSCM/IgQC5TmP1Drpn+cZpIxnYkrgY8xMyBoE41NZe2HIqDUu+M6SCdUqGrI7Ms0qHpH8eiQHa3s/KnlaZmWcu8D4v/bvown6k1+ZLvotzLcbZPbdwl4SmXBJlfFuNK3u2YVdn8VH67RgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01Rzx9i3LPf1ijBNCgoS2uFw",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1288,
+          "output_tokens": 102
+        }
+      }
+    },
+    {
+      "request_fingerprint": "45a36a52d50092222a5098e79f6c673763b6af97b1daf82381f5678b10b83f16",
+      "request_summary": {
+        "chars": 342,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS2wUKEAgTGAI4AUIIdGhpbmtpbmcSDHcbX83hBUFPr/9QehoMAYPKD2NBKYt0kbvIIjDO6YyLi+e1qvd9YBM45kC5a/9FOFPwPmfZfrce0WpCe3LLLqyqYraSTwTmeoOCXJQq+ATuhHcXwFNw3J7IocrOMqhTHij2gfsZlMNsrs/Brgb+8esmW7tbfpio21xq2Wr/1Dq7Pwb6twV2R1ySDRxcPDRJunTA9X618swmJj5kvc/Wf5rEqlV+gwNnvLHWnSABumnvznr+Qw6cyPIBK3rMtjbJQBAgc3KK7WXeGLgjAm27AWYJo3+VcFT/5f7ZTNXoBQTjdWezA4j3X9dB0cQxi1dk1LJaYBP0KHhf948eW/bYzCnQJLS2hJKzsLiUuPB/kStyB8EavYjyA6ftoSKsRLAEauyMiUvEyRIJaRtmCR5+rJ4f9CrG51oqdbQmz8Dozn0/Tj33iOGajblXJmWNls64x2DPgk702PX9uJCgX7/LGacAhlA4YZ9lsNeuYBbPiovYr3br4SsFHGlbJWOhrpDZpLZGmaY7m6W7gdbmdHWsRpVfoe4qW8lJN1SEN7PqPrVHhOggJlD2MsKWOzRYAiFiNfVo6Kgcwm9rzmEE34eDwdapk9oou0jF0Z9vCHW+bgtD9TNpY5Qbit3XU7f/HxmY/nDX/UF80MAFfIrWEBQxCMNdxQ2JzIymcvQ/NOHkschp9Re/PVjwAAk6302EMNUU3tIT5lngN++sQjYHiHujnOf3AQaK/K+KrHa5lw0fnNbnyNcnhBfx8zdt7bue+tzuJR4HnvNpAgZWBcA37C2448Nsb/3Z8E/Vi1ZaSH/TaqDEbLaX5uqdH5vps/wvoBGhcRHtsyQ9EtxS+honfBkto04L4wtzYuNMf0+69MrzqypNXQ/vIzDJSpj3ATT00Gm1FcylyUns0fP1WHX2SDeUTkBVuUv774u0zs3eMENqK4Ua4T/YrfhomxgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01BREJfw9FiVxp4ziVMz2rnn",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2023-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1397,
+          "output_tokens": 100
+        }
+      }
+    },
+    {
+      "request_fingerprint": "359f484d8f6a165698817d0d9264dcff3d149e08691cd598030bb4f30c3dba5c",
+      "request_summary": {
+        "chars": 342,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I couldn't resend your October invoice because I didn't find any October invoices on your account (CUS-104) for 2023, 2024 or 2025. Could you tell me which year you need, or give me the invoice number if you have it? Once I find it, I'll send it to your billing address, finance@orionbakery.example, or to a different address if you prefer.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1504,
+          "output_tokens": 112
+        }
+      }
+    },
+    {
+      "request_fingerprint": "6277a2c33689e3daefcafe8ca969eff0f60e207d4969dd7d161899b78e7152b9",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "er: Orion Bakery (CUS-104).\nMessage: Please remove VAT from our next invoice. We're tax-exempt, as I told you last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+gQKEAgTGAI4AUIIdGhpbmtpbmcSDDpyCnV9eeTEjrTvmhoMcbEPd9YAHoNcRwuqIjDPrp4QW4aR93pCXHDbaen1oH2gcCvmeSWBtZz0p46Xir6/BZEPOiBSm8RTmPedfWgqlwT8yNlZRs6TNNpLIOwC+pGEJ8oF5F/kNsz3ty41Ex1IYLPSxhJ+tCKUOb3R7wbf32Z2VYfwQP+EiuMtwrWvhrBrvi/BT30ic5ZwxtLMrRG1j94db8Szgn9xzwugV+V0JLAHa1hGGU27vKnS4kL964e6KC2i1BaPzHFsLlwB0AWtCacN7Glqhdag1BQfq0sXtPSg909ed7KTrkVI7HMRs3Hc9/NWLqw3j5axyL1csL/web5D/77eIEc9oXKzSTi7x1Vw/jHMwl69462VSzztqvXl8mKcfURXXTHizLjelZyzuV/lBKqLlVN2G6BvM6MkF475GDHIKB89xnrkvhl5QB9oxshRysgmcNa/xtwCJVuA9g/VKPO1SLPemv5WIuud2grIwn4bGg8VrlqUKpi/TKGoaywFcXhMxALHy1Hl/Lx4+4UP7XGLL6A7kplI5va8t6F/CtyOvplKv8mYExXVeR2qxAl3xgEX+HyU+b+fcN8qlupPyGfBfdrN2zdpAvw7ZmqFCPRmnjTDD24+m9XBzTGS28oj2LXHOJu8YhCE1fkzGKQThX3GCMqAHzjWk8mprh00mOQM5MkG+CxtMtLxIAtMHgGyWbRyzlUqARd1faeOVbhPP996lUBpUw3V6cgnyX7sWJOvcQpmVmGPbBN9gVo8/75aUic/f59NUf/NPW6wzo99fPkb/13iSw/c+LRGae2FqIAa5naOGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_019mFeyrZ5uqP6dpRAV6tv6Q",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 977,
+          "output_tokens": 69
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9c91d436b24260bd55f1e56299c0a2a46299ab9852d16f14cc4e3013e796b9ee",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS/QUKEAgTGAI4AUIIdGhpbmtpbmcSDC7MQNwCxz2y5C/jkBoMNeoVMjDH/FjY3arqIjCTMGW73Jv9QwajJala92SIHDVLcwj5HvwL3osZaQrzzKrRrZbViWC8aP6NmYuM1AUqmgVO2bZsV8kDBGoNLrj46exIaDicklBpwohuNM+nx5TD4201PUL4Kbc3XYQvaNVRf6ieHY9muCInibIjeFAKLqcMNzYpX+1GHuJRoiqfZAMj5L15wkxSZkUlMx8kHUQR22DVMu1F478Q3ASk1ypBfPXHxp1k9QdXJlA8x/Mlw1+kTpDXfhBy6KSwHPBCaBb8iO7jlFrih7Yi+rmD2Ec7yI6AWlasi3HTxbdX3R/wB1ylIjAJQC3eNAbg8XbwgF43g6xTUHgj0MLhvL0a0n3ISuuK/w5m8FiNRzSSYvn1KmQWR4dz8qsHF9mOoZY/INr1YqqJ9FQfxQMq8SPt6DxYR4R5PP9TbZvkPwbI23Hzr0Crc2py2XFF9U5d0g4PiWnLYaw7vhVTL9Yn7qT1AKlgo2WsASSvVcI3+7daQi1YstI9Ns13fW5drkDAJMWlOJGa8s3LxNmlKAoF9rkyTegIu6G4GcloYFSFiMBOU1/A5JQBaFGg2Anr0bGficF3rXj2O0Qz4XYh8zWLauzb4Lx7V06+uj1YgUCqKX2dF1lAoIDOjoFrA1MsMF0TD/cJZnvuUFOSWglSkZPz8SWX18WkSGmdWjuKklOKv7sWp+fpDRNHewT8W1sEUZ/hgpcYA4SrXfFNQaOoy1FJyFPTncuNLEHlzTpuCoNGEBan2gyMoMS0SVlam927bTYtNy3bhYjtkRMM1OYfoAQhfuoAlRruYRV7PQK8xv4I2Ay1tKrKYc98UtII0JE/7HzUv+u9zBoZ6iSIO6yJ+NdAFiMrCIKagTPUTTbR4Miq6vUlQ5FcBaWivvB97MJKBUwpH1KIpq3gvKIlgcC21TEp2M8FG1oihUEGCDegpQ/Rqfyp1PV2jMLAFjYi8HHhd2eRI8UYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I haven't removed VAT yet: Orion Bakery isn't marked as tax-exempt in our billing records, and I can't find any notes from your earlier conversation. To make the change, I need the ID of a tax-exemption certificate on file. Please send me that ID, or the certificate itself if we don't have it yet, and I'll remove VAT from your future invoices once it's confirmed.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1113,
+          "output_tokens": 160
+        }
+      }
+    },
+    {
+      "request_fingerprint": "6277a2c33689e3daefcafe8ca969eff0f60e207d4969dd7d161899b78e7152b9",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "er: Orion Bakery (CUS-104).\nMessage: Please remove VAT from our next invoice. We're tax-exempt, as I told you last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+gQKEAgTGAI4AUIIdGhpbmtpbmcSDLtXQQTfaoAD4KNKbBoMNPrwixan558LYvLXIjA80n+2Njd1OvIlBPBdfHE14j19BezDu2ctfBQObb30k0xRns61vRpeoCLTX9lk9Z4qlwQa/Xq7hCj68FRIpeNLNVtmcbcsBjqpYm9mbmnCAixjpJKtZrHiZavJ2711mcs8Zg2C9xJVzcckT14+dPTIvuhsdCNtBxTxfQ/7nUaXJn3/bLLcqLkXOpJ+dEkSvVt5iEPk1LLTgC5ieUGLC5XZPJGWAduQK2vYoB/RwsLfxtokC/+/ygHmpsdx5eW4lahbjVZ/GnWk7320x+E6C8FgLQMTa5TpWtZcYcl70C2oW8oyxI9qyFDkdrXRISTwpEeqtpZXRR9yTvUfcK0Rehevd+o4pCvBXasGvlZue0NhZKjBbPin7YGjcgrRHAKtjQO3LlfHeuB6dOAj9mSYgJbAF5xQ4iJbTIdSW63Sn4PT6+IO3wMsKFVPmWKWlzTlXcBwSecgR6hYlBpZiqQzagsfiAdHJ9GlWYIZSRBx7IXzoxiDp4ihOIe0/dFBLZ74rHXj1bLVe7xwFkwHkOAMeuQy5Ks60PPFw3cN/fw9QQKM9nPR/z+azU+4KWi6AtADkqiQEHKuHCrS6xZJyx7n+0kJiZ1v8/xlBzyQPut7jGYfPGFgV6+ZDbzm6za32d/m5rbOkizrpRsF0ADIlLzasSCJ6MnRWz0XsPxyvEcsl7svxZgvAPYfMJFbbrthbU1KHDFhrjzgYiywGm1DnNls1us04Qwd56PADILGwsJfKZiM+5R4WFXWUy/8815XsD9fj5/Zs0IDMkgIBWa+GAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01DiCNHCF6GCVkTSTbKfW1LV",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 977,
+          "output_tokens": 69
+        }
+      }
+    },
+    {
+      "request_fingerprint": "60586bcb8219d67400ffbdc8d78719315446097c46eb28a6f54901d32ea304e5",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShgYKEAgTGAI4AUIIdGhpbmtpbmcSDBQliCMZZnTeFJX/NBoM4HYLJ0U102O2RVt6IjD/ZVxdHf3gyuWuijy3IQskAK95V9cmZpdmKbjvxlWZJ09mdE50OABIltdAVcOotycqowXy3YC66lLfkIrMQjWjiwkZ4yI7d66/8Hzodap/qmmmi+4rxRTXmB7O6Q5Fp8jzTNMAt6SLZaoWYo/VUfldKiLM8QbX/7HJfX+oyDJiTI5UGQP6fV6RbM8Swff6yIXnAIXTlLf7a9SASOXnkz9PGUxoIu3MXE1Z4Rc8onSvWmPEQKfyHzTQ38ZS31U/PydTxkH+g9sEkal745n5TijscbJNN8nicr/o59cH6reUvN0SJwzi7NwmDDSZDX0y3T2nYykjB4X2m+/lTL1xH18mdZTXx87l23yJUolp1R/tNxjzwrN4JvgG/8wpS40/+LX7VPubzqGjQ1Ux5CZa9IXu2KnB6m26vN1HwlA6Ni+VxSm1wcFH2KNW95dVzJjTb/z/E8szBoJSAleQopSOPM0YOfctKZx3OeWJgwQ28Ic3sfoL/R0w6rIb5o6B7iQqCQYqp4oxQIWYG6P6Hlx19aDbt/A+QrpNEIKuM/6bL5FveK9iGTvaHMuKpSQUmj+ThZwNN4BXAdQs/0HEmqykiLuLcf3hrWYUlZTvWzokpcWNP9R4KdNkbJhJlOLaeCLPBdp0QudQ4+xg9PyRUXxazErJia0saqb5A8OkxINJDrM04d6QXRWpW79XlM6awdXCeii9GoyffQ0OQNVTxUmTr8mk57OcjB9gbO2yltiH01FMyGzvUgTsiRRJe/xZfI//d82ymh4yfIfmQwnAEsncR+pcdhYYrhBR1T5eY8eQrGwXSLlm2vmPcvYgCyprJDcvqb22ZXgBR+qQkLLYxAEtcwalKZMrvMt1GFwBwHjGzyDuyyxoF73TJP+VJjbTI05jCN2dgnSP/nRvUXofkW0VW48wz6lgzm97l49MsoLTJLF3SrSmQLSKfKeFUgKuTOQa7wgMjcJbdOMYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I couldn't remove VAT yet because your account shows Orion Bakery as not tax-exempt, and I can't see any notes from earlier conversations. To mark you as exempt, I need the ID of your tax-exemption certificate on file. Please reply with that ID (or send the certificate if we don't have it yet), and I'll update your account so VAT comes off future invoices.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1113,
+          "output_tokens": 157
+        }
+      }
+    },
+    {
+      "request_fingerprint": "6277a2c33689e3daefcafe8ca969eff0f60e207d4969dd7d161899b78e7152b9",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "er: Orion Bakery (CUS-104).\nMessage: Please remove VAT from our next invoice. We're tax-exempt, as I told you last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+gQKEAgTGAI4AUIIdGhpbmtpbmcSDJPvZgdMONpi5WksjhoM6Pr/GtAmwbQLkCPqIjBKjJCgk0akbMjzkZlp4A4NlQl+t7e1KyAPNbereWzKihQT6aSWHpSjchXSSpNGOLsqlwThIIcbvpADfgT0CCJc8mZpQ7ZyTJKGwk9FVK3Jkyk2+NdVDglEH11AjCnQgTaR1yxLEXK3mgazgCWFI13tABh9qdvWUadou/a3nJB+J+3TGSU15UglXvzrv1s3yqI4QxD9rccsrpwXBAMJwTYFM/zYC1NCCxW8uGkA1iXevDbpPykA9Pg7bvmo3OoTZZeBfoIe/SFQBd5XDXxWcOp1TWCCeuMHZGfZXOulU2f1jm+7A5KoIPua06qiQ6hhw4km9MILXqOcicjSeWZX3P7cRMVKTfpiSJ/OZlmSOSNSfmDKUx+3JxWEA0Y1IGUamTPvUX8a0yWwd/Ht1bgkwK3mnF+rb1gpWdyjWecUOv+tJ/uEJrXl63qIfpUDSrXE/HGnXP683ePFHVsyT350v9euY5jZKt/9gqvBN1gmnSFtBlyRZAVUyecyJtH6Mp++LClrVr+UXzwRdtkKiu97nUudzaYnVYEEe7JmxIhotkGh/jQfiPsLpEXhSskqUE/3J/wJaSExC0G7vhPhdg9tybD58eOefoZWg/ENCyAl890pVtrB4ztljBKf0Qs52rCh7Pr039Z+4S3pAoBHcQD7VIe3GBZOga3CeQPGXjA8NK/n7PoyXcQavSyYWB6I+Eow4HMbjt4F+5WAStWD6Y21Q0KkK7hKART1fwqR6MK2SfUWOPmiKSaPROecp4+5FmhiTJxJMczmNLV+tdiBGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_019zdd5b9HDUhbRL5f5KEakw",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 977,
+          "output_tokens": 69
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e68acc384b011552fe19d8b3b07be605433dff8c97322e7a13ea9e0c91c0e7a8",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS9QUKEAgTGAI4AUIIdGhpbmtpbmcSDDi31mQykQgYjYxQ/RoMkSjqLUqeKqMs0o3aIjBjj2NiPKP7Xoi4CMhJu3Of8sJmTDo7T018SjOe2nfoHt9eW+WS3a4MbDA8t34CtPMqkgUECz8HFTck6MerJcOrHVMy4WLw2r/lBnLQGqrjEF9udUXEHd+UYwF+nZ8lJu7AxJxgu5mH+pXIbWq+5X/N3GUiaHinRYTv4wIpzhKrTDjFW2mcUuaz82RWH5vXEMSHb6BA3Be3MN3XwOINtlbmWlrBku2yRuROq6LX8SaufqODB+im84A0BwG0OxLqoIkZqZuILEX+/3KWqGIY4aM2+IOuXcv5/ZFKWOFeY8Yw3fXfb6i4FqE5xzl0vMMtVOGINkoxPXyUilZUr5O9c2QrPpvEgmq+WW1OIyZAiJLH/6giifGXQcauu7W1HQwMXN2g0WenYWKFSF9IMNSMoTo5r4I086Hz0cKxuh3SSgWTyjsdjgnFlumDA0T7sKK12j63x0Hzl9sqQUrOi3XLPGOrjas9BQBy+3UITmEaWjAavhYa1G0TIzYa0p+RTnfs6cPtir2PEjMEucXXVgba1kupZ70ukf/9iFUh3UasXWXY0dw/TZfshVP9G4giiDgGyEj80P/V4EfyORAyU4XD57M2UhV5zggIUCUkdXAqa9JLcpw68N0suPSf0ZjSHjgFYX4XmHPNUHmkI3W7wVzTY0Z4wsHKykBp6k3RBCHNktYs4T/n+gpfbz2egJbJ7Uj+nua0ohIWtJTeYBvLFbAbfpvzzPOCTDSnzGvRta9ujbf3c7uumT67ElnGWDDEoF8MSht/W7FjhajjmQLTMZl6wPtw/vgyUUcyl/apJmLwUHZwUQxecsEOYNOiheFZA7aclKTmfVxFQMHT7I5UP40Sc8+Jo3CxzlpjAvxvJnQd/nNWS05uQDkhtgXZi8s0VXn3pka50UuVN1ORQqTIwIrolfdkpD6S47PF9XZPAZxxFkK4U+wCdGDHGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I checked your account, and Orion Bakery (CUS-104) is not marked as tax-exempt, so I haven't changed anything yet. To remove VAT from future invoices, I need the ID of a tax-exemption certificate we have on file, and I don't have a record of one from an earlier conversation. Please reply with your certificate ID, or send the certificate if we don't have it yet, and I'll update your account so VAT is taken off your next invoice.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1113,
+          "output_tokens": 178
+        }
+      }
+    },
+    {
+      "request_fingerprint": "180b6e1e7aa33c55017e8dd1c564055d2f485a4e67c9f4d617e31deb5bac1262",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Which currency are our invoices in?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01A8QAwACTjrYZfuBtQxj9Q7",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 958,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a33ffc52c2f550ec15a1bb38f007cb914157e0204769da21cea9841723827c02",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Orion Bakery's invoices are in US dollars (USD), according to your account record.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1079,
+          "output_tokens": 29
+        }
+      }
+    },
+    {
+      "request_fingerprint": "180b6e1e7aa33c55017e8dd1c564055d2f485a4e67c9f4d617e31deb5bac1262",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Which currency are our invoices in?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01Xe5YdV2ZfmbaPJ64ZesY3i",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 958,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "45cb99ba9f6a990776e1f5a7847c0ff0244be1e51080a1a3e3c25e6d03967f3a",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+gQKEAgTGAI4AUIIdGhpbmtpbmcSDO9QoMLTfWrm0oUlDBoMzdnuM2KbKbC1MKnKIjC/J/uzJ3+FzYQSXbBc9X0vP38bsyHFme2q/QncBxhzSWtlStkDObd8MCAntAO62oEqlwRgCWmWu7t+XUshu9TkVbjYMRKMdZB+WaJ/zZg9X7cwzPrImC8m7AvBhw9UZW1IpmQBsU4At/1e27y7AtIC96gsMj6RQPFx8U1DNy4n0nQpyX5EfCbbZ19LJYfuUvAxaHMj3NCSqBYFLduVzn41kMl1x0KXgetMGsuRqF9r/QskD6BXinjbXhB6GAaU6cMqRXDsmOODhLPEqQSJN4EGytQUixVXdmnBnePP0oWBX0e85JmRtXvVVQORcQ9O8rrB6w6JizGfizw5shggJ4WRHs/i1mS2/nVRIXBWAPGv+QO/PMeYN7BLLFdo5p+TUOeN0wLwYXJ7AgV+GH71BJNgd4FKoyPVr764OOYvoSY3YmTk/CYxRKeHcH/T2uM9xB/ZvOcKS3Qgff3P0HnjOybpmYdvvjZgyn7d8nsQ7Aq/4kYkH1LzAbBOTbAisuAWV4pQBEaKsXFiKSMmDdVk1W3dXETR/xpPw/2vWxUmJuvLBQb8dmR8mBsqrcZe3L7CWrdd3Dl+G6D4iWKtvpKt4BlGNmFoXOt2NUcS+fsNLBiOVsQOVLycy+IzPIUNyBHM5tY+XVIbdHkb3vw27Jb2Esiw0+GVqVn4FHNGBKQ/d5ivGTgwncHJzM0lHLk9dvvR6vMCoSYJg8yPWaVOx/mS88pNsNhlka8dvZztSh8/ayv4LYcwSQ+0hCstZVFEjjqF+o2LOPBXI0rDAJ2ZGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Orion Bakery's invoices are in US dollars (USD), according to your account record. If you need them in a different currency, just let me know.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1079,
+          "output_tokens": 56
+        }
+      }
+    },
+    {
+      "request_fingerprint": "180b6e1e7aa33c55017e8dd1c564055d2f485a4e67c9f4d617e31deb5bac1262",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Which currency are our invoices in?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01C87Nynurw6ryT9w3FNLo2P",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 958,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "50ff9a5f55b819517fa4b5ed21c6429417e0fda337bcf9bb31ae5a0b22e7db89",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShgUKEAgTGAI4AUIIdGhpbmtpbmcSDJrRcMYGdjL5YsFP5BoMZZUwY+WbRri4Ix+jIjB4uasDsR7PqIJW9+HBexvDFfL6wiWSldrOIHNL0PnqdzOrqNal7DE5YzlfkhZYvBcqowST7BlWi6oSfhXfUz69kOpD1fovQr6Ye01yx31rVDDwFd1j/PEifvLDlaOXfx+BXII8TONElzpquHvdaylKkpr+75heGx40tYfSxhTAffoPkWU4zqUYq1+oSRuOX1gS3hu8rus3AAilbyTbsDcvuP35fCGGzJKrRVGpL3rDNxr7ffNuhLtOTGA8QC5muPd85LrgkmxunTuzDbrSUwYNsK1DkxFRGbluMHHsbJTJlNZUFoiBv0oGbcDt4r+AgMwFkvQOS/HAZC3c9qbzttnX93p8XkUt/8AL48eaH0JN/1+pwwFZlbLzMpw9A6XhdjStdlO4qDip5TerAAr5fhO3Wk1JVqGcTxD5OP32KHFxs96vtbQBlC25gWP5csLdrYVYUNJwBE8lUt6bH/tVPAYlzMsysTUMaYFQmdUL19RcO0cOqxisdfTPTethij9eRUoz6VhLB7i/8MDVGtNCC7s9CNDTnenglEC8jmRftmlu3hfIceqjqq2QqARe0L89pqLETREfK3+QDiW8e4OXFH00VhdhplFAW0kUCMjdhAfwolXF7obFeqavcJFRSZM5wiAEmjxw32LScrz7CYKvP3qpXT7fu7LQGB8MNA+WJqk4PJ1Rga7gWfgbxDmzTcvWhuXpA/HPUfvG/7HyAmqflFkZMOeVQHWpCSO06mxhaGLFIQVOA2t2JEBmD/e27BskyXxzcWVCrR5cpFmWHP8bsa4nOOYHKxo+GAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Orion Bakery's invoices are in US dollars (USD), according to your account record.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1079,
+          "output_tokens": 49
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ce3c902b6900d30834cb4d0d2bea85cb8a361e35b3e98ca7fb80b4c8528ca84a",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "in customer: Orion Bakery (CUS-104).\nMessage: Please send our September invoice, and copy our accountant like last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSygcKEAgTGAI4AUIIdGhpbmtpbmcSDBB6c8HMAj6jN62s6RoMofd8cYGOAGRtKFRGIjAxRY+zGfsrPYIjcwUjdZgiDuetqg4jyALpeMTtkF8HEewopE8uuQhrXTAy3Fa8pOoq5wYwrrfTa/vx3dfw/uNxS4qEL19afUc9ljaHJtphFf6kdUwtJ5xKJtZeQQHASIYvCPl3yNKUaPZosrAROKebrX8u/g/OadyRWRKQoOwIR6lE4RhN4jqMznGvG3sVvXAz2io3nCMc6RezhQiMeUq9Tx9iGEIEQ3qjhXg6IfmjmTm/u0DsaooeC2Tsq0Z9miWkb2FBUtM+mSG77pT+CSV0KUT20/uXq9HwfJLE6RvkUHvLNVzqLIkocolxCFR29/BSrOxH03UT4EjXdiHCxCMcWnme6mFRLu50Eh4OwKalz0swXvt6DQck567aAhLa4mpDrglx29WX/6HJA6+2CTOd6LNU5GMiUZ/30DsEBJ2MJzaZb/AH6RLCHP9mIzeWFK+w1qA3XZWOuhVOhocJTH2zCHwe712l7+tqXsc85WfrtkavkG+jvWCFPoClNcuzUr91FHN3jEC/OAspo7e4q496WKtrqYAaSo77Cbu5M9Zyqv7AEIeOmiYHpRRD0lbXxe//lIQUC98Zi82Oqqwrq9gj3ZBCLVgcO1cRsccqFNA3wW41ERLOhsFoSY+anBMPiKy8fnL3LrnfJDFZtZcQUFMEi+/+h4A4R64eAnvdDAqVHGe5EJ5LvzDGF4je/JIYUJQc3Ri+joB+vQNcmof74UjNVEOBes7pzYn4hF9b6cb9giIrDf7ikkwHHWKhDmTf7HANUCwcg3tNwp2/LOK+lAkzVa38Hi68xIXAEKXWI+SITZWblKUXWAEGm+4sJvfsxMkvpZFP+nBLATYmjl+mNXl7aOu5IacQ/oClHQDZWlN8y4eBrZEkDqMd97CctcbyW0pEyyhkcBWzTSgAMkD2XDEYmIyCSCr+Z9D3LwyZgFYgTeLat3eOrR0xE2z1i6++wXn6iUI1c+BjMKZaB9LPej1vs505AkNsYgXEmAGhqQGvCU4AzeUXOTFRIaaZU0yiaGKn0g0emu0zW8HBBJm3bhBubSz0RxH3aDEzHhHj0rDSLGA/XoC/OgPM5cHj2P1izM8Arm2mKOx8fX3SeJ0ZQHeb/6u4BWND87ANFMkdPOvC9DivHbdJdUBSb5OQU52ibUf6UOpDnjhXmRml67gJ4f8nJWdJMFSRq8laGq8BnOPwSWcaPVci7ZQx2C07ODtCTQqbwWpsgD5zeVhwGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_012C1Rab9RrzevZihXNAFtXN",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 967,
+          "output_tokens": 179
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a4c7eaf1fad9d46307c36de15f79e55daa7df34bf459f8bd87b91340fa70e904",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShQYKEAgTGAI4AUIIdGhpbmtpbmcSDD41CDxgEDru9h5rDRoMpFLLRcs+XDN2kW/BIjCr/sfqN757U5+T4zkUV7B0u3q2sqwsKxFy2T7cHhv2ohWED50J9ZHPY8B5y53ywI0qogVOWTE1pNhV1VGcn4QYPcdIniiPMH0s1Nw03w3sZdadwUC3zsL9yiy6Tv3rne8qxUun9DNexC0ZICDt1hzobw4zF0zorgEtUzsxaegVd9CiMSdkWPrOAMkNubOv0F5qEk2K+PpGGsU3fR1Ezh3LofdC3kUMDX376MH9UtSfCYpQteZQpQknVzU1bDEOgkZgSk5JUsDCaait1s/dDr6ykcifrWK5ccUxAcPRMC9JUT6FUox57LIXeOjF9VAZ+9Qhvqsf/nXz5msI4/vEloStbL6WoevF05HipJ/IbVzVJ5k87OE4gj/irPANcC9LvKFP9/VAjxyrikn3xzpjZ7CR9V3Usw0hBIGTEX4PAW2+iBo89qx1g53O8b1wL+OysySUnxIqRLWi+vNFyHYD/ctCSZG+yIZwmkqOtuqfMYPAAckMKBHobflTVj4CVUg8IkW+3OKDBR5FWIFkQ761Z9JH3dRprb0gh8wn5G39Eam6beDJZnuaU4hfPzdjzEnGjMeezNwuW6mf64bWHDWFWdE4CXM0TxeOgjtOEmDtFcfaKhg2ZiRJXV/gkyiyYxPpTiVTYk5Gs0nZxRaLl+Jyr+yukV2ehPndN4k0xMjTsejSs1WubnT4gUS+hkVTjSfFzjzsWHKcDUdR5lMu8LRg6QsI4uRv5tywRUtn4W/goXYTcuJkS1+ohNLm7ndAjy5W9FSnpCrhnhCocv97GVXRRtRB+d+Iy3e/praYgiTCQ/9b87CU+LZN6a2HpXyjI0FEQAgDqCxIFFJ0O/0J328VVovHivxxMHLqW15G+yK2+iXxztkOQb2sMVhIz+yniP2+JM+hXcVqbhCMRio4r1mpwyLum6PFQUkSdgTxcG0C8PAYmeFLvTCdKQn/xxvzABNGczYt+awtJxgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01AD3XJRykuZarPNsQdFEikB",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1213,
+          "output_tokens": 124
+        }
+      }
+    },
+    {
+      "request_fingerprint": "b230a400f991f0cdcdfc6571cf5a3568f50a54fb215044015d295a5a0c09a6d3",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01VgcEtN6ZatFuxrHEsYcjSW",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2024-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1344,
+          "output_tokens": 80
+        }
+      }
+    },
+    {
+      "request_fingerprint": "374666b0f8be8b275151b19c7ce2eae74d7afe1af08e05d1558e40f52e1678af",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS5gUKEAgTGAI4AUIIdGhpbmtpbmcSDLtcQ+DdHU/nuXZB5RoMY+yB4as0yLgaOW+iIjDphcVLmuJlbagQlJs6Va5CTseoKBH3zVUsewIAWmRstD+KCli93+E5fhVOhVJy3I0qgwU6JqQpS/r2oJo05ru7NlnKafyfN4hiPm0ghyNzpDl71qUvckjl3NFocZYlMgbThoWqwM5zqTCyBYAwlq6N87nFY/2J8dh64hReaoMic+p2uMMcNh7nem7//h+6NSKTJ9vZCfxQUVoL6lA2PjdjgrN+a/pMQ2aEFbn3j8/DZ6tbyucZns5quIvreHDPKV7pshSvFaRcF8fX5/Gu6ydZXhWOfiCkEvsLq+mAf10mFFDYoGlA2PmHqDjnbPaLitYoDIuOF1BjDKhkfN6pGLYCeRmMQ4kSZ8Kt163lCZG8AypgRzCHWtPkSXjhDrVgvcvWENpnH/lAmyQeIeYDaTHDSe19J87J/hLzY37xExHqAJLa3GrIgUbRUIAuYchNO4KEKUTJarW5wFCMHwLXYc4SQQX+XFSXQEDwV5dd9CaSbyyfS0BUoNAywDLO3iq7FXIZHKfAviJoof99bD8l5ijB7AUsdXl79W07iFHuzzlsnG+VNIumapFg5W1I2467/VCaddr+pm07ABOcjj8H1KTdCM/YmYLOB//M4ggojYcf5xqbuD+AjoTafaiu75BBz1JyMV0KCwpuktPmQ81F1dOTC2hcGbvuyJq2kbzSTRTAWkVh/xz3X56kQ5FOY0rlqT12wlxaBnymDEdbSNwe7Njk6DU5gCgnS/PVf1xEW7V3ucjdHP9djVhbqj4dkvGbb7tndI98n2uyU965coxtzKq3eab8BhWNa8cBbZSkO887aQvGzpdlR64YgDUsdt5hgUTnkZSVN8lv20fnMc+7DWZAGXxkPn2dvlhvZt1RCK0uWjaQmynkfGLci8r5BCO8WBQ9fw3bGkyXoUcp127OtH3YyBN07SJZGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I haven't sent anything yet because I couldn't find a September invoice on your account for either 2025 or 2024. Could you tell me which year you mean, or give me the invoice number? I also can't see who was copied last time, so please send your accountant's email address and I'll send the invoice to finance@orionbakery.example with them copied.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1431,
+          "output_tokens": 125
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ce3c902b6900d30834cb4d0d2bea85cb8a361e35b3e98ca7fb80b4c8528ca84a",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "in customer: Orion Bakery (CUS-104).\nMessage: Please send our September invoice, and copy our accountant like last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_019i6shxhdCtFdMUBPtmQrV4",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_011vmRPgWSzgxsQxs4jKkHY1",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 967,
+          "output_tokens": 131
+        }
+      }
+    },
+    {
+      "request_fingerprint": "f209ab20b06da037ed103596fd7db0d5ac02e8c93282726a18e08bf2ab334f2e",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSoQYKEAgTGAI4AUIIdGhpbmtpbmcSDMKQgcDhvJtHsTl1QRoMPukWETsAAsbMfaRHIjDVHBfUbp1M5YfCYwtfoc+N1TFDxLnxMnjljCbGIN1Qa42oQuA2taOnYGQspJT3oDUqvgXrynC8PuPNcdeQB7TZsUEHQRIkhecUE8o3Skt3JDykisC9wa/UfBs1IuhUVnuitkoMtN5RsBjv39uCD12evy+7B3Og588h6onPBIlZ5bl4rAFhVZcbcjcoKIRwiuzmMvKUTqqOTqAIusgydBoy5DDQJJOze8USeUTPl+MNgYNhKFdPfTwK6oNFv85PuX7Sv5EC2o4ro3dfbGnX5stm7HbM36jlTCMUgP4Vh891C90QBB348hxIZ8LUAkLIMIOpgBZQe2aX0yDtygu0dYSMy2tpdaPcjFnRj+Fdf+bMrwFB0a7qR0bH2bRXaxQmDA9YKO+CRA1GdEkWu8Xy/5sUj9puFw9lASZ7NvkazBHegE9t3GgPvEUuENJKiHO2DmhtROQ6xtpqQc7zzYKuhBF/cab6Hz3cIRtxgxx3k24KLIsyn50hlhgeQsEfpGuQMZ3E/r05Kir6PKvZhKKh9GZDufTAaHgTdSQunT3mQblmXgEVwWDgUr3TqwxYHLhLWgYpHPRgxw3Yo1FJ/oC8LsiY3Ya/epn9Uc9solJKPavpfyClYSgCEEOH2/6aHUhp1TPxhL+UJ6ugDyfMVM+x6+Qf94oYVEcfN8+6ydSlXxr2rXbQM5fdEQD6fNiBK5um3vgnFisakWUTSI00CWxTjSw1oLs8awFjodbPIynSom+dICNKoyEC0LHcaDTzW7VuCV5vIKeAO7OPyiedwln7kMxVTYgfBNU+eaX0UF8dQu1NEqIgbnnNBCfTr/wC0H3qsmg6REMSqFtbn8R3aaCt+coxo5P5Dy3rXShGnQsi0hB9X7tiKAFOp77Cxgx3e1ybC10LMgfH2n4CiljAn7myJlFT6HivLAKd0kcfVuwE1EQX9IhzhpyXSc3buJcl+qyV/nbTh7tKXeO9k5ZSqzcyJhKIfxXQrE4PM1dzdOeUY8TXGL4YAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01T3vYs4AW7keTpELodrZXvr",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2024-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1220,
+          "output_tokens": 158
+        }
+      }
+    },
+    {
+      "request_fingerprint": "6d1982a626f48389a0a10059a447747e4f403883e5c035345132cf6940c6fccc",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSvAUKEAgTGAI4AUIIdGhpbmtpbmcSDIs6KV49IFfySOG8zBoMrdQQO/3WCt+VEv0UIjC7rTz1co/UUQChiJSpQv95+xqw7tlnKEC2l2nn2qZ7Q8eS8uQHO79rI5k02NoOZv4q2QRXrNVuZsSSk9Y1FUhTKSlHfNIGiXI4imhb6yESzNUCh/6XRRVaX8DMfWWH6W9vmY/oNdmqi6cXJPiJGL4IKkEkeYvUQNzvDlI5RHdoYUhB+k3AZnnKNLcRiE+NCwIHODqozFoRP6Qu/qPnuhFL7atet+JvvUkvMK6Dstse3EjsETuO81G7Gfqncq61qSs7IcFv75qRODvY8j3Ihra4RKLG3cCPt6gBG8kxgYoMhuyJEU8yncwWTHecK+klEePwPpu8gFuL0PB2WFHD5umLCs3aHvOvwcxbXVXxeWvGxRVTAMVr0oFLpPhesM9OYNWlpP6ydbeNlo4Z0X8cxoIL6Wq4gbD3873lnarJ6DlKDapHR++Yi67AfRXoZZJ4edBg/2hXoz22zrMDSdW0Ek/QZJlXhKZhd3AIFnmN9pbiH97BXILOpWVBoRiXKhAvUW42MSAajaalKL2oX6qZSQKEKqXQUKpHXPZVh2CfcZb6PQAZFuJvUI2MSum1N5XYktfo3xJF3PFNOEXRwPgYNHPlX1z7AIz+cB4I0gGKNFlEL+bax8Qldz/64cMW1tfnjeNgaO0QUuhtMpQtDftMfuR8OBl+Bw9YjcdoWvdMhCvUydwx/y9ykgQ1H0HjDjAub/NgHTwelSMX9ANcXSOXRCc7VvRGCtbTDwgaYUuC9TVEarSoCs762FMsU+b2FvmXVJEHQnJ2Dy9oB9DiBjtGYp7+7ah1jB8h2wYDB5oCTwHJeJQOwDrs+U4x3HTij3YGoebbDrsJrBIYawn6fBy0yHFVFTUydrWv0nryRWvUGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I didn't send anything: I couldn't find a September invoice on your account for either 2025 or 2024. Your account also doesn't have your accountant's email saved, so I can't copy them the way we did last time. Please tell me which year you mean (or the invoice number) and your accountant's email, and I'll send it to finance@orionbakery.example with them copied.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1385,
+          "output_tokens": 126
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ce3c902b6900d30834cb4d0d2bea85cb8a361e35b3e98ca7fb80b4c8528ca84a",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "in customer: Orion Bakery (CUS-104).\nMessage: Please send our September invoice, and copy our accountant like last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01GzXe55RuY8eyaN54TKbThU",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01Chf7tTvmKgbPgk2p8a7SMU",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2024-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 967,
+          "output_tokens": 131
+        }
+      }
+    },
+    {
+      "request_fingerprint": "8262f4f396820b9b409a4e572a12eb759c1104e7f184c83bbfe9d23b3e9f31f9",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQStQUKEAgTGAI4AUIIdGhpbmtpbmcSDIPeQPLSouZIXgizkhoMNcKl6PETMktgLuI0IjBBdFjr2l4kwu/4LLajaQ8y3DhFFx/phTuM/vy+QMZKgqJ9Jc0Th8d1L4PhopJlwuoq0gRJSIDvKLD+7jyJXZfp1VpUVfKwfty0HoXqxaM9UIcSNBwMxbt4vPwGHOIfGf7JB8bTphONQeJg3jZKNdlgOUCXlbQEwWlXgYmU1sNaM2jTkKcGBDRfz1KwkDP92fLSIQp7O8nyA7NYZH5LGt2k/NpTEeOlKVhzsIKYVAdR46CEio7jAUPboinTrnwfqDvAMc0vVJmCXepdp0dphtWoaRvWZC+NgYlSeSqiT+gfwjwgKieI5DnImrk5eCFl6iQhyknoGee5us2giMs1r0a3BzTkoov4/2apYsJFUBLX7WoMfU02vh0lYHV7V1JOtcZaADva2PHBHYRZTB9pE7OZ59IqBf75ySGVAb2SraolQn9c/qQILMlkjI/wN+zeiLMIL8mYLMDokiXOAec/0sWgofS0Yed0HLVbPuIDZUBH6mE+UIpIASny+t5W9NtLoIFXgVcm8ufHm8gzoxBQz92EqQA/SNMn4Wf3Mh63KxG8gJREXPnrXmbf3G888j0jUXfHEC7EUlfvnHdEqg7P5CEVWv0uyU8DEZwVPefl0ferV9L4Escur0d8UOzST8Sj4zcDLIT4q87mt7Vn8LZbgoeJpFb8pLvfyRjz82TTu3Zd4Dd0JAk39scoeSCIDKXcKWsZvdfrpHy57IyvQ63SRE1d7OUZqRP342uPZHyTsKIhm1VLLeki2F0O9VOBGShcquTzI5NEwkJ3T7wGqXmLNEuxCoDcPR30nSO96udnlDCY6aY7BUSUS7imYNj4D4Qkl0F4raZmULi/36Hsrt8hBRyjCRFYzdAYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_011kgpvGAB95cSBSB9w1ETJX",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1220,
+          "output_tokens": 118
+        }
+      }
+    },
+    {
+      "request_fingerprint": "dd90a70fa6778fcd0ae6adbda11a2e6f99ba6d6455bb8ed0bb1484674675929d",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS9gUKEAgTGAI4AUIIdGhpbmtpbmcSDBY79eDZlXelUsRjURoMrkZYtaxQErSCwX2OIjCfdecxfJEvDS8CCVJS0UGZB2pPCx8IfAZ+p0PpF0f5U8OCk7aCUcx+EXq+cXLoJHAqkwXoKwVzf40y2ORva9fjiJtwktTkngc/EeReQeQSUzU64yzPv+pwOAB36tCrEGOi4WzKZf86fjpQePnmg0YFxCwvPtAI7DePmhva7FE79TLLdoW+JEmkdaq1rpwhhopjU4gremTkQlO+ZQkuQgRIW/jBxNF6eLULm+ilHbojjXeb8OzztnwK8RkjFu2zVim3LZyYJ2qqiquTsP+69rOMNEBhz5vQ7rRmgXaY94yYZjfpf2O4WjuahDez/JWgnTi0HEdwlMjPItR1E1mB7hngL3AgBKb98v/909iHo6m75s0Ele1IECSDB/DQEwE2sGTEtUrpm7aj/J6xRaVGSxW+gNbeGdzjHjRd48k6r3iaYZmq/BwxlTZgMC6vD3/cCJpHdjFHtdO6KGpUHMlCZ/FisD2YtPtKHK9meg1fUNg4wqaGBJYMRVDU+WWAskzc2WPDsm+yFcjygrtHOsT/5aYMjuHzu5NKtVmEjB9lDiJWTZBv1rJBPw1WqQEY1JKQao3aC1VuBrnZOJyIaA9Dj48GK8+m8r5C2WoRuN9+W0eG2oXFeG+AgkUppZ6w7kCesyFhPkfT76NDcXDxWHVzIvg0Morqt0hh98ubX4wQ3/+NQNQgs+dVUK1AHf9nDKEEIarMsS86/waxpQ/o6pFrSNSUVDbgO8JWIkb6d0QTvoiBeu/D6+kf/BoQdO3EYakJpA85jCgyocbp+42zWgvX3S70wDx3x7Tws8Dr6fLOC6+cOnQOxBFb8Nx2QEm3UkITfzi7n7GEWKqIySYdYHwtafsEpVRUvp3kntCvcCObc5JM2I44h8dULurvCz+WlON9Cq+vaFKciYWVFeqSlq2dx2lB/t2d6q3iUlJKzH+HgeuXzbWhJ0m18xgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I couldn't send anything yet: I found no September invoice on your account (I checked September 2024 and September 2025). Your account only has your billing email (finance@orionbakery.example), and I can't see who was copied before. Please tell me which year you need and your accountant's email address, and I'll send the invoice to both of you.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1345,
+          "output_tokens": 130
+        }
+      }
+    },
+    {
+      "request_fingerprint": "552197e106f9d68ab5abd997d9478aa07cc8eba88c95915e042b2a1b59d8b7ce",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Please send our October invoice again.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS1wYKEAgTGAI4AUIIdGhpbmtpbmcSDAqczxY/qw2psfHJ6hoM9iD0rOlxSb/IMfxfIjDqiQ3+Y0qk7Qzau3M+GeIG4B1BtqbwybIfeykrQ5+lclJPOhTR9nnWJzS7ySkGm+kq9AWbX0r/9mJcSQjXvbpM2TnK24mvYdBAlrYM+iJgpQBRzoGFRHFIA0hII9EMDDtZtJCcKJXx6JRwzNReMXdIYosmETMJNMt2qifs1pzhETPhvafob9jm1YLPf3m7KRlFwwZNXFRSjvSim8BqFGBzaUPb4vrKg+59S0KB00HUE0+A5CMQnQfWRLhj5ioXzKdDzZER884ZbFtEpb9A1jqnO3mSNyicIhhsIcI0mJ0D9me2I2jmFovfA8yLci2y1/k3/isnoAYe4uw3Ji/8nlYV8Buvogs+qMLzJIvQvboK36GFHTLbjj0cS9OnmdrRFOAMvPdPHGwajWmUchS7vYz+V9yCNdUsIbb1dTErPdpOrOCjgj4gDyP7nO+v+k0eLBFZGcUXPjnunAIhnryMGSDvDIGBgakKXC2I9T/zvBkRdjhJkJf0Xua9iXrneGc4EJCA76MDXEXdOu1BnIXdBKMldeDJtSHK2nEbMZV8UgXIVbej068GWyaAZ75kFjLUqXACXnPTBU/jV5H+Vrm7gNfe5eFOnIiPo+x9W/uE6Sn6H8BFUvtZGouOYZKhO3LTahVK+M4sULZP0UfjX9Fc5uNsd69z19qUVM+FPd88hsosSrlBM5RLs1OhtGAzEZJVPmBZkuXAkvFp5DXE2JTyqxYQrf7oG7ZZAEzO9tzPLuOv/QQglMaOTUXiMipH6bFMERkGX09Ka2XF3lBAE+nDodHTqq/4LCb8SHgVMWTIQ2aMwTtXuPXL0/FO9e90YlF55wpnGNIb4QVbuD4q5TlTEMKBtZxUXpdFAVfpubu4a8mS+kEZYw+wHQ04hxFOr84KN5Q8p9ix4YTHydknsFCOTAKFHqYezt+/D4rO4Y9iKjYVbasahfXahXbzpYD7t15Xszsl2Wh7NqWV4/W6h2SVFnkwgvS0IgZf5rgyVqkf5v4bn9MVmTAOMX2yRzptwcnx+NMnCncpULhuZeg0WcrrNR9+HC8HtrOUzNEjYKKxm/W4AnCF/+9w6+IYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01RAuB7BRWLzGbx3i7c5TSAn",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01X9WpeQDyRGr5k6PKm6e1sK",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2024-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1142,
+          "output_tokens": 221
+        }
+      }
+    },
+    {
+      "request_fingerprint": "db09812a2a37b0390abf2daec8ad68308eac5e79c3fd73372ae68a418c650972",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSyAUKEAgTGAI4AUIIdGhpbmtpbmcSDAqoqzm5Se3nUxXvIBoMvMHz3nSAplrY/SnQIjDBahpssr+q1T8DcJkdZZzGTBbMVIy+UVyo/hq4xkXA+W51ocgNfy+bApkmgy7O6Vsq5QSOPQfNlGbWXmrGwdYStxNCJ/TLhegi9vun5Ed4v4ejld8GwEGofXugPYnZaVi9mcr4vEmrJ5EP9ac9fIsQsiSItSsa0pjE2t+WktCttgzh55dGmUHgmRjtxLFgfZtxJqjIVcfF/ykQCR4fH8pajtU66dHFEPyjWFjNvlUJQ9McKDq8/2Yc2heLHYukCXS9VNhVkxAKYtXC0vITexO2MezmzV8RCwL03uUUNNLzs1NPUzA0KRh04on6ym+RaJRrIM4pWLEuqP6WaQQPsiQP9KEfFP+oh3P4OMxsLQYlIgYE2r8OtQhZrV49fwiyoF7b52IWk1kEQxVgPUA+lxDXjSO0Dcmfk4HYte2qYleL0xobmOhvJXHefsydMP6gyoEE0WAcW9vgKs+qgxiyvy9sxfgqhlaZPPnWc4AJQrJJ5BEsSEQJP0H0m/lUtKtDYOk487+Fog1CeMEuqDjQ8QBnUKR9kDDSTcvvZJOCtjVHnCbS8vanAczRR2wMR6HZyC0M/p0BpN+H0K1ogDRM7YrEycBiDMCuLOXSQpLdcLgoXKX8wgsND/3QM5YqsAD6THdx21g5ZifYXGyYZwDYEjwr0yfT7GgoYvtmCKjXnWimuVu8ruQdNiP+DZGjCyMiTAT+CmJ0tB8Ly/jEg/ftTB+YXY0Oo1rFUx9ddUhy1qszO5fg0pfVZ+2XJCy88Ke89Q3tTxrUw3WRzIMaJ0lITRzj9DeCBCSduDdZXL51HOFbcipVXn3OUWnPwsMdntTDyOBH/YC+xYyTnriwx2OyameCQ3+YGnJ8KKS8Q/hktgi9tGebyRRN7PsUGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_019Dkd8eGtzKHX1Tw3XLTYez",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1485,
+          "output_tokens": 102
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7b4aa11d6b737f5c29036b9f3fe475e2434543e2722bea254effa242938efe91",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS+AUKEAgTGAI4AUIIdGhpbmtpbmcSDK3LXNBT1Gzesilv8RoMt9PPiyaOCVdHzmxnIjALwKzIXY/G18bt9NhLky1KBpgh7EZVOTcy8mTyBpReNe8mEH4kRHntKx2VcPqbizsqlQWfFWiVMdTUuqNPALeHPDgNNtMD/ev20Kag4VD+oib4u9FF+72GQHYhymwy9riX8H9jBP/jhRHR/fkn1ar8Is9EWlwmVXd97PGqLdOlxwF9ouy43nnJ2v11sh9FECSOswVLoE5USt7fNeMbnQFGSTYAIOPNhlg1Q7uRjLn3Fe1cmQ31hW4KYWMVLjomi/g8kUq/m6iO7YET80knuHMmc+s7fcAQtd3OS543+ppGcPTWkin9RVoUn90M/rHws2Ws1XARyzIhxWJ4k4DfPgQLzZW3pYwVGo3hU4u7Clcz76nY2VXkj7GeiacSLWY0t8pYTYot1ZMttQoJJq3n0p2Xavtyy3xy8zpVXnz9FttpL0KAv+sCnZSjpz5Tbbyvy3vcfyeqYkNT0f+00U3SBfINuk74Sa/KatD/5xQxXH+AOy7uK26UDnVp57By01DInyb09gN8DyF8Wow0KOrIEt3+PIu09djRGQ0Q2dIgmlU+f4mcPdLDyT7Fc4LZhT849cnmbUMj28/mZNcpebtMGNGjji7sF+IZ+1FAFehsXozMCoGTJlcUB19jX2Z7O/fYgnlrz7Wz8dZ3alE6UcsiAQ9cWXd/oPfxQhzXwkYIBdyXwhYo0R3Ciups+ot7FpjAQKt9qvkKhL7oXjf9c2ILD191RKABr8xpIqfDVQOaz2vAqlWGJZrk050ejccG3q9zBHud4Is8nCFGuNpqrVxB85sZamtsuy9IsP1OmFTI0z+IFlBv5Oo+Eme4Wj49QvTd+zBve8Iaf2Fk2kDX2gU5LEnMJX1LVeMIUsVcR9uaN4mEeFIDoABowXePLx1rcE0Qc7j8T7f7W5ULqUcoLpGgwel0Gfi4UQxEpMk+ciUaB9qnry+jQya2UYbuGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01EHppuYVA4GfYbfW7mmBaaG",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2023-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1594,
+          "output_tokens": 110
+        }
+      }
+    },
+    {
+      "request_fingerprint": "cf400c37bcc9f5b47cf9a2e3ef577b55cf181852655000a89c07ace8bcb0504f",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS1AYKEAgTGAI4AUIIdGhpbmtpbmcSDOTXAeXhoc51VjA1MxoMdRvuXKZAq6cto+auIjChA5h6t8/lhXtkUgyqONnR31SXnEkKZVdhDICah5kRus/I4zcjEvZxPLz2H0NB5AUq8QU8jqzkHLzk4I+iIn5xn4EbmQqKtroFhStppLuDUIzbNSpkg9qv5nIVtpzfPYgah//QtjXPcoK/x0Z9kHBrSqmJh4Txp/n03JFbqptOFWFO9a/LcIdM5Xi234n/d8sK9qJaPGkcPU5xS57XvrOQ7J5E7Ux++ILTwtnq3K6nQg+NLxVHNbNqh7L1BiHhUR/FcYXwEtcfUazLeTbnJJsrdZRS4vDaCzUiapN/6d3A+LN4WkGeohO4XeHRsN0u0rWKxUPEwI0Hkj570vebh+LDE7IAS/Dj1hlvGzhVrbs9j0xlIniX/1DXammTKUCuwWTJ38cvjnz9ikLRrVB1fyRM+fkLfY5y5/R88IEhxyzYbiwpbTe2jA6ZQAyeBW86EnaHsqLDeKokHE5DqddoSq828otgbur/O1qqOB9/7Idw8dgzgXEk5Zs0wAOcIbuviKf7K5vOQIaKcMJgN8zJ2mm859emyoR+uPNoFpyxPcVxO+5DJ29KjBv/+wgEI30o+IXv3CzagL0e+eSv9SEizZFrXoZHUtxFHWfrWAjo7nMiBXO0wMyQ76bx98HycbcDL0UABvtjzJD77wq4lJiJE2ncTcYwyLG1VnofR4eelOCD/xqsZ4H6m+v9oK2Syc/6mwGj3OEg3ViRmLm2SNwT8E31CNiLgfDnSDI3yi0Jy8eK/F4Mvfi32T3nj2AgS9nEmu597zqBPVPxGvsLNH18cOwvFgYHZSvtDvvrkYWiGYLxFUl/Lq9ydm5ntxP4dULdBzTYP1yD9vjcZrWXGT2UfMLCNE3CKVOSY6X3YiPL9FWkCp8y3DtLM9bj8Gha+NtTf2Pi8eEvXGByOg7FNA78nz6ayubq37iMT45qh3b4y6D+Pi5m3MGdk05k2bG/FPWdd6UR8AC3MaKwcf7D2ZQEsSK2JLSnnECIR6wg1Yr1OEhMWbeT3M9MNwzP9MhWONrei2Rsbkcho967GfLtcVJyydcW+ssWOHcISppBYbBrTTvY5kI96sAYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I couldn't resend your October invoice because I didn't find one on your account for October 2023, 2024 or 2025. Could you tell me the year or the invoice number? Once I have it, I'll send it to finance@orionbakery.example, the billing email on your account, and copy your accountant at books@harlowaccounting.example if you'd still like that.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1711,
+          "output_tokens": 166
+        }
+      }
+    },
+    {
+      "request_fingerprint": "552197e106f9d68ab5abd997d9478aa07cc8eba88c95915e042b2a1b59d8b7ce",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Please send our October invoice again.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQStAgKEAgTGAI4AUIIdGhpbmtpbmcSDIid+L6cnzcnTuQxYxoMLtD3PBwPl+cMxxZFIjAmzchGoH19dSQxHdGYUfaAgBgRjk94rIlcZ0oaOSY4NzpgmC4M6fa0DYKpim8NM9Uq0QdFenH77rboepx82xzV1yjpsppn2z/adps65eSuPG9WxJlL2YdP3Fl7YfgZQOOOBuGC2IhjTwUWiNIXsXlmqH/Yh6d3B4xAchsPTmucnCfs5dVivM5/BUjD8FN/RRIPlGcW7MmgjhV9SuIz/1IYVu3Shr8hjGD0ZpvLUEdLzvyHRHsormAKtehIqaGshUQGBjpM3dEbDYxYo4cjj2btNd/vh+dghNbFuoKCYOuBDW9cFtNNPNtCCP73tbSrUqPBKzmYcdTKfFOlOwpN4T7rsPSo2GsrwxL0hlOYx81/dVO7k1tenCoKoNi+cHe+WFotYUlW03FZqHni9wHjbqV2yzDPoo1H5M3h6PHPiBJjfpDG9ZkNSmsLAyVST5pni7esw60cvXU5WAk/MzQY3LU4qvKX4anKhgbjws9+jmcNbAMaqADZgXPYPAE6aPmilQubhZJ8yg3O54/zcb51GPq32y0A+7GNzPID6+Yn0X3w1JHLrBnfztWrPyl0lG6z9f8/ErcJ/3NkKS5iAnia0HyTedSC1nEVHQl2qjKJiHK7P/lhupLtyrhFKOSTvZpNHF4OydEjRYWHoJAmCnQm7lJNk8HeOzV1ov26sGQHzWXq7MpbXC8gNX+9MMd97r5/YEYnl1vYV3RathTpmIzaGe6/MNcMhY7fzQiwXioK759o6cZPapfG2bFkSabH5/Wm3Vq5lTHSqMuRzz0rRKfY6C4FNohqZdd0zzj2rBHADEDR4ABRBItV67cis1WTiRSRYwT24EOyHX8rq01T/QX/txLqwX3STBiXc6VhFtGq+Y09I/Ekc5Qt6QtzIyfImfOXJ4TYhT88t4VzAYS10GrgjBuh5P/vhEYc4OvDcBJTIgd41hsAN7aBMW5bqxVfLcXNzYPPNx9oqiYXAAnUCNx+sUlUy9GwgSQF84NLdPwaQxTg9FSTYRRBc0dxdpkEjBiKE+pLfs6HMo0vz3AKuCQunlLHlXZ9G42linyJQUmBg2FJbFencealDK9dLRaVD0NHDFrGB/oDQcn7PPY4DVCQ6Dvlr/UdeNVAOnj1AviyjWIioUGE34kPJBQOma7ng8KZDJkO1GSAIKh0BzIRCnMW6OWwZ0W1C1rZbHo0h3XOtR3HqWZrm7VYDyPFCfz8XFwOZgYayqcaaTHl/aVnSaSsnmYdddGAem/DiHOwLE8D2oQ55WObjDvDVNEMzqmlPAj9tbHMT++3erOpuEIjmMASZD7Z6s/LLZaVRsFuwNYFZSODmWcnPlsrqv4l6PpaUYcknAI/hqGk51eNRXqtiMk6HFb2mBmjpBgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01Kto8owTj4prGUDAGMi1qJ7",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_018Jyj2jaQ5c7fn3a1HdM5to",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2024-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1142,
+          "output_tokens": 295
+        }
+      }
+    },
+    {
+      "request_fingerprint": "85118e0d9f2531ced947a0d34b44b896ffa75dc5e8d42193ad0c2a26e3d1f5f6",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSyAUKEAgTGAI4AUIIdGhpbmtpbmcSDELWWSoelDAhtRoJ6hoMi3T9Bkax4tgR/xuGIjDmafLWgG3rxLcsdsM2IxIkc93S8QHxsoYoKsB3dF8nbOB5UJt2YLSGkRey835Jj/gq5QSAcNBfcPsk2agqpXmZb4uvbNgZjd9XYtqlLBWCHQnCSb4wphETzNLr3+gPfT+LdBu7bKyTZ6lYHDig1zXFwP4TUjqEKZ49uHUL6IsIvht2NxYKfuMEXA5n0VocceMlz5wkVTmQAJ8Uf7Vky+bxorrxmiOfjStygJF2WUeKl2n4QTs+d/dtgpqCuytbksz8s14sejx82a/t+vbV2fRKkC9PYYaXMxcDwEMoQU1Tqr6YpXWvAT7Vriu8kQmyEE8yNOIK1dFaFa9rSxOWudN6vrvDCzQezOmpprg7P03YBvUJSA49yb2VknlUH6nuw0BGPgk8G0FPiVgTxqQ0DBWdBC44ScUc4KTqK5FXH3Af4ELrzh1sSrgL5T0kc7lt0pSyAwywJ9JjzBzsy6oZzBlZjYxJpFzJUpn0HF7fZRvR499DDV5gLRrPDGGrxVESP7GQz57E5curttIRPkGWMB5KLQP83kWWht29GFfbfbY2AveOed3vmsVF/vW60xqEO68nMjxmEife9n3opFhcW2RB1AVUHrd2b/uFw/psWapiZQ8AYY0phAfIn0fv3SmVqRGegrPr9hteooWhqJdq5SClJoYV6mCE2nMqfIR5z+5mYbQTA1aDRmfiJCQ1osP8OTG9PDMferaoWRTt9sxKN1LKuoce1NV+v4VZN+S9275glMF+7hAi+UOFrP+UuLZSYUettqOzBwcJDVP75Dq/gRc3zHT97o6NADKiU+i3cY98hS6srvKbivrTpUAXrxYYFqxrJvHGTnPd6QuqYfY2HzkqodiPNqsnT/wkKkCC3ND2tGyCP7e8jRotGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01GJvk4vpvgzPAPHNhHaLMJk",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1559,
+          "output_tokens": 102
+        }
+      }
+    },
+    {
+      "request_fingerprint": "21f38141b948e85192f4b3d2af6d311ce9ec769958236846d997c57f5ac8af6a",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSjgcKEAgTGAI4AUIIdGhpbmtpbmcSDO+PS/qbpjx2I5U7jRoMiBFFThL5H/48wO6rIjCL9layHRbKq/mUTsGKry/QUASoIAvd25RpRSdss3OErNQJPHfr02D1qyEjDibZC4UqqwbIqKbxFG8pv4+Rxebf5d/aJdqI7xeZx6YNDBCp5JgVoEP7wp8UU8anVN7C02WfyF8+z1BZ37uW0Cdf+rdHD5xz7Sw0s3zi8uDaRRxEEE3dUqVPK6XZ87bLxn4Q6rtoUUZY6Posao4C8FoCsqhyQm12GmZsmJumLvrK6rydCAm+FkPdPAF2gmbJrOtj7zaiGvU+SNY2MC/4LWlK2hfDyCyA0t4CImdDLCmugzvWfegv/Ge2DAqS/Ti3N8F7WZAwVCtnov+GSfWWql8SABOW36SxnFjGlAZ1w/wtZHSr/Q/ba6DQyXjYL8GMoLikHxXOx+vk3OaXFR9SQRrcDAjtZ9sR0jAkje96YngDGz8okwXsW+lqBxUE8r0a6EFh1yC1o8bemU/9J/LN4at4wkrNgGZ1nH6+Fi1d4ret9n9Yh6CJo/KKILFUXVWWJwnx6ov/ReCSCcc1qrj66eQM+28pOikS4ZiEFg6R6toFC6BwDt4o9cMlxzLKqAgN6ktphc/mbdasK0J+l/1177j5PAV3fJ9X7f6ceDLsATkwNIishvhYr5yLmeFyITda+fUloWfFsK7wrNHWOY8e3s97gbEjHqCalJv/1JmJ0aBJ5jhqUQLCf+lSHDPakkHu9hGb6cFOtKwKkw9YAFk3bMJiW3/geIpRHhBurcCEz7zpVGJdMnOPd7QW83kMIqh9XB5f61Pv1u2/Jc17IIRPGEwYcfUf6TjaJ5Hur9csElIQC7lyX85+2Fo0DRSqvAWIW3RMF9++Qyqm3q5pHXX02FeIIW4eRu6OrMAZ/qCZmACUvhWz57XVPD27LRajPAFWNry66thGz9jGwq4Bo9c9YEepbtlL+dq5/b5mWyo1f7z8bqSCA/8A7XdHpDPCXPCcM0cfmSlJQfyQ83GXl65ZBmpILaOKrWdpWhGI8EsAcW3BohiQlcGSVsBktolItTMP6WJ+UptKW3AaKSsYzdnmmNzrO+qJfTejSP1mfjX5KUYInNu/8YJMD9c31KQAMqR+tbV+vV66DlhX3zIjq/NeG9SVDxQ5DH0/QDzojZovP6IFZY+DNmuO8vf5Jz4meH6do15JGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I couldn't resend your October invoice because I didn't find one on your account for October 2024 or October 2025. Could you send me the invoice number, or tell me which year you mean? Once I find it, I'll send it to your billing email on file, finance@orionbakery.example, and copy your accountant at books@harlowaccounting.example unless you'd like it sent somewhere else.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1668,
+          "output_tokens": 204
+        }
+      }
+    },
+    {
+      "request_fingerprint": "552197e106f9d68ab5abd997d9478aa07cc8eba88c95915e042b2a1b59d8b7ce",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Please send our October invoice again.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS/wcKEAgTGAI4AUIIdGhpbmtpbmcSDNXZK4Y7rYeSRGSJeBoMn1TTMy2lCbD3/CVFIjCTK/ojS0+AYAeDR2L8rFEvDEfbJNqq6bkzVrS+Lch+jNKBTYO84NbLi5TCNcYg4G4qnAdRS41ZU0gc5IQYyF3KnBO8FbM4RubWVKhpmQ4+PyFuDgdJq4YyZ5a293PUYGJvC8679dvK46K1P4AHNo6VMfOa5IEts3JYqiRoGlqvVNjv8Uu7GqfSZW4uEcYXfdZAyBPD6eigE1guA9s0qGPKXBwMh8902YSCoLEbY2DYyuNvqpJy5wqy8sSgwr/+tVVajnIAhXXmoakKEhHVHcQV3NZbfjOdPPhMp3IdapW3yZE4TRpw9yK6QQEPMjB06Mq22UC04RC/f9XX8geWeniycp1UputWM1mf79u62g9hY1MMVBlbufci4UWg7q3bBH1T2/R/DGO/WjmDRCf/zs0PlqaElsllPwnn3L0tCw3VTPD58tPgMCdQQ3gYX7yCakUD7Ul8EjnJq0p+DLho3fVMp5i5XHNeoRH/750ozx58ovyB/P2bZXhGMkjukznxeydGfr2olNZDMra9S7E9FOcyWLhcHnun5WdJzWxMuseeu7Vo/l+wyDeypilsbwHKA93HKlZ9I4RGhh72uFQRWEd4GVEAss7F5e3WpVNk1bKHd3DKgF0jb0IndUCg9x5Bme06S940+iaXi4IecJKcFc5IoBGXXJr7L8ycMfIjscvbUhRY9GFWPGeLcrEmlVGy7TgCihN3n05EkETLbKGS5KBl/G8hkuFO1N0xxJjrYtuek+pQ+xJa+QVmbwqALFeGloIgaDj3r8mJcPkXxQ2zsVRfPZrdaPmyCdqbEmi8IkvFFcTUNqUtpA8H3ck3IuspcClBWNEWROxu7wl1rDkR0GCyK2K4opLAxW4H+v1UgOTAVvcs5e11YQ89+Yxr3+Q5rxGanMJFEZ6fTB+VvO4OlSiA5Op2/hRze2ro2p2LqAY7C0pxdZuV8deKiyJ36fydpdwsgPise7gcZIcl/ShHwzRkOecaqCM2Jx96omIlY8c/MHtCGCtH/Ws4pFVZgb9LmG/y7PvCj3LFa8j9t5/XaUy3KEIktJH20mfUZbKV9DLed3kTPiccGF+n0M1yP7hy6crwC94NflkT4sIsji53kRbUKtcOi7QPWGyzoTu6JxstiGifiKX2jK5BYCKODbD+zggCkEyYzr57JYXHjgqfLj+Jl5qWGjK+GeA99INUZgPTDz6xIRQne0o0uyTyB87f0SxJ80PjY/kEVc3kIuffybr0IKv97sPliD6U7FTz4pHxWw7FZVfOpMPT4gY6g0RsnmY96PJdkqYJJO6iGsaJ+yEYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01PEbgcgXVNGtQySzgejrhiK",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_014wUhgW98uDa979NFK2nV7i",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2024-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1142,
+          "output_tokens": 277
+        }
+      }
+    },
+    {
+      "request_fingerprint": "7c62083408e68263230468ae5636598a3937fd9b2ee0291312198b5bcb6b1818",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS3gYKEAgTGAI4AUIIdGhpbmtpbmcSDFfrUUl4FrvNPPzCphoM01wqhoh3oupRlogEIjDRBc7iiGAn5vDvwO+K0bS5TmvG5Jtec8iL7ozl1YtTbEc/cu3Ne47IqldfNLItJ98q+wUY1KEzotpjqhxEbr03Syc9MTasz8D5nSBwUvgo1ocLlr2n89qQSRfgZ7g+P7mZpQ0PUJg4UFiMyDnOZKr9Aw+rumS65ailpvxEKjFoUcNNo60b98BBDKn9wR33p1tU/Plg2ZqU2DhGj4D8jMBdRKkvYAJpHEHMru4BTt3tXC4a4A1hgHHL0OKH35w1VDqvFJ9z9FdYCnQ8Fy5jOUrN9iXklQBYmMMvCc7uPxAXDv1+rr1rMkFSUNsG9UN5EtTXf5vxQndYtnRmvBM7htuVLa8hYSE39gJiRjVxOSruumz5ZwSPwPkdqseewt6rTSrD8PhnjCjEurAghw8rayUWqNMUeSvLAUnuK3Lw8sXeiBQhW+SrUI6bxBpQq4ELRAYDYe83MivGnaIkeYh1XMzAiEbSI4Xd0EtTUl3cEi4h+sEB/tsi39F/LR4qcvdP40UFHQxBJEc79mYakKGIs9VAGKmEvOTxTdrT0ebWbUpAeUVtA0IgioEsLVgkZvPPaSK0ONE7tregOBEj0InWK/IE6y2x7SeConKdrpV0NNwR6e+z39ZOg6LjvWfEjZ7zz0bLcei9Ie53GNyS5rnw51AusL02A4D6rqHnYOlj7BNGewSdu0ZLXNXHuuaMWAd/BNVk+ME5dgXbEQIhO6G7gZmW3Tu37T8xjH7Yy3Djg/aa+WMihhOCr/tPIyqs/rgmP5RIllz7rp3QO0xENC09mlhExRwG8wKgDmjYLcIY7pliwqBKb5Ig4VvJoqT/U/UwBsBP2niTqmPEhS39h04ePF+bIKkCvIH2qXonUS3JZ7wFIvlOjgIRx9FP1hC7xzBsIf7uIaNLzwdNJ2B4jKRvJRDiHdDbpbMD65pdatv/2yh5yjvg+H2Eo3pw8jW3BJsWzKZIFP0RIPvHm5vabMqxLxDQhCF5zOkKsm7N5yxKUrI4XlAHZIV2k+T3pr4vSyBag9Q0K+fL/ms2oDHcPyRbZWcyT11CqYMMu4rhtk49ziRr8n6Fk+tg5JXHcEviTt6tGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01JZ2ntcgbzvZoEXPqs2irg9",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1541,
+          "output_tokens": 144
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3c4480120f2c8515b0df7e69bea523e712b1e0067a8cd00477637df6fa898596",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSsQYKEAgTGAI4AUIIdGhpbmtpbmcSDDJnmtUCbat5OonpWRoMrZbtFarpu+eNe/CwIjClgFCvtkGM0y+NSJxXOPhT88Dk+oMBM+Pd/OsTkgJAlQZlkHF9Rfo0x/fskZK4gvcqzgX/WzVFy8rRdEUNWzC1q6cp87GUkChLZjeP+Ne/aS5860xsI4CDMqzSXJa58uEXAJ6BQaIyohaivOR3xK8PSjDK87wzc3y34UuhCimA4T6Lz4PAaGwvVs/DAgBTjbZEEEATUQdLMAOOY8V/bIXPtv34waFgb0rtewz2TjLCkp+FLZMdxWpzfxVOyhiUDdN4YYk98XBLY53/OlndqNDb5LTYYBVa0bYqD3KQcvC8gPMkwiykyRn6N9cW8S+g0bZ9spLVv+d0iaYPhhKt2JRrC4ZhGCao8FRa3FYPTuzMA4FNKG44G5h7+GSUPAKyOscWl1+mKksmSFflAyuMTjTsneGYqE8ClnY35TXo60sYwnZmEAR8NMXmw06HRwevo66WCqIVMnZjwaoI7Q3hbyck84DjBp9ziIMsdgrztACdPtBimYCJ9aKfNOc735DYwqGIShG3LiEuIhvtvqzp02+BDlubqIQJE8H0gW8jPDRzCg2emWksfApZZTWZafSluM7X1DCNv1tR4RuzEcqvx9zjEC2oBmijU/zH/L1l/I9uIuuJRR7gsFikorxfB1bIqA+m4Alr1marymhSlvJjP+on9+finbtG9blX2TuMuj9uofki2z/w9CTtpmNcd7lnQyOSIqLcGDiA+8Z/Qdxcqo+LKgzUccv5yhoNGFdaNBLbnxZtKZmlRRui/ePWeH0IT+GAkARQd8qxDDG7YQ5Cbuifqyjt3Ev5XWqsJ3CiC1Yr3JCIgn2EksCs8U3j72syDpTU/pTyqk/1lvRwtJY5v+NkI6+/Im/F0maDdL2eUy6R3zUPa1JCQ3NISam/5HMwuHxOR1V6a6sUvsCzxokIYJHLZ45ESr1nmxWWck5eqDaE1w5FpdTs1iPr6zU6t9oY/BuwZmN7sZ/x0r9i9tY4qbxt2wjvvaGhrTCnr8uhql2k343ojKMXxCa4+e8TJSHlQH9pGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I couldn't find any October invoice on your account for 2024 or 2025, so I haven't sent anything yet. Could you tell me the year or the invoice number? Once I have it, I'll send it to your billing email on file, finance@orionbakery.example, and copy your accountant at books@harlowaccounting.example. If you'd like it sent somewhere else, just let me know.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1692,
+          "output_tokens": 167
+        }
+      }
+    },
+    {
+      "request_fingerprint": "84faf613d00b1bec791570a95e1dbd487bd25aa3ebd6698b4f76d5d2f825d87d",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "er: Orion Bakery (CUS-104).\nMessage: Please remove VAT from our next invoice. We're tax-exempt, as I told you last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS7AUKEAgTGAI4AUIIdGhpbmtpbmcSDNs/h0t43HNm5udt9RoMDlf3U3zneG8anlAHIjBxcKjL5Yfnp+TUmDJJxux9uLhHHa3ytsNmYvXEKLDMohiYwidCORDI2l4tGdqzlP0qiQU+Xu7Lj/mImTAuEi94WkM0apVVS3qBUn0BPO99qVGrCzC6nHRYBKldxWOok1JsZ2HcoqSDxsICVwg4GeOBEeZ9aonp/HuTjy023M6xbn99y99T5FzbKaBmGU2VXvOE8RVrWqilHdKs5U9iE4K3qOROW5ILkIhpbxReeJm6d2wqwbmtNjvGCCYlXECvsl8BAdyyBLLqh+3r4xIvK2MDtSUUgK6xeAlhAOx2/2HF3c7qKS2XFuhLqjvhZmr175M7asDUHh+wqxeLZ50oWxbtRchowzInp6822mlbvQFqJKbU3WwqaueL1urlOtaODZh/+DlOaT4w2tX97AoKB3M+xqbQ9oF2TmqF8qK0Hk2VkR8M7hTGnqP34q1M9vEwe7aofSbqN/NfdMAIu8bVkW7bMVslwl+F2d0w4mYg6EZhBtGRb3jves6iN9WNq0KV3CxjK76pRRxFl4HszMAGgZD9RIUbJgUPnI51CybF93Gi1t1sdhI/fY6He/YrIKDX6fO44CO/MiTIonfcvbVoEv8WYyZa4DL4Fg8S+HheyK0vzzeU/qtagXNuyyBluP92AEyLBZiCgmkeC+c6ej3KNDyeWrp4Lj5fSj/DtUPWdgIMPGtfxlCq3uXxajTGU1nUPVfuIca9azgUnanazHcWPZZ0RPbiMwHYqAx90A5uyFRmt3MedTmi9sjOnBB7t9Uq13W/u6paHI0PAYDs1Nd6oD2Tdhuu5wlhXWCTnYSxxU+gJ+ocERov7Ndw1Td1OJJjwt4zc/CRu2ZhlMFT/IAJpI7TJgTmUu+JbpGe0r3RBG1vchscWLnYpE3Uc8QuLCVji/DVQwAdvgAPZGdi2fiTPCdVPYfR0mIp75Le93rMGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01LmYPmfGCHeCHpTS6VqvUES",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1162,
+          "output_tokens": 108
+        }
+      }
+    },
+    {
+      "request_fingerprint": "639be2d0137f42f13fd5d0c2c215090355bce6e02ab9e32a6dbf408dd36f829c",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS3gYKEAgTGAI4AUIIdGhpbmtpbmcSDJWmQ+H8+WlfDY3VghoM6VKAOcNGWO3KZwSCIjChCasHfHEd4kXsZnvskG5mEvJ8feStz1aPeBqRk711XYtf1U2GFMVZW8AOxzGQm2cq+wWSuGUXSQU5iOFQNkrXm6KvTk1USd5t4Zi6epzkZgfpw7amGlQ2M3lmMDXbRC8y4t54lAJkqikUyoN2MfkhMhLN7Y8UuPkBKq9fabixEC+IqIM2hd4PjaMWVRISvchVVKWL5jMSFabqFY2nEDuFWQJ+KCDeAy3r2v/Q//yO9VgfoPsPZTi5xPgqWe41/x9llXxrIUlvozyE+CNyFJu0RpqLYJ7UkITXOdfS9lfICUPn5V3tZ3UnEvjQtUpDC7RfJF3u8l++3NpNcTh4s58k62CUni7pgLHjWApdLWVKyaR3PPqB670ANKt70Iaaziy8eqDY7zk+LpSxWIGygPDdrok8Qtw1lV+ZSYRGv8xWnIfiN2sI+WjD7DXSkSzzh8LQpIlB1KS5u6fd/HBja4niF9GoYHBR+FryayNUftBb+zBQ07DaJ+kUP6epcLFv9pEo7Ud5Zpjx4OCivE3Hw52yBLYMpCupT5X2dIm65EwETc6ghT0TX/3cw55TOTlDy9k9YSqywoZtUYPZn8xV/3YcLs14PvEoeflxlbD8QoVEr9D4Ymk/DkjnF/njDo8fwm/E7J2xqpwfrMxN70dHRhnqG8XHZeBWHTXnqKnpziBMXe7OZB99pHGwQxMvK/IUu9h8114ePLNbFnrjzpSzNbJLv9vaW/oGyJ3YtxxWSJLgotYtxoD32CHSXBBKxFLec0/+HF+elWcX8aR6GwxIMXlnQZfaRqLEertH+wORMC6OvLDX9a7V6E2M8tDaDJSvOi4flMeRR57jrLlQqmGsX12aa8ZcH2MFv/gOhcoMAAxekL1QppGiH11MAhF/PhMMl6VFa2KtZKg8Dh9lyh4z1ePgBlF7kD+f+CMvEi7/u2h233XrH8ovMc4Ah6cz4pS6lcUZ15W961CA08pVSyc+7EXdNaYqDTFvQNNFFJ828BzTxij2RsuViiDUP5DBbT1BXOrXcIFlB9bA2ruYtgdVg9i2DohfIHZWa7LHGzZre2krhK5AWNvx5onPlHfqy5bLGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I checked your account, and it isn't currently marked as tax-exempt, so your next invoice would still include VAT. To remove it, I need the ID of the tax-exemption certificate you have on file with us. Please send me that ID and I'll update your account right away so VAT comes off your future invoices.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1337,
+          "output_tokens": 169
+        }
+      }
+    },
+    {
+      "request_fingerprint": "84faf613d00b1bec791570a95e1dbd487bd25aa3ebd6698b4f76d5d2f825d87d",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "er: Orion Bakery (CUS-104).\nMessage: Please remove VAT from our next invoice. We're tax-exempt, as I told you last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSwgUKEAgTGAI4AUIIdGhpbmtpbmcSDGxJyGRdtxQbNLxNlBoMjr3Xy7TQtLlY3w6YIjA4Bui1WqDiSCGAqdYLZq+TDg5Uv+uuFMxJ+OinPMJTbxmNEPCMGyg0CzI4bM36YXgq3wRCuPcZm5b5SrEWckCS0wzmOa1Bd4IJMluQLYo/Ksm7Kcc7AX0WiEzfZIjU/5FvbHAW3PM3S/B88XvmY4Ql3Iw60f5zHkAAh+puwj/ORY4w5dhh7VPofpnD3WzzVZkixe9rkbTRY6EtvHB7NyxASzZA5ll2O1w/k6/veWuLxdemZQME51Bd+fdJNyQ1Bs4qF73qLkCk62mvvjUidC1+44S8svbmJaTKTNEgFZ3KeXWoN0uRQ3p9XzIfnOLNhtcujmui8FNSnQqm40qNwEHHMFzm0ssR4nJF0ILyz87yxpSbhvIsXyFwrUWHTTOCacgnEP5RtoW6OnS7QDG7xF74vIaORXiQO+8gX9+/9BgQVPz8IWjDOlr9otkeLDwT0su0G7xn1XJLlozYlgdq0ubfOJKTI5NVQgu9AsGJBCz9L8s2MSH6eUJE1mtzCeWbM3LRB6CXxRpjnzx38JUfFwkMFrLxSyRnB2XaLiFeBM1Q6y4mBsVI7LrFqyhAcu29bbfPkLNf46bmrB9Hxd8gztE+3v1Y49TN8Uj2y33sk1AUh5/P0D1eEZIpVkA197n2glr6plbdyAH1jpmiNB7Ls75+/Btpe4cwUcgIR0h0F4LohI4jOvmYd4jhBMqgp6vClI2wCnEQyhwu78VceDY2gdYPSbcCHNIUg797XalbN4e90BbduaY1Q2yiFGylmoMrCHichIZD5qyw5/ZKe0zhJ42YuUBDpLa9M9RK1Y6tyz4JQV456+nICb52FwkdApQvq6XAD5ES6ewqdcLoxaOrz1Z9GOApbKL4iygDQjXz8Q16MlmEGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01WxZjcW9HLEsFydzMgGUEmE",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1162,
+          "output_tokens": 93
+        }
+      }
+    },
+    {
+      "request_fingerprint": "90e9c90cd4d2d3a8c737a7d92baccec0af8c3b82b47fae4c10fd2f78dcbbc1bd",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSnwcKEAgTGAI4AUIIdGhpbmtpbmcSDKLucbFKy4xDj5hRshoMDBKfTnD9lj4QipI4IjCLgqw3YrEoUaFFnE21OpNGBHDC7Tuf3ZU2tEPvPZAsDIdT/Yt/+YeW1UyPeUBLiGIqvAZ4y8xEX2C7wPDoV7ZNawGxJvVVt/KzC/OC77KZjQ9XMdzcacvO2RlmBQ29ukPxGTXHWzArqB0/SlzPT9JIooKXHMjVkQ8C1XbfINLIvB2m+6jVJOCFcERjYWt8O1wP0OpLkETFtD0QHPi39EmHh7KgW2or3PT2Eo9OcOYxlUkCxNLML7hiSufJM7olea2cmhTJbPprxKpNAYqAHX9CgDa3kri4CCbFv7roOln2O/nBwB3dWEKLTGcwBKTgNRAdtQ4FufBk1bK/xYW1/pygVni/JSOaRzohUWpAFit1oMraxfHJ67at/vKux6t74Z7yW0gkx0yhKEzcVzmAy5nWlnfHT93o/VVZIgMfOooYoRJDPJvGjGr+RLF3Po8wjHc3iTvNJfgAj/zacQm3FJ9F0rIzftzPUNrg90QybeJtwCN9FSQRACRsYS80I5a0h+ojGiYZyEP4vvZ7q5d+IoccJpiQzuOkzQNbOVGgT2PlA/xNH+txNXYHsus6hGAVA8uMqn3yb/6fM9Kag9Bz7fiEaj7K+5cQS7qUK01+l4LxHmV+y3PChRvR5CDLmihhBzGCqzXOmT3uguPvKdMw+adrKWfHDQaoRC2v8iAw94K31cE1GFlP25y2Jl66Ns+MMZxuh1SMuxtCkQpbeCu6ovo6Ylxq2U0Rpia9IoW7dEXMa6IBwQwB3qwHTJqTqsx0HVOx0l1sga9Gs7GcwScM/kvUfZkmrXr0hX8OuU1KEZ4VxlHgH9M+bBGhwK32NWjkKVd22h5+/r3t2hMReym3MBRR+AXTr/n0T5oHNqpecRpL5YGmcJclR5gDE667Yp/gmhbaLNJFh5Er0CCoZfCHpPw6t4MlS6aD8Zz2zzWtq6YF64pw3bERXXICGvkkv1KPAHcMmrh4m1ttiTFERRyv9bdJv7hdqu4b5XILdM6N2TGljw8bu5UvBdzoSFeKBYTdEdooKW/2lhi8CDfzRt1RcxQrVA8jwxzAfp5clo9e9rOhfobPt2X/hQ1BtjoEOYSaHlbS3zpTnCV/lsLxbbHmVqhU4SFXHMNLp6hPQiTb2nx8Sw1dXn2rPFnkmd5tbSyxrqK+vzIXc6abEQC+uqjJYrMYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I checked your account, and it isn't currently marked as tax-exempt in our billing system, so VAT would still be added to your next invoice. To remove it, I need the ID of your tax-exemption certificate on file with us. Please reply with that ID, or send us the certificate if we don't have it yet, and I'll update your account before your next invoice goes out.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1322,
+          "output_tokens": 201
+        }
+      }
+    },
+    {
+      "request_fingerprint": "84faf613d00b1bec791570a95e1dbd487bd25aa3ebd6698b4f76d5d2f825d87d",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "er: Orion Bakery (CUS-104).\nMessage: Please remove VAT from our next invoice. We're tax-exempt, as I told you last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS/AUKEAgTGAI4AUIIdGhpbmtpbmcSDKD9xcF9X+3C7dzKxRoMHmwMyEgXi925Snc9IjAC2yw8fA8gOPvSbcAICDus5NRE8xPhG8Tekyg8I5IORf7ND51l9Ss0HtoV2WUF6WkqmQX4Vw1S1qGRYlD2qhoTRpseIwKaStu5+9qTnHMW3NiJkFFhkqzBIAQUZdXmgU+8qkTGjUl1cKJwD66ykOYyoQYcqvMEJH45XWTYVxsGyInGxYpwZ/B4DXENFsWpmVfyjKVGtfJ32JD+JIlYAXN6J6bT0IctBHmAP1m6JmLSPPSMDFbc+ILAYSJ1suz5WqlKkKZxMB+DlyV/WAF+b0iPyEbu+689qZYU2yweT8IN93IyOw/qnEs4SigqtwC6Md1BiNoVTL4QYKEYtbjB5oYkrc5gV6P+mivpGcv4+mmoKAyafWAGi5tnuPE25gbMTZsh/lAZ352EOG4eoo57J8hOwJ1B/Qq+lLKhmnXLVbf6PRuOr0USdKTNTG6jLqvkPhRSXrWlnRcN08Eo6M5gva25VhG6Wc0oH0ecr/wnPxPlUto2QIRKtuj8oduNtfWpDU1XKXFj2uYQWeK8UnBSqsqtwojAqzviNZfcgKvixwtGM2yEU+a0Xw5uRjL5Oynt6F8GpJtiL1PnkIPyUBPd4QfgD/DgyB3E6rr4BCk0Lsnnkf9MTXLPIxN88SCAIm+DLN+etOI2Os4ezvN3LN2HoOU3aA7GLZI/IfZAsAaFRAq27QvE3s95Mk5dafm9ugrAt9TBo5Y1xEH8d1FdtTGson37z+FlvIIsbQvmuONMDUBvboMzTbPyUs5dQcEbgBodpUdqDBeX2zVyaSGkA2Mu521FjCia/UQWNe3NzR6J/z0EVlk5lT4p+s/4MDWNNedER9XQRpXzicnKAL/ln2B4l72A36eww4sEiBue1BdIN5fzWt1ZNd8FIS+FUkwitXJnbr5sK4RNf0Wd93bPSRAqN9tCmFeb9c6HGMJzPaJM1BbU8+UjNR1KoGoNFy09FxgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01TMkjgCYPXPhws8QN94p5wd",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1162,
+          "output_tokens": 114
+        }
+      }
+    },
+    {
+      "request_fingerprint": "721f3c631bd4813e43b55baa6e212bd16d58849345888b47ee281d6dfd681c67",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShAcKEAgTGAI4AUIIdGhpbmtpbmcSDN99S9NcW3l6/GVmNBoMyFdmImZOJyzoyhkJIjCDcE6LBRPBCKPSdaLLkSSPeZoTJKKby/Dgm0HwEgvFMSE3sqeq6FcXpUQeRagWZSkqoQZNhP/vQA+FvajYVXI3/czesfIF606ut8mw9JyzVNoQfY95zvPm/TDf89U+c7Ffj4Ybpq5rAn+nozny4SoLFKHxOGAB/YwGPX1mh82Npcz1kMEIHqHZmdzTYYEH6iw9DIdwJ/dwii+Q2UIcPmadniH2QIlITM6k0YrUVfxSFY/8sjk6fuwtjEpFIC/M86UWx4HN6cSoRKKuNk/4Bvssf8dtwXt0tZq2Hh7oOlyW7TXJJyjKCN8w7ltFsrAyIhaxxJ5eOh2xWsc3xXSq8x+StyCQ77UnNWYJzJl0ACh1kS04TS8glfIF/e/CCDkulLbHeysfkZmPstojmEcyBykHmgh3s2aLKyOIHePoqe5xpSpX424h2q/0QmGC/ZbsX2Lh2PAXLwYzzMwPA1G8UIgBmsEE6c50/N0saeu0+eW8lrx0J8KHXitLtZypjMnkK9Zsu1oorJ/E4wUSAl6Dtl5Cdk/9y+ywl1cCFynAAppkkbTWFRQZImVmgoEVTvB3fmC+hpesVARvuq/o9mIRjETUjn+hCK52JgfKrkSwZpziJEntyQjxuH1qFKtjVd4Tbl3svAIABWdn9qdj1UNRi4QaIt54t3AITL6S8q2/wEdr2GHfgd1K4o4H/IO8IWEskPdlfXCeT+opowFaSh5N1/7k80xC0WDr4Vs+QLTePZdjX/znWrDIbcXaKRPXDCSiPOaxm0Q+1t6co6tfpVRf+TmavpAKj7IBuon+7ZrmvWvX3sLQs/aIVg/cXYRO7XhgpfF1EJiPJUfPLSpk5DfS9QQMhucm3v4yBk6BqjuS5oA880u6/1tiP9tr9LKwMYK+EcLOjeI/7bJ4slBxNs+PV/uVbqpK+3arwAHeIAf80zz2JIbKpIPuN2+xVrUivj1qiswt/BZT6rMWcMwl/JLjSLJVwFbPVIJu4mHzcF9xjDX+pp76o0xtN/N2FEIQEMLdXSy9BMpHLZ8OQI7HdVzt1MClq5akYAsd7Qp4kYYrXsyrorOh38zae6q2+CAky20KVrk88F1bAGWReA6ufIMInEbiiO60fn3dcd18KZQt41Jh4SKpUvQYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I checked your account, and it isn't currently marked as tax-exempt, so VAT would still be added to your next invoice. To remove it, I need the ID of the tax-exemption certificate you have on file with us. Once you send me that ID, I'll mark your account as tax-exempt and VAT will come off your future invoices.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1343,
+          "output_tokens": 188
+        }
+      }
+    },
+    {
+      "request_fingerprint": "af848709f77361fd69482c1d52bf0c5b4ae4f0fdd40bb8239b1d2635893c4bdb",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Which currency are our invoices in?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSjQUKEAgTGAI4AUIIdGhpbmtpbmcSDGuYot/vjZ7n0NhCKxoMpUvZyv2X5pM6rXhXIjD5loMcp2tnUQjvl6oeAL2Mxo5xCm9jibU1wJkr9VRASwDov3qtDEp7lMLK0xzzBxIqqgRJY/yWpL4GTJDWYxSqb72EwYKe/060ZsJLkV+bitn6qbKT04i/TJQ7c3+Id8fjCqmzx1vaeTPW3m5dxymqrA5kgYN2SyBP5SMO0AR9twSV6rUGYqSGe+NfTipmScHOcK/G81cGELPjg4BZPi0KozSXMPvOKywW+K+iIr9NlQmSziaMaWxMBajoUPVaGd5yL15sgYEviMJmP8C3aN9aAHVMOSMvD06XIPkzBFoAo+5yDXqdAdbZKwWN5nzewEG+co5jNBdpS5y9C6PmYLAtFVEo/CfpSH6rIIW70AAoTfUb9abhj91OFTh2P5lxrfJ6bsgYJmnmAe2Sd3yTQbjeY75Xy+Ugu/KwRbat4DhXdW+I3iTFUZijHi5HhHAib/GWIVbFVveS4yNTwmdBs9BawdK2mAOpLPLkV03plQa2poDaVqceCz4vh1KW4gq03vT+vnb0izWMzlFdUvzCyb1AF5EU9Po+Jr90DnglKShw63tdHrvS4D99+ppFgaT0ctX6IH5wpm+9cr3gNQpjE8cqpcygSfUYs4rZp66SbVHjieclJFX+TaHf41KNSuLTjmC0crrP82RLGbFmLGfqWY38cbgxQFCjkKYY59w+GtCU0NYIXfLEOTD9Rx4drpPzzDX7HZrlthCIT8NZM4zhX7edBgadMpwb3Y/E3NFGBkaq6Osmut0eOKpOePuWQGsP5n3XN33xDZOfqn7whqd3SyYtTK5BjS0N012tLHhy9hgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01G1VydpcbGx64ByFDG5xjCk",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1143,
+          "output_tokens": 77
+        }
+      }
+    },
+    {
+      "request_fingerprint": "10631f011ef4c4e28733b80d2f10ef1b078332dc07c25916f4faa0383a1045b7",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSswcKEAgTGAI4AUIIdGhpbmtpbmcSDC/nk61dR7yOjpIx/xoMfdVxAPgvMXPlzRm1IjD92oHUpewcy/DvpaApbBt5M1oHO3ecx8H0PusR7wYNqt9Zz8eV3+v4rR6anWz4+Vwq0AbROfxW43MStVBOb1IOkWTkxotfAOz98szOjrGECzB9bGYNmmDrhhsqbOz+Q57dFfc/gAv5Djqtl7eHk23MujTNi6PT8k8YFx43WnVA1jh3rsce46QNvTZfKyxTEwXtnY/UXzdu+t7B4MwrEInRzOjqkw+bwc22O8TNlH4eyvOVRx7/8nEf0iv2RQ9w94AiBrrkd5Pb/JhdyJ3pMDS2QakBJrsl80uSYtJK4AxslAHiCwqkge6yk0zihmYVcRre/rBVfdae0ysIzp0omAP8/HkcjsSvV6N8Rnr7lDyCmX4Ou0yqaLaDVAZQIlN6rUVDQ4bChdQ01CVz4f15Rj1AJ621OrL9eKCiGnOe9Y8YQXOj1/B3Bmu2m7V0DgNG6YKv6i185zUuWgZ0UUZ8Yj2VWoU+kOzR40XGEwR/0Ox2bylwN3Ly9bBLlm2FhAwvceM75rg0Kssp8g0oNHFEhGMEVm6dTBmDDs5nib7Z7YRPirihNTe6dCEsCdN6yFwKgjoNIA333eROpqrOlCgxjNTgtHmob2ZkQB6Wr4/gOGF3nX8cc6Tn9/DQaRFzAbt5kVEWzhPAWDDt9etouLfCkRZZUAIsMLzkF9hj7p47TxHJ9wu+Mvz5Pg6N31PGA9QyG4w5i3jPI+yIKBxlv7YmCipuOLC8gClJjRCxe1mqe8Nw36S+rLTEaTKh6Txy36X00fLy8xTZFjmvhyTGrdQjktxYnJFVTivdJj4pTHyq1sVoFxkm992ndIt6N4W2+8W6o05Q0JYSBPMk21GtDS1MpQVpPecwQRQWeEYlDbBzp7KB2FI0B3/rgt2zJ0XqOzx9bCPSdtN9T5OhuW2xVKZqsttoBIAm88vstWQHSRiIDIIPA55cHbwxKx4QorGxNOOJElv5ERR3XdrmPZmpL8gQqEgT7T48epp19pXjn6NWQhhFD+pdX9lVlLSTUe1KWkPZNGqP3sOXK1BRAMwFhrDuueGj20hfUPGnkMDUN8wzXI++K4jqn+noJwtRDnumJibN5Bgybn4eHwFrG3dv5as0rJP1Zd557MT8ifcGGeQf+5R6nUtZbLLadTB8ukGPG1gTFrZATCI75cPnubLhLX8QQuitLAJ4h7VlcUhtLJvGW36I72YE7BgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Your invoices are currently in US dollars (USD), according to your account record. We have a note that you'd prefer euros (EUR), but your account hasn't been switched yet. If you'd like to change to EUR, let me know and I'll pass it on, since I can't change the currency myself.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1287,
+          "output_tokens": 192
+        }
+      }
+    },
+    {
+      "request_fingerprint": "af848709f77361fd69482c1d52bf0c5b4ae4f0fdd40bb8239b1d2635893c4bdb",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Which currency are our invoices in?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSjQUKEAgTGAI4AUIIdGhpbmtpbmcSDFqQTNG+RwTyY4fhTxoMXzsowxn+a8K/rssYIjCgshH1JlDPC45HGnqjsBp97xFK9EDTCRdH4sFzbKxTO1XdMccNE4Yw2kTPPd8fgnQqqgRYEIU2UnrMboECPVGoesB/Hu1c/MeEFtSNcbPm72VdOJHx6HANrVGbFARpndjOijSG7XzzjZTcyfXjTI5xL4JsHXM5wZODIHwvfzzBn8jhSGclo1hmL4u5D2lLpn/L2Ut8jFA8aQQK8mfQyJKh8eaLuuZCzv7IQmYZsmAF5PsppcxQcC0juaKaCgILCi269wG9o/+DOZI/OkAc2ZRoIWRXsZ6d4ctzpYjNz3z5VmgLHoDg06cCINfsehZoBAPgN3rljkYrMkuuPPd+doJNFxGJslfRrOo1URNI9T5J60zNAGQZZhEQZetgChZQmy9HlaLBPtkq79NdI7j51NnnnWCIXdreac70ejGKKViszF1Zhgmod6jlkaHkgpHq3ma5QUlVa+sn6xZAaaxEkPQLKZwfdqIyDO7ikccelQVNauA+K4f8z923systkBIsfTanImIIoR+vEjB6Pu6kweS/llodz27lI1XsQ/LIA73bkEsCEYG823armX1YVugV2BRp4uc4CVFwdlZOwtfK5PUbhBEihQ8F3Cak3LiWvGRoKhrxc7sx+zTFHuy9k7tflesLXO/dvOnBqSxIuhpu+Bing8m9IG6OPGNa3dc0M9dxD7lUde44b0EPIqw/gqYiVQSjw3L6x/aukApiR7Vzg4HSipQ/O9OSXyNEt/FZO5Iji+stFP8Nw5H+ttGYC6B7TKb1h5d3lqRXh6k+lnjUgCOaoInKRhg7vpGkUbVtxxgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01T5723SqaTSSuQAdJoz28zZ",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1143,
+          "output_tokens": 77
+        }
+      }
+    },
+    {
+      "request_fingerprint": "33970c98b2ac2f8f5b46231c1b69767c6a54a25571155f5775bc83e90e1b6aff",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS3QYKEAgTGAI4AUIIdGhpbmtpbmcSDIglyekpsvyP2Ds3QhoM8fdkhlSqMaJS2FJxIjCYEO5VI/YrylWPenVniBHDKJYlxqIoYOg9wDkiuiWwHlS/qWb/MkMbGgzoFTQ0BWoq+gV7g+pqVSq8+KPdoy+Kw5YN/qp9JC+J/6IrBnjV7aPRa7Y4J5j3Ja2x2BjXOsG3qZIws34W6rwhG1MBVgYe+uxGwq0GzGQnW/rfsgY6WZu6I/2VBP+uPz/K6zagfHfJfDUgTgdiKOoEGmWnBveM5jCgKpNduRxvSzhJCUxXuzKphu5sVTe0oM0LG4JsC0Q3PAr5Y1lkTitKF8mvlVx3rK6lx4apUKOdVcbYWeBZ7lF0Umt+icsTMBNaeZq/uLpxEY4rTEiv8dRFtm6LzMd6cMunW4/uv88Eg+0uDRoRXuiqgBV8LSe6G5Sdy3CVj++Vp1yHPRo6Nt8M9+y3YJAsKI9XyMdg5OhyZpL1YIC3dyZ037aX80CIGucwIF3z0WxFVIcQwuqigwyp/pnu4ItApi7yvohRMM20agZdj7ycNDRysPhMdIrrZxL4MXFVGXJEjR3QRYN4qXe3/OdCEseYxc6rR8Xk35L4ND+Gus5cMBFef5vOlNLiBEhlT98W2/1rI1rLIkdK1OfsuYZtLzMgL5t3fbR4wNZKhoZ9iRgT29D1VwjwI50CveEn5tT50RRyvxO27pK+ByPJ5gJoidnero441MW5yAPs146zykJ0taNlluTo9Hbx0hgC4F9Sh+jt0yJ+cTS7tN+zk7o0K0rXXuuY8BFfvAnNyt8Nsgl+VbeEWJMzTNFU5PzcUqWf/Sxv1Iytzl12A6pxA0V3zjvdK/DKIuHrYRoQoc1yTd3FE6WzCKyCLD0hq9CoGsaKQ8Ikp9kR40hjRlze64YBg9g/1PEraoE3gGLjUyRTbxF3F7tXlL8f723GWZYHZMvDMly3W57KbC63Z4LshG6DnH4axd3sKDM/mF8XqkiLiCWpOp00Hs9atsp15nhFJBZvSKaJR5j0ZhSQA2jH7QSupGqeFudLEpYWfYKvIjPOfH8Ns1uSL1Tmwg+p421M51X53meDaBc032/J1DTdYPJL8ytEqRMIcZ/6+kZuKphwSWIzjskzcQqPX/8SMfq3YkAYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Your Orion Bakery account is set up to bill in US dollars (USD), so that's the currency your invoices use. I'd also noted that you might prefer euros (EUR), but your account record still says USD. If you'd like to switch to EUR, please let us know and we'll pass the request to our billing team.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1287,
+          "output_tokens": 168
+        }
+      }
+    },
+    {
+      "request_fingerprint": "af848709f77361fd69482c1d52bf0c5b4ae4f0fdd40bb8239b1d2635893c4bdb",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Which currency are our invoices in?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSjQUKEAgTGAI4AUIIdGhpbmtpbmcSDAhVMz04N0ih4qpjhRoMVA+41OloZ78tlGaPIjC4qcaGOyYUy7IlfLu7M5GjFEn7GgPeghnHWHfC4QWEfRfehpBy0ofn5qxjGGn8IMQqqgQKWgXjDPS19/BrfpfBUTmJVQ0os5L2mt0X1YmJsqJLPyljn1PKi3rCZy82pns3a1Rrety3qGLZEHYkKRsK78MLW2ROyxwnjtYYMNJim+GHA36hHARvZtZSB20nfeb3tlR/1iCUPiy8OXvtjIFjgAXMC60CgJSztCJkcMuNjoWtcZ5qpqiyoadwcBQl3qXnRPlEO4gtMDgfiUZklMMjO7blwCaAmQ4ml0OmNkCeg11V8FeIckOcXTpT5iAUmmeogRtviNvCyCNFPVkYS+IK33ym1bAbt75vMTYPFjUasVRJ7fFoJRW15e/BAampR1pwAVNRTkUBqH4AZZf7wZN7/5Mc4Mp4NBmSlzzXkVMCmH3gkYA7b5htGMcl+nR5zhePK0fJ4Izm9R5aBIhfg31T2aM/3/d19VBaXL6fsqedeD+IsDGWX1K/teiBILEQPhBnmbfkKvJuPYlNr3nSFRT4l1Xjfn9Yn9wnPQWkQFDb5QnKSNOBguN/bRwXwMJ27dFOllgVB4bYef5N5bBWqkIVHMfpqQ8QSRFYQPnGaGIBiPKX2FJMTTgW+nphy3pAmTilR69gD/NEo+KA3wY+Hh7NQPTS4qMdvSg+9SfLPGyTxZDyoAnE2u9QURyFVqVKKEbYBYwE906fLIVPtczaBbPCS0iycClUbDDM1UZhF4x0yaL4cEelKwZm5fP/9ne3so4dogVd1YpkmaQI2pKpn0nl83zYLMUHwtxXOYzK+RgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01FpKvMj8AtBYaTR5YkxvbPw",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1143,
+          "output_tokens": 77
+        }
+      }
+    },
+    {
+      "request_fingerprint": "c30504133d9b8470ffbc4071f3e7e01bd1ecf7b5f4556980f1ef70646d26c5e2",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS2gcKEAgTGAI4AUIIdGhpbmtpbmcSDH1cwRjW3+JHOed5yRoMunjEIZfphaNHNUBxIjBYo9BWic1L17bGzgRkHU+1qcjax0oT9b69M8cb4xm2M915gR0hgWyXPRHDKZZPNHYq9wa7IWvzv+nJJqX612ksBhluiT3BXPqc/qcvd0qEWV4o4htrmnXRiPUj8ceQKJHEC8UgsVytP/9XPRfuulIOlFE5nmPcXHXP+SFSSibacDp4LrnUA9Xs5cW4+/jzPw6VCDXh908WGw00UkQCj79YOIHzjXDpHCrVx8y16Sy4gO746aZkkdNsiFG7oe6yJJl1z0IBQFxpDW3O1Q8oGgRhLvwJNX++LprZWx0pHT7t2CX8ALR3sPLt0aumWC+aKy8gqIL+CZ9TYbbbYqmPO/JPQN42e2IxTJDGD+czGwXpqwTlbTtfbuVDYLM05JU48ItD5vnJheuQeUl5S9Rdm1K9F6ZkzArEEmV1F9En588H6ZrDhZ3J48BEwxyLn5whR2pZZ9JqjCO9e3N53Tn0RqjW5bp5AyEZjJ/U7UrQumVo1UXbKFaT3PO4YPq/FkzhEWpFX+/TU53Nl7hehKKYWdU6dEZhR/HbTXu45ZdKVnkSTDPdcxrUXqRzsYdJrqSXx5RkNxj8vkH7E3SjIB+/jKS2E5QHn3TlbUl3ReLyXzONRA9ziZhDQacd9xIZHWuEXWi7TrG3Rc+6qbmmH6NneF/NyNhGNDFTGfHFuB5pE6PonKuIOTbdc4vtCyB+DlHV9H1lIrinbIvI+i1KDO0+nHquKShoYKvuzZ9F/Jm7N0hLKcCMqhy6xs8YLeJZlWrjwppRt++KHMjA1vXDXyWpgBWQWv1z2P4XtkFgzV82CSDhohkAS7yMFOoIgg8W58G62dQx6Q+ic0rD2zwExoq4YgXd5MUABD7xkcR7ht59lSkie6BYpVEpfSY1rvfylqeXHXzqMLiYNSS7MIfXtzmO66lNn++kmDs9Skmcd5B/AhtNT+hSAWp4wnRIfM83tuFiNC6Dz0aOVSkLU4WN5F7eRMqcjeN7mzHRxKYbLMJbhMW4EbeZmuFcbSd+AlNlqZlsJZ/SqDL7un9+AnWJNRg61PWNF8O8A+j/HzWlp/BZ7euezqHceWRGsRS3U5uHgkqKfs9pynoMtkcdR6BhD5wFzcFnpVvX5GHrqTkTQIenKQi3eUt0rXIWFtvGhcl8uIsFhTqi1+kx4Njxs1zz7TmxOVqakuXVJSZJealFpJKeI8Z5U28eVyGXQgERPq/khOQxRjtEeDDPlXYI++M9Htvp/BVFON4xRwW1I0sw3hgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "Your account is set to bill in US dollars (USD), so your invoices are issued in USD. I had a note that you might prefer euros (EUR), but your account doesn't show that. If you'd like to switch to EUR, tell me and I'll pass it on, because I can't change the currency from here.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1287,
+          "output_tokens": 205
+        }
+      }
+    },
+    {
+      "request_fingerprint": "24c2a7fa6e827079e8ae91f8ede58c1c9970c6ff72c230d01989f09df9c45c7b",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "in customer: Orion Bakery (CUS-104).\nMessage: Please send our September invoice, and copy our accountant like last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSkAUKEAgTGAI4AUIIdGhpbmtpbmcSDLZbjb/hss1YyHdxFRoMr9CP1D/KOlt1e+2mIjBki9j9EmDPWXr09x9kUjp3CCG1yLfBTNS8urHPlo4fiEJd5W2Xs0jGtu3wqeJTV7UqrQQAKQtousj1SXeorlWQ17VL4RpKboQB4ZGh+dYkTOU//QLpIBU34z9GgBZff4uQstc5B6jUtqElbru5K7dJvvx1lt7hzZyfF+EqG5KgIHoW/uPPGBz+0aZWU8f+65KnWH0/gN55hoAsK2sln/8XzuWbHF2zP6NLJQADFKawRUaEsO7caj93u/pPuuf2vWzwP52n8L/b5uY4l5cWNUjs2ou0juNAakvNny6tkZrmWcU2/QWM2snsGKVYdJr13I2wb2BsXWnxAJxn09fsSftAjZ1PIFRu687VKU9qJdGSBTM7ptaD7a8+U7M/LJMiQLMkGtKP11UwT3tHDKkjCMISwWUp9yvf2UmiSFKXC1WYsd9CVp5ByfQ0yv+M0NP2xWGO1Z3cTQ3BMwD+OUSiv7Lpnulduenwt+5M+3iOy14wOCJUqZ4yRMK+c3bjTEvXYkgpfUdVSa7vr0Tk10K66PW9EmzIT/cPh+0bWIwh937TobGYA+AJ1ENcBVDYbjsvBah68Mh+rHzRl8emI+JNoZLhA0i38JUXtkT3//wyPt+yJ9ky43Orz75goc0lqwI4aizhlEswMwmRmlhzzpNUBlVretcME5pmdKhMxEDSSgMi0nhn4Xi/sel4LXH0qNf4IMJ7xh1kqccC5xLxqfoxSqfoMnpysMEKRmTSERvfsbLcV0dCUAwBwOdfnBy0isqD1qkWrQE+Va6wbtHa4SN3mrwBl4PgQTT1Gk349XPesGJCWhgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01FCpCUdLFZA9T2nDkzzqfxM",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01ATkpXtzboVc3MNVa1M5MNy",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2024-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1152,
+          "output_tokens": 153
+        }
+      }
+    },
+    {
+      "request_fingerprint": "255cedf5ab8f3d2a9eb57bc43b5d1fb1149d8c99a7e650db66a91f61369edcdf",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS7gUKEAgTGAI4AUIIdGhpbmtpbmcSDPBxucVQ8RXzG2wOVBoMnUbt/HOKhGV3+ZCXIjDiQOwbJ200Dm+Eetejl4D7zWcA6fhFY4a37E3JRqT6CaYQ1I3DTjcYOSK/541wzSkqiwUmwud18ujsvx4TTY8JvTzD+SScNOepZyJVXprbVdW57GSy7V5GpLUN3TsqYIf5WDDNSxsYKhvk8BqAtr+PK4CbzyvjXxQZs1wkTKmWkJAcmTTjwaJkC5b6Ek6wgwYV7/CSyc7OFs6YnUC2gaO8qgzLcZolPubTl+ohDRWhsfa7I/E0Y+TSz1gqLRjhtpqIt/BRgp6xpLvhRLNDa47T1m92RmjLko09Q1xPBreC3HJ9G4xxPJ8HSrReCiU56yKjDUgn8RWE9kREWREghCwd7I326VUYS4SwUCudQ45o4vInA1bxILOh3wSR8ju2Os+PQ9zOousi9I3kUoof3enzEkbQU9ARb7AU5cBwiJznCdxVvCeFwKaSK6U7hURIgGQ8pY+EqUgY7eIZzxkOJDkPyaCuBWMf7Kngx/JMKKbLocKUeAS5b4y/qRHg57erbNblUscFD4FugExBVdWEdFxnQH4Q1NeJbe5exyrX4Ykuc6mZ4pf/3oiYPr2IM0zHQ8DEgFj8ZKidqYSme5HMSuYgkKpoiAWhA+XlLR74ym2NasqIBnYBeKlgNFqPgQOS2FGQdCadubFV0q8IcZsFmvFRnlCnrjjDk+ThXfEimqMRviFnoFI3yi30GdEEKyrV4j3se0R8+kWNmErKAvME8tolBPutXTJDBTBihQzcg4I8/rwbLzPzCoMvn2bTf0vNACwzm/JmYUeqTqohd36u7TcypPiXyWSAzJfuVxYBjrfw37wJOAoI2gR/1bSD9nn8gqZ724az0zqCnDhnrkOzaQfbjOdiBvBwvvrALQPEOSd/5w4pLpPTycLwLt2yrlAyCzfEvq938wyg2N0DHDSuw+T/mcIcJyWTKq2MvbDX3nAYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01QxfSgXBSxymqHqcPtuPoCG",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1427,
+          "output_tokens": 118
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e7bd42eaf7e6bc9f3a6bab80d84f2d01224b0a195a42f5f06f8abce6e810eac6",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSvQYKEAgTGAI4AUIIdGhpbmtpbmcSDHua/l7qQPyMsSELYxoMYN9pc1gXIaenhUk6IjCdT0/bk0+ShvxMVUxQwSPoDhYW4Qeiy/K0jOocn6UHz0G92B0QK8s669276vOefGgq2gWje7C4jmNjeUze6AReP6aUT5DQ1p1sLeHR4prdE1meDuy8MzfiuRqGRIEd7zez9xU5MC6lxLEFOsxmVTJZzz9bSpocdw0bNdw+4MlmpPY94mq/SkqhyJSN0MhMOv3yq5a2dPhlS47jgMgIKPDhFzY7yvgX8dYp9naB+l0+TfQb5eYj677dLO7FwyR4062HKdDXdOPGvZ7886TJ7oakNEdlLIBMUHXRX8hBrCkK+W0pf6GmcyIIrpMoaiodddwLPv+JE3vS3wYtz2WoQMEhqAb9EYZKs/WJ8slX9cmOhBhL+zu8bOp8WyqMpmyqmHbf3reIQu9W6k5k2Btcz6UiEOsEYoe63UbctTlIRh1gxrXyYwoIJZs5KUDImh13WLUvYi68cnas/FIN87upIHGsPr7c1zt5VAbArVyROYpoVlcouQgMACpmGPCY6YQH2ty6UaizOcjcAKgfrtBSwiG/WtqHH8PbuwgKuYeht3Z7F1BXdWSm20eHdFgjnvX36S9to5qo2U8x1wt8mD6dSizmc9xOb+zXvN7McFhhzUhpA0Suc/DZmDbDYmS0M2Dec1+QRq/82aV4WsUNgFZYwTvvgv5Po5wbXzY1Ns8XVD/wJzAFkaDe9bwTDVMC4t+b7OIN9pFJQz/DVquRqnVrwUyPZCJXi5+1zqhljU2rKzZ0uE9+bM8a8oGsiNnbxc4MAVLnSKSGIZ1mJnnOGMD/3FxBSEuOdUtoZw/fbcEc4Gji9nisTBbjT4FoZI/l3XL+TEezf6Vn4Vh2VueXPf8LOsviGQqDf6YDZMTxHlj4zDcJAWxgIGdusEy3IBdxCQsvcn3/0GHfjgHAADmRMprwXdwtRN8aAa61GmLCcNpSOmMq8fxUsLTeGA+6bh36i6Zw7q15riGSUjkEZBX8NHdzmzpLpQvqpKQzRdXnuJlT4am34O+IZ/Givv0Rmgc5SYa46pM+mr/qFWjsqIxaFsWRGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I couldn't find a September invoice on your account for 2024 or 2025, so I haven't sent anything yet. Please tell me the year or invoice number. When I send it, it'll go to your billing email on file, finance@orionbakery.example, and I'll copy books@harlowaccounting.example. Can you confirm that's still your accountant's address? I have an older note saying accounts@orionbakery.example, and our records also show your account billing in USD without tax exemption, so let me know if either of those is wrong.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1552,
+          "output_tokens": 213
+        }
+      }
+    },
+    {
+      "request_fingerprint": "24c2a7fa6e827079e8ae91f8ede58c1c9970c6ff72c230d01989f09df9c45c7b",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "in customer: Orion Bakery (CUS-104).\nMessage: Please send our September invoice, and copy our accountant like last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShAUKEAgTGAI4AUIIdGhpbmtpbmcSDCG2COkvTUv/Xlk64BoMbN89hmDcImmf9726IjDx6WPycn7rGgoZDTXS9USGD39nuT5xAJBd7NXFKcyaRpvOPL9zZdc5ygkcbYmyHaYqoQR3jUYi3QZpdGjM/0lC3eBMPeEDu4ZIoGVbdlDjn0QAxsm0s6bRJPMhogZxsJAoCyu2YJVtbH+axrjfcug6bjhIcRbp7J6tT5D30D22JxA6ZUp3AjqS1S0ueQYpD+p+3EeBnyuyaQA/Ro5uOPRwRYE09YNwVaSHmfwWvkEOYbFuHT9FHZnlRWy5CSuzSNXZrPijcBgVdWhvX7aKWWCdnlsXsn37Hr/dABNtv5T6YHnMUiy5TJnfuXF5N2IP0ogG6HvYD/KKGX94dOb26jSc0OC54JLTdqkDAKn8xJmblAKGIz1F+iJ8Me8olLeVFr+C+MldSAuUOQ/pMD+sN28n1lCTXsWYCNAdBYs5ODtGnGtD4uO9mOiqKj8v13Mz72ZjZnhtkxlSdLZquybp3BxTsHgxew7kJc2MBM6AYl0Jb6NXqzKtomyjgT/GJ+JhrWnqEXh11QhsRzYelnVj01Fdhge64+Uzr/XiXDtuGjJEYH2i6zzd6h3Uo5CTxS7ZreXJItj99fMlq/Z97wqYNIV9cfuE3mgvNYV3bJSeAQmo9Jj//rQhp4snHJzHBtZeSchs/ISzfYBAjNbWW0NFXzNFZvBujWFlyyN/DytnsHAkoG8+hOI4HVjWa00HTNY4SFYzLxb0wsrbFbw5bwL9M8fmu5Z+D0uidpu5fpecb5lUdxPcn39IWiqPBrVW0uZpqm32qnIW+YP4ZDnFcPRZ16wj2rOfWBgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01B2fxUCFpDmNJVc5AARFKPN",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01DFbqGPAWgVqetLacJwwzg8",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2024-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1152,
+          "output_tokens": 148
+        }
+      }
+    },
+    {
+      "request_fingerprint": "0477c2d1204123de609c1d3936a4c783005af45dc45b4a4bdaffd9a28dd0edc6",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQShgYKEAgTGAI4AUIIdGhpbmtpbmcSDGafgj4PWDF6IlfOthoMkLR85O7dWPCZWq4VIjCeG+9yl0uQw1T5LFfBgxvGztdIAZvdS7/otDEfDzSL7kfCDfDhwfxCGoc2XEo4Pn8qowWghE6RxaMzMCDgi7SnkzZ/4jn1Jjw7kpjrvvIywwWxneBaWV3ZRzN5q6RbmaH2+N0Ri9+CWFXwl6j4TQ6ygRvRJkFwbKOgqgS85wojR1chkrinchtiJJIl+An499gQXwH5v0bxyBKukdBUT24VITFfABSV113SlN13Gm1t5cmNS/JwJ1kLcwsOPCUEsrwcCONGwyvwwT/SFFnguIM5mwG6GltyVBapLEdjNlgPtadPcUHuqL2ROB+isGKghRV2/8Lgx3uML7/uVsTyUUTi1alo8zJLPbUUPfth7iYEViyebrFn32JaHJV73Ou6mkJteAgTaYEe5yIbchXNvVayh6dIl6Mdjo8AKRPfs4zOzzyyCTMcJe+uyVnKC5llkA2vb71KLvD/LP9+IJUfT2vYtPg0q4IwauNlAXlaDJfQPb8W1ecgaKllsB3ZhWyiL+yUlT28Tkpqa3Cy9KDz8yK5Q6sP+VXUQs9e0xvcItt5uqIOWEOzUMSQLT+qD1aeQ6/W847e77mSPCWZnnmtGEOhG2+K6ZpsKZ/0soLF2NRRCWsDosWRs/FF/zw9xLY7uEFmm9ehprkwLLN6+JEcMY2p/IMPGnIwLccXL1m2O61coR6Ob25vC5KL7QXzfXjyQ4WA9CFM1nPjNuV5h22+IFJrbbNcWaECmIbXcN7zQkjpetjRziHWAMkKnUF8O1gw/QV/F1vhavvDf9IRjVBEsYP/YCVj2VztM7zGvRqx/0tguwctk64bp9HLFEIa3V8DM4PXGWkZVgIjO/Ut8QuMo89spmy6mmHHq190acJCVV6qkkYjCSv9oV6YDiA+QyAeca5TL4XGw+sA7kLSYNB6ugrjYJAjNwqaP+ookSVeDHm9zAmnYghJf9JD46EJL5XqlaUQK1zpqM0YAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01PgB8isHqHXqUvSWamWTJtN",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1422,
+          "output_tokens": 127
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e143c0b84cc8cba8c15ac24425f8445db1a1594dc3309505dd7559aa8d60b919",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSzwYKEAgTGAI4AUIIdGhpbmtpbmcSDIeCVzDJfojxsZ2J9xoMhXZMnaeHWCbLDc9vIjBF5DEZjirYrgPWVZbdUiZsbsVMewZGZYz9qntKB/LlRY5bQRf1+G8xf5MKPPdI8tsq7AVkfJgVkrQphsCJvxIHCEjUFfIFmCEt2sokN4qIhBK1TfCBZRJd8waNJa79yb7ocJ0KqGznfTlQLPayC4/zTOsCW3UersV66Dua4B/pjaVWtu5VZ9t8FwyGRxOWlOT4QiQ4C9/+FqtzXoVNx8mv0E9jqlLc0JDGCy1EbsqFG9ejuUsEal9akx4PVjNaag+be3qncxRJHVkPanCYAGlEaoxsDSGnEODhbf4olr05bYbrGYu1S/I1WeLTCMKYI8BEflFWDTuQQoj5PCBJGjZcRPFWUx799JlC0z9x8tvpcLAwyGnH3XH6bU16FVUqKTnE1lZ0XYQygZ4uIvsYs76J7JnADv+OweJraEy6He/ktL8iVF2XTY1Et48BBbSwLko+UXnH9CHMYfKkUWNRmw7sFZQkDKBp/dHnIaXis1tyghwEWuk4nnhYHsxdomLkYqJUTehv806saZappl8Gai++pnifqyOU25OR+Wwnn/sMLm7O9zpQm/qbhSp2qVapS4GKV5YTylDAxxkkMb1dVhHcPBpbjZRhdPDl5fTmMvN9TBQymEL1FyonP3jptAxRN1bVytMWtd7l/d4cus7HEOo2mNcMWpf2FTOnNbVc+XTr05TtLbrxGNMdpQ3N3m8KpJ4JEGn8P8smKI27tIYvOS7Kyru+6uzKt2FHtfxlbs5wKb8On8oL10ncVSN25jeqga0RGK+xCGCCIWutHjYnn0ze7kw+m5DQtqqEiauaf6/8KENejmEjIKRA3S6CDEuHeyotQFaRxkVIcq2+FX+kJYZTiI+gYcDqvUwBctOZbBT4IyWK2gBsrKK7YiDrZ6tF178apexIYGsTAwmGVn011c6FuKOL40jOPnx5Xo5HjTPyi9QlaN5nWI6M1p7WllE+jB6Cl/w2WjZuiQFgsWKrB+kRJ6ZzHyNlyVjfaq8v3UBlN//xaupVQfqb7XF/U/6GyGdOU/YHWUm0Va9B4fAuOOUdDvHZLdlXbu/iQ9WQ/NZoGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I couldn't find a September invoice for your account (I checked September 2024 and September 2025), so I haven't sent anything yet. Can you tell me the invoice number or the exact year? I'll send it to finance@orionbakery.example, the billing email on your account, and copy your accountant at books@harlowaccounting.example. I have a note that your billing email is accounts@orionbakery.example, so please let me know if finance@orionbakery.example isn't the right address.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1556,
+          "output_tokens": 205
+        }
+      }
+    },
+    {
+      "request_fingerprint": "24c2a7fa6e827079e8ae91f8ede58c1c9970c6ff72c230d01989f09df9c45c7b",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "in customer: Orion Bakery (CUS-104).\nMessage: Please send our September invoice, and copy our accountant like last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSqwgKEAgTGAI4AUIIdGhpbmtpbmcSDKZY0kYmGBI+RhsfLxoMDTB2YpginRXAE0R9IjDIBWsF8OnhAoL9BVyQYSGy2lIMV6iJe1ZcBdlKh7SFG/I/S3fSNrHfhZg9B5hAYHMqyAfoSsbl4+ZZm1jIqB011dYFEpfnTr5iZ+LFiHXBA+/kEdIQsS88d2ueEJ+bJCx6h058o7vfs7qVmkYNaecAO77ngncRsXXStvjttXfUfNrie7XlaahSpjsu2NIGWyDh0P5bkcKzn2HFuBpgdOYSi9pgPpn4jeLxmEh9HELSL2IoSUMHjK55EdHweCU5ty4DGQCMlP0RKDdKwNhQmdWTbYt/11yp3e28+w3QbD7OLLcdG840ASKPZD7wEtdNYEQoa0VYcp+QMVEs2YUGJG7pIPm7bCrilGuXtZSmco2dAGINLfqK3CdSlRY12i9gKldT/hAr7ITszCbGS+o7ShpfSRkNjfiMgScRukcyRPnw2qH1T0ZzQoZMmm2tKcHj3VUyKAlhYq/EhLjKOzQWtHnBFl7YvKa38mqEgQGUgOwXdbDrHE08FVqo/Svbl+QCtSQVRaRSp3iu+0asMeePNIDLOVEcLjGxlSW7xx6yohZy58Mmb42ermAzCJi52E45ZePf3b1MKZM/bIpCn0bKeZvwJ0K7Hv+vUA5/yA2XR2dZ6zZryJQ4kx795OxJ0MzCmbGUcAp440dF9mJf7nzqI9zNwOdEjeUlBEaA9r/MfuUUP3hCLOrqa4kEZoK6WbS8vAz24amWsBVaIWu2wy5VQwohwrsiY6vMk5Qq2WxBstEPm2wAodeOtdex6uOtbouiqGSYRmtIn7YM6QKgIB7DGUVi9gskFjnj/ttdJW3wrBnXu0tFe072grfY8z2MK0ieh2L/vQbY7XvUcFodf/nUCQKghAMKZhEovJESL9VNkACLM9MXzWVN/D7FW6OAqzc+0RBLxXEDuwgujXpnNRaoGQNvjVXIyGUQbVeRhR4twQ7TVHeVBKLs3fvG2JQwb+PUzVobnOeehBvusgoxDFufZ8K9G2OCLzMXnCavJANJQzZj4m7iPX/NhYIl8ilsiS5MKq5EkK0lYw69q788aUuhJMHqE0qvxwwnBMI+DmVvF5rmnwhHV8pv4z5SC02C/jsBoafF/AuvGeLK1ngN5r99rPHaZzxM24A/qxAP+sKxU6lSmhoqbzx/n9xxE0oFAqZTexQsg+DdtcOrvEPoHOJ9O6TxndpPi2bilkA5bUTQ3Ktr5egAXyxUbj6HRcvINKSG8OBi2LLCEHbm6qZaWK+B6FDaJjP6Dkmch4OhanlohqFtZnF/CXfuE0gtcqTiy6WV2yeJXPe0yG9pR61UXZBbPNaSkGDLJSKIqNt6iTF2REU2FjLOL6h37/SAEuP7+FfR2ttW1BIuhnaWqHbt3RgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_011mnjBi3HgJdyWAnhmiHh6o",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1152,
+          "output_tokens": 215
+        }
+      }
+    },
+    {
+      "request_fingerprint": "d5897fc89744c194f236b166ad9c3814b39b46c4a8a996cf88a9d866fea334bd",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSswYKEAgTGAI4AUIIdGhpbmtpbmcSDG1QAZtUpM+N/xrh9hoMx/bXy2w9nIydEpgqIjD6ukeYrm+S8NqIJYLsM6SJJ7bcRjjXhJsqrJDfYrR+h+CkDvCvabi4l2F1xs/K0xQq0AX4lgrrtXDZNIradQ8aJO9O4iKdBWrvR22Wf+lYqg20+iNsTUw2oEWoMiKcuskohAkMF3lh4mfRY6YcIf57GS+yZlbZdHioliJ+73Svsi3QMjKV7/6IiVSvfz0KuRB1BEB3jLfpdK2bdMHbEkqjbckid4C91/fUs52nzw+2kZQglE1eez0pPZsTR5yhMcLbPJwJJDVQDrODGM9qPc0naW9+Bm7aPy4pO4OLuvHK0iFKZmJ2YJTy5LMzxUgNmUKIpmpZtxfxBws/HDQP470tmJ8fYQ3Dr/kV/pqWzTOT9N0fuabj8ygNTzwPx7Bf8PyCfgRupxmC9ymHG9zGPCvDxBoyRGGNm7iEc5PZ+zFXhHqR0Igs/Str1bczHuiWBqSlmAsAUg2LFE8SYGXN78JFPk5g1Ao7GkOL6fn20y3VIfftJ/v8435aZhz9rdOMRiwb0tdvC6lhmAA+wTRT1xcLk7DHkrNBat6Qk02kIukjg6cksMu0ikjEriyoDGUyHIbLHL08s10+YVqzq61jIH0tTPSInvxharYMKQLcOdb2HgVv7BPwpH6ExikiDNryduzK1HT6YwxvsVFSyxvpV7pm4GbctYAdCovcm3tmWG3/k3b6e56Qm2FZrEtTXGSUkSXqKQSw07gvFQ7oQPDNu9RetLjZ5SnPEJXNeN6wBmTbjWKb8OYBn9/mSlIC715e27tp/+NET2h48EC4g2yG/2ezpQ8YbqQKecrsULuX/Ijzo1d+mhwfLpNMrQj/ouA2DdTt65CUIV2XiC1XD+TUMH7GD9qPB2PytlNy+f4IJEzTaKroYW1tC8j67cD6/WvsGUKAA4qi7ffuKotp+kkb9IR7nyT5Yw7AV0uTDoB2NTNTMyvr7l30qWgFYq+TASiciJ7Bdsu0fOMvBfGuoYpZPtUPt+aaY7eb3S2Py25ylxvp+4+gETviC25loClTf5dKB1DhzaQYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01DqNGKBa6yVWVyMjro15gGr",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1434,
+          "output_tokens": 133
+        }
+      }
+    },
+    {
+      "request_fingerprint": "2d77d8e963387b671e59cb0e3c56ff7efbd933d506396512fabd6bb8d535bb85",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01M9sx18Fr4NC4benKmuA7Wi",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2024-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1574,
+          "output_tokens": 80
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9eaa36e0b89fc57eb57df55b1eea4f412f0080f7b5c6e2df82bccc5a5a700b1a",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS7gYKEAgTGAI4AUIIdGhpbmtpbmcSDI43z/NyTqXna8RWGRoMlVPYglFoSat3DDl1IjDeNDjRQ7KUZgR4ZXcfNWMlLUaTCSyCGTAqTcoGi5Cc4i/+b/8cpU4mg7Nli3lnhQYqiwaj0W62h21ZtZWANHguGLvZTOWM43XSEw3JHrpCPQI84iPAN1xAkJTkwVaW7w5Y5LJ3xZoEfb5RYUixhqn/IMi7J1asewaOS4b++QCJIntefEwNjM8qtHdMkWek3Ce1etjsQZ7ABl21/aTWbHpx42OGrAtgtPEcNyCURR7SzJhl/sLJf9eCHKDeEH4mgppEoSAdDsbRDm5BJtEUTqXC5IiQBasj3BaCwcf6ldoDq/mBo9ES/Ol3nXeprxegE4D4WM7jx/HwwGHUdehhT5Q7XOAjfVYq2I1osoOfijgNiqGO8ZrxdG+DJFMPzG7HzrV5PiK+MDM2R5XCf136mqCjE2jJhz5+PTiBegsK3C2azQvdjwM5Uv6vEESasRIrQVcmZcfK1bsGSjU9UXvAQn6l9TDe351nMl41wwOJTSxH0UxAp34CM5h7v6ZP1HoWDs2WjsEcNprvzv5EmG15YwEVAA7txDgZNCpA0LO4jfVlWh2xf8AfWssXaYgqT4OcU9Jsx/6+OuPod+bTApHQ0iKvxeua5krbe0lCvK8f5Grml0W5WA3CPSj9r237zVaLWm9BfC1Sp20Qk4Izs38DWQHb5kQ4DjuGADBAWnumW2J8wLBcqE3ZBjMeX7M/GHDOXy3XihH0zHhID+YT36jGH5hwvS9GNfnZiKTlQ9La8uZQ6PYCAHsStbauwm7zs6NURStVs0fP3UKK0YDfgyIGzWn271uW0SxH1bEu2dYMFulaa/gGwqrkaSJFoAf+OKqxA3k2voOaXLTvz8TaBVexa8HxMH9bL08u7lknny5X/GWAdPfR30NfSmMV4XgHJGSqLeOkBuV+v+4P4QmidmD46fmb8Nnt9dwC/Hq1ZZ5d72ZLFIiYoeFIEYDQ46VfvyLLBXcLKTgJ4eVqgJ4x/OHCHPp3Vo3u1JxeyN7N+wymzt4lozWnOOvzGB4nQChXehBExsPwmc9UmNZ84NX8/kBGXxIT0/oSwBmHGgoW7svaa2gR6IjLPbz+AzQEzOA8eKjqrwlEUdAGnGJ5rZ24vJxn7xgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I couldn't send your September invoice because I didn't find one on your account for September 2025 or September 2024. Could you tell me which year you need, or send the invoice number if you have it? When I send it, it'll go to finance@orionbakery.example, which is the billing email on your account, and I'll copy your accountant at books@harlowaccounting.example. Please confirm that's still the right address for them.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1661,
+          "output_tokens": 193
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3c27064a5e5e62b9e6c388177b6a3de6169d7845b8f3d1a1e7b700d80da334f6",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Please send our October invoice again.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_019RQT5vyzbpT2vLcpQ7d7np",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01UPSzu6sWStuqE3yKuWTWNm",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1131,
+          "output_tokens": 131
+        }
+      }
+    },
+    {
+      "request_fingerprint": "faad6ba42ad2e1f69858a8eee8b3bd0e6b25951cecdaab7881648168b2a9df23",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSnAYKEAgTGAI4AUIIdGhpbmtpbmcSDDDK0UkulYpsdDlKuhoMv5uiTadZgBVW2EIvIjCNJZK0uTanEoWwXcwvCAVFn+4pRttWgYnlAOm1i4N8j00YA3Wyl+WkGZRa1QoiMWQquQVGK4nytChJpSQUC5sewb/o9pyLeNprWTxsdmB/e3QpKigvv8leiOAXJs+38pjknq3DZCNycxER726IEHrnfPMaM/WLkgNH8VbOeJ4u7jkds5wcad2Erqi5ecthevycoW+5wHpmRJu9SV0lYzSZLfc7i59zSmTtBj2LvZCuLO94KZS3Qk4CfAE5qKbi+b4oXt+fipnWm4YEF3Bax07Yo57YktDAUYPDf0gqxDNF76WTU0zz5BL3sDOObnSKBXGrkjysMa/j0REcDUHXU6NVtw2kzVQOzNujLVzNNBbIfTRMuuVdsuo6I+OOkG7wTEq/OBR0iprUjqijWInQo+Fu8umrF5JkSGxPTt2DU7SugLc3m7YekBcBUVXl67hYg0j066LJKxyAZ73+z7hzCScDUp/+4PeftwRzu2DHLvaOpFJsB2z5INLBLhdmRU8V59NAiF9Pt/DqUzlKdjrXUB2OOJ2UKcc0b1hyE3mBdjUkx5pgDkzmp50o5vHsR07kPNYNT3KfB4zlVXFl3KELf2fJtDrU+lDDjeq1S5FZKq/1M+4kVnF+6AG6FjLD1aWi54yV/eakSH/ROPqtY8yhkdMRlLe+5kaISz9rYMgPuug55M1xWHL/bt13qte+Fc5YxaHxSXDeBa1jez3jbDPi/x2T36tUYjnL0HlGpPTg19qerAsoy60ZGqgNmm+qYyuUNhMM3cZyVHvI8Me5Q5GGkGyr2p/Rq37NbN5Zv1vfpa08VTSyW0F117Q1fnBzu+tBHC9KdbAcW0QB6I1JJUvBS9zS/5mbR8FKZ1iFJpiD/cfjTLXZFcaLEqtJ3xEPRgnaOqcJTDmRP9AswPBEn4SzxMHRbypTJiWe4DbutxRaXZFyA0Ps6o6hoLwY3cCKKOMKuhx/McSJAZC+SwCLWm0TcrNe1tg2YWCUODxKu+DTGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01YDr5j9i65TUJGrjzMwjcJY",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1384,
+          "output_tokens": 163
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e486664ec0c845f96c9f4ec331c1403b9e23549b027b4ba50bee57b1dc9e0ac4",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSyQgKEAgTGAI4AUIIdGhpbmtpbmcSDMyqjYF0jkZMpjx42RoMAwtmagLPbe9oODSWIjBAmV0eE0UTxrSx8o32Bx0ThvhOky2QP4jqkTi1QJQKhw2prwKto3+FhUo9m28WQ5Iq5gds6/x/0016h9TOyB7vhL+S6ix1sDg/2b/Bhj8kuZsZHa3MhmmoGMwqjSvdkRetYeB1Joxb4FHs4zUT7/RPlv47GwWyZ+Pd+24i/M2umKEUNIaT3bvslnWw6rMTYBMjWTmP/YjT0sFpWnrUzSpBriVFTTjryUZdjW97RypNdcOqlvRH9mmq1VZYETLNgycGi9Yp6xTynHtSxLar0mojOuScHF/BfI6UD9dFYRGg5azWaJJJI9+D4bRVuxkz3EidbMeg11l58RjtzsOebnSdFZNqCcHR6gx+QqpLvwEc4Bsud1w5PSYxbHXjvymxLp5ysfJdOTYMsB6g4Ru7iFHUPovT0EPZ2FCPzYs7RecKM/BiPIhzHOWgtKU3Jrfuuhd08KVFElaUXWtRJLZVWQnQQAghbTh7c2tjH6zBt01hizZ9O8GREdCsGYt9/d4+DF8pA0za9Hc7UdanqRMgigJaG+ovDHobksp0q0hxp2LkVsKcBniIopbS/KaaIMribvsorniIKrTkaqEf+z03jSoOZ74/DqVGRYQRjcovHMIsbJA/sRO1AwAhylck7oWJPo6DAboFECNA33O0ndKIcocpUS6FVzkPCquCdAwNkx4XvX8sze19lxvNpvFyIxddLIT/26lJOXDoXbzJrGMyOKrIulwioMcDmRaiBCldLFDtq+vd8OLkyoNJurevrTlEJK9Ip7n1H8egT372oMt0+5NPp0T94RFjw8SejM5rVslRBGg3V9+U7lRd7rzOFmkvXOb3T1BcZIM4qnUhpYDOKIdY9mvBWCKODHBEWzX+YbyzK4wfmGPVWqhils07vAKuHeBNH3KPYJQiiOsXqTv57MIiHCWQYW7E3PuTYWsne2tqcaXLsBoEdzlMEN5pkopHNMKzrCWA9tf0Jc29w/JsIRG7eJtGJ/FKYUC8VtO7Rx9fIG4S4aXMG9Uk1R177FnX+2W5LuWe+8EaJPJNkY+DghTUTw+eGic8mQgXqaGeYLfYJCPpK2OO9NAj5ES7tPEQ3NTOdpB7rUrorbl3hI9zTyiirW0b/UXVuQH1zbga38JvqC26p780b06adSalaCVcJ/5uyAuI3SnXe4HJgVjS0rgH15S6URBwSxs8vlO0kkTWB5EhGu/o2zBINB/F5R6ETtwd44PlR/vUdB7BSditZM79TCGD4MkqGttp0siV6YpTrFijuO/wxyDNkuc0X8d5TO8djFlH2klBxzMYf7GZpUWMktcJ852kUz8Rm0tPX62tSF4jxoyJ4yF7Sit2j85boAn2VzVTa0nvdH2aWOYMoMwdTzBgAbQ6+4qGMZDI9U4t9rbijkqblTYPhhgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_016gLbFCD7uAXp31cQzu85bK",
+              "input": {
+                "cc": [
+                  "books@harlowaccounting.example"
+                ],
+                "invoice_id": "INV-2201",
+                "to": "finance@orionbakery.example"
+              },
+              "name": "send_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1560,
+          "output_tokens": 259
+        }
+      }
+    },
+    {
+      "request_fingerprint": "82602757ec5ee933a2818c6eeee6b8df6706dc97653801520174d5ba7f86803d",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS9QUKEAgTGAI4AUIIdGhpbmtpbmcSDC95cEWcUHDZFFQzERoMXTM0gXGCBaS4WkeJIjD/F84QDBDe+1DcsB3T8/IVDvPL0Vh3EYJpUW+6nwvjOlIrRIHdu/sMXfNYV5TdWPMqkgXw3l1M3szSp45DYNNnHpLrNKfhK8cxg46KsYY4oQe5zLBHwF0kZ1cfNQgHEqsRQkvzXgjjQ4TkYx6ldUaTPGTCiPq2n6xmvR0oIujBgQqry74+O1pKmagEOIkdWQcJamFmRJzvQbWMnT1VlvujaPhoQ5LWTL67uLUuyvLKgnEZMxELTnDH7ZizMcsbdPlGRYTXUlMzY7+vxPvsxXfqKNmHlPNp82H5DjYpzZKXyAa1J0SxELkYOGy6ppZAwOV154dfBtQM+u9aOXC2dwBHKxhjnYfvhKDFWLlSi40yL2i5QzCr20o39qwPw3ls5Xr2+7RZTxs0qirxOkAjRokIOMI8VEh4KjTFOUfyoKNjAMIbWgAUqZset8hVjaJb3yOfHfHMLzK1oP+jc1o07ffA92BOZs8AH3qf7IQtcUzXz2pqVw1W06CqaZHdgbG1vzsaSmKTrCtxqb4X4zyj/q28phhVpT4jldEWtG9d0OT/F9sitliEZmoQbNJiAnCHMzvOmgXhQsmH8fvzzhU5JEapxBkmFi45ovNsLnCbYhsll2T/KVh3EdwHdp9M8hWhwUr/xLH9hx/s1QpeKJwMWkdl8+iVW5iqMKglfYCOtUOmP+s4vae7qMjW18Kb6FA0lUbIiCWP08i5VSeXID9pxRYwAR3RtebwjnwHjiLrM8NM/86BnnrL/YYSNRv52ObP7zluOicQ1u+zWGnPpzSXGb9Sq4e8PBzW56lI5ZJnbBu1DIG3uDVQAos9bdVcunjF2rWSrDRjxJpxCQ61TUuZhK4zS/Um93bAmXO940P8xNE3citledC2KAYz1V5gpruvCWDD8gKEN6gKdpdDcu93vLfDjIa3mnJaffVuA6Lc4dPJnNIvTgwnGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I've sent your October 2026 invoice (INV-2201) again to finance@orionbakery.example, the billing email on your account. As you asked in August, I copied your accountant at books@harlowaccounting.example. We used to send invoices to accounts@orionbakery.example, so if you'd like them to go there instead, please let me know and I'll update it.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1871,
+          "output_tokens": 136
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3c27064a5e5e62b9e6c388177b6a3de6169d7845b8f3d1a1e7b700d80da334f6",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Please send our October invoice again.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01BqiKp1eMTPLV7hN9e6ntcn",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_018LfKcx1n5VDDsk9QWKh7Rb",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1131,
+          "output_tokens": 131
+        }
+      }
+    },
+    {
+      "request_fingerprint": "88ede0ddf6cd49724d822e66ca43c48660f2e83adb2f1fec1211cddd1f487609",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSzQUKEAgTGAI4AUIIdGhpbmtpbmcSDH+bZ+zyMJPNhkHrFhoMetuJkbK57h7kpBkuIjD2EkJSvu7oDXkvAcsUg+0cq90SC8XhtMdxXzcNDn+OylQBFZl6wJ/M84xShlZy/P0q6gQ0SmoVtT4g692SxNnJCms620PIPqgWR96mN73e061WOpv70QyAhJUcDcqH91TY0Z0DAt0EDiOvnlzItKgfAMYEytnviz8ARK4vIOG0bA1jPrMyaPS49piHchj2PNFGG7/yBkhx1Lp/HbgxF4TQpSXAl5so/gBS/bpImHLirC8+0LolPrt93VfxF2zJZklTJVRl4EqHVF0qQozt6/1Y9bogc1O4ZaykEoTwAjsx7ueihrUjhbcrqrt0VD2pchArYEA9HTj8fyuQN4eUHNDLCPOP+Nq82AO4T45BsrCskGFZ1WuDI6od7Bjrzm5kzLsA3InFG4BwdRDrwpMBvaEJ2PXbVTkxhsezKUufv+kLRuk/R0CN4ZRRb2P4BsU2e93nXiFQqfhjs70OGvbIzFxtYIlIQTFp+6nvWuryhjk8K26TuNonZDcnQMqeSieMcXiSErh/DaoVkYFEXo0Mu1jos8XVAdHuooWmeMQwtXn+CHqXGmRL8RlWw5ShPl93gZ9K92MvgN6Gl6hZ2C+7HQdvJ8u0mJ+5GK5JZGLMeM+h7JmvLUNdqz/JXpa3s9am/BuFKD54DQQlA+TZaebtzuqXN+WbKL8AGdmpfSauOSHHN+hdc2MwHM3ztBu3O648ekI61PCUuD3o1hV0tu4EBLrPPFJL58N4xBMcRj+G6b0PeQmBBLObzPyyPiqTBP5hgELQVkqo9cS2c6houOJZ0vuCPjuIRxrQ2Ugt4cfNpZmhZFDrr62nMCbwgDZRNOHkRMFoJ7KwlBgEBoNUz7wVQgwY4zKEUa7PZVmTU42+RWTDJiZmnY7G7jEyxZzBu7EYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01MMMpXZA3XEnPUZutK3tFYh",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1384,
+          "output_tokens": 135
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ed98c114104f0ab96289a10623eeeb323f67a96062f8d6df954d0bc8846cb865",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSvwcKEAgTGAI4AUIIdGhpbmtpbmcSDE5ayv/VYV46+qS4choMbqtFj6thFAOoZ0uuIjCcdonywVapI5J4t0yXJhSwMOZCiBpnX46Q3XZcUBNCRPf17h+/PdmiGdROk7s3AYMq3AY1pehV9OAhL5LDcsdd++WUbbEMFefDlH/TLMAE9cibQ6Gzj2Dls2SihBtx3PNW8FhohuNcUyBMmAW0vEh7TjKx4+aRGePOKHC37pfMzibbGP25L+8wcFSQIjdO8niI2KgAxyHEpKy/jSCopnPjC0Bmn6xGlgITjcCN8p3IRAtqunZN0C+XMoo2OSlTuQfy2p5aBlBnIfWSwkuuLUgs337Tbd5zsz8seDNzoRtcvtTpDCkxGj1ylD7/A6zHjFZbiAh6qgqcNF3UuvIhY3gGTPme3+dQoBL9NBgq4t3yYbkxuIR5o5YG9tRF34Vny2FIzLMitN1WMoxY4wltDISLAHw8fEBoRAD71FcBS5CcJD+JnF7sNQI4LCDW2n0Ay+fbULxJZ2BL7xVSnGnXDgrP9g5dLDpiM4JXDxFx6s60vAbQzq+ZF+fQD8oV6m/SQj02DcNhsXVBwzOsCQQvmLK8MmYKd9D5h2IIpLlk7omb0kt0QrmQd2dFTN1vbWxUvSgz0av6NdF98n+zSY4X/z1y3eDaNWk2iO8wZuZrPjqhBzSvJyPr0uLPuayE8i36ulSl46zQDUlKvl9PkODdd2VSniZURxCu7uvVa+MF6FEPkiGKV2eJM9xT5OYBxCheA4IF1UF8V8YDs6YvKF4QuggsYf0D09ElHQWYhWxrORqnvbMoRkJxT2ujhH1yWrNw2qwBtrlPRK+w5f00K5XNCc41YwGhXUjo8yO0baVBmE7CzlnjkxSgbK3Ck1PfDVg494NGPXiJfGsWVPmvEttwJnpmSyFuAKQINbebYw+ZgRtThgq/Ba5jDLuVp1Ktce30tVoTkVWGE0jcwfpErGceCeV8XUinwLeKZYDhOuIGqtoZ6SAV1fGbzSckQU00yEnv7rXS04KjHdbyX8mwcSL6OTPztQSeHeOD6vNu37fa0iIadVV2Le5MzYQD7RG2HjnI04ocoJLXjfzW4TmQWDu8PtiNRAmoDweoZzuqS/8C8p+YIDMOZ+0k5+cnQx1szTe3sI3fPjTGpTAMfS94R+j1f3EPzPDdXR9GkH2rJXuRQKlL+d/UkByalcQ2SD4wZF6Vo+rp8CGQdBDeKWCFwKENmHbFbKuomfXqfl0WfmLMszQAIt8sm5ObPA2aO0y4D3fokhgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01KtmSnjGr9UvnkbsMtmhVSZ",
+              "input": {
+                "cc": [
+                  "books@harlowaccounting.example"
+                ],
+                "invoice_id": "INV-2201",
+                "to": "finance@orionbakery.example"
+              },
+              "name": "send_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1532,
+          "output_tokens": 222
+        }
+      }
+    },
+    {
+      "request_fingerprint": "f344a2bd935b9f6056b0d7a4e8be78f1c77f7b2ba2af97cbd7dbde6c0f1c0fb2",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I've sent your October 2026 invoice (INV-2201) again to finance@orionbakery.example, which is the billing email on your account. As you asked in August, I copied your accountant at books@harlowaccounting.example. If you'd like invoices to go to accounts@orionbakery.example instead, just tell me and I can send it there.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1806,
+          "output_tokens": 108
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3c27064a5e5e62b9e6c388177b6a3de6169d7845b8f3d1a1e7b700d80da334f6",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Please send our October invoice again.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01Le1jZD3fkrx3oF8d1eGcNT",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01S1A93gD9iWk1Kk4mQqVGtP",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2025-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1131,
+          "output_tokens": 131
+        }
+      }
+    },
+    {
+      "request_fingerprint": "98ac7ac49b616155ff9d9006d45093774618e3641abdafc1507f521801cfa3ea",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSwgUKEAgTGAI4AUIIdGhpbmtpbmcSDJWMgPGIL2uHZBAoXBoMSd3PvIUQe1aZa7q5IjB0qCKidIoZ4yrFNJTtxQmqA/Ze4T+RgBGfd+D17VILBglGtPU12vaak/Lj0CRsx10q3wQXjnLAmZqAqMzKEvUZncVq6qZyEYtyHpTIeA79WE9J4n502P9nkPwcX0t4q2t/fyVDiemMbQ4ghmOGgaGYh5IQktsq0lW7c6okN5+qX524xsezscINRYdz2EtzHjFr4Ss+Ph5ie62mlRBzjNQqRKPDfxn5bOwZgFvqZKu+xCrlusHu8AwV3XgyIY0MsF7EcLdjzjqOpJMvCxGyjt7+kvZGD2CtlVH1Ey22uP6kzyK2u3xkV8Pgcr7G0+H2DBfOd46I3+84tI9VkPw/x4eYPsZKXjEsInCXKdtIUXJ9RaZCqdTept6hp4IPrAi1luaQMzIqWkDJ8YPDzhSUNPRKe9zf8iVN2WQSKp0613YfL6Vmi2nH6UKIGdxCILanEuH/NVyqeRTtINI9a3rnafR0k0OgsU8wnZ9r345xcXk2DZmxvs7wjzktc44XgOt/v/ZBPP6MD5WyaENQ6rFiMbXZzF6xDQx5dGNZJdiiW4YD3F9EqtAWPO+yZzdGkhFEC+cfm2JaD34BCBhU3u3B9sJDS2nmSFw0vM3p0I5E6kOBmrqxDVhT1OIwOxHVaQHzOOrQDDm1bDZakiKMVJAKl1X9now0XExJyzwDjcVxwyT3yua+XIeqxswEF+fL+N+nweJjBIfiYkZLoEhvyWuPnfTISW1PwfdwJjLxmYpq5qBwhwneObwsbOBTv/9g7xLe7BjFiqLwAQJ7X0TSq9Y+Gvp+4lhdVOpwsOXLyMlo/Kauc8VeeCwK9QpSBtDJsBXxPlyymjchnSSGRVlRF7ihBfK/5lhjy4+OiuYo+TQZp9zyRsolGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01DGnrA43Rz1stEYPSMdYJCi",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-10"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1384,
+          "output_tokens": 130
+        }
+      }
+    },
+    {
+      "request_fingerprint": "81ab56b031ab4ac7e0532aeae6e4c062b4a44de55820252db10df35b4b963f39",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSlwgKEAgTGAI4AUIIdGhpbmtpbmcSDDYpneo1B96FJLNbVRoMyhXwcLom7Z4exxMKIjAYBiN+0Xc25vfuxKgJmgpqrMyAnkRc0oAZTQ2lVa5fYULJsnT4M8U/yrxgaY0iT/IqtAeQZS1/3dGCCWtcINNXeScAKqBlSWzzudQB+BJmyPH/tRvbnstajWpzHgzNL989vkrcbUqgj3bPykCMc+j/Fmkr1nZJ9JGhirQaWmh49cu/XDNVy8allb1EM81ck4W4GmfplXFn0bA/qDnSynGJN0THWcoSUMBb77UnUAYvxo94gv3jU0AtBs6Pw40l0cPonont0EFy6QDnA9avuKbqcdPaByCE+uxErPVz+hoFs0gkMw8RMA6r5/Uetaqahm/KKTfLRDk9imbgTpPksusQh2I2SIFuRnT5oUJxUnQyzs92v4Jfwkj/RBWBOkXHzzJCSOu+ehRFld+rX5MT/V49Uw2brPCleCI9ezo9ttNJO31vQdVOrdAtpUNYSUFPYIpkCSnaXmK86MOxUuJJ7dEYZicFh60MbWr8yMz+ut+hUi8wbssty1YWaRD0/KxodD5vpRrrwnccfsH6a/YZzTqAUkus4yFL3uSdCF9syO1qAPvU6OG7zfyfrQYu4k+HA4HoaKnXYTu9PlYSEaQYiVF5u+4T7GS2DCoYsW1QluWqqHlNVskSHgs/uGYwtfr2Nrok+Mr8mOM7W388B26CeVxpRtd0a8QGFUHQB3fhsG6j15V0KNSsb0Gmk+3IpdhwJhAoCv1LVlpBlZFhYsT0jyLToon9PnGfo96cI1Sl8281UZk2A70++/Aiu4ynGOZvY8J6zi7/q7/UTzdcwZuFWcMYE3ia4OH1mpaX4bITN08KuL0UV1zr6WZM/8HEFV/oAp4+fBQXairINOKO3TTGQzr0pS58diBqWHRTm3onX+QbwSC6uMQO6sErOoWx8+fVbhc2XTpb4H6q/c9ff/ei8n8WSdaH7H4GzkczcWxjUDdnZiCqbgpSk2400zTDEIzYVzDIAaKViAwd1qntjsGg0g4uuYjwJ2PfGIAgI/fw2pmh92cnjNICf7jbMwmfZmrL5OaLxuivYKuEmyihvKNYyZf6KTIIFDKKExV3Xtis0a1vVNCHcH3Jr0omO7AYudm8Qp1UDV8n3W9V6HGU26KDrzS099vCWRX7UbyUWywk6UVUiPjt9npCzMW5aHz2yWjfDWHWrMMTbX6V7b7LBk+nqZRXgRMoJl6DZMqgKqI5KGQtqgTYWlUSW1rxSkiwNymdtW6Oiq5FMhb1Q+qPBTw3JWrN+wwZCXK1ldwyhpRFOdpS7PJhKU+Ixkt/VTWJl+tfWb+9aQGqNoFZ6Vb5kR80vp5kDWWPGBFNaziCIyxz5IPCVED6v1ocKN4YAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01HWe2WXGPUmSTL7qjQ72CK9",
+              "input": {
+                "cc": [
+                  "books@harlowaccounting.example"
+                ],
+                "invoice_id": "INV-2201",
+                "to": "finance@orionbakery.example"
+              },
+              "name": "send_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1527,
+          "output_tokens": 248
+        }
+      }
+    },
+    {
+      "request_fingerprint": "3c11be76653df68844e20dc81e7438af51528238cdd2ee3a4bba806e756c275b",
+      "request_summary": {
+        "chars": 91,
+        "last_message_end": "",
+        "messages": 7
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I've resent your October 2026 invoice, INV-2201, to finance@orionbakery.example, which is the billing email on your account. As you asked in August, I copied your accountant at books@harlowaccounting.example. If you'd like it sent to a different address, such as accounts@orionbakery.example, just tell me and I'll send it there.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1827,
+          "output_tokens": 110
+        }
+      }
+    },
+    {
+      "request_fingerprint": "64d32ccaf12868bc7a1bf7e3450e0df4201b81a9f5da4490bb933f4cd08821a3",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "er: Orion Bakery (CUS-104).\nMessage: Please remove VAT from our next invoice. We're tax-exempt, as I told you last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_013bfDz9qKAxzKHXWyk6doj5",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1151,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "8d5a74ee07996c8d76f90af69434b2b59ea911bf81b62f7b8120aee4cf8c422f",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSuAUKEAgTGAI4AUIIdGhpbmtpbmcSDC7vj8KX5nFfblwbuRoMAGdPCYICKaix9l8NIjB+j+2eRUQ0sCrzfsmhu0tlZCv5MhgYOcAe2eUkeOn/aBnxkBMF2Sf2TRq/N3uWUJIq1QSRRaUmpLqycIg+9KIK7PnGyG8vkFpdB1UoZly1Yz505hAnDlZNn+tO6t/akWc9ghIowbUqKT1cpjJSoTNWPSXoBrUnNfXu6W995WWEMiS8Uz3FKQW1D2wo2PVXLGvLQFNn993YNpjvz907d98ZWXq+l9Yo/1La6slXfWGHQxsYCVJCWVYUMMYEW8At493fxSzeDAFk5HhbzrPDGXzb/x4YGA+RAYHFtwD2z+ePHZssonMN3fnu4+1YBdRy/6LeGHXt6aGkKzEUoflgqrzfoQ8xqdphsPlmxcFruWmCvKbCbvklNQPK39xutfVCZTl+VDuyNM0lSELqClmGVDW0QFBx6Q5ugZbQ+dAM3iak3dHuDak5Pa4KzBTvgzmV6Dt21sEY5D31Vpa7Ydl3MP4W3cYJJWgFJ6RfEX6V0wr9BMU26Zaz3Ovk7Y1xAgHhhIw9NY+sNASZSEG3lnMiOnq80UbdN7VCgPymwY69TIc8jXyVD0lYi4z+qgUqaxTkmQk5EQOmwniLwZOQwmBxpbIX45x7tsN2hxh4iProT3ntsNoXMovDFQC8q15HhrNfPV2YpyZQd5qFg5+pACnlP20M7I2nsQs74ReMv8sNcDZlsHUeAXhDIdUKYp/TGb8p3SvkNjBVgRWxs8y11NPCZSbw7fxiaOtDhrdIAopbOGYTRrgilaEqcqTasMvmgbBjZ6u6BwkGUviTKh7QYSDFMnpXBG/vEWeosLO0+yGBo317lSsCekZpjNzsVc/DPLbONmOYHq2OpOZ6lJBA1216oMHC+0CWc7ev/iAYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I couldn't remove VAT from your next invoice yet, because your account isn't marked tax-exempt and we don't have an exemption certificate on file. Our note from your earlier message about this was never verified. If you send us your tax-exemption certificate ID, I can update your account so VAT is removed from future invoices.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1272,
+          "output_tokens": 137
+        }
+      }
+    },
+    {
+      "request_fingerprint": "64d32ccaf12868bc7a1bf7e3450e0df4201b81a9f5da4490bb933f4cd08821a3",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "er: Orion Bakery (CUS-104).\nMessage: Please remove VAT from our next invoice. We're tax-exempt, as I told you last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01KAZdJJPW9QJMkPpRuE48Li",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1151,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "ae310415ee44fec4ca8b16fa185e2e3eee351cbe8171d326e776f5375af8143c",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSygUKEAgTGAI4AUIIdGhpbmtpbmcSDHKARbm0+Nlu7hD+jxoM98759Yf0VY9XdwV3IjC8YuTTGpFKtbkiiJvFEu2lbmYMHt3vY8X3iFKMzTaRHLkboo+a6zvoOynqKxjtvIkq5wSHAsAYmVbdLf16C5BPKfStfuzwQb1Rz3J32EmCCB5yF9a25HTXGFn0HOc8aiLKubwCWfnuD2OP+dgClInIgpBZXt43Iaw8MINZPYilfsgB8338IstNwSFvlVhgSaIPbz7xqvDPw440EDPL/JsCeFab1+ITjZB7W65UiASPWjzUgzrYSQq73e6BLyCOpjch4J5nO8Y5xmqybFhkQFsZ0o86G0O5AO/9EVHooVpNaKcjSwi4gHYPEB0PhnmLGJFsSWzjc+H+Mo8DI1OMaHxjBUIwbG6BcbWeVEft21ahVrnc3HBM6+jAVzgm4bwV/CL40ICpRCXu2sIaCPW+G7QurQHL7ueNzhF0VmjoCNCVwu3Me1xFhNdXsKFx1JZH3+BIF5Zev5Mg+m0KA/Ips/Q5JjPHaE9MXAbuXGp6ZPyAaSSgaJKCkLpgKhg7D0Uy33ykODb2kD42DiHhhalhIoiiiYJMpT4Hjr5xkwoc6Jz1St6oMB1eJlhsjD+GBj6tZbJLihWJgJZjU6Z49ow5m1CUx+Blh5QJ912DbDbXH1oBSye8GbroB5s9gC+VE0MqbIfMjpF/UJkfPuDJ92I5ta6hQ0Q1tzX+ddF6bHJx0DHzkHYKUoImryqdcDDdqpb6P4o66aDxl7R9tU3YHQG/hz0BaTbnQbe3mWHR0GMZBCJ11cr5tpRpUoA0JwuNx4H5BP7r/KUSduprv8uWxObBIO80z7kMFp3q2XMUb3WbXbV6A8/X4gc2dqMCkMVdUWgQQIkZ9mbxSROqOor2mygQU+quFBlBM8yG/F3Nw8YLn/qddj3bCz6Y9VTGYuEYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I can't remove VAT yet because your account isn't marked tax-exempt, and we don't have an exemption certificate on file for you. Please send us your tax-exemption certificate. Once it's on file, I can update your account so VAT comes off future invoices. Until then, your next invoice will still include VAT.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1272,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "request_fingerprint": "64d32ccaf12868bc7a1bf7e3450e0df4201b81a9f5da4490bb933f4cd08821a3",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "er: Orion Bakery (CUS-104).\nMessage: Please remove VAT from our next invoice. We're tax-exempt, as I told you last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01QBNNZ3zcCF1KcRNfMMAxeA",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1151,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a5f33c6919164cd15094207edc828ee5bd1344a9004e91485f3242a30d5065ca",
+      "request_summary": {
+        "chars": 136,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSvQUKEAgTGAI4AUIIdGhpbmtpbmcSDGSvnOogQ/qxf8Xp/xoMZBrUGzeNRC5tex0lIjD+sJ6CpG+qntdi2IDBXS4xSi2pi8dw1R4UGkFtI+nbnYZjmsCHmZmLQP6eO6JVR28q2gTTQq6uw2US8cmz1kSnMDctQA4ZFgOr8sbyYEX7buLzN1aWSn6OGzLNRvzaAm4OlVxq5fivHsNU6Q//fcps7cEYaHSnLnjJkG+4QU46tVyhQ7yNmdKF7WNL3RWXKT2p5s6cTyFBXIWEck1euN5yT2AKjqaMXe8tJBv4sHuwmJV3sbU5De4RVQIndBwBcJHJV3vcpDlC4J5gEqH/2tBNmweVxz1hMuEIIFko7J1OwWmOoAXM9quwVSi2R5QuddrLBByB7EujrAjQ45nT5CWRFiAyTTEFnU+izShLqxWf8B3lj6XA7ztt4Tfm8XNb/BqT/xX4gauc26DXkFbeNPZfiLJ1UG88WyF2hvbVXUZeK8HRT8ZNGrjJcuITt8YVct+rLqOqu/InQx/LTNvpvub7lAYaFpSaLitj3q5mlmrdHfO49MncaMldmaRPjRB4cx6UiglN6WBpUvbMw0in7ZTFnbOcmnPulhgHLntSEnFz+1c+BeJGVVfvQQ+0BTDYIFzeTFA+ToiFyoVXJD8EQFuvdo+aqCS6mjkD7qhfWF2Hccpq8rTyhaNkZR1tcjq6gCYu1Pp7dMWveR7OFFvI3vyR744vzO3gr340CmGo6jAmon+Ynk4G0Acw/kU549RJlnbZ4LXbxQUhKby+6CwQTxQ+/Zu8CcH3QT3b9kKxpVEFN7b7rBmwIMofRhMYYWlofz1w9LInXrQY5OZsBA3KArZrJSjun39AN0SbnInMejjipbtcJJIdvl3PS9UfJ4+iOnEo5ThlZ8UMst3lOlV+aOW368TIEb3oAfaULVXT0hgB",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "text": "I can't remove VAT from your next invoice yet, because your account doesn't currently show you as tax-exempt. We have a note that you mentioned your exemption before, but it was never verified and we have no exemption certificate on file. If you send us your tax-exemption certificate, we can update your account so future invoices don't include VAT.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1272,
+          "output_tokens": 143
+        }
+      }
+    },
+    {
+      "request_fingerprint": "42594227b547b67227b4cdc54a6969949c258a4f447265a711e8b653b7fa82cc",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Which currency are our invoices in?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01VfSQpJMsLMDcQYLgGpqU86",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1132,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "f181a1b458092975a2cffb0faa8c55ea63ac7b9ac1837a484b4cce0cad7e0d8c",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Your invoices are billed in US dollars (USD), according to your account record. Let me know if you have any other billing questions.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1253,
+          "output_tokens": 39
+        }
+      }
+    },
+    {
+      "request_fingerprint": "42594227b547b67227b4cdc54a6969949c258a4f447265a711e8b653b7fa82cc",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Which currency are our invoices in?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_0158HQHQd413yaVHJjh4Lqxh",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1132,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "e2af9ad27f871e0382727b7c5acdf0b94d28d44c3453ef5a805faa4cf60fdeb7",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Your Orion Bakery invoices are billed in US dollars (USD).",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1253,
+          "output_tokens": 26
+        }
+      }
+    },
+    {
+      "request_fingerprint": "42594227b547b67227b4cdc54a6969949c258a4f447265a711e8b653b7fa82cc",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "Signed-in customer: Orion Bakery (CUS-104).\nMessage: Which currency are our invoices in?",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01FvzwSfUHjw8HWXEZfXnGV8",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1132,
+          "output_tokens": 54
+        }
+      }
+    },
+    {
+      "request_fingerprint": "c410a6ca0abf66fc62c3e7bf032ebc03bf14ebdfc2000a917c0a44bf5d2833ba",
+      "request_summary": {
+        "chars": 88,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "Your Orion Bakery invoices are billed in US dollars (USD). Let me know if you'd like help with anything else on your billing.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1253,
+          "output_tokens": 45
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a1f6070b01a770f0491f29f329818173d36942fc4e67d4247a9f67ecb8643b46",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "in customer: Orion Bakery (CUS-104).\nMessage: Please send our September invoice, and copy our accountant like last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01JSCxXCVQatNpVKY2RMATLC",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01TCpo2xqCPQeKjSPmr1A8Y9",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1141,
+          "output_tokens": 131
+        }
+      }
+    },
+    {
+      "request_fingerprint": "5df66446c0232ba412ef803b018a62ba0ee30afdeb833b50e754982e5d1aa410",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQS2wYKEAgTGAI4AUIIdGhpbmtpbmcSDGWMllbWanKTQBJ/qhoMic9XnmO0kl3ZBlmvIjAEvFWUBEwubByLsjFcZRcvOZNZYId/nyK4YvL6gmR7keEl3FYyaQoN6+bHvBiMEU8q+AVqUOOYdCIfwfl9cfB2gT73fSbRmXGAigKAU3JB7pGQEiURhoCyGqPxyTsm7XdKdXMr/X9j6SNc7uCqmhMKhn8aScP/clOs8XPuvzl8je9aBDdcJBlaE7Hj2K/qjZHlM9HfluNDIMJExtQNNPX4YeuGGPC/0ENUNHaXuSNrWpeexgRn10TPUXD6cHfSnmoAOB0c4Ko1Em25mzq6gcnOVBrWijBCoXDLYxrJl8fUyj2jRJLZw2h98ecyTLLOwiofPsPK6NigsljmEMJCJS6sDxBfcwUlmcPB6VL2MbFo9KZDfQ2ycU2DRHnweN19cyF4mfwi+900JAuundtaHL3ehYGEwwew/joYBxZG6PO9E1hgNyGSl0ZP8RGVSKPpEIPOgBHjLHcGK1xJaGAli/2/vxONLVEqY8QmFQ6JhroYKlpzVcP5DFV4x4b3mDP9re9LO20f4t6g73bYbKCObc62tAupbOYvG8QqkcPqM6pGqgX8vFkqpZmKV+zzloCPiBB3sAz/r/U0JbMlpelr+DO85hta69P2yVuhR1ngrtlXlT9YUvSRSFpcDpgmCSi2K40eXg7KrRtTQrQvE81rFc4/fhnMgTrIbqEWTR/bcp+bgflqp8KVZvcvr6ShDAfgCbAMtAhgzuAc1eP/j/J8lAVWnKabeL3Y1py//UMTe3Io39ISaFFc37E9D3Iri1aaH0EENRK20Qae4sj6sjzJ4pBjifU2IbpBkC4HDyq9beblPA7swxu/QEupDBoGElcieKYMy6GW65xmF/5iKN2tzZoVEsGihT+NSoTNhneUGmowuuHn/VyKMxw4+gKBN7MVSxwxU2a3deuuksQnbuOt3Eg+tRzbDwAoSSixBPTerwbKmhuDc+uBf3a5PyGCSZuID3IudBUSjVzWe5l444Krxp6LztOJZ2AY2U9yBbv8HPRmlKVnuFxx1sG9NkzZBsrKvyBSqiPjzyJLLlAAg/4U7D9jB5w1y2s4q6euNbarC/b8BMGYd9qnC5uPbsLDGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01HKbRAthLSon2yM88AvFEDm",
+              "input": {
+                "cc": [
+                  "books@harlowaccounting.example"
+                ],
+                "invoice_id": "INV-2150",
+                "to": "finance@orionbakery.example"
+              },
+              "name": "send_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1400,
+          "output_tokens": 206
+        }
+      }
+    },
+    {
+      "request_fingerprint": "9a724ddf45959d31d9ece070776da991b87bc6d38a8af463a578fc9ecd52f694",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I've emailed your September invoice (INV-2150) to finance@orionbakery.example and copied your accountant at books@harlowaccounting.example. I used finance@ because that's the billing email on your account, not accounts@orionbakery.example, which you gave us back in March. If invoices should go to a different address, just let me know and I'll resend it.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1658,
+          "output_tokens": 112
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a1f6070b01a770f0491f29f329818173d36942fc4e67d4247a9f67ecb8643b46",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "in customer: Orion Bakery (CUS-104).\nMessage: Please send our September invoice, and copy our accountant like last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01CCx1tJHmvTY7avmoV1bmmK",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01S3aJm1uYUxtUyjWNHmU4Dq",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1141,
+          "output_tokens": 131
+        }
+      }
+    },
+    {
+      "request_fingerprint": "888dc47a06c7c783cda28b2172524c8f627601343993647734ac252c145e46bd",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSjgcKEAgTGAI4AUIIdGhpbmtpbmcSDK1aRR0ibDn0hK1ZUBoMU4V3Ys3WmmqWi36vIjAk6HtqrDJ9pYBk+7BS+l9t7frj1LYQe+XuxlSdJ6377/ZqFnVGa2Vk1yJ5fO4U84EqqwbKluTwltvxNpJztEfsy2l665NJgyHi1TMajL6+IEoBd9tsB78TfVI8TD9njxJZzujrDEbS32YD7LWvrXyokyRpvLHS5qCHbr5qTjhysbP4j5KgtwhK+8XkYRJbJWNDYyvVMZCjU0qAMkQ0Sm9RQC8QW1ENT6oA4Pq8lXnhK3DiIbMRnE0H+Cl4bixdTjx+KpX6ZtzPKDDOYdGeUGVEF7RdWtuWh4+m5pa+FpXSwaXnMwOd0erHbwyl7GZ/V0DAKGlY9fCErwdmhnkJ9YNR907FkBeEiI7ADQfN0JHf8WhOprn+vKths03+C8e5erNo9+jme+KKd6v5pCSywjj+SjeGTBGxJA1aUy0L93kWMo4iaWXvI8p5DVjd03jDAtHsHmXcLVgkGx8/r4aYyqazMkp2ejE3R/dnV4P28alsYktOExsopFi2xcS0jnl4koHe8Mh0+7zCwmGS2C4oTiAU4dq8lp5YkTTjZCmQe8QZtmgA3NGkQs5UBY6jazCoUoMvSWdu0K8f3pEufHsI+UgMqRC7CHittOsEJGKN4vE5uxKYse/1D90jBvW9JY4ZbjPd6TjD3UX/+XK9JkRtVnnz0QruovALt6ot5JVpE5nQYXfWwxyyKUYujsTljA52D2+mPDOozXDLVHxZ3EoTR0UY3Zpa5CjT9jWR1o6YJRZMQSAaRJxx4deOfKlAxi+SQ9AxiNz8u9OmaesOoLi/g5w1zDfjQEWpMMGG+iBXu8VwZqwtGr91uhK3x4LMS2ueUGgVqcrQNvzfhKi4lzhqVzZltSmTRestFBQQyrlvXGoe9RCcIX1ByBtzG0CVHKDpo8nIz1f5d0SeZA0+8V+di/cP1EG8SyQY9k/f+76oWn8YFAFg7GB7bnsZy56nYU3f0OJempqd+g4SMmlE5lUI/e6Sdx8hT8N6J2ccXZQ7M3WpqStYNhY2ffoL+c65/ASWJk8qV8xF1N3QMCCeE11/TG1PwXF71IeYy6x9EX3MvGVEt3i8oKBDFu+pIp7tOHOd5j3frG+Pl56Kg/4dTluGnU2UBlipD4MUzk/yXcZh9rFQNZtqP6NV5OrthOXnBv3UGAE=",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01Rhpa3m2aaUw7VbxS168Jiz",
+              "input": {
+                "cc": [
+                  "books@harlowaccounting.example"
+                ],
+                "invoice_id": "INV-2150",
+                "to": "finance@orionbakery.example"
+              },
+              "name": "send_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1400,
+          "output_tokens": 227
+        }
+      }
+    },
+    {
+      "request_fingerprint": "d9caca4929bcbed985a670fb6f6a4c34615ea409ae5be379f9ccdaea283de294",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I've sent your September invoice (INV-2150) to finance@orionbakery.example, the billing email on your account, and copied your accountant at books@harlowaccounting.example. Our older notes listed accounts@orionbakery.example for invoices, so if you'd like that address to get them as well, just tell me.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1679,
+          "output_tokens": 100
+        }
+      }
+    },
+    {
+      "request_fingerprint": "a1f6070b01a770f0491f29f329818173d36942fc4e67d4247a9f67ecb8643b46",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "in customer: Orion Bakery (CUS-104).\nMessage: Please send our September invoice, and copy our accountant like last time.",
+        "messages": 1
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "id": "toolu_01WmHAdtahiaoJ5heQUkhs1M",
+              "input": {
+                "customer_id": "CUS-104"
+              },
+              "name": "get_account",
+              "type": "tool_use"
+            },
+            {
+              "id": "toolu_01NnG29uHiTMZopJb9KxUYTZ",
+              "input": {
+                "customer_id": "CUS-104",
+                "month": "2026-09"
+              },
+              "name": "list_invoices",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1141,
+          "output_tokens": 131
+        }
+      }
+    },
+    {
+      "request_fingerprint": "acc0385ddecba4e037e88480f417328d98a5476dd1816cdf0eb406f5b633e74f",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 3
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "data": {
+                "signature": "CAQSvwYKEAgTGAI4AUIIdGhpbmtpbmcSDIYzEipkam4JgRUr/RoM+QTv1fn0G95xzRZ3IjDImSLfWJ0lSPZ446q35vNHXmgp+TDAkDZ/G0rEMnMPjXrrcM3o+hc8WxpA6y3LGckq3AVNXH0XJpcZJEOr9ZxPc95qaqeP+nPOPXuBkcVoSK4bdFBnStPqNESDPbKWWeLBOaPM/xdmRIn11I5yhSJ9pLEdqlqEgNevY5MW0nJAi6cBt2+CXbSEvtCpV/1P/h2cGR2X8i+xo8mhH35ng3/nnGK28PfiwymbHT0+fj7QaSlNo7s8S64Uvgef7p8VfHAPJ2Bd/M9LV0SqecUqLhp+DTvmnrt6NejdrPlOa86XjGl5m/XV/RyLNqvtZKpwiGw6WoDd5QhMLKXfxU+kEvBfujmDf6ZU9/WPGrMT+ItnvGAHL9zfhsJxIVF5tvmjnR5iUlyFIBTr7t1qnfbCCwv4eBE9xuaxUppTQn/U7ZTlo1CpditXunWzvkQfKMlkx2FvlBwbuOvaOczmICFKNBYdXmxLD2/rTjH49Gv1ytnGf4M//RAvO/tNR18hXtetJSFuoT0xfBBfedLjIPTfRjszyaa0qnfMqmpIWv1sSRctz7A/rAmje3jry6owr/TvR4cRmm2Se70Whsw8Dp5tS0Pvf6GT54XGO7oJJnBgF2yhPFxc76a2edJhyuZS3J1piFz3s0PhKwqLqmGbXYHw0PZYZf+eYMT8hktZnB8SkDpSLJaNhEwR9e8ihtjcThR4MtaIZY+JVReWqDmgemBHwAH/7N+hQjozlvwRo3uxMdu/z87vgOG7iT8eeZ58fV0scl0lFqXYIEQWFv4vwJxanOiZfnKzWdpuY4ZTiiYNfCQkFs16o6eDZU9xe1/NIGv9jdPveyVBVGi2YhP7P1aZzSSyiKMn8/gW2FzfAWE8XgQCjFZkNPUxyyh037xWYaRyxlwfAKOExZjHTGq1XhmS0VxUSxdMJtd/rFDiAJqQkOVRE5msWMATI1/dgc9NQ9A49ONVhbi0AwWeoyKl4MK6ke3tYvO5JJlMxP1HvJf3mdQKt/yvVEX7dMkfjmO2JC6aE1e9nrRoKuHa5Y2+E6wPkrEYAQ==",
+                "thinking": "",
+                "type": "thinking"
+              },
+              "provider": "anthropic",
+              "type": "opaque"
+            },
+            {
+              "id": "toolu_01NWVQK5A6NSU2FjJ3ih6Hwn",
+              "input": {
+                "cc": [
+                  "books@harlowaccounting.example"
+                ],
+                "invoice_id": "INV-2150",
+                "to": "finance@orionbakery.example"
+              },
+              "name": "send_invoice",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "tool_use",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1400,
+          "output_tokens": 194
+        }
+      }
+    },
+    {
+      "request_fingerprint": "952f396b0c92e79de3a6516d8d4f27986f42e940a0bb324cd2a4cc1f0fed8b8a",
+      "request_summary": {
+        "chars": 127,
+        "last_message_end": "",
+        "messages": 5
+      },
+      "response": {
+        "fell_back": false,
+        "message": {
+          "content": [
+            {
+              "text": "I've emailed your September invoice (INV-2150) to finance@orionbakery.example, the billing address on your account, and copied your accountant at books@harlowaccounting.example. We used to send invoices to accounts@orionbakery.example, so let me know if you'd like the billing address changed back.",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        },
+        "model": "claude-opus-5-5",
+        "stop_reason": "end_turn",
+        "usage": {
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 1646,
+          "output_tokens": 96
+        }
+      }
+    }
+  ],
+  "recorded_with": {
+    "effort": "medium",
+    "fallbacks": true,
+    "model": "claude-opus-5-5",
+    "provider": "anthropic",
+    "sdk": "2.3.0"
+  }
+}

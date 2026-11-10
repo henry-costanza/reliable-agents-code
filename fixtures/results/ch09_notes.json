@@ -1,0 +1,243 @@
+{
+  "recorded_with": {
+    "provider": "anthropic",
+    "model": "claude-opus-5-5",
+    "effort": "medium",
+    "fallbacks": true,
+    "sdk": "2.3.0"
+  },
+  "rows": [
+    {
+      "arm": "handoff note",
+      "runs": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "named_who": 3,
+      "compactions": 7,
+      "note_calls": 7,
+      "cut_off": 0,
+      "longest_note": 1923,
+      "cost": 1.2648
+    },
+    {
+      "arm": "note and subagent",
+      "runs": 3,
+      "right": 3,
+      "verdicts": {
+        "right": 3
+      },
+      "named_who": 3,
+      "compactions": 3,
+      "note_calls": 3,
+      "cut_off": 0,
+      "longest_note": 1908,
+      "cost": 0.9471
+    }
+  ],
+  "outcomes": [
+    {
+      "arm": "handoff note",
+      "trial": 0,
+      "verdict": "right",
+      "error": "",
+      "named_who": true,
+      "compactions": 2,
+      "note_calls": 2,
+      "cut_off": 0,
+      "note_tokens": [
+        723,
+        1745
+      ],
+      "notes": "Handoff note for the conversation so far:\n**Customer instructions in force:**\n- \"please don't email us any invoices until I tell you the move is done.\" (Context: \"we're moving our finance inbox this week.\") The agent acknowledged this. Dana has not yet said the move is done.\n\n**Requests done:**\n- **Unpaid invoices:** Dana asked which invoices are unpaid. The agent called list_invoices({}) and reported three unpaid invoices totalling $7,322.25: INV-3098, INV-3103 and INV-3108. The agent said INV-3098 is overdue.\n- **INV-3108 breakdown:** Dana asked what is on INV-3108 because it looks higher than usual. The agent called get_invoice({'invoice_id': 'INV-3108'}) and get_activity_log({}).\n  - The agent explained the 10 line items and named the largest charges.\n  - It confirmed that the lines add up to the $5,190.50 total.\n  - It said the activity log doesn't show who placed the orders.\n  - Caveat: the agent also said each line is \"for a larger quantity than usual.\" No earlier invoice was fetched to compare, so this claim is unverified.\n\n**Requests open:**\n- Wait for Dana to confirm the finance inbox move is done. Until then, do not email any invoices. Brindle's system recorded no actions in this conversation, so nothing has been sent.\n- The agent offered to help Dana follow up on any INV-3108 lines whose quantities look wrong. Dana has not replied yet.\n\n**Facts for later:**\n- **Customer:** Dana (from Dana's first turn). Her login appears in get_activity_log as dana.reyes@juniperflorists.example. The other account users in the log are lee.park@ and sam.okafor@juniperflorists.example.\n- **Unpaid invoices** (from list_invoices):\n  - INV-3098: $913.75, issued 2026-09-20, due 2026-10-19. The agent described it as overdue.\n  - INV-3103: $1,218.00, issued 2026-10-06, due 2026-11-05.\n  - INV-3108: $5,190.50, issued 2026-10-20, due 2026-11-19.\n  - Total outstanding: $7,322.25 (the agent's sum of the three).\n- **INV-3108 details** (from get_invoice):\n  - 10 line items with quantities from 12 to 21. Fetch again for the full lines.\n  - Largest lines: glass vases $1,026.00, roses $750.00, floral foam $736.00, metro delivery $630.00, hydrangeas $550.00.\n  - po_number is null.\n- **Paid invoices:** 17 invoices, INV-3013 through INV-3093, issued 2026-01-06 to 2026-09-06. Fetch them again with list_invoices({}).\n- **Activity log** (from get_activity_log, entries LOG-5000 to LOG-5123; fetch again for detail):\n  - LOG-5097, 2026-08-27: Dana changed billing_email to ap@juniperflorists.example. This is likely the finance inbox being moved, so it is relevant to the no-email instruction.\n  - LOG-5105, 2026-09-14: sam.okafor changed billing_address to 88 Mill Lane, Unit 4, Portland, OR 97214.\n  - LOG-5106: the system sent an address-change confirmation to ap@juniperflorists.example.\n  - No log entry records who placed the INV-3108 orders.\n\nActions Brindle's system recorded in this conversation (authoritative):\n- none",
+      "replies": [
+        "Hi Dana, you have three unpaid invoices: **INV-3098** for $913.75 was due 2026-10-19 and is now overdue, **INV-3103** for $1,218.00 is due 2026-11-05, and **INV-3108** for $5,190.50 is due 2026-11-19. In total that's $7,322.25 outstanding. I won't email you any invoices until you tell me the inbox move is done.",
+        "INV-3108 ($5,190.50) has 10 lines, and each one is for a larger quantity than usual (12 to 21 units). The biggest charges are glass vases (19 cases, $1,026.00), roses (12 \u00d7 50 stems, $750.00), floral foam (16 cases, $736.00), metro delivery (18 deliveries, $630.00) and hydrangeas (20 \u00d7 5 stems, $550.00). The rest are peonies $476.00, tulips $378.00, ranunculus $322.50, ribbon $208.25 and eucalyptus $113.75, and I checked that all the lines add up to the total. Your account activity log doesn't show who placed these orders, so if any of these quantities look wrong to you, let me know which lines and I'll help you follow up.",
+        "We've received 9 ACH payments from you since June 1, totalling $6,957.50. They are PAY-7408 for INV-3053 ($736.50, Jun 5), PAY-7409 for INV-3058 ($521.75, Jun 19), PAY-7410 for INV-3063 ($607.50, Jul 5), PAY-7411 for INV-3068 ($828.75, Jul 19), PAY-7412 for INV-3073 ($777.00, Aug 5), PAY-7413 for INV-3078 ($775.00, Aug 19), PAY-7414 for INV-3083 ($1,023.00, Sep 5), PAY-7415 for INV-3088 ($1,001.00, Sep 19) and PAY-7416 for INV-3093 ($687.00, Oct 5). Nothing has come in since October 5, so INV-3098 ($913.75, due Oct 19) is still overdue.",
+        "I've added PO number PO-77214-W to INV-3108. As you asked, I haven't emailed the updated invoice and won't until you tell me the finance inbox move is done. Also, earlier I said every line on INV-3108 was for a larger quantity than usual, but I hadn't checked your past invoices, so that wasn't confirmed. What I can confirm is that your payments since June were for invoices between about $520 and $1,025, so its $5,190.50 total is much higher than usual.",
+        "Your billing address was changed on September 14, 2026 by sam.okafor@juniperflorists.example. The new address is 88 Mill Lane, Unit 4, Portland, OR 97214. Our system then sent a confirmation of the change to your billing email, ap@juniperflorists.example.",
+        "INV-3043 was due on May 5, 2026, but your payment (PAY-7406) arrived on May 19, 14 days late. That's why a 1.5% late fee was added. The fee was 1.5% of the $620.00 balance, or $9.30, which brought the total to $629.30.",
+        "I haven't sent INV-3108 yet. You asked us not to email any invoices until your finance inbox move is done, and you haven't told me it's finished. Is the move complete, and should I send it to ap@juniperflorists.example or to a different address? As soon as you confirm, I'll email the updated invoice with PO-77214-W on it."
+      ],
+      "calls": {
+        "agent": 13,
+        "compact": 2
+      },
+      "cost": 0.3975,
+      "cost_by_kind": {
+        "agent": 0.307,
+        "compact": 0.0905
+      }
+    },
+    {
+      "arm": "handoff note",
+      "trial": 1,
+      "verdict": "right",
+      "error": "",
+      "named_who": true,
+      "compactions": 3,
+      "note_calls": 3,
+      "cut_off": 0,
+      "note_tokens": [
+        657,
+        1923,
+        1904
+      ],
+      "notes": "Handoff note for the conversation so far:\n**Customer instructions in force:**\n- \"please don't email us any invoices until I tell you the move is done.\" Dana is moving the finance inbox this week and has not yet said the move is done.\n\n**Requests done:**\n- **Which invoices are unpaid:** The agent ran list_invoices and reported three: INV-3098, INV-3103 and INV-3108. It called INV-3098 overdue.\n- **What is on INV-3108 and why it looks higher than usual:** The agent ran get_invoice and get_activity_log.\n  - It confirmed the 10 lines add up to $5,190.50. This is verified.\n  - It said the total is high because the quantities are large.\n  - It flagged the 18 metro deliveries as worth checking.\n  - **Caveats on that answer:**\n    - The agent described \"20 hydrangeas\" and \"14 peonies.\" The invoice actually lists 20 lots of 5 stems and 14 lots of 10 stems.\n    - The agent said Dana's \"other invoices this year were mostly $500\u2013$1,900.\" This is now supported by list_invoices, fetched in a later turn. The 17 paid invoices range from $521.75 (INV-3058) to $1,882.50 (INV-3018), and most are under about $1,050.\n- **Which payments were received since June:** The agent ran list_payments and list_invoices.\n  - It reported 9 ACH payments since June 1, totalling $6,957.50. The sum is verified.\n  - The payments were PAY-7408 through PAY-7416, received 2026-06-05 to 2026-10-05, covering INV-3053 through INV-3093.\n  - It said nothing has been received since October 5, so INV-3098 ($913.75, due October 19) is still unpaid and overdue.\n\n**Requests open:**\n- The agent promised not to email any invoices until Dana confirms the finance inbox move is done. She has not confirmed yet. Brindle's system recorded no actions, so nothing has been sent.\n- The agent offered to help follow up if any INV-3108 quantities don't match Dana's order, especially the 18 deliveries. Dana has not yet said which lines, if any, look wrong.\n\n**Facts for later:**\n- **Customer:** Dana (customer's first turn). Her user is dana.reyes@juniperflorists.example (get_activity_log).\n- **Other account users:** lee.park@juniperflorists.example and sam.okafor@juniperflorists.example (get_activity_log).\n- **Unpaid invoices** (list_invoices):\n  - INV-3098: $913.75, issued 2026-09-20, due 2026-10-19. The agent called it overdue.\n  - INV-3103: $1,218.00, issued 2026-10-06, due 2026-11-05.\n  - INV-3108: $5,190.50, issued 2026-10-20, due 2026-11-19.\n- **INV-3108 details** (get_invoice):\n  - 10 line items, no PO number.\n  - Delivery line: \"Delivery, metro zone\", 18 \u00d7 $35.00 = $630.\n  - Fetch the full lines again with get_invoice.\n- **Paid invoices** (list_invoices):\n  - 17 invoices, INV-3013 through INV-3093, issued 2026-01-06 to 2026-09-06.\n  - Totals range from $521.75 to $1,882.50.\n- **Payments** (list_payments):\n  - PAY-7400 through PAY-7416, received 2026-02-05 to 2026-10-05.\n  - Each is ACH and pays one invoice, INV-3013 through INV-3093 in order.\n  - The latest is PAY-7416: $687.00 for INV-3093, received 2026-10-05.\n  - Since-June subtotal is $6,957.50.\n- **Billing email:** changed to ap@juniperflorists.example on 2026-08-27 by dana.reyes (LOG-5097, get_activity_log). This is likely the inbox affected by the move.\n- **Billing address** (all from get_activity_log):\n  - Changed to 88 Mill Lane, Unit 4, Portland, OR 97214 on 2026-09-14 by sam.okafor (LOG-5105).\n  - The confirmation went to ap@juniperflorists.example (LOG-5106).\n  - The previous change was to 12 Alder St, Portland, OR 97209 on 2026-03-11 by lee.park (LOG-5029).\n- **Activity log:** entries LOG-5000 to LOG-5123, dated 2026-01-01 to 2026-10-27. Fetch them again with get_activity_log.\n\nActions Brindle's system recorded in this conversation (authoritative):\n- set PO number PO-77214-W on INV-3108",
+      "replies": [
+        "Got it, Dana. I won't email you any invoices until you tell me the finance inbox move is done. You have three unpaid invoices: INV-3098 for $913.75 was due 2026-10-19 and is now overdue, INV-3103 for $1,218.00 is due 2026-11-05, and INV-3108 for $5,190.50 is due 2026-11-19.",
+        "INV-3108 has 10 lines and they add up correctly to $5,190.50. It's higher because the quantities are large: 19 cases of glass vases ($1,026), 12 lots of 50 roses ($750), 16 cases of floral foam ($736), 18 metro deliveries ($630), 20 hydrangeas ($550) and 14 peonies ($476), plus tulips, ranunculus, ribbon and eucalyptus ($1,022.50 together). Your other invoices this year were mostly $500\u2013$1,900, so if these quantities don't match what you ordered, especially the 18 deliveries, let me know which lines look wrong and I'll help you follow up.",
+        "Since June 1 we've received 9 ACH payments totalling $6,957.50. They came in on 6/5 ($736.50, INV-3053), 6/19 ($521.75, INV-3058), 7/5 ($607.50, INV-3063), 7/19 ($828.75, INV-3068), 8/5 ($777.00, INV-3073), 8/19 ($775.00, INV-3078), 9/5 ($1,023.00, INV-3083), 9/19 ($1,001.00, INV-3088) and 10/5 ($687.00, INV-3093). Nothing has arrived since October 5, so INV-3098 ($913.75, due October 19) is still unpaid and overdue.",
+        "I've added PO number PO-77214-W to INV-3108. As you asked, I haven't emailed it and won't send any invoices until you tell me the inbox move is done. I also need to correct something I said earlier: INV-3108 bills 20 lots of 5 hydrangea stems and 14 lots of 10 peony stems, not 20 hydrangeas and 14 peonies.",
+        "Sam Okafor (sam.okafor@juniperflorists.example) changed your billing address on 2026-09-14. The new address is 88 Mill Lane, Unit 4, Portland, OR 97214, and before that it was 12 Alder St, Portland, OR 97209. The confirmation email for that change went to ap@juniperflorists.example.",
+        "INV-3043 was due 2026-05-05, but payment PAY-7406 ($629.30 by ACH) didn't arrive until 2026-05-19, 14 days late. The late fee is 1.5% of the $620.00 balance, which comes to $9.30 and brought the total to $629.30. That fee was already included in the amount you paid, so nothing more is owed on that invoice.",
+        "INV-3108 now has PO number PO-77214-W, but I haven't sent it yet because you asked me not to email any invoices until your finance inbox move is done. Is the move finished? If so, tell me which address to use (the billing email on file is ap@juniperflorists.example) and I'll send it right away."
+      ],
+      "calls": {
+        "agent": 12,
+        "compact": 3
+      },
+      "cost": 0.4453,
+      "cost_by_kind": {
+        "agent": 0.2997,
+        "compact": 0.1456
+      }
+    },
+    {
+      "arm": "handoff note",
+      "trial": 2,
+      "verdict": "right",
+      "error": "",
+      "named_who": true,
+      "compactions": 2,
+      "note_calls": 2,
+      "cut_off": 0,
+      "note_tokens": [
+        856,
+        1856
+      ],
+      "notes": "Handoff note for the conversation so far:\n**Customer instructions in force:**\n- \"please don't email us any invoices until I tell you the move is done.\" Dana gave this because \"we're moving our finance inbox this week.\" She has not yet said the move is done.\n\n**Requests done:**\n- **Which invoices are unpaid:** The agent told Dana there are three unpaid invoices totalling $7,322.25: INV-3098, INV-3103 and INV-3108. It called INV-3098 overdue.\n- **No-email instruction:** The agent acknowledged it.\n- **What's on INV-3108:** Dana said it \"looks higher than usual.\" The agent explained its 10 lines and confirmed they sum to $5,190.50. It named the biggest lines: glass vases $1,026.00, roses $750.00, floral foam $736.00, metro delivery $630.00 and hydrangeas $550.00. It asked Dana to say which lines don't match her October order.\n\n**Requests open:**\n- **No invoice emails yet:** Don't email any invoice until Dana confirms the inbox move is done. The system recorded no actions, so nothing has been sent.\n- **INV-3108 lines:** The agent promised to look into any lines Dana says are wrong. Wait for her reply.\n- **\"Higher than usual\" not fully answered:** The agent did not compare INV-3108 with earlier invoices.\n- **Odd quantities on INV-3108:** The 10 lines have quantities of exactly 12, 13, 14 and so on up to 21, in order. This could be a data or entry error. The agent did not mention it to Dana.\n\n**Facts for later:**\n- **Customer:** Dana, dana.reyes@juniperflorists.example (first turn; get_activity_log).\n- **Other account users:** sam.okafor@ and lee.park@juniperflorists.example (get_activity_log).\n- **Unpaid invoices (list_invoices):**\n  - INV-3098: $913.75, due 2026-10-19\n  - INV-3103: $1,218.00, due 2026-11-05\n  - INV-3108: $5,190.50, due 2026-11-19\n- **INV-3108 details (get_invoice):** issued 2026-10-20, 10 line items, no PO number (po_number null).\n- **Paid invoices (list_invoices):** INV-3013 to INV-3093, 17 invoices issued 2026-01-06 to 2026-09-06. Use these to compare INV-3108 with usual amounts.\n- **Payments (list_payments):** PAY-7400 to PAY-7416, all ACH, one per paid invoice. There are no payments on record for the three unpaid invoices.\n- **Possible late payment:** PAY-7406 paid INV-3043 ($629.30) on 2026-05-19. That invoice was due 2026-05-05 (list_invoices / list_payments).\n- **Billing email:** Dana changed it to ap@juniperflorists.example on 2026-08-27 (LOG-5097, get_activity_log).\n- **Billing address:** Sam Okafor changed it to 88 Mill Lane, Unit 4, Portland, OR 97214 on 2026-09-14 (LOG-5105). The system emailed a confirmation of that change to ap@ (LOG-5106). The previous address was 12 Alder St, Portland, OR 97209 (LOG-5029).\n- **Today's date:** Not confirmed in the conversation. The latest activity-log entry is 2026-10-27 (LOG-5123), which suggests INV-3098 is past due.\n\nActions Brindle's system recorded in this conversation (authoritative):\n- none",
+      "replies": [
+        "Hi Dana, understood: I won't email you any invoices until you tell me the inbox move is done. Three invoices are unpaid, totalling $7,322.25. INV-3098 for $913.75 was due on 2026-10-19 and is now overdue, INV-3103 for $1,218.00 is due on 2026-11-05, and INV-3108 for $5,190.50 is due on 2026-11-19.",
+        "INV-3108 has 10 lines, and the math checks out to $5,190.50. Most of it comes from large quantities: 19 cases of glass vases ($1,026.00), 12 lots of 50 wholesale roses ($750.00), 16 cases of floral foam ($736.00), 18 metro deliveries ($630.00) and 20 hydrangea bunches ($550.00). The rest is peonies, tulips, ranunculus, ribbon and eucalyptus, each ordered 13\u201321 times, so if those amounts don't match what you ordered in October, tell me which lines look wrong and I'll look into it.",
+        "Since June 1 we've received 9 ACH payments totalling $6,957.50:\n- PAY-7408, $736.50 on Jun 5 (INV-3053)\n- PAY-7409, $521.75 on Jun 19 (INV-3058)\n- PAY-7410, $607.50 on Jul 5 (INV-3063)\n- PAY-7411, $828.75 on Jul 19 (INV-3068)\n- PAY-7412, $777.00 on Aug 5 (INV-3073)\n- PAY-7413, $775.00 on Aug 19 (INV-3078)\n- PAY-7414, $1,023.00 on Sep 5 (INV-3083)\n- PAY-7415, $1,001.00 on Sep 19 (INV-3088)\n- PAY-7416, $687.00 on Oct 5 (INV-3093)\n\nThe latest one is from October 5, and we haven't received anything yet for INV-3098, INV-3103 or INV-3108.",
+        "I've added PO-77214-W to INV-3108. As you asked, I haven't emailed the updated invoice and won't until you tell me the inbox move is done. One thing to check while you review it: the 10 lines have quantities that run 12, 13, 14 and so on up to 21 in order, which looks like it could be an entry error. That may help explain why the $5,190.50 total is far above your usual invoices this year, which were about $520 to $1,880.",
+        "Sam Okafor changed your billing address on September 14, 2026. The old address was 12 Alder St, Portland, OR 97209, and the new one is 88 Mill Lane, Unit 4, Portland, OR 97214. The system emailed a confirmation of the change to ap@juniperflorists.example that same day.",
+        "The $9.30 late fee was added because INV-3043 was due May 5, 2026, but your payment (PAY-7406) arrived May 19, 14 days late. The fee is 1.5% of the $620.00 balance, which made the total $629.30, and you paid it in full. The invoice has four separate metro delivery lines (15 deliveries in all), so let me know if you'd like me to check whether those match what you ordered.",
+        "I haven't sent it yet, because you asked me not to email any invoices until you tell me your finance inbox move is done. Once it's finished, just say so and I'll send INV-3108 right away. Let me know whether it should go to ap@juniperflorists.example or another address. Also, the only change so far is the PO number PO-77214-W, so if any of the 12\u201321 quantities are wrong, tell me which ones and I'll look into them before it goes out."
+      ],
+      "calls": {
+        "agent": 13,
+        "compact": 2
+      },
+      "cost": 0.422,
+      "cost_by_kind": {
+        "agent": 0.3224,
+        "compact": 0.0996
+      }
+    },
+    {
+      "arm": "note and subagent",
+      "trial": 0,
+      "verdict": "right",
+      "error": "",
+      "named_who": true,
+      "compactions": 1,
+      "note_calls": 1,
+      "cut_off": 0,
+      "note_tokens": [
+        1908
+      ],
+      "notes": "Handoff note for the conversation so far:\n**Customer instructions in force**\n- \"we're moving our finance inbox this week, so please don't email us any invoices until I tell you the move is done.\" The agent acknowledged this. Dana has not yet said the move is done.\n\n**Requests done**\n- **Which invoices are unpaid:** Three are unpaid, totaling $7,322.25, with no payments recorded against any of them (list_invoices, list_payments).\n  - INV-3098: $913.75, due 2026-10-19. The agent told Dana this one is overdue.\n  - INV-3103: $1,218.00, due 2026-11-05.\n  - INV-3108: $5,190.50, due 2026-11-19.\n- **What's on INV-3108 and why it's high:** It has 10 line items that sum correctly to $5,190.50 (get_invoice). The total is high because quantities run from 12 to 21 units per item. The largest lines are:\n  - glass vases: $1,026\n  - roses: $750\n  - floral foam: $736\n  - delivery: $630\n  - hydrangeas: $550\n\n  The activity log has no order events, so the agent could not say who placed the orders. The agent suggested Dana check with her team and noted that the invoice has no PO number.\n- **Payments received since June:** Nine ACH payments totaling $6,957.50, each paying its invoice in full (list_payments).\n  - Covers INV-3053 through INV-3093, PAY-7408 through PAY-7416.\n  - Last payment: PAY-7416, $687.00 on 2026-10-05, for INV-3093.\n  - Nothing has been received since 2026-10-05.\n\n**Requests open**\n- **Email hold:** Do not email any invoices until Dana confirms the inbox move is done.\n- **Who ordered INV-3108:** Unresolved. Dana is to check internally. INV-3108 has no PO number.\n- **Address change not mentioned to Dana:** ask_activity_log flagged a billing-address change that the agent never told her about (details under Facts for later). It may be relevant to her concern about INV-3108. Consider raising it with her.\n\n**Facts for later**\n- **Customer:** Dana. Activity log user dana.reyes, company Juniper Florists.\n- **Billing email:** ap@juniperflorists.example, set by dana.reyes on 2026-08-27 (LOG-5097, from ask_activity_log). This is likely the inbox being moved.\n- **Billing address change:**\n  - sam.okafor changed the billing address to 88 Mill Lane, Unit 4, Portland, OR 97214 on 2026-09-14 (LOG-5105).\n  - Confirmation went to ap@juniperflorists.example (LOG-5106).\n  - This was the first address change since March (LOG-5029).\n  - Source: ask_activity_log.\n- **Card updates:** lee.park updated the card on 2026-10-13 and 2026-10-14 (LOG-5115, LOG-5116). The log describes these as normal for this account (ask_activity_log).\n- **Activity log limits:** The log contains no order or line-item events (ask_activity_log).\n- **INV-3108:** issued 2026-10-20, due 2026-11-19, $5,190.50, po_number null. Line items can be fetched with get_invoice.\n- **Invoice history:** Invoices INV-3013 through INV-3108 are issued twice monthly (around the 6th and 20th) and retrievable with list_invoices. All payments are ACH and retrievable with list_payments (PAY-7400 through PAY-7416).\n\nActions Brindle's system recorded in this conversation (authoritative):\n- set PO number PO-77214-W on INV-3108",
+      "replies": [
+        "Hi Dana, you have three unpaid invoices: INV-3098 for $913.75 was due 2026-10-19 and is now overdue, INV-3103 for $1,218.00 is due 2026-11-05, and INV-3108 for $5,190.50 is due 2026-11-19. That's $7,322.25 in total, and our payment records show no payments against any of them yet. I won't email you any invoices until you tell me the inbox move is done.",
+        "INV-3108 has 10 line items, and they add up correctly to $5,190.50. The largest are glass vases (19 cases \u00d7 $54 = $1,026), wholesale roses (12 \u00d7 $62.50 = $750), floral foam (16 cases \u00d7 $46 = $736), delivery (18 \u00d7 $35 = $630) and hydrangeas (20 \u00d7 $27.50 = $550), plus smaller amounts for peonies, tulips, ranunculus, ribbon and eucalyptus. The total is higher because each item was ordered in large numbers (12 to 21 units each), but your account's activity log doesn't record orders, so I can't tell you who placed them \u2014 it's worth checking with your team, especially since this invoice doesn't have a PO number yet.",
+        "Since June 1 we've received nine ACH payments totaling $6,957.50, each paying its invoice in full: $736.50 (Jun 5, INV-3053), $521.75 (Jun 19, INV-3058), $607.50 (Jul 5, INV-3063), $828.75 (Jul 19, INV-3068), $777.00 (Aug 5, INV-3073), $775.00 (Aug 19, INV-3078), $1,023.00 (Sep 5, INV-3083), $1,001.00 (Sep 19, INV-3088) and $687.00 (Oct 5, INV-3093). We haven't received anything since October 5. That's why INV-3098, INV-3103 and INV-3108 are still open.",
+        "I've added PO-77214-W to INV-3108. As you asked, I haven't emailed the updated invoice. I'll wait until you tell me your finance inbox move is done.",
+        "Sam Okafor (user sam.okafor) changed your billing address to 88 Mill Lane, Unit 4, Portland, OR 97214 on 2026-09-14 (activity log entry LOG-5105). The confirmation went to ap@juniperflorists.example (LOG-5106). It was the first address change since March, so you may want to check with Sam that it was intended, especially since you have questions about INV-3108.",
+        "INV-3043 was due on 2026-05-05, but payment (PAY-7406, $629.30) didn't arrive until 2026-05-19, 14 days late. That added a late fee of 1.5% of the $620.00 balance, which is $9.30, and the math checks out. INV-3098 ($913.75) has been overdue since 2026-10-19, so paying it soon may help you avoid a similar fee.",
+        "I haven't sent the updated INV-3108 yet. You asked me not to email any invoices until your finance inbox move is done, and you haven't told me it's finished. Is the move complete, and should I send it to ap@juniperflorists.example or a different address?"
+      ],
+      "calls": {
+        "agent": 12,
+        "subagent": 2,
+        "compact": 1
+      },
+      "cost": 0.3259,
+      "cost_by_kind": {
+        "agent": 0.2311,
+        "compact": 0.0536,
+        "subagent": 0.0411
+      }
+    },
+    {
+      "arm": "note and subagent",
+      "trial": 1,
+      "verdict": "right",
+      "error": "",
+      "named_who": true,
+      "compactions": 1,
+      "note_calls": 1,
+      "cut_off": 0,
+      "note_tokens": [
+        1812
+      ],
+      "notes": "Handoff note for the conversation so far:\n**Customer instructions in force:**\n- \"we're moving our finance inbox this week, so please don't email us any invoices until I tell you the move is done.\" (Turn 1; Dana has not lifted this.)\n\n**Requests done:**\n- **Which invoices are unpaid:** The agent identified three unpaid invoices: INV-3098, INV-3103 and INV-3108. Together they total $7,322.25, and no payments have been recorded against them. The agent also confirmed it would not email invoices until Dana says the move is done.\n- **What is on INV-3108 and why it is high:** The agent explained the 10 line items. The quantities range from 12 to 21 per item. The largest lines are:\n  - Glass vases: $1,026\n  - Roses: $750\n  - Floral foam: $736\n  - Metro delivery: $630\n\n  The lines sum correctly to $5,190.50 (I re-verified this). The agent also said the quantities \"look much bigger than usual.\" That comparison is not supported, because only INV-3108's line items were fetched.\n- **Payments received since June:** The agent reported 9 ACH payments totalling $6,957.50 (I re-verified the sum).\n  - Payment ids: PAY-7408 through PAY-7416.\n  - Received between 2026-06-05 and 2026-10-05.\n  - Each one paid an invoice in full, covering INV-3053 through INV-3093.\n  - Nothing has been received since 2026-10-05.\n- **Add PO number to INV-3108:** PO-77214-W was set on INV-3108, and set_po_number confirmed the change. The updated invoice was deliberately not emailed.\n\n**Requests open:**\n- **Activity log offer:** The agent offered to check the activity log to see who placed or changed the INV-3108 order if the quantities don't match what Dana ordered. Dana has not replied, and she has not confirmed whether the quantities are correct.\n- **Updated INV-3108:** The invoice with the PO number has not been sent. Send it only after Dana says the inbox move is done.\n\n**Facts for later:**\n- **Customer:** Dana (Turn 1). No account ID was given.\n- **Unpaid invoices** (from list_invoices):\n\n  | Invoice | Amount | Due date |\n  |---|---|---|\n  | INV-3098 | $913.75 | 2026-10-19 |\n  | INV-3103 | $1,218.00 | 2026-11-05 |\n  | INV-3108 | $5,190.50 | 2026-11-19 |\n\n  - The agent called INV-3098 overdue, but today's date is not established in the conversation.\n- **INV-3108 details** (from get_invoice):\n  - Issued 2026-10-20.\n  - Line items can be fetched again with get_invoice.\n  - The PO number was null before the change and is now PO-77214-W (from set_po_number).\n- **Paid invoices:** Records INV-3013 through INV-3093 are available via list_invoices. Their payments, PAY-7400 through PAY-7416, all ACH, are available via list_payments.\n- **Last payment:** PAY-7416, $687.00, received 2026-10-05, for INV-3093 (from list_payments).\n\nActions Brindle's system recorded in this conversation (authoritative):\n- set PO number PO-77214-W on INV-3108",
+      "replies": [
+        "You have three unpaid invoices: INV-3098 for $913.75 was due 2026-10-19 and is now overdue, INV-3103 for $1,218.00 is due 2026-11-05, and INV-3108 for $5,190.50 is due 2026-11-19. That's $7,322.25 in total, and our payment records show nothing received toward any of them. I won't email you any invoices until you tell me the inbox move is done.",
+        "INV-3108 has 10 lines, and the quantities (12 to 21 of each item) look much bigger than usual. The largest charges are 19 cases of glass vases ($1,026), 12 lots of 50 roses ($750), 16 cases of floral foam ($736) and 18 metro deliveries ($630), with the rest made up of peonies, hydrangeas, tulips, ranunculus, ribbon and eucalyptus. The lines do add up correctly to $5,190.50, so if those quantities don't match what you ordered, I can check your activity log to see who placed or changed the order.",
+        "Since June 1 we've received 9 ACH payments totalling $6,957.50: PAY-7408 to PAY-7416. They arrived between 2026-06-05 and 2026-10-05 and each one paid an invoice in full, from INV-3053 through INV-3093. Nothing has come in since the 2026-10-05 payment for INV-3093, which is why INV-3098, INV-3103 and INV-3108 are still open.",
+        "I've added PO number PO-77214-W to INV-3108. As you asked, I haven't emailed you the updated invoice, and I'll wait until you tell me your inbox move is done.",
+        "Sam Okafor (sam.okafor@juniperflorists.example) changed your billing address to 88 Mill Lane, Unit 4, Portland, OR 97214 on 2026-09-14 at 10:02, according to activity log entry LOG-5105. A confirmation was emailed to ap@juniperflorists.example a minute later (LOG-5106). That entry doesn't record the old address, but it was most likely 12 Alder St, Portland, OR 97209, which Lee Park set on 2026-03-11 (LOG-5029).",
+        "INV-3043 was due on 2026-05-05, but payment PAY-7406 didn't arrive until 2026-05-19, 14 days late. That triggered the invoice's late fee of 1.5% of the balance. The other lines add up to $620.00, so the fee comes to $9.30, and your $629.30 payment covered the full total including the fee.",
+        "I haven't sent the updated INV-3108 (with PO-77214-W) yet, because you asked us not to email any invoices until your finance inbox move is done. Please confirm the move is finished and tell me which address to use, and I'll send it right away."
+      ],
+      "calls": {
+        "agent": 12,
+        "subagent": 2,
+        "compact": 1
+      },
+      "cost": 0.3132,
+      "cost_by_kind": {
+        "agent": 0.2249,
+        "compact": 0.0505,
+        "subagent": 0.0378
+      }
+    },
+    {
+      "arm": "note and subagent",
+      "trial": 2,
+      "verdict": "right",
+      "error": "",
+      "named_who": true,
+      "compactions": 1,
+      "note_calls": 1,
+      "cut_off": 0,
+      "note_tokens": [
+        1521
+      ],
+      "notes": "Handoff note for the conversation so far:\n**Customer instructions in force:**\n- \"please don't email us any invoices until I tell you the move is done.\" (Context: \"we're moving our finance inbox this week\".) The customer has not lifted this. The agent confirmed it twice, most recently after the PO update.\n\n**Requests done:**\n- **Unpaid invoices:** The agent identified three unpaid invoices: INV-3098, INV-3103 and INV-3108. Payment records are consistent with them.\n- **INV-3108 breakdown:** The agent explained the 10 line items. They sum correctly to $5,190.50, so there is no math error. The total is high because of large quantities. The biggest line is glass vases at $1,026.00. Other invoices this year ranged from about $520 to $1,900.\n- **Payments since June:** The agent reported nine ACH payments, PAY-7408 through PAY-7416, totaling $6,957.50. Each paid one invoice in full. None have been received since Oct 5.\n- **PO number on INV-3108:** The agent added PO-77214-W, and set_po_number confirmed it. The updated invoice was not emailed.\n\n**Requests open:**\n- The agent promised to hold all invoice emails until Dana confirms the finance inbox move is done. After she confirms, she may want the updated INV-3108 (with the PO) sent. Ask her before sending.\n\n**Facts for later:**\n- **Customer:** Dana (opening customer turn).\n- **INV-3098:** $913.75, issued 2026-10-06 per list_invoices\u2026 correction: issued 2026-09-20, due 2026-10-19, unpaid (list_invoices). The agent called it overdue.\n- **INV-3103:** $1,218.00, issued 2026-10-06, due 2026-11-05, unpaid (list_invoices).\n- **INV-3108:** $5,190.50, issued 2026-10-20, due 2026-11-19, unpaid (list_invoices). The line items come from get_invoice. Its PO number was originally null and is now PO-77214-W (set_po_number).\n- **Paid invoices:** INV-3013 through INV-3093, 17 invoices, all paid (list_invoices).\n- **Payments:** PAY-7400 through PAY-7416, all ACH and each matching one invoice (list_payments). The most recent is PAY-7416, $687.00, received 2026-10-05, for INV-3093.\n- **Payments since June total:** $6,957.50 (the agent's payments turn, computed from list_payments).\n\nActions Brindle's system recorded in this conversation (authoritative):\n- set PO number PO-77214-W on INV-3108",
+      "replies": [
+        "You have three unpaid invoices, and our payment records match. **INV-3098** for $913.75 was due on 2026-10-19 and is now overdue, **INV-3103** for $1,218.00 is due 2026-11-05, and **INV-3108** for $5,190.50 is due 2026-11-19. I won't email you any invoices until you tell me your finance inbox move is done.",
+        "INV-3108 has 10 line items, and they add up correctly to $5,190.50. The biggest charges are glass vases ($1,026.00 for 19 cases), roses ($750.00 for 12 lots of 50 stems), floral foam ($736.00), delivery ($630.00 for 18 metro deliveries) and hydrangeas ($550.00). The rest are peonies, tulips, ranunculus, ribbon and eucalyptus, so the total is high because of the large quantities, not a math error; your other invoices this year were about $520 to $1,900.",
+        "Since June 1 we've received nine ACH payments totaling $6,957.50, each paying one invoice in full. In June: PAY-7408 ($736.50, Jun 5), PAY-7409 ($521.75, Jun 19). In July: PAY-7410 ($607.50, Jul 5), PAY-7411 ($828.75, Jul 19). In August: PAY-7412 ($777.00, Aug 5), PAY-7413 ($775.00, Aug 19). In September: PAY-7414 ($1,023.00, Sep 5), PAY-7415 ($1,001.00, Sep 19). In October: PAY-7416 ($687.00, Oct 5), with nothing received since then.",
+        "I've added PO number PO-77214-W to INV-3108. I haven't emailed the updated invoice, and I'll keep holding off on any invoice emails until you tell me your inbox move is done.",
+        "Sam Okafor (sam.okafor@juniperflorists.example) changed your billing address on 2026-09-14 at 10:02, according to activity log entry LOG-5105. The new address is 88 Mill Lane, Unit 4, Portland, OR 97214, and a confirmation went to ap@juniperflorists.example a minute later (LOG-5106). That entry doesn't show the old address, but the previous change, made by Lee Park on 2026-03-11 (LOG-5029), suggests it was 12 Alder St, Portland, OR 97209.",
+        "INV-3043 was due on 2026-05-05, but it was paid on 2026-05-19 with PAY-7406 ($629.30), 14 days late. That added a late fee of 1.5% of the $620.00 balance, which is $9.30. The fee was calculated correctly, and it's the only late fee among the 2026 invoices I've reviewed.",
+        "I haven't sent it yet because you asked me to hold all invoice emails until your finance inbox move is done. Is the move finished? If so, tell me which address to use (for example, ap@juniperflorists.example), and I'll send the updated INV-3108 with PO-77214-W right away."
+      ],
+      "calls": {
+        "agent": 12,
+        "subagent": 2,
+        "compact": 1
+      },
+      "cost": 0.308,
+      "cost_by_kind": {
+        "agent": 0.2254,
+        "compact": 0.045,
+        "subagent": 0.0376
+      }
+    }
+  ]
+}

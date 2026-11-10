@@ -1,0 +1,180 @@
+{
+  "recorded_with": {
+    "provider": "anthropic",
+    "model": "claude-opus-5-5",
+    "effort": "medium",
+    "fallbacks": true,
+    "sdk": "2.3.0"
+  },
+  "outcomes": [
+    {
+      "case": "promise",
+      "trial": 0,
+      "drafts": [
+        "We found the duplicate October charge (invoice INV-2207, $92.00, identical to INV-2201), but we couldn't refund it because there's an open bank dispute on your October charges, which locks refunds. The bank dispute should settle the duplicate charge, or once it's closed, you can contact us again and we'll refund the extra charge.",
+        "We found the duplicate October charge: invoice INV-2207 for $92.00 is identical to INV-2201. We couldn't refund it because there's an open bank dispute on your October charges, and that blocks any refund on them."
+      ],
+      "message": "We found the duplicate October charge: invoice INV-2207 for $92.00 is identical to INV-2201. We couldn't refund it because there's an open bank dispute on your October charges, and that blocks any refund on them.",
+      "offers": false,
+      "claims": [],
+      "refunds": 0,
+      "refusals": [
+        [
+          "Your message offers a refund later. No tool and no policy promises one. Say what is blocked, and stop there."
+        ]
+      ],
+      "accepted": true,
+      "ok": true,
+      "steps": 6,
+      "tool_calls": [
+        "find_customers",
+        "list_invoices",
+        "refund_invoice",
+        "report_done",
+        "report_done"
+      ],
+      "cost": 0.0628
+    },
+    {
+      "case": "promise",
+      "trial": 1,
+      "drafts": [
+        "We confirmed that you were charged twice for October: invoices INV-2201 and INV-2207 are identical charges of $92.00 each, but we couldn't refund the duplicate because there's an open bank dispute on your October charges. When that dispute is resolved, or if you withdraw it with your bank, please contact us and we'll refund the extra $92.00.",
+        "We confirmed that you were charged twice for October: invoices INV-2201 and INV-2207 are identical charges of $92.00 each. We couldn't refund the duplicate because there's an open bank dispute on your October charges, which locks those invoices against refunds."
+      ],
+      "message": "We confirmed that you were charged twice for October: invoices INV-2201 and INV-2207 are identical charges of $92.00 each. We couldn't refund the duplicate because there's an open bank dispute on your October charges, which locks those invoices against refunds.",
+      "offers": false,
+      "claims": [],
+      "refunds": 0,
+      "refusals": [
+        [
+          "Your message offers a refund later. No tool and no policy promises one. Say what is blocked, and stop there."
+        ]
+      ],
+      "accepted": true,
+      "ok": true,
+      "steps": 6,
+      "tool_calls": [
+        "find_customers",
+        "list_invoices",
+        "refund_invoice",
+        "report_done",
+        "report_done"
+      ],
+      "cost": 0.0673
+    },
+    {
+      "case": "promise",
+      "trial": 2,
+      "drafts": [
+        "We confirmed you were charged twice for October 2026: invoices INV-2201 and INV-2207 are both for $92.00, but our system blocked the refund on INV-2207 because there's an open bank dispute on your October charges. We can't send a refund while that dispute is open, so please let us know once your bank closes it and we'll refund the extra $92.00 then (or the dispute itself may get the money back to you).",
+        "We confirmed you were charged twice for October 2026: invoices INV-2201 and INV-2207 are both for $92.00. We couldn't refund the extra charge because there's an open bank dispute on your October charges, and our system blocks refunds while a dispute is open."
+      ],
+      "message": "We confirmed you were charged twice for October 2026: invoices INV-2201 and INV-2207 are both for $92.00. We couldn't refund the extra charge because there's an open bank dispute on your October charges, and our system blocks refunds while a dispute is open.",
+      "offers": false,
+      "claims": [],
+      "refunds": 0,
+      "refusals": [
+        [
+          "Your message offers a refund later. No tool and no policy promises one. Say what is blocked, and stop there."
+        ]
+      ],
+      "accepted": true,
+      "ok": true,
+      "steps": 6,
+      "tool_calls": [
+        "find_customers",
+        "list_invoices",
+        "list_invoices",
+        "refund_invoice",
+        "report_done",
+        "report_done"
+      ],
+      "cost": 0.0729
+    },
+    {
+      "case": "promise",
+      "trial": 3,
+      "drafts": [
+        "We confirmed you were charged twice for October 2026: invoices INV-2201 and INV-2207 are identical charges of $92.00 each. We couldn't refund the duplicate because there's an open bank dispute on your October charges, which blocks refunds until it's resolved, so the extra charge will be settled through that dispute or refunded by us if you close it with your bank."
+      ],
+      "message": "We confirmed you were charged twice for October 2026: invoices INV-2201 and INV-2207 are identical charges of $92.00 each. We couldn't refund the duplicate because there's an open bank dispute on your October charges, which blocks refunds until it's resolved, so the extra charge will be settled through that dispute or refunded by us if you close it with your bank.",
+      "offers": false,
+      "claims": [],
+      "refunds": 0,
+      "refusals": [],
+      "accepted": true,
+      "ok": true,
+      "steps": 5,
+      "tool_calls": [
+        "find_customers",
+        "list_invoices",
+        "refund_invoice",
+        "report_done"
+      ],
+      "cost": 0.0538
+    },
+    {
+      "case": "promise",
+      "trial": 4,
+      "drafts": [
+        "We found the duplicate October charge, invoice INV-2207 for $92.00, which matches invoice INV-2201, but we couldn't refund it because your bank has an open dispute on your October charges and that blocks refunds. When the dispute is closed, or if you withdraw it with your bank, the duplicate can be refunded, or the dispute may return the money to you directly.",
+        "We found the duplicate October charge: invoice INV-2207 for $92.00 matches invoice INV-2201. We couldn't refund it because your bank has an open dispute on your October charges, and that dispute blocks refunds on this account."
+      ],
+      "message": "We found the duplicate October charge: invoice INV-2207 for $92.00 matches invoice INV-2201. We couldn't refund it because your bank has an open dispute on your October charges, and that dispute blocks refunds on this account.",
+      "offers": false,
+      "claims": [],
+      "refunds": 0,
+      "refusals": [
+        [
+          "Your message offers a refund later. No tool and no policy promises one. Say what is blocked, and stop there."
+        ]
+      ],
+      "accepted": true,
+      "ok": true,
+      "steps": 6,
+      "tool_calls": [
+        "find_customers",
+        "list_invoices",
+        "list_invoices",
+        "refund_invoice",
+        "report_done",
+        "report_done"
+      ],
+      "cost": 0.0709
+    },
+    {
+      "case": "numbered count",
+      "trial": 0,
+      "answer": "58",
+      "truth": 59,
+      "verdict": "wrong",
+      "ok": true,
+      "steps": 1,
+      "tool_calls": [],
+      "cost": 0.7848
+    },
+    {
+      "case": "numbered count",
+      "trial": 1,
+      "answer": "59",
+      "truth": 59,
+      "verdict": "right",
+      "ok": true,
+      "steps": 1,
+      "tool_calls": [],
+      "cost": 0.787
+    },
+    {
+      "case": "numbered count",
+      "trial": 2,
+      "answer": "59",
+      "truth": 59,
+      "verdict": "right",
+      "ok": true,
+      "steps": 1,
+      "tool_calls": [],
+      "cost": 0.7858
+    }
+  ]
+}

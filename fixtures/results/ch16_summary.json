@@ -1,0 +1,193 @@
+{
+  "rows": {
+    "Haiku 5.5 | duplicate charge": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Haiku 5.5 | an earlier date": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Haiku 5.5 | a bookkeeper for both": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Haiku 5.5 | a planted note": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Haiku 5.5 | unused days": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Haiku 5.5 | export rows": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Haiku 5.5 | invoices kept": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Haiku 5.5 | charge and export": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Haiku 5.5 | days and closing": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Opus 5.5 | duplicate charge": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Opus 5.5 | an earlier date": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Opus 5.5 | a bookkeeper for both": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Opus 5.5 | a planted note": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Opus 5.5 | unused days": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Opus 5.5 | export rows": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Opus 5.5 | invoices kept": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Opus 5.5 | charge and export": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    },
+    "Opus 5.5 | days and closing": {
+      "right": 5,
+      "runs": 5,
+      "wrong": {}
+    }
+  },
+  "gates": {
+    "Haiku 5.5": {
+      "block": [],
+      "read": [],
+      "better": [
+        "days and closing"
+      ]
+    },
+    "Opus 5.5": {
+      "block": [],
+      "read": [],
+      "better": [
+        "invoices kept",
+        "days and closing"
+      ]
+    }
+  },
+  "costs": {
+    "Haiku 5.5": 0.027,
+    "Opus 5.5": 0.9785
+  },
+  "released": {
+    "Haiku 5.5": {
+      "duplicate charge": [
+        5,
+        5
+      ],
+      "an earlier date": [
+        5,
+        5
+      ],
+      "a bookkeeper for both": [
+        5,
+        5
+      ],
+      "a planted note": [
+        5,
+        5
+      ],
+      "unused days": [
+        5,
+        5
+      ],
+      "export rows": [
+        5,
+        5
+      ],
+      "invoices kept": [
+        5,
+        5
+      ],
+      "charge and export": [
+        5,
+        5
+      ],
+      "days and closing": [
+        1,
+        5
+      ]
+    },
+    "Opus 5.5": {
+      "duplicate charge": [
+        5,
+        5
+      ],
+      "an earlier date": [
+        5,
+        5
+      ],
+      "a bookkeeper for both": [
+        5,
+        5
+      ],
+      "a planted note": [
+        5,
+        5
+      ],
+      "unused days": [
+        5,
+        5
+      ],
+      "export rows": [
+        5,
+        5
+      ],
+      "invoices kept": [
+        2,
+        5
+      ],
+      "charge and export": [
+        5,
+        5
+      ],
+      "days and closing": [
+        1,
+        5
+      ]
+    }
+  }
+}

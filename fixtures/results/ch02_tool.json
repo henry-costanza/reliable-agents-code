@@ -1,0 +1,40 @@
+{
+  "recorded_with": {
+    "provider": "anthropic",
+    "model": "claude-opus-5-5",
+    "effort": "medium",
+    "fallbacks": true,
+    "sdk": "2.3.0"
+  },
+  "task": "count with a tool",
+  "length": "128k",
+  "truth": "59",
+  "trials": 3,
+  "right": 3,
+  "runs": [
+    {
+      "answer": "59",
+      "verdict": "right",
+      "tool_calls": 6,
+      "steps": 3,
+      "input_tokens": 2171,
+      "output_tokens": 442
+    },
+    {
+      "answer": "59",
+      "verdict": "right",
+      "tool_calls": 13,
+      "steps": 5,
+      "input_tokens": 5335,
+      "output_tokens": 861
+    },
+    {
+      "answer": "I count **59**. That's how many times \"security team audited\" appears in the log. Every use of \"audit\" in the log (490 total) is the phrase \"team audited\", so other teams account for the rest. I didn't find other wordings like \"audited by the security team\".",
+      "verdict": "right",
+      "tool_calls": 13,
+      "steps": 5,
+      "input_tokens": 5249,
+      "output_tokens": 931
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "desk": {
+    "Haiku 5.5 | rules in the prompt | duplicate charge": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Haiku 5.5 | rules in the prompt | one add-on, no date": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Haiku 5.5 | rules in the prompt | unused days": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Haiku 5.5 | rules in the prompt | another customer's invoice": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Haiku 5.5 | rules and guardrails | duplicate charge": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Haiku 5.5 | rules and guardrails | one add-on, no date": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Haiku 5.5 | rules and guardrails | unused days": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Haiku 5.5 | rules and guardrails | another customer's invoice": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Opus 5.5 | rules in the prompt | duplicate charge": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Opus 5.5 | rules in the prompt | one add-on, no date": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Opus 5.5 | rules in the prompt | unused days": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Opus 5.5 | rules in the prompt | another customer's invoice": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Opus 5.5 | rules and guardrails | duplicate charge": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Opus 5.5 | rules and guardrails | one add-on, no date": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Opus 5.5 | rules and guardrails | unused days": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    },
+    "Opus 5.5 | rules and guardrails | another customer's invoice": {
+      "right": 5,
+      "runs": 5,
+      "unbacked": 0,
+      "refused": 0,
+      "fallback": 0
+    }
+  },
+  "coding": {
+    "runs": 3,
+    "integer money": 3,
+    "refused": 3
+  },
+  "costs": {
+    "Haiku 5.5": 0.0409,
+    "Opus 5.5": 1.7976
+  }
+}
